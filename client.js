@@ -1,5 +1,5 @@
 var $client_lang = {
-	search_result: "&#8220;$1&#8221; の検索結果",
+	search_result: "“$1” の検索結果",
 	search_in_site: "サイト内を検索",
 	posts_not_found: "投稿が見つかりませんでした。"
 };
@@ -28,18 +28,20 @@ if ($params.has('s') ) {
 	`;
 	document.title = $client_lang['search_result'].replace('$1', $s) + "  |  " + getMeta("og:site_name");
 	
-	var $categories_name;
-	fetch('static-json/categories/index.json')
+	var $categories_name = new Array();
+	fetch('./static-json/categories/index.json') // /index.json
 	.then(($response) => $response.json())
 	.then(($data) => {
-		$data.forEach($item => {
-			$categories_name[$item['term_id']] = $item['name'];
-		});
+		if ($data !== undefined)
+			Object.keys($data).forEach($key => {
+				var $item = $data[$key];
+				$categories_name[$item.term_id] = $item.name;
+			});
 	});
-	
 	fetch('./wp-json/wp/v2/posts/index.json')
 	.then(($response) => $response.json())
 	.then(($data) => {
+	if ($data !== undefined)
 		$data.forEach($item => {
 			if ($item.title.rendered.indexOf($s) != -1 || $item.content.rendered.indexOf($s) != -1) {
 				$isFound = true;
