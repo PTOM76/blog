@@ -5,6 +5,7 @@ var $client_lang = {
 };
 var $url = new URL(window.location.href);
 var $params = $url.searchParams;
+var $htmlSetted = false;
 
 function apprStr($str) {
 	$str = $str.toLowerCase();
@@ -95,9 +96,18 @@ if ($params.has('s') ) {
 			`;
 		}
 		$html += `</div><!-- .list -->`;
+		document.addEventListener("DOMContentLoaded", function() {
+			if ($htmlSetted === false) {
+				document.getElementById("main").innerHTML = $html;
+				$htmlSetted = true;
+			}
+		});
 	});
 	});
 	document.addEventListener("DOMContentLoaded", function() {
-		document.getElementById("main").innerHTML = $html;
+		if ($htmlSetted === false) {
+			document.getElementById("main").innerHTML = $html;
+			$htmlSetted = true;
+		}
 	});
 }
