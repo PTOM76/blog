@@ -4,7 +4,7 @@ var $client_lang = {
 	posts_not_found: "投稿が見つかりませんでした。"
 };
 var $url = new URL(window.location.href);
-var $params = url.searchParams;
+var $params = $url.searchParams;
 
 function getMeta($metaProperty) {
 	var $metas = document.getElementsByTagName('meta');
