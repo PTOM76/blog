@@ -97,7 +97,7 @@ if ($params.has('s') ) {
 		`;
 	}
 	$html += `</div><!-- .list -->`;
-	document.getElementById("main").addEventListener("load", function() {
+	document.addEventListener("DOMContentLoaded", function() {
 		document.getElementById("main").innerHTML = $html;
 	});
 }
