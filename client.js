@@ -96,18 +96,18 @@ if ($params.has('s') ) {
 			`;
 		}
 		$html += `</div><!-- .list -->`;
+		document.addEventListener("DOMContentLoaded", function() {
+			if ($htmlSetted === false) {
+				document.getElementById("main").innerHTML = $html;
+				$htmlSetted = true;
+			}
+		});
+		window.addEventListener("load", function() {
+			if ($htmlSetted === false) {
+				document.getElementById("main").innerHTML = $html;
+				$htmlSetted = true;
+			}
+		});
 	});
-	});
-	document.addEventListener("DOMContentLoaded", function() {
-		if ($htmlSetted === false) {
-			document.getElementById("main").innerHTML = $html;
-			$htmlSetted = true;
-		}
-	});
-	window.addEventListener("load", function() {
-		if ($htmlSetted === false) {
-			document.getElementById("main").innerHTML = $html;
-			$htmlSetted = true;
-		}
 	});
 }
