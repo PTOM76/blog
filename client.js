@@ -53,7 +53,7 @@ if ($params.has('s') ) {
 	fetch('./wp-json/wp/v2/posts/index.json')
 	.then(($response) => $response.json())
 	.then(($data) => {
-	if ($data !== undefined)
+		if ($data !== undefined)
 		$data.forEach($item => {
 			if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
 				$isFound = true;
@@ -87,16 +87,16 @@ if ($params.has('s') ) {
 				`;
 			}
 		});
+		if ($isFound === false) {
+			$html += `
+				<div class="posts-not-found">
+					<h2>NOT FOUND</h2>
+					<p>${$client_lang['posts_not_found']}</p>
+				</div>
+			`;
+		}
+		$html += `</div><!-- .list -->`;
 	});
-	if ($isFound === false) {
-		$html += `
-			<div class="posts-not-found">
-				<h2>NOT FOUND</h2>
-				<p>${$client_lang['posts_not_found']}</p>
-			</div>
-		`;
-	}
-	$html += `</div><!-- .list -->`;
 	document.addEventListener("DOMContentLoaded", function() {
 		document.getElementById("main").innerHTML = $html;
 	});
