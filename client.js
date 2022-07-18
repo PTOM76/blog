@@ -6,6 +6,18 @@ var $client_lang = {
 var $url = new URL(window.location.href);
 var $params = $url.searchParams;
 
+function apprStr($str) {
+	$str = $str.toLowerCase();
+	$str = $str.replace(/(<([^>]+)>)/gi, '');
+	$str = $str.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function($m) {
+		return String.fromCharCode($m.charCodeAt(0) - 0xFEE0);
+	});
+	$str = $str.replace(/[\u30a1-\u30f6]/g, function($m) {
+		return String.fromCharCode($m.charCodeAt(0) - 0x60);
+	});
+	return $str;
+}
+
 function getMeta($metaProperty) {
 	var $metas = document.getElementsByTagName('meta');
 	for (let $j = 0; $j < $metas.length; $j++) {
@@ -43,7 +55,7 @@ if ($params.has('s') ) {
 	.then(($data) => {
 	if ($data !== undefined)
 		$data.forEach($item => {
-			if ($item.title.rendered.indexOf($s) != -1 || $item.content.rendered.indexOf($s) != -1) {
+			if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
 				$isFound = true;
 				
 				var $categories_html;
