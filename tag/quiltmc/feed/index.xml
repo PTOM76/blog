@@ -12,7 +12,7 @@
 	<atom:link href="/tag/quiltmc/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Mon, 18 Jul 2022 07:04:10 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 18 Jul 2022 13:58:24 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 	<item>
 		<title>【Minecraft】 FabricとForgeどっちがいいのだろうか？</title>
-		<link>/2022/07/18/%e3%80%90minecraft%e3%80%91-fabric%e3%81%a8forge%e3%81%a9%e3%81%a3%e3%81%a1%e3%81%8c%e3%81%84%e3%81%84%e3%81%ae%e3%81%a0%e3%82%8d%e3%81%86%e3%81%8b%ef%bc%9f/</link>
-					<comments>/2022/07/18/%e3%80%90minecraft%e3%80%91-fabric%e3%81%a8forge%e3%81%a9%e3%81%a3%e3%81%a1%e3%81%8c%e3%81%84%e3%81%84%e3%81%ae%e3%81%a0%e3%82%8d%e3%81%86%e3%81%8b%ef%bc%9f/#respond</comments>
+		<link>/2022/07/18/36/</link>
+					<comments>/2022/07/18/36/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 06:59:02 +0000</pubDate>
@@ -93,7 +93,7 @@ MOD開発では昔からあるMCPというマッピングを利用します。<b
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/18/%e3%80%90minecraft%e3%80%91-fabric%e3%81%a8forge%e3%81%a9%e3%81%a3%e3%81%a1%e3%81%8c%e3%81%84%e3%81%84%e3%81%ae%e3%81%a0%e3%82%8d%e3%81%86%e3%81%8b%ef%bc%9f/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/07/18/36/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

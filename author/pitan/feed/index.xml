@@ -12,7 +12,7 @@
 	<atom:link href="/author/pitan/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Mon, 18 Jul 2022 07:04:10 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 18 Jul 2022 13:58:50 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,9 +20,27 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 	<item>
+		<title>【WordPress】SimplyStaticを日本語URLに対応させる</title>
+		<link>/2022/07/18/43/</link>
+					<comments>/2022/07/18/43/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2022 13:57:00 +0000</pubDate>
+				<category><![CDATA[未分類]]></category>
+		<guid isPermaLink="false">/?p=43</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2022/07/18/43/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Minecraft】Sodiumで他MODのテクスチャがバグる</title>
-		<link>/2022/07/18/%e3%80%90minecraft%e3%80%91sodium%e3%81%a7%e4%bb%96mod%e3%81%ae%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%81%8c%e3%83%90%e3%82%b0%e3%82%8b/</link>
-					<comments>/2022/07/18/%e3%80%90minecraft%e3%80%91sodium%e3%81%a7%e4%bb%96mod%e3%81%ae%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%81%8c%e3%83%90%e3%82%b0%e3%82%8b/#respond</comments>
+		<link>/2022/07/18/40/</link>
+					<comments>/2022/07/18/40/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 07:03:49 +0000</pubDate>
@@ -41,15 +59,15 @@
 Indiumを入れるだけでは動作しないのでSodiumと一緒に入れましょう。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/18/%e3%80%90minecraft%e3%80%91sodium%e3%81%a7%e4%bb%96mod%e3%81%ae%e3%83%86%e3%82%af%e3%82%b9%e3%83%81%e3%83%a3%e3%81%8c%e3%83%90%e3%82%b0%e3%82%8b/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/07/18/40/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【Minecraft】 FabricとForgeどっちがいいのだろうか？</title>
-		<link>/2022/07/18/%e3%80%90minecraft%e3%80%91-fabric%e3%81%a8forge%e3%81%a9%e3%81%a3%e3%81%a1%e3%81%8c%e3%81%84%e3%81%84%e3%81%ae%e3%81%a0%e3%82%8d%e3%81%86%e3%81%8b%ef%bc%9f/</link>
-					<comments>/2022/07/18/%e3%80%90minecraft%e3%80%91-fabric%e3%81%a8forge%e3%81%a9%e3%81%a3%e3%81%a1%e3%81%8c%e3%81%84%e3%81%84%e3%81%ae%e3%81%a0%e3%82%8d%e3%81%86%e3%81%8b%ef%bc%9f/#respond</comments>
+		<link>/2022/07/18/36/</link>
+					<comments>/2022/07/18/36/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 06:59:02 +0000</pubDate>
@@ -113,15 +131,15 @@ MOD開発では昔からあるMCPというマッピングを利用します。<b
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/18/%e3%80%90minecraft%e3%80%91-fabric%e3%81%a8forge%e3%81%a9%e3%81%a3%e3%81%a1%e3%81%8c%e3%81%84%e3%81%84%e3%81%ae%e3%81%a0%e3%82%8d%e3%81%86%e3%81%8b%ef%bc%9f/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/07/18/36/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>C++でWindowsのGUIアプリケーションを作成する</title>
-		<link>/2022/07/18/c%e3%81%a7windows%e3%81%aegui%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e4%bd%9c%e6%88%90%e3%81%99%e3%82%8b/</link>
-					<comments>/2022/07/18/c%e3%81%a7windows%e3%81%aegui%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e4%bd%9c%e6%88%90%e3%81%99%e3%82%8b/#respond</comments>
+		<link>/2022/07/18/20/</link>
+					<comments>/2022/07/18/20/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 05:42:01 +0000</pubDate>
@@ -173,7 +191,7 @@ WinMain()ではなくmain()で関数定義するとコンソールが表示さ�
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/18/c%e3%81%a7windows%e3%81%aegui%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e4%bd%9c%e6%88%90%e3%81%99%e3%82%8b/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/07/18/20/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

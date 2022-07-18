@@ -12,7 +12,7 @@
 	<atom:link href="/tag/c/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Mon, 18 Jul 2022 05:43:47 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 18 Jul 2022 13:58:50 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 	<item>
 		<title>C++でWindowsのGUIアプリケーションを作成する</title>
-		<link>/2022/07/18/c%e3%81%a7windows%e3%81%aegui%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e4%bd%9c%e6%88%90%e3%81%99%e3%82%8b/</link>
-					<comments>/2022/07/18/c%e3%81%a7windows%e3%81%aegui%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e4%bd%9c%e6%88%90%e3%81%99%e3%82%8b/#respond</comments>
+		<link>/2022/07/18/20/</link>
+					<comments>/2022/07/18/20/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 05:42:01 +0000</pubDate>
@@ -81,7 +81,7 @@ WinMain()ではなくmain()で関数定義するとコンソールが表示さ�
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/18/c%e3%81%a7windows%e3%81%aegui%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e4%bd%9c%e6%88%90%e3%81%99%e3%82%8b/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/07/18/20/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
