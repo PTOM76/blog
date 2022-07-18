@@ -69,7 +69,7 @@ if ($params.has('s') ) {
 					<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}">
 						<article>
 							<figure class="entry-card-thumb card-thumb e-card-thumb">
-								<img data-src="/wordpress/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image lozad lozad-img" loading="lazy" width="320" height="180" /><noscript><img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" /></noscript>            <span class="cat-label cat-label-13">Minecraft</span>    </figure><!-- /.entry-card-thumb -->
+								<img data-src="./wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image lozad lozad-img" loading="lazy" width="320" height="180" /><noscript><img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" /></noscript>            <span class="cat-label cat-label-13">Minecraft</span>    </figure><!-- /.entry-card-thumb -->
 							<div class="entry-card-content card-content e-card-content">
 								<h2 class="entry-card-title card-title e-card-title" itemprop="headline">${$item.title.rendered}</h2>
 								<div class="entry-card-snippet card-snippet e-card-snippet">
