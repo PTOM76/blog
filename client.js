@@ -42,7 +42,7 @@ if ($params.has('s') ) {
 	document.title = $client_lang['search_result'].replace('$1', $s) + "  |  " + getMeta("og:site_name");
 	
 	var $categories_name = new Array();
-	fetch('./static-json/categories/index.json') // /index.json
+	fetch('./static-json/categories') // /index.json
 	.then(($response) => $response.json())
 	.then(($data) => {
 		if ($data !== undefined)
@@ -50,7 +50,7 @@ if ($params.has('s') ) {
 				var $item = $data[$key];
 				$categories_name[$item.term_id] = $item.name;
 			});
-	fetch('./wp-json/wp/v2/posts/index.json')
+	fetch('./wp-json/wp/v2/posts')
 	.then(($response) => $response.json())
 	.then(($data) => {
 		if ($data !== undefined)
@@ -96,15 +96,15 @@ if ($params.has('s') ) {
 			`;
 		}
 		$html += `</div><!-- .list -->`;
-		document.addEventListener("DOMContentLoaded", function() {
-			if ($htmlSetted === false) {
-				document.getElementById("main").innerHTML = $html;
-				$htmlSetted = true;
-			}
-		});
 	});
 	});
 	document.addEventListener("DOMContentLoaded", function() {
+		if ($htmlSetted === false) {
+			document.getElementById("main").innerHTML = $html;
+			$htmlSetted = true;
+		}
+	});
+	window.addEventListener("load", function() {
 		if ($htmlSetted === false) {
 			document.getElementById("main").innerHTML = $html;
 			$htmlSetted = true;
