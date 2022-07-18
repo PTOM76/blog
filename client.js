@@ -34,7 +34,7 @@ if (params.has('s') ) {
 	.then(($data) => {
 		$data.forEach($item => {
 			$categories_name[$item['term_id']] = $item['name'];
-		}
+		});
 	});
 	
 	fetch('./wp-json/wp/v2/posts/index.json')
