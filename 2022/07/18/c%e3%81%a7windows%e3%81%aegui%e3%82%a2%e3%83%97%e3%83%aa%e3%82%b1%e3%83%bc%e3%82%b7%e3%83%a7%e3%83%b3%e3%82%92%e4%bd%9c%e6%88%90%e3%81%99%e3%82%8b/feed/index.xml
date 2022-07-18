@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	C++でWindowsのGUIアプリケーションを作成する へのコメント	</title>
+	<atom:link href="/2022/07/18/c%E3%81%A7windows%E3%81%AEgui%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B/feed/" rel="self" type="application/rss+xml" />
+	<link>/2022/07/18/c%e3%81%a7windows%e3%81%aegui%e3%82%a2%e3%83%97%e3%83%aa%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92%e4%bd%9c%e6%88%90%e3%81%99%e3%82%8b/</link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Mon, 18 Jul 2022 05:43:47 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+</channel>
+</rss>
