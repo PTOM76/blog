@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 	<item>
 		<title>C++でWindowsのGUIアプリケーションを作成する</title>
-		<link>/2022/07/18/20/</link>
-					<comments>/2022/07/18/20/#respond</comments>
+		<link>/2022071820/</link>
+					<comments>/2022071820/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 05:42:01 +0000</pubDate>
@@ -81,7 +81,7 @@ WinMain()ではなくmain()で関数定義するとコンソールが表示さ�
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/18/20/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022071820/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
