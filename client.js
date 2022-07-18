@@ -15,8 +15,8 @@ function getMeta($metaProperty) {
 	}
 }
 
-if (params.has('s') ) {
-	var $s = params.get('s');
+if ($params.has('s') ) {
+	var $s = $params.get('s');
 	var $isFound = false;
 	var $html = `
 		<h1 id="archive-title" class="archive-title"><span class="fa fa-search" aria-hidden="true"></span>"fab"</h1>
