@@ -19,7 +19,7 @@ if ($params.has('s') ) {
 	var $s = $params.get('s');
 	var $isFound = false;
 	var $html = `
-		<h1 id="archive-title" class="archive-title"><span class="fa fa-search" aria-hidden="true"></span>"fab"</h1>
+		<h1 id="archive-title" class="archive-title"><span class="fa fa-search" aria-hidden="true"></span>"${$s}"</h1>
 		<form class="search-box input-box" method="get" action="/">
 			<input type="text" placeholder="${$client_lang['search_in_site']}" name="s" class="search-edit" aria-label="input" value="${$s}">
 			<button type="submit" class="search-submit" aria-label="button"><span class="fa fa-search" aria-hidden="true"></span></button>
@@ -55,9 +55,9 @@ if ($params.has('s') ) {
 				
 				$html += `
 					<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}">
-						<article id="post-40" class="post-40 entry-card e-card cf post type-post status-publish format-standard hentry category-minecraft-post category-11-post tag-fabricmc-post tag-mod-post">
+						<article>
 							<figure class="entry-card-thumb card-thumb e-card-thumb">
-								<img data-src="http://localhost/wordpress/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image lozad lozad-img" loading="lazy" width="320" height="180" /><noscript><img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" /></noscript>            <span class="cat-label cat-label-13">Minecraft</span>    </figure><!-- /.entry-card-thumb -->
+								<img data-src="/wordpress/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image lozad lozad-img" loading="lazy" width="320" height="180" /><noscript><img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" /></noscript>            <span class="cat-label cat-label-13">Minecraft</span>    </figure><!-- /.entry-card-thumb -->
 							<div class="entry-card-content card-content e-card-content">
 								<h2 class="entry-card-title card-title e-card-title" itemprop="headline">${$item.title.rendered}</h2>
 								<div class="entry-card-snippet card-snippet e-card-snippet">
@@ -76,7 +76,7 @@ if ($params.has('s') ) {
 			}
 		});
 	});
-	if (!$isFound) {
+	if ($isFound === false) {
 		$html += `
 			<div class="posts-not-found">
 				<h2>NOT FOUND</h2>
