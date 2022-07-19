@@ -12,7 +12,7 @@
 	<atom:link href="/tag/mod/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Mon, 18 Jul 2022 13:58:24 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 19 Jul 2022 15:32:05 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,37 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 	<item>
+		<title>【FabricMC】Illegal character ((CTRL-CHAR, code 31)):&#8230;の対処法</title>
+		<link>/2022072062/</link>
+					<comments>/2022072062/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:29:27 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<category><![CDATA[MOD開発]]></category>
+		<guid isPermaLink="false">/?p=62</guid>
+
+					<description><![CDATA[FabricでMOD開発していると以下のようなエラーが出てしまいました。 Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricでMOD開発していると以下のようなエラーが出てしまいました。</p>
+<pre>Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens 333333333333333
+    at [Source: UNKNOWN; line: 1, column: 2]</pre>
+<h3>解決法</h3>
+<p>以下のコマンドを実行することにより解決しました。</p>
+<p>gradlew &#8211;refresh-dependencies</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022072062/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Minecraft】Sodiumで他MODのテクスチャがバグる</title>
 		<link>/2022071840/</link>
 					<comments>/2022071840/#respond</comments>
@@ -67,7 +98,7 @@ Indiumを入れるだけでは動作しないのでSodiumと一緒に入れま�
 										<content:encoded><![CDATA[<p>MinecraftのModLoaderには主に二種あります。<br />
 他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">どっちがいいのか</a><ol><li><a href="#toc2" tabindex="0">FabricMC</a></li><li><a href="#toc3" tabindex="0">MinecraftForge</a></li><li><a href="#toc4" tabindex="0">QuiltMC</a></li></ol></li><li><a href="#toc5" tabindex="0">最後に</a></li><li><a href="#toc6" tabindex="0">出典</a></li></ol>
     </div>
