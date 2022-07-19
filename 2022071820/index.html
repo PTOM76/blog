@@ -488,20 +488,9 @@ WinMain()ではなくmain()で関数定義するとコンソールが表示さ�
   
   <div id="utteranc_comment">
 <!-- comment area -->
-<script src="https://utteranc.es/client.js" repo="PTOM76/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" onload="utteranc_load()" async>
+<script src="https://blog.pkom.ml/utteranc/client.js" repo="PTOM76/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async>
 </script>
 </div>
-<script>
-window.addEventListener("load", function() {
-	setTimeout(function() {
-		var $frames = document.getElementById("utteranc_comment").getElementsByClassName("utterances-frame");
-		var $element = $frames[0].contentDocument || $frames[0].contentWindow.document;
-		$element.getElementsByClassName("tab-write")[0].innerHTML = "入力";
-		$element.getElementsByClassName("tab-preview")[0].innerHTML = "プレビュー";
-		$element.getElementsByClassName("btn-primary")[0].innerHTML = "コメント";
-	}, 1000);
-});
-</script>
 
 
   
