@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>レンタルサービス  |  ぴたぶろぐ</title>
+	<atom:link href="/tag/%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Tue, 19 Jul 2022 15:47:51 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<item>
+		<title>【無料Wikiレンタルサービス】WikiChree.COMの紹介</title>
+		<link>/2022072068/</link>
+					<comments>/2022072068/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:46:33 +0000</pubDate>
+				<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[サーバー]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Webサービス]]></category>
+		<category><![CDATA[Wiki]]></category>
+		<category><![CDATA[レンタルサービス]]></category>
+		<category><![CDATA[自作サービス]]></category>
+		<guid isPermaLink="false">/?p=68</guid>
+
+					<description><![CDATA[わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。 是非使って見てください。 https://wikichree.com/ 目次 特徴その1. PukiWikiその2. カスタマイズ性その3. WIS [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。<br />
+是非使って見てください。<br />
+<a href="https://wikichree.com/">https://wikichree.com/</a></p>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">特徴</a><ol><li><a href="#toc2" tabindex="0">その1. PukiWiki</a></li><li><a href="#toc3" tabindex="0">その2. カスタマイズ性</a></li><li><a href="#toc4" tabindex="0">その3. WISYWIGエディタ</a></li><li><a href="#toc5" tabindex="0">その4. ユーザー管理</a></li><li><a href="#toc6" tabindex="0">その5. Discord</a></li></ol></li><li><a href="#toc7" tabindex="0">短所</a><ol><li><a href="#toc8" tabindex="0">スキンが少ない</a></li><li><a href="#toc9" tabindex="0">広告</a></li><li><a href="#toc10" tabindex="0">利用者が少ない</a></li></ol></li><li><a href="#toc11" tabindex="0">結果</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">特徴</span></h2>
+<h3><span id="toc2">その1. PukiWiki</span></h3>
+<p>PukiWikiは日本産のOSSのCMSであり、主にWikiとして使うことが多いです。<br />
+使い方によってはブログサイトとして使っている方もいますし様々です。</p>
+<h3><span id="toc3">その2. カスタマイズ性</span></h3>
+<p>他のレンタルサービスとは違い、プラグインを自分で選択していれることができます。<br />
+ただし、セキュリティの観点からプラグインのアップロードはできません。要望なら募集しています。</p>
+<h3><span id="toc4">その3. WISYWIGエディタ</span></h3>
+<p>EasyEditといった私がつくったWISYWIGプラグインを導入することができます。</p>
+<h3><span id="toc5">その4. ユーザー管理</span></h3>
+<p>編集ユーザーを追加したりすることができます。<br />
+ただし、アカウント登録は今のところありません。</p>
+<h3><span id="toc6">その5. Discord</span></h3>
+<p>Discordにて質問する場所があります。</p>
+<h2><span id="toc7">短所</span></h2>
+<h3><span id="toc8">スキンが少ない</span></h3>
+<p>現在のところ以下のスキンのみとなっています。<br />
+<input id="skin_default" checked="checked" name="change_skin" type="radio" value="default" /><label for="skin_default">デフォルトスキン</label><br />
+<input id="skin_orangebox" name="change_skin" type="radio" value="orangebox" /><label for="skin_orangebox">OrangeBox</label><br />
+<input id="skin_bluebox" name="change_skin" type="radio" value="bluebox" /><label for="skin_bluebox">BlueBox</label><br />
+<input id="skin_modernskin" name="change_skin" type="radio" value="modernskin" /><label for="skin_modernskin">ModernSkin</label><br />
+<input id="skin_modernskin_black" name="change_skin" type="radio" value="modernskin_black" /><label for="skin_modernskin_black">ModernSkin (Black ver)</label><br />
+<input id="skin_monobook" name="change_skin" type="radio" value="monobook" /><label for="skin_monobook">Monobook for PukiWiki</label><br />
+<input id="skin_tffacwiki" name="change_skin" type="radio" value="tffacwiki" /><label for="skin_tffacwiki">TFFAC Wikiのスキン</label><br />
+<input id="skin_street" name="change_skin" type="radio" value="street" /><label for="skin_street">Street</label><br />
+<input id="skin_bootstrap" name="change_skin" type="radio" value="bootstrap" /><label for="skin_bootstrap">Bootstrap</label><br />
+<input id="skin_plus" name="change_skin" type="radio" value="plus" /><label for="skin_plus">PukiWiki Plus!風スキン</label><br />
+<input id="skin_ika" name="change_skin" type="radio" value="ika" /><label for="skin_ika">イカスキン</label></p>
+<h3><span id="toc9">広告</span></h3>
+<p>広告鬱陶しいですよね。収益が単に欲しい理由もありますが、維持費を回収したいのもあります。<br />
+正直言うと維持費を回収するほど収益がありませんｗ</p>
+<h3><span id="toc10">利用者が少ない</span></h3>
+<p>許して&#8230;ください&#8230;（笑）</p>
+<h2><span id="toc11">結果</span></h2>
+<p>レンタルサービスの中ではAtWikiとWIKIWIKI.JPは最強！（ry</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022072068/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

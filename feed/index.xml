@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Tue, 19 Jul 2022 15:32:05 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 19 Jul 2022 15:47:51 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,72 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 	<item>
+		<title>【無料Wikiレンタルサービス】WikiChree.COMの紹介</title>
+		<link>/2022072068/</link>
+					<comments>/2022072068/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:46:33 +0000</pubDate>
+				<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[サーバー]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Webサービス]]></category>
+		<category><![CDATA[Wiki]]></category>
+		<category><![CDATA[レンタルサービス]]></category>
+		<category><![CDATA[自作サービス]]></category>
+		<guid isPermaLink="false">/?p=68</guid>
+
+					<description><![CDATA[わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。 是非使って見てください。 https://wikichree.com/ 特徴 その1. PukiWiki PukiWikiは日本産のOSSのCMSで [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。<br />
+是非使って見てください。<br />
+<a href="https://wikichree.com/">https://wikichree.com/</a></p>
+<h2>特徴</h2>
+<h3>その1. PukiWiki</h3>
+<p>PukiWikiは日本産のOSSのCMSであり、主にWikiとして使うことが多いです。<br />
+使い方によってはブログサイトとして使っている方もいますし様々です。</p>
+<h3>その2. カスタマイズ性</h3>
+<p>他のレンタルサービスとは違い、プラグインを自分で選択していれることができます。<br />
+ただし、セキュリティの観点からプラグインのアップロードはできません。要望なら募集しています。</p>
+<h3>その3. WISYWIGエディタ</h3>
+<p>EasyEditといった私がつくったWISYWIGプラグインを導入することができます。</p>
+<h3>その4. ユーザー管理</h3>
+<p>編集ユーザーを追加したりすることができます。<br />
+ただし、アカウント登録は今のところありません。</p>
+<h3>その5. Discord</h3>
+<p>Discordにて質問する場所があります。</p>
+<h2>短所</h2>
+<h3>スキンが少ない</h3>
+<p>現在のところ以下のスキンのみとなっています。<br />
+<input id="skin_default" checked="checked" name="change_skin" type="radio" value="default" /><label for="skin_default">デフォルトスキン</label><br />
+<input id="skin_orangebox" name="change_skin" type="radio" value="orangebox" /><label for="skin_orangebox">OrangeBox</label><br />
+<input id="skin_bluebox" name="change_skin" type="radio" value="bluebox" /><label for="skin_bluebox">BlueBox</label><br />
+<input id="skin_modernskin" name="change_skin" type="radio" value="modernskin" /><label for="skin_modernskin">ModernSkin</label><br />
+<input id="skin_modernskin_black" name="change_skin" type="radio" value="modernskin_black" /><label for="skin_modernskin_black">ModernSkin (Black ver)</label><br />
+<input id="skin_monobook" name="change_skin" type="radio" value="monobook" /><label for="skin_monobook">Monobook for PukiWiki</label><br />
+<input id="skin_tffacwiki" name="change_skin" type="radio" value="tffacwiki" /><label for="skin_tffacwiki">TFFAC Wikiのスキン</label><br />
+<input id="skin_street" name="change_skin" type="radio" value="street" /><label for="skin_street">Street</label><br />
+<input id="skin_bootstrap" name="change_skin" type="radio" value="bootstrap" /><label for="skin_bootstrap">Bootstrap</label><br />
+<input id="skin_plus" name="change_skin" type="radio" value="plus" /><label for="skin_plus">PukiWiki Plus!風スキン</label><br />
+<input id="skin_ika" name="change_skin" type="radio" value="ika" /><label for="skin_ika">イカスキン</label></p>
+<h3>広告</h3>
+<p>広告鬱陶しいですよね。収益が単に欲しい理由もありますが、維持費を回収したいのもあります。<br />
+正直言うと維持費を回収するほど収益がありませんｗ</p>
+<h3>利用者が少ない</h3>
+<p>許して&#8230;ください&#8230;（笑）</p>
+<h2>結果</h2>
+<p>レンタルサービスの中ではAtWikiとWIKIWIKI.JPは最強！（ry</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022072068/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>JitPackでJava 8以外を使う方法</title>
 		<link>/2022072064/</link>
 					<comments>/2022072064/#respond</comments>
