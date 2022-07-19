@@ -12,7 +12,7 @@
 	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Mon, 18 Jul 2022 13:57:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 19 Jul 2022 12:34:41 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,20 +20,21 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 	<item>
-		<title>【WordPress】SimplyStaticを日本語URLに対応させる</title>
-		<link>/2022/07/18/43/</link>
-					<comments>/2022/07/18/43/#respond</comments>
+		<title>test</title>
+		<link>/2022071946/</link>
+					<comments>/2022071946/#comments</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Mon, 18 Jul 2022 13:57:00 +0000</pubDate>
+		<pubDate>Tue, 19 Jul 2022 12:34:41 +0000</pubDate>
 				<category><![CDATA[未分類]]></category>
-		<guid isPermaLink="false">/?p=43</guid>
+		<guid isPermaLink="false">/?p=46</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[test]]></description>
+										<content:encoded><![CDATA[<p>test</p>
+]]></content:encoded>
 					
-					<wfw:commentRss>/2022/07/18/43/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+					<wfw:commentRss>/2022071946/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
 		
 		
 			</item>
