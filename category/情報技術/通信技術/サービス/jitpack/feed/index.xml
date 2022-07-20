@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>JitPack  |  ぴたぶろぐ</title>
+	<atom:link href="/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E9%80%9A%E4%BF%A1%E6%8A%80%E8%A1%93/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/jitpack/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Tue, 19 Jul 2022 15:31:23 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<title>JitPack  |  ぴたぶろぐ</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>JitPackでJava 8以外を使う方法</title>
+		<link>/2022072064/</link>
+					<comments>/2022072064/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:30:51 +0000</pubDate>
+				<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[JitPack]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<guid isPermaLink="false">/?p=64</guid>
+
+					<description><![CDATA[FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlでjdkを指定したところ、一時期動いたのだが、また動作しなくなったため、以下のよ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlで<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>を指定したところ、一時期動いたのだが、また動作しなくなったため、以下のようにbefore_install:をymlに追加すると解決する。<br />
+jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A3%A5%EC%A5%AF%A5%C8">ディレクト</a>リ直下に配置する。</p>
+<p><strong>jitpack.yml</strong></p>
+<pre>before_install:
+  - <a class="keyword" href="http://d.hatena.ne.jp/keyword/wget">wget</a> <a href="https://github.com/sormuras/bach/raw/master/install-jdk.sh">https://github.com/sormuras/bach/raw/master/install-jdk.sh</a>
+  - source ./install-<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>.sh --feature 17 --license <a class="keyword" href="http://d.hatena.ne.jp/keyword/GPL">GPL</a>
+<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>:
+  - openjdk17</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022072064/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
