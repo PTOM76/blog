@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MOD開発  |  ぴたぶろぐ</title>
+	<atom:link href="/tag/mod%E9%96%8B%E7%99%BA/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Tue, 19 Jul 2022 15:32:05 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<title>MOD開発  |  ぴたぶろぐ</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>【FabricMC】Illegal character ((CTRL-CHAR, code 31)):&#8230;の対処法</title>
+		<link>/2022072062/</link>
+					<comments>/2022072062/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:29:27 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<category><![CDATA[MOD開発]]></category>
+		<guid isPermaLink="false">/?p=62</guid>
+
+					<description><![CDATA[FabricでMOD開発していると以下のようなエラーが出てしまいました。 Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricでMOD開発していると以下のようなエラーが出てしまいました。</p>
+<pre>Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens 333333333333333
+    at [Source: UNKNOWN; line: 1, column: 2]</pre>
+<h3>解決法</h3>
+<p>以下のコマンドを実行することにより解決しました。</p>
+<p>gradlew &#8211;refresh-dependencies</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022072062/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】 FabricとForgeどっちがいいのだろうか？</title>
+		<link>/2022071836/</link>
+					<comments>/2022071836/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2022 06:59:02 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MinecraftForge]]></category>
+		<category><![CDATA[MOD]]></category>
+		<category><![CDATA[ModLoader]]></category>
+		<category><![CDATA[MOD開発]]></category>
+		<category><![CDATA[QuiltMC]]></category>
+		<guid isPermaLink="false">/?p=36</guid>
+
+					<description><![CDATA[MinecraftのModLoaderには主に二種あります。 他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。 目次 どっちがいいのかFabricMCMin [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>MinecraftのModLoaderには主に二種あります。<br />
+他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。</p>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">どっちがいいのか</a><ol><li><a href="#toc2" tabindex="0">FabricMC</a></li><li><a href="#toc3" tabindex="0">MinecraftForge</a></li><li><a href="#toc4" tabindex="0">QuiltMC</a></li></ol></li><li><a href="#toc5" tabindex="0">最後に</a></li><li><a href="#toc6" tabindex="0">出典</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">どっちがいいのか</span></h2>
+<p>何があろうと使うべきModLoaderはFabricです！<br />
+といいつつ、バージョンによってはForgeが良かったりもします。<br />
+Fabricはスナップショットまで対応しており、あり得ないスピードで最新バージョンに対応することが多いです。1.19が出た1,2日後ぐらいには既にFabric Loaderがリリースされていたと思います。<br />
+Minecraft 1.14ぐらいから出てきたもので昔はMODが少なかったのですが、最近ではAE2や黄昏の森、REIといったJEIの派生版など多く見かけることがあります。目玉はSodiumといったとても凄い軽量化MODです。<br />
+特に理由がなければ1.16～のバージョンでMODを遊ぶ方はFabricをオススメしたいと私は思います。<br />
+あなたが使いたいMODがどちらかのMODにあるとするならそのLoaderを使った方がいいでしょう。<br />
+1.12.2に関しては実はLegacy Fabricといったものがあり、Fabricも存在するようなのですが、これはオススメできません。<br />
+素直にForgeを使った方が無難でしょう。</p>
+<h3><span id="toc2">FabricMC</span></h3>
+<p>Fabricは1.14のスナップショットからリリースされており、2019年辺りから出てきました。(発表されたのは2018年12月辺り)<br />
+自分も軽くてMOD開発がしやすかったので好んではいましたが、当時はMODが少なくて不便でした。<br />
+この頃は、Architectury APIというMCForge/FabricMC/QuiltMCのクロスプラットフォーム開発ができるAPIも出たお陰か多くのMODがFabricにも対応してきてることがあります。<br />
+更にエラーも出にくくインストールが簡単にできるという点が素晴らしいです。<br />
+このModLoaderは物凄くリリースするのが早く、上の項目で説明した通り、最新バージョンがリリースされた1,2日後ぐらいには既にFabric Loaderがリリースされていたことがあります。<br />
+開発者にとってはMODが作りやすいと好評です。<br />
+MOD開発にはFabric独自のYarnといったマッピングを利用しています。</p>
+<h3><span id="toc3">MinecraftForge</span></h3>
+<p>Forgeは昔からあるModLoaderで、多くのMODはこのMinecraftForgeにあります。<br />
+特に1.7.10、1.12.2で遊ぶ方はこれじゃないとMODで遊べないと思います（笑）<br />
+Forgeではマッピング直ではなく独自のAPIが結構あります。<br />
+インストールはそこそこ簡単だと思います。<br />
+FabricではMixinというものがありますが、Forgeにも対応しつつあります。<br />
+MOD開発では昔からあるMCPというマッピングを利用します。<br />
+いつもはリリースが遅いForgeなのですが、1.19では数日後にベータ版が公開されていました。</p>
+<h3><span id="toc4">QuiltMC</span></h3>
+<p>Fabricをベースとしたまた新たなModLoaderです。<br />
+1.16.5から現れたと思われます。<br />
+現在のところはFabricのMODと互換性があります。<br />
+私はこれでMOD開発をしたことがないのでわかりません。<br />
+申し訳ないです&#8230;</p>
+<h2><span id="toc5">最後に</span></h2>
+<p>どのModLoaderもいいですよね～<br />
+ちなみに私はFabric派です。</p>
+<h2><span id="toc6">出典</span></h2>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><a href="https://fabricmc.net/2018/12/10/announcement.html">https://fabricmc.net/2018/12/10/announcement.html</a></li>
+<li><a href="https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric">https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric</a></li>
+<li><a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.html">https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.html</a></li>
+<li><a href="https://quiltmc.org/">https://quiltmc.org/</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022071836/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

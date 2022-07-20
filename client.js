@@ -52,7 +52,7 @@ if ($params.has('s')) {
 						
 						var $categories_html = '';
 						var $categories_html_label = '';
-						if ($item.categories !== undefied) {
+						if ($item.categories !== undefined) {
 							$categories_html += '<div class="entry-card-categorys">';
 							var $getFirst = false;
 							$item.categories.forEach($id => {
