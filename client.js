@@ -56,8 +56,8 @@ if ($params.has('s')) {
 						var $post_date = $item.date.replaceAll('-', '.');
 						$post_date = $post_date.substr(0, $post_date.indexOf('T'));
 						var $thumb_url = "/wp-content/themes/cocoon-master/images/no-image-320.png";
-						if ($thumbs[$id] !== undefined) {
-							$thumb_url = $thumbs[$id];
+						if ($thumbs[$item.id] !== undefined) {
+							$thumb_url = $thumbs[$item.id];
 						}
 						$html += `
 					<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}">
