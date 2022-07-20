@@ -49,10 +49,22 @@ if ($params.has('s')) {
 				if ($data !== undefined) $data.forEach($item => {
 					if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
 						$isFound = true;
-						var $categories_html;
-						$item.categories.forEach($id => {
-							$categories_html += '<span class="entry-category">' + $categories_name[$id] + '</span>';
-						});
+						
+						var $categories_html = '';
+						var $categories_html_label = '';
+						if ($item.categories !== undefied) {
+							$categories_html += '<div class="entry-card-categorys">';
+							var $getFirst = false;
+							$item.categories.forEach($id => {
+								if (!$getFirst) {
+									$categories_html_label = '<span class="cat-label cat-label-' + $id + '">' + $categories_name[$id] + '</span>';
+								}
+								$getFirst = true;
+								$categories_html += '<span class="entry-category">' + $categories_name[$id] + '</span>';
+							});
+							$categories_html += '</div>';
+						}
+						
 						var $post_date = $item.date.replaceAll('-', '.');
 						$post_date = $post_date.substr(0, $post_date.indexOf('T'));
 						var $thumb_img = '<img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" />';
@@ -63,7 +75,7 @@ if ($params.has('s')) {
 					<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}">
 						<article>
 							<figure class="entry-card-thumb card-thumb e-card-thumb">
-								${$thumb_img}						<span class="cat-label cat-label-13">Minecraft</span>		</figure><!-- /.entry-card-thumb -->
+								${$thumb_img}						{$categories_html_label}		</figure><!-- /.entry-card-thumb -->
 							<div class="entry-card-content card-content e-card-content">
 								<h2 class="entry-card-title card-title e-card-title" itemprop="headline">${$item.title.rendered}</h2>
 								<div class="entry-card-snippet card-snippet e-card-snippet">
@@ -73,7 +85,7 @@ if ($params.has('s')) {
 									<div class="entry-card-info e-card-info">
 										<span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> ${$post_date}</span>
 									</div>
-									<div class="entry-card-categorys">${$categories_html}</div>
+									${$categories_html}
 								</div>
 							</div><!-- /.entry-card-content -->
 						</article>
