@@ -75,7 +75,7 @@ if ($params.has('s')) {
 					<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}">
 						<article>
 							<figure class="entry-card-thumb card-thumb e-card-thumb">
-								${$thumb_img}						{$categories_html_label}		</figure><!-- /.entry-card-thumb -->
+								${$thumb_img}						${$categories_html_label}		</figure><!-- /.entry-card-thumb -->
 							<div class="entry-card-content card-content e-card-content">
 								<h2 class="entry-card-title card-title e-card-title" itemprop="headline">${$item.title.rendered}</h2>
 								<div class="entry-card-snippet card-snippet e-card-snippet">
