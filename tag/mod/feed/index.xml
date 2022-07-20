@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/tag/mod/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Wed, 20 Jul 2022 05:33:41 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 20 Jul 2022 12:11:40 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,7 +28,30 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>【Minecraft】Fabricの軽量化MOD「Sodium」とSodiumアドオン等</title>
+		<title>【Minecraft】VoxelMap非公式Fabric版 1.18〜1.19の配布先</title>
+		<link>https://blog.pkom.ml/20220720115/</link>
+					<comments>https://blog.pkom.ml/20220720115/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 12:11:40 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=115</guid>
+
+					<description><![CDATA[有志の方が以下のdiscordサーバーでVoxelMapを非公式でメンテナンスしてくださってました。 Refresh-MC Fabric/Spigot: https://discord.gg/GCKZ9Kgqny]]></description>
+										<content:encoded><![CDATA[<p>有志の方が以下のdiscordサーバーでVoxelMapを非公式でメンテナンスしてくださってました。</p>
+<p>Refresh-MC Fabric/Spigot: <a href="https://discord.gg/GCKZ9Kgqny">https://discord.gg/GCKZ9Kgqny</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220720115/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】Fabricの軽量化MOD「Sodium」、「Canvas Renderer」、「OptiFine」と代替MOD、Sodiumアドオンの紹介</title>
 		<link>https://blog.pkom.ml/2022072081/</link>
 					<comments>https://blog.pkom.ml/2022072081/#respond</comments>
 		
@@ -40,12 +63,12 @@
 		<category><![CDATA[MOD]]></category>
 		<guid isPermaLink="false">https://blog.pkom.ml/?p=81</guid>
 
-					<description><![CDATA[目次 軽量化MODSodiumCanvas RendererOptiFine + OptiFabricOptiFineOptiFabricSodiumアドオン、代替MODシェーダー読み込みMOD「Iris Shaders [&#8230;]]]></description>
+					<description><![CDATA[目次 軽量化MODSodiumCanvas RendererOptiFine + OptiFabricOptiFineOptiFabricSodiumアドオン、代替MODSodium拡張MOD「Sodium Extra」 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
-    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">軽量化MOD</a><ol><li><a href="#toc2" tabindex="0">Sodium</a></li><li><a href="#toc3" tabindex="0">Canvas Renderer</a></li><li><a href="#toc4" tabindex="0">OptiFine + OptiFabric</a><ol><li><a href="#toc5" tabindex="0">OptiFine</a></li><li><a href="#toc6" tabindex="0">OptiFabric</a></li></ol></li></ol></li><li><a href="#toc7" tabindex="0">Sodiumアドオン、代替MOD</a><ol><li><a href="#toc8" tabindex="0">シェーダー読み込みMOD「Iris Shaders」</a></li><li><a href="#toc9" tabindex="0">Fabric Rendering APIとの互換性を修正するMOD「Indium」</a></li><li><a href="#toc10" tabindex="0">照明エンジン最適化MOD「Phosphor」</a></li><li><a href="#toc11" tabindex="0">汎用最適化MOD「Lithium」</a></li><li><a href="#toc12" tabindex="0">メモリ使用量削減MOD「FerriteCore」</a></li><li><a href="#toc13" tabindex="0">ダイナミックライト「LambDynamicLights」</a></li><li><a href="#toc14" tabindex="0">ズームMOD「Logical Zoom」</a></li><li><a href="#toc15" tabindex="0">テクスチャを接続するMOD「Continuity」</a></li></ol></li></ol>
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">軽量化MOD</a><ol><li><a href="#toc2" tabindex="0">Sodium</a></li><li><a href="#toc3" tabindex="0">Canvas Renderer</a></li><li><a href="#toc4" tabindex="0">OptiFine + OptiFabric</a><ol><li><a href="#toc5" tabindex="0">OptiFine</a></li><li><a href="#toc6" tabindex="0">OptiFabric</a></li></ol></li></ol></li><li><a href="#toc7" tabindex="0">Sodiumアドオン、代替MOD</a><ol><li><a href="#toc8" tabindex="0">Sodium拡張MOD「Sodium Extra」</a></li><li><a href="#toc9" tabindex="0">シェーダー読み込みMOD「Iris Shaders」</a></li><li><a href="#toc10" tabindex="0">Fabric Rendering APIとの互換性を修正するMOD「Indium」</a></li><li><a href="#toc11" tabindex="0">照明エンジン最適化MOD「Phosphor」</a></li><li><a href="#toc12" tabindex="0">汎用最適化MOD「Lithium」</a></li><li><a href="#toc13" tabindex="0">ビデオ設定を元に戻すMOD「Better Sodium Video Settings Button」</a></li><li><a href="#toc14" tabindex="0">メモリ使用量削減MOD「FerriteCore」</a></li><li><a href="#toc15" tabindex="0">ダイナミックライト「LambDynamicLights」</a></li><li><a href="#toc16" tabindex="0">ズームMOD「Logical Zoom」</a></li><li><a href="#toc17" tabindex="0">テクスチャを接続するMOD「Continuity」</a></li><li><a href="#toc18" tabindex="0">メモリを解放するMOD「MemoryLeakFix」</a></li><li><a href="#toc19" tabindex="0">Sodiumの設定画面を改善するMOD「Reese&#8217;s Sodium Options」</a></li></ol></li></ol>
     </div>
   </div>
 
@@ -114,10 +137,13 @@
 
 
 <h2><span id="toc7">Sodiumアドオン、代替MOD</span></h2>
+<h3><span id="toc8">Sodium拡張MOD「Sodium Extra」</span></h3>
+<p>Sodiumにはないオプションを追加するSodiumアドオンです。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/sodium-extra" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fsodium-extra?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/sodium-extra" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
 
 
 
-<h3><span id="toc8">シェーダー読み込みMOD「Iris Shaders」</span></h3>
+<h3><span id="toc9">シェーダー読み込みMOD「Iris Shaders」</span></h3>
 
 
 
@@ -129,7 +155,7 @@
 
 
 
-<h3><span id="toc9">Fabric Rendering APIとの互換性を修正するMOD「Indium」</span></h3>
+<h3><span id="toc10">Fabric Rendering APIとの互換性を修正するMOD「Indium」</span></h3>
 
 
 
@@ -141,7 +167,7 @@
 
 
 
-<h3><span id="toc10">照明エンジン最適化MOD「Phosphor」</span></h3>
+<h3><span id="toc11">照明エンジン最適化MOD「Phosphor」</span></h3>
 
 
 
@@ -153,7 +179,7 @@
 
 
 
-<h3><span id="toc11">汎用最適化MOD「Lithium」</span></h3>
+<h3><span id="toc12">汎用最適化MOD「Lithium」</span></h3>
 
 
 
@@ -162,10 +188,13 @@
 
 
 <a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/lithium" title="https://www.curseforge.com/minecraft/mc-mods/lithium" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Flithium?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/lithium</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/lithium" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h3><span id="toc13">ビデオ設定を元に戻すMOD「Better Sodium Video Settings Button」</span></h3>
+<p>Sodiumは元のビデオ設定の画面を変更します。<br />このMODを導入すると元のビデオ設定の画面に戻し、ビデオ設定にSodiumへの設定のボタンを追加します。<br />僕はこれ結構便利だなあと思ってます。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fbetter-sodium-video-settings-button?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
 
 
 
-<h3><span id="toc12">メモリ使用量削減MOD「FerriteCore」</span></h3>
+<h3><span id="toc14">メモリ使用量削減MOD「FerriteCore」</span></h3>
 
 
 
@@ -177,7 +206,7 @@
 
 
 
-<h3><span id="toc13">ダイナミックライト「LambDynamicLights」</span></h3>
+<h3><span id="toc15">ダイナミックライト「LambDynamicLights」</span></h3>
 
 
 
@@ -189,7 +218,7 @@
 
 
 
-<h3><span id="toc14">ズームMOD「Logical Zoom」</span></h3>
+<h3><span id="toc16">ズームMOD「Logical Zoom」</span></h3>
 
 
 
@@ -201,7 +230,7 @@
 
 
 
-<h3><span id="toc15">テクスチャを接続するMOD「Continuity」</span></h3>
+<h3><span id="toc17">テクスチャを接続するMOD「Continuity」</span></h3>
 
 
 
@@ -210,6 +239,12 @@
 
 
 <a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/continuity" title="https://www.curseforge.com/minecraft/mc-mods/continuity" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fcontinuity?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/continuity</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/continuity" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h3><span id="toc18">メモリを解放するMOD「MemoryLeakFix」</span></h3>
+<p>メモリの使用量を削減するMODです。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/memoryleakfix" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fmemoryleakfix?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/memoryleakfix" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h3><span id="toc19">Sodiumの設定画面を改善するMOD「Reese&#8217;s Sodium Options」</span></h3>
+<p><img loading="lazy" class="alignnone size-medium" src="https://i.imgur.com/I63nZVG.png" width="1920" height="1017" /></p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Freeses-sodium-options?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/2022072081/feed/</wfw:commentRss>
@@ -296,7 +331,7 @@ Indiumを入れるだけでは動作しないのでSodiumと一緒に入れま�
 										<content:encoded><![CDATA[<p>MinecraftのModLoaderには主に二種あります。<br />
 他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">どっちがいいのか</a><ol><li><a href="#toc2" tabindex="0">FabricMC</a></li><li><a href="#toc3" tabindex="0">MinecraftForge</a></li><li><a href="#toc4" tabindex="0">QuiltMC</a></li></ol></li><li><a href="#toc5" tabindex="0">最後に</a></li><li><a href="#toc6" tabindex="0">出典</a></li></ol>
     </div>

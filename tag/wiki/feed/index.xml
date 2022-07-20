@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/tag/wiki/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Tue, 19 Jul 2022 15:47:51 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 20 Jul 2022 12:12:16 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,127 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>無料のWikiソフトウェアを比較してみる</title>
+		<link>https://blog.pkom.ml/20220720111/</link>
+					<comments>https://blog.pkom.ml/20220720111/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 12:07:44 +0000</pubDate>
+				<category><![CDATA[DokuWiki]]></category>
+		<category><![CDATA[GROWI]]></category>
+		<category><![CDATA[MediaWiki]]></category>
+		<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[CMS]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Wiki]]></category>
+		<category><![CDATA[Wikiソフトウェア]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=111</guid>
+
+					<description><![CDATA[目次 はじめにWikiソフトウェアPukiWikiメリットデメリットDokuWikiメリットデメリットMediaWikiメリットデメリットGROWIメリットおわりに はじめに ここでのWikiソフトウェアは、誰でも編集で [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">Wikiソフトウェア</a><ol><li><a href="#toc3" tabindex="0">PukiWiki</a><ol><li><a href="#toc4" tabindex="0">メリット</a></li><li><a href="#toc5" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc6" tabindex="0">DokuWiki</a><ol><li><a href="#toc7" tabindex="0">メリット</a></li><li><a href="#toc8" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc9" tabindex="0">MediaWiki</a><ol><li><a href="#toc10" tabindex="0">メリット</a></li><li><a href="#toc11" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc12" tabindex="0">GROWI</a><ol><li><a href="#toc13" tabindex="0">メリット</a></li></ol></li></ol></li></ol></li><li><a href="#toc14" tabindex="0">おわりに</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">はじめに</span></h2>
+<p>ここでのWikiソフトウェアは、誰でも編集できるWebサイトということを指します。<br />
+あくまで私の意見ですので、鵜呑みにせず・・<br />
+今回は無料のWikiソフトウェアを比較しようと思います。</p>
+<h3><span id="toc2">Wikiソフトウェア</span></h3>
+<h4><span id="toc3">PukiWiki</span></h4>
+<p>ところどころで使われている日本産のWikiソフトウェア<br />
+掲示板、バグトラッキングシステム、メモ、ブログとしても使えたり。<br />
+wikiwiki.jpやatwiki.jpのベースだったり。<br />
+一時期、開発が止まっていたものの、今でもメンテナンスされ続けています。</p>
+<p>言語: PHP<br />
+開発: PukiWiki Development Team<br />
+誕生: 2001年<br />
+ライセンス: GPLv2+</p>
+<a rel="noopener" href="https://pukiwiki.osdn.jp/" title="FrontPage - PukiWiki-official" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpukiwiki.osdn.jp%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">FrontPage - PukiWiki-official</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://pukiwiki.osdn.jp/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">pukiwiki.osdn.jp</div></div></div></div></a>
+<h5><span id="toc4">メリット</span></h5>
+<p>データベース不要<br />
+簡単に設置可能<br />
+ページの管理が簡単<br />
+プラグインが豊富<br />
+機能は比較的多い</p>
+<h5><span id="toc5">デメリット</span></h5>
+<p>アカウント管理機能がない(プラグインを使えば可能)<br />
+デザインが古臭い(スキンを使えば可能)<br />
+WYSIWYG編集未対応(プラグインを使えば可能)</p>
+<h4><span id="toc6">DokuWiki</span></h4>
+<p>こちらもPukiWikiと同様、データベース不要というのが特徴的ですね。<br />
+大量のプラグインもあります。<br />
+ドキュメント管理には向いています。</p>
+<p>言語: PHP<br />
+開発: Andreas Gohr<br />
+誕生: 2004年<br />
+ライセンス: GPLv2</p>
+<a rel="noopener" href="https://www.dokuwiki.org/" title="dokuwiki [DokuWiki]" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.dokuwiki.org%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">dokuwiki [DokuWiki]</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.dokuwiki.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.dokuwiki.org</div></div></div></div></a>
+<h5><span id="toc7">メリット</span></h5>
+<p>データベース不要<br />
+アカウント管理機能<br />
+ファイルの管理が直接DokuWikiでできる<br />
+多言語対応<br />
+スパム対策機能</p>
+<h5><span id="toc8">デメリット</span></h5>
+<p>日本人の利用者はあまりいない<br />
+Markdown未対応(プラグインを使えば可能)<br />
+WYSIWYG編集未対応(プラグインを使えば可能)</p>
+<h4><span id="toc9">MediaWiki</span></h4>
+<p>あのWikipediaで使われているソフトウェアですね。<br />
+デザインも綺麗で見慣れています。<br />
+ただ、直感で操作できる訳ではないでしょうね、</p>
+<p>言語: PHP<br />
+開発: Wikimedia Foundation Inc.<br />
+誕生: 2001年<br />
+ライセンス: GPL</p>
+<a rel="noopener" href="https://www.mediawiki.org/" title="MediaWiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/baa5aa3d42a4f5cea6bcba78108be849.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">MediaWiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.mediawiki.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.mediawiki.org</div></div></div></div></a>
+<h5><span id="toc10">メリット</span></h5>
+<p>アカウント管理機能<br />
+多言語対応<br />
+スパム対策機能<br />
+とても多機能<br />
+WYSIWYG編集</p>
+<h5><span id="toc11">デメリット</span></h5>
+<p>処理が重たい<br />
+Markdown未対応(プラグインを使えば可能)<br />
+管理が大変</p>
+<h4><span id="toc12">GROWI</span></h4>
+<p>Crowiをベースとしたウィキソフトウェア。<br />
+Markdownが使える。<br />
+クラウドサービスも行っているようだ。</p>
+<a rel="noopener" href="https://growi.org/" title="OSS開発wikiツールのGROWI | 快適な情報共有を、全ての人へ" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/c73cfccf0479301e9b71a134bb42458c.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">OSS開発wikiツールのGROWI | 快適な情報共有を、全ての人へ</div><div class="blogcard-snippet external-blogcard-snippet">GROWIはWESEEKが開発を行い、MITライセンスで公開しているオープンソースソフトウェアです。 dockerへのインストールやオンプレ対応も可能です。 開発を手伝っていただけるコントリビューター、開発してみたいインターン生も募集しています。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://growi.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">growi.org</div></div></div></div></a>
+<p>言語: JavaScript (Node.js)<br />
+開発: 株式会社WESEEK<br />
+誕生: 2017年<br />
+ライセンス: MIT</p>
+<h5><span id="toc13">メリット</span></h5>
+<p>Markdown<br />
+グループ・アカウント管理機能<br />
+編集機能が多い<br />
+UML記述機能<br />
+管理が簡単<br />
+デメリット<br />
+プラグインが少ない<br />
+少し重たい</p>
+<h2><span id="toc14">おわりに</span></h2>
+<p>私はやっぱりPukiWikiが好みです。<br />
+プラグイン開発も楽しいですし、管理もしやすい。<br />
+何よりナビバーの操作性が高い点ですね。<br />
+もちろんMediaWikiやGrowiなどもいいんですけどね。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220720111/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【無料Wikiレンタルサービス】WikiChree.COMの紹介</title>
 		<link>https://blog.pkom.ml/2022072068/</link>
 					<comments>https://blog.pkom.ml/2022072068/#respond</comments>
@@ -52,7 +173,7 @@
 是非使って見てください。<br />
 <a href="https://wikichree.com/">https://wikichree.com/</a></p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">特徴</a><ol><li><a href="#toc2" tabindex="0">その1. PukiWiki</a></li><li><a href="#toc3" tabindex="0">その2. カスタマイズ性</a></li><li><a href="#toc4" tabindex="0">その3. WISYWIGエディタ</a></li><li><a href="#toc5" tabindex="0">その4. ユーザー管理</a></li><li><a href="#toc6" tabindex="0">その5. Discord</a></li></ol></li><li><a href="#toc7" tabindex="0">短所</a><ol><li><a href="#toc8" tabindex="0">スキンが少ない</a></li><li><a href="#toc9" tabindex="0">広告</a></li><li><a href="#toc10" tabindex="0">利用者が少ない</a></li></ol></li><li><a href="#toc11" tabindex="0">結果</a></li></ol>
     </div>

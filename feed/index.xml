@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Wed, 20 Jul 2022 05:33:41 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 20 Jul 2022 12:12:16 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,7 +28,251 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>【Minecraft】Fabricの軽量化MOD「Sodium」とSodiumアドオン等</title>
+		<title>【Minecraft】VoxelMap非公式Fabric版 1.18〜1.19の配布先</title>
+		<link>https://blog.pkom.ml/20220720115/</link>
+					<comments>https://blog.pkom.ml/20220720115/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 12:11:40 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=115</guid>
+
+					<description><![CDATA[有志の方が以下のdiscordサーバーでVoxelMapを非公式でメンテナンスしてくださってました。 Refresh-MC Fabric/Spigot: https://discord.gg/GCKZ9Kgqny]]></description>
+										<content:encoded><![CDATA[<p>有志の方が以下のdiscordサーバーでVoxelMapを非公式でメンテナンスしてくださってました。</p>
+<p>Refresh-MC Fabric/Spigot: <a href="https://discord.gg/GCKZ9Kgqny">https://discord.gg/GCKZ9Kgqny</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220720115/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>無料のWikiソフトウェアを比較してみる</title>
+		<link>https://blog.pkom.ml/20220720111/</link>
+					<comments>https://blog.pkom.ml/20220720111/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 12:07:44 +0000</pubDate>
+				<category><![CDATA[DokuWiki]]></category>
+		<category><![CDATA[GROWI]]></category>
+		<category><![CDATA[MediaWiki]]></category>
+		<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[CMS]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Wiki]]></category>
+		<category><![CDATA[Wikiソフトウェア]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=111</guid>
+
+					<description><![CDATA[はじめに ここでのWikiソフトウェアは、誰でも編集できるWebサイトということを指します。 あくまで私の意見ですので、鵜呑みにせず・・ 今回は無料のWikiソフトウェアを比較しようと思います。 Wikiソフトウェア P [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>はじめに</h2>
+<p>ここでのWikiソフトウェアは、誰でも編集できるWebサイトということを指します。<br />
+あくまで私の意見ですので、鵜呑みにせず・・<br />
+今回は無料のWikiソフトウェアを比較しようと思います。</p>
+<h3>Wikiソフトウェア</h3>
+<h4>PukiWiki</h4>
+<p>ところどころで使われている日本産のWikiソフトウェア<br />
+掲示板、バグトラッキングシステム、メモ、ブログとしても使えたり。<br />
+wikiwiki.jpやatwiki.jpのベースだったり。<br />
+一時期、開発が止まっていたものの、今でもメンテナンスされ続けています。</p>
+<p>言語: PHP<br />
+開発: PukiWiki Development Team<br />
+誕生: 2001年<br />
+ライセンス: GPLv2+</p>
+<a rel="noopener" href="https://pukiwiki.osdn.jp/" title="FrontPage - PukiWiki-official" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpukiwiki.osdn.jp%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">FrontPage - PukiWiki-official</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://pukiwiki.osdn.jp/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">pukiwiki.osdn.jp</div></div></div></div></a>
+<h5>メリット</h5>
+<p>データベース不要<br />
+簡単に設置可能<br />
+ページの管理が簡単<br />
+プラグインが豊富<br />
+機能は比較的多い</p>
+<h5>デメリット</h5>
+<p>アカウント管理機能がない(プラグインを使えば可能)<br />
+デザインが古臭い(スキンを使えば可能)<br />
+WYSIWYG編集未対応(プラグインを使えば可能)</p>
+<h4>DokuWiki</h4>
+<p>こちらもPukiWikiと同様、データベース不要というのが特徴的ですね。<br />
+大量のプラグインもあります。<br />
+ドキュメント管理には向いています。</p>
+<p>言語: PHP<br />
+開発: Andreas Gohr<br />
+誕生: 2004年<br />
+ライセンス: GPLv2</p>
+<a rel="noopener" href="https://www.dokuwiki.org/" title="dokuwiki [DokuWiki]" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.dokuwiki.org%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">dokuwiki [DokuWiki]</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.dokuwiki.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.dokuwiki.org</div></div></div></div></a>
+<h5>メリット</h5>
+<p>データベース不要<br />
+アカウント管理機能<br />
+ファイルの管理が直接DokuWikiでできる<br />
+多言語対応<br />
+スパム対策機能</p>
+<h5>デメリット</h5>
+<p>日本人の利用者はあまりいない<br />
+Markdown未対応(プラグインを使えば可能)<br />
+WYSIWYG編集未対応(プラグインを使えば可能)</p>
+<h4>MediaWiki</h4>
+<p>あのWikipediaで使われているソフトウェアですね。<br />
+デザインも綺麗で見慣れています。<br />
+ただ、直感で操作できる訳ではないでしょうね、</p>
+<p>言語: PHP<br />
+開発: Wikimedia Foundation Inc.<br />
+誕生: 2001年<br />
+ライセンス: GPL</p>
+<a rel="noopener" href="https://www.mediawiki.org/" title="MediaWiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/baa5aa3d42a4f5cea6bcba78108be849.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">MediaWiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.mediawiki.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.mediawiki.org</div></div></div></div></a>
+<h5>メリット</h5>
+<p>アカウント管理機能<br />
+多言語対応<br />
+スパム対策機能<br />
+とても多機能<br />
+WYSIWYG編集</p>
+<h5>デメリット</h5>
+<p>処理が重たい<br />
+Markdown未対応(プラグインを使えば可能)<br />
+管理が大変</p>
+<h4>GROWI</h4>
+<p>Crowiをベースとしたウィキソフトウェア。<br />
+Markdownが使える。<br />
+クラウドサービスも行っているようだ。</p>
+<a rel="noopener" href="https://growi.org/" title="OSS開発wikiツールのGROWI | 快適な情報共有を、全ての人へ" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/c73cfccf0479301e9b71a134bb42458c.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">OSS開発wikiツールのGROWI | 快適な情報共有を、全ての人へ</div><div class="blogcard-snippet external-blogcard-snippet">GROWIはWESEEKが開発を行い、MITライセンスで公開しているオープンソースソフトウェアです。 dockerへのインストールやオンプレ対応も可能です。 開発を手伝っていただけるコントリビューター、開発してみたいインターン生も募集しています。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://growi.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">growi.org</div></div></div></div></a>
+<p>言語: JavaScript (Node.js)<br />
+開発: 株式会社WESEEK<br />
+誕生: 2017年<br />
+ライセンス: MIT</p>
+<h5>メリット</h5>
+<p>Markdown<br />
+グループ・アカウント管理機能<br />
+編集機能が多い<br />
+UML記述機能<br />
+管理が簡単<br />
+デメリット<br />
+プラグインが少ない<br />
+少し重たい</p>
+<h2>おわりに</h2>
+<p>私はやっぱりPukiWikiが好みです。<br />
+プラグイン開発も楽しいですし、管理もしやすい。<br />
+何よりナビバーの操作性が高い点ですね。<br />
+もちろんMediaWikiやGrowiなどもいいんですけどね。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220720111/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【PukiWiki】PukiWikiにGUI編集プラグインEasyEditを導入する</title>
+		<link>https://blog.pkom.ml/20220720104/</link>
+					<comments>https://blog.pkom.ml/20220720104/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 12:01:41 +0000</pubDate>
+				<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[GUI編集]]></category>
+		<category><![CDATA[PukiWikiプラグイン]]></category>
+		<category><![CDATA[WYSIWIG]]></category>
+		<category><![CDATA[自作プラグイン]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=104</guid>
+
+					<description><![CDATA[この記事を書いた頃より2年前ぐらい、PukiWiki Plus!のリポジトリに入っていたguieditを修正してeasyeditをつくってみました。 ただ、当時は私の技術もあまりなかったためにバグも酷く、ページのレイアウ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>この記事を書いた頃より2年前ぐらい、PukiWiki Plus!のリポジトリに入っていたguieditを修正してeasyeditをつくってみました。<br />
+ただ、当時は私の技術もあまりなかったためにバグも酷く、ページのレイアウトが崩れてしまうことがありました。<br />
+はいふんさんがPHP8へ対応させてくださいました。<br />
+ただ、2022年現在もう一度修正してみたら、ほぼきちんと動作するようになりました。</p>
+<p>そして、この方がKCFinderと一緒に使ってくださっているみたいなので本体に組み込んでみました。<br />
+<a href="https://uura.site/pukiwiki-wysiwyg/">https://uura.site/pukiwiki-wysiwyg/</a></p>
+<p>私が管理しているWikiChree.COMにEasyEditを配置してますので試してもらって構いません。<br />
+<a href="https://wikichree.com/TrialWiki/?cmd=easyedit&amp;page=SandBox/2">https://wikichree.com/TrialWiki/?cmd=easyedit&amp;page=SandBox/2</a></p>
+<p>EasyEditの詳細は以下のリンクで確認してください。<br />
+<a href="https://pkom.ml/?%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php">https://pkom.ml/?%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php</a></p>
+<h3 id="動作環境">動作環境</h3>
+<ul>
+<li>PukiWiki 1.5.4</li>
+<li>PHP8.0.1</li>
+</ul>
+<h3 id="前提条件">前提条件</h3>
+<ul>
+<li>PukiWiki 1.5系</li>
+<li>PHP7～PHP8.x</li>
+</ul>
+<p>もしかしたら1.4系、PHP4, 5でも動くかもしれませんが、その時はコメントで伝えてくださるとありがたいです^^</p>
+<h3 id="導入">導入</h3>
+<h4 id="1-ダウンロード設置">1. ダウンロード＆設置</h4>
+<a rel="noopener" href="https://pukiwiki.osdn.jp/?%E8%87%AA%E4%BD%9C%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php" title="&#33258;&#20316;&#12503;&#12521;&#12464;&#12452;&#12531;/easyedit.inc.php - PukiWiki-official" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpukiwiki.osdn.jp%2F%3F%25E8%2587%25AA%25E4%25BD%259C%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%2Feasyedit.inc.php?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">&#33258;&#20316;&#12503;&#12521;&#12464;&#12452;&#12531;/easyedit.inc.php - PukiWiki-official</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://pukiwiki.osdn.jp/?%E8%87%AA%E4%BD%9C%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">pukiwiki.osdn.jp</div></div></div></div></a>
+<p>1. 上記のURLからeasyeditのzipファイルをダウンロードする</p>
+<p>2. easyedit, image, pluginのフォルダをPukiWikiのルート(pukiwiki.ini.phpが入っているフォルダ)へ放り込み</p>
+<h4 id="2-ナビゲーションバーのリンク追加-方法">2. ナビゲーションバーのリンク追加 (方法①)</h4>
+<p>こちらの方法は1つのPHPファイルを修正するだけなのでお手軽ですね。</p>
+<pre>&lt;?php global $vars;echo '&lt;a href="./?cmd=easyedit&amp;page='.$vars['page'].'"&gt;編集(<a class="keyword" href="http://d.hatena.ne.jp/keyword/GUI">GUI</a>)&lt;/a&gt;'; ?&gt; |</pre>
+<p><strong>skin/pukiwiki.skin.php</strong>の「&lt;?php _navigator(&#8216;edit&#8217;) ?&gt; |」の行の次に上記のコードを追加してください。</p>
+<h4 id="3-ナビゲーションバーのリンク追加-方法">3. ナビゲーションバーのリンク追加 (方法②)</h4>
+<pre>&lt;?php echo '&lt;a href="' . $script . '?cmd=easyedit&amp;page=' . $r_page . '"&gt;' . $lang['easyedit'] . '&lt;/a&gt;' ?&gt; |</pre>
+<p>1. <strong>skin/pukiwiki.skin.php</strong>の「&lt;?php _navigator(&#8216;edit&#8217;) ?&gt; |」の行の次に上記のコードを追加してください。</p>
+<p>2. ja.lng.phpの「$_LANG[&#8216;skin&#8217;][&#8216;edit&#8217;]      = &#8216;編集&#8217;;」の次に以下のコードを追記してください。<br />
+文字列については好みに変更しても構いません。</p>
+<pre>$_LANG['skin']['easyedit']   = '編集(GUI)';</pre>
+<h3 id="カスタマイズ">カスタマイズ</h3>
+<h4 id="見出し編集">見出し編集</h4>
+<p>v1.11から見出し編集を追加してみました。<br />
+seceditが入っている場合は、seceditを自動で利用できるようにしています。</p>
+<p>以下の関数(コード)をclass Heading&#8230;に追加します。</p>
+<pre>// 見出し編集
+function wrap($string, $tag, $param = '', $canomit = TRUE) {
+  if (exist_plugin("easyedit"))
+    $string = plugin_easyedit_heading_add_link($string, $this-&gt;id);
+  if (exist_plugin("secedit")) {
+    $secedit = plugin_secedit_wrap($string, $tag, $param, $this-&gt;id);
+    return $secedit ? $secedit : parent::wrap($string, $tag, $param, $canomit);
+    }
+  return parent::wrap($string, $tag, $param, $canomit);
+}</pre>
+<h4 id="KCFinder削除">KCFinder削除</h4>
+<p>KCFinderを使わない場合は、easyedit内のkcfinderをフォルダごと削除した方がいいと思います。<br />
+そして<strong>plugin/easyedit.inc.phpの</strong>定数<strong>PLUGIN_EASYEDIT_ENABLE_KCFINDER</strong>をFALSEにします。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220720104/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】Simple BC Pipesでパイプを使う</title>
+		<link>https://blog.pkom.ml/2022072099/</link>
+					<comments>https://blog.pkom.ml/2022072099/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 11:44:00 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[Simple Pipes]]></category>
+		<category><![CDATA[工業化MOD]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=99</guid>
+
+					<description><![CDATA[FabricにもBCのパイプはあるんですよ！！ということを伝えたいだけの記事なので適当です。 Simple Pipesの作者はBCの開発者であるAlexill氏ですね。 https://www.curseforge.co/ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricにもBCのパイプはあるんですよ！！ということを伝えたいだけの記事なので適当です。<br />
+Simple Pipesの作者はBCの開発者であるAlexill氏ですね。<br />
+<a href="https://www.curseforge.com/minecraft/mc-mods/simplepipes">https://www.curseforge.com/minecraft/mc-mods/simplepipes</a></p>
+<p><img loading="lazy" class="alignnone wp-image-100 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3.png" alt="" width="854" height="480" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3.png 854w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-300x169.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-768x432.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-120x68.png 120w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-160x90.png 160w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-320x180.png 320w" sizes="(max-width: 854px) 100vw, 854px" /></p>
+<p>木パイプをクリックしてコンテナと接続することができます。<br />
+木エンジンがないのでレッドストーン信号を与えると木パイプから抽出できます。</p>
+<p><img loading="lazy" class="alignnone wp-image-101 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1024x555.png" alt="" width="1024" height="555" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1024x555.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-300x163.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-768x416.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1536x832.png 1536w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072099/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】Fabricの軽量化MOD「Sodium」、「Canvas Renderer」、「OptiFine」と代替MOD、Sodiumアドオンの紹介</title>
 		<link>https://blog.pkom.ml/2022072081/</link>
 					<comments>https://blog.pkom.ml/2022072081/#respond</comments>
 		
@@ -107,6 +351,9 @@
 
 
 <h2>Sodiumアドオン、代替MOD</h2>
+<h3>Sodium拡張MOD「Sodium Extra」</h3>
+<p>Sodiumにはないオプションを追加するSodiumアドオンです。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/sodium-extra" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fsodium-extra?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/sodium-extra" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
 
 
 
@@ -155,6 +402,9 @@
 
 
 <a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/lithium" title="https://www.curseforge.com/minecraft/mc-mods/lithium" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Flithium?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/lithium</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/lithium" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h3>ビデオ設定を元に戻すMOD「Better Sodium Video Settings Button」</h3>
+<p>Sodiumは元のビデオ設定の画面を変更します。<br />このMODを導入すると元のビデオ設定の画面に戻し、ビデオ設定にSodiumへの設定のボタンを追加します。<br />僕はこれ結構便利だなあと思ってます。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fbetter-sodium-video-settings-button?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
 
 
 
@@ -203,6 +453,12 @@
 
 
 <a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/continuity" title="https://www.curseforge.com/minecraft/mc-mods/continuity" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fcontinuity?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/continuity</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/continuity" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h3>メモリを解放するMOD「MemoryLeakFix」</h3>
+<p>メモリの使用量を削減するMODです。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/memoryleakfix" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fmemoryleakfix?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/memoryleakfix" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h3>Sodiumの設定画面を改善するMOD「Reese&#8217;s Sodium Options」</h3>
+<p><img loading="lazy" class="alignnone size-medium" src="https://i.imgur.com/I63nZVG.png" width="1920" height="1017" /></p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Freeses-sodium-options?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/2022072081/feed/</wfw:commentRss>
@@ -632,138 +888,6 @@ Indiumを入れるだけでは動作しないのでSodiumと一緒に入れま�
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/2022071840/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【Minecraft】 FabricとForgeどっちがいいのだろうか？</title>
-		<link>https://blog.pkom.ml/2022071836/</link>
-					<comments>https://blog.pkom.ml/2022071836/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Mon, 18 Jul 2022 06:59:02 +0000</pubDate>
-				<category><![CDATA[Minecraft]]></category>
-		<category><![CDATA[ゲーム]]></category>
-		<category><![CDATA[FabricMC]]></category>
-		<category><![CDATA[MinecraftForge]]></category>
-		<category><![CDATA[MOD]]></category>
-		<category><![CDATA[ModLoader]]></category>
-		<category><![CDATA[MOD開発]]></category>
-		<category><![CDATA[QuiltMC]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=36</guid>
-
-					<description><![CDATA[MinecraftのModLoaderには主に二種あります。 他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。 どっちがいいのか 何があろうと使うべきMod [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>MinecraftのModLoaderには主に二種あります。<br />
-他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。</p>
-<h2>どっちがいいのか</h2>
-<p>何があろうと使うべきModLoaderはFabricです！<br />
-といいつつ、バージョンによってはForgeが良かったりもします。<br />
-Fabricはスナップショットまで対応しており、あり得ないスピードで最新バージョンに対応することが多いです。1.19が出た1,2日後ぐらいには既にFabric Loaderがリリースされていたと思います。<br />
-Minecraft 1.14ぐらいから出てきたもので昔はMODが少なかったのですが、最近ではAE2や黄昏の森、REIといったJEIの派生版など多く見かけることがあります。目玉はSodiumといったとても凄い軽量化MODです。<br />
-特に理由がなければ1.16～のバージョンでMODを遊ぶ方はFabricをオススメしたいと私は思います。<br />
-あなたが使いたいMODがどちらかのMODにあるとするならそのLoaderを使った方がいいでしょう。<br />
-1.12.2に関しては実はLegacy Fabricといったものがあり、Fabricも存在するようなのですが、これはオススメできません。<br />
-素直にForgeを使った方が無難でしょう。</p>
-<h3>FabricMC</h3>
-<p>Fabricは1.14のスナップショットからリリースされており、2019年辺りから出てきました。(発表されたのは2018年12月辺り)<br />
-自分も軽くてMOD開発がしやすかったので好んではいましたが、当時はMODが少なくて不便でした。<br />
-この頃は、Architectury APIというMCForge/FabricMC/QuiltMCのクロスプラットフォーム開発ができるAPIも出たお陰か多くのMODがFabricにも対応してきてることがあります。<br />
-更にエラーも出にくくインストールが簡単にできるという点が素晴らしいです。<br />
-このModLoaderは物凄くリリースするのが早く、上の項目で説明した通り、最新バージョンがリリースされた1,2日後ぐらいには既にFabric Loaderがリリースされていたことがあります。<br />
-開発者にとってはMODが作りやすいと好評です。<br />
-MOD開発にはFabric独自のYarnといったマッピングを利用しています。</p>
-<h3>MinecraftForge</h3>
-<p>Forgeは昔からあるModLoaderで、多くのMODはこのMinecraftForgeにあります。<br />
-特に1.7.10、1.12.2で遊ぶ方はこれじゃないとMODで遊べないと思います（笑）<br />
-Forgeではマッピング直ではなく独自のAPIが結構あります。<br />
-インストールはそこそこ簡単だと思います。<br />
-FabricではMixinというものがありますが、Forgeにも対応しつつあります。<br />
-MOD開発では昔からあるMCPというマッピングを利用します。<br />
-いつもはリリースが遅いForgeなのですが、1.19では数日後にベータ版が公開されていました。</p>
-<h3>QuiltMC</h3>
-<p>Fabricをベースとしたまた新たなModLoaderです。<br />
-1.16.5から現れたと思われます。<br />
-現在のところはFabricのMODと互換性があります。<br />
-私はこれでMOD開発をしたことがないのでわかりません。<br />
-申し訳ないです&#8230;</p>
-<h2>最後に</h2>
-<p>どのModLoaderもいいですよね～<br />
-ちなみに私はFabric派です。</p>
-<h2>出典</h2>
-<ul>
-<li style="list-style-type: none;">
-<ul>
-<li><a href="https://fabricmc.net/2018/12/10/announcement.html">https://fabricmc.net/2018/12/10/announcement.html</a></li>
-<li><a href="https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric">https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric</a></li>
-<li><a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.html">https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.html</a></li>
-<li><a href="https://quiltmc.org/">https://quiltmc.org/</a></li>
-</ul>
-</li>
-</ul>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/2022071836/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>C++でWindowsのGUIアプリケーションを作成する</title>
-		<link>https://blog.pkom.ml/2022071820/</link>
-					<comments>https://blog.pkom.ml/2022071820/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Mon, 18 Jul 2022 05:42:01 +0000</pubDate>
-				<category><![CDATA[C++]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[.NET Framework]]></category>
-		<category><![CDATA[GUIアプリケーション]]></category>
-		<category><![CDATA[Windows]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=20</guid>
-
-					<description><![CDATA[WinAPIを使わずに.NET Frameworkでアプリケーションを作成します。 他人が見てもわかるように書いてるつもりですが、一応自分用にメモ書きということで、 注意 Visual Studio 2019 .NET  [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p id="410eaa92-a133-4d22-b2ff-f7988c13015c" data-pm-slice="0 0 []">WinAPIを使わずに.NET Frameworkでアプリケーションを作成します。<br />
-他人が見てもわかるように書いてるつもりですが、一応自分用にメモ書きということで、</p>
-<h2 id="8fe951df-0fab-4576-8d24-e5f3f37f309b">注意</h2>
-<ul id="2c7807c9-b42b-4f2b-b63d-d5974d4383be">
-<li>Visual Studio 2019</li>
-<li>.NET Framework</li>
-<li>C++</li>
-<li>Windows</li>
-</ul>
-<h2 id="8a4bda6c-489f-4e68-bc11-8ee45b87e415">手順</h2>
-<ul id="e47c2395-d37e-4153-82b1-447ee515ab49">
-<li>「CLR 空のプロジェクト (.NET Framework)」→「プロジェクト」→「新しい項目の追加」→「Windows フォーム」→ソリューションを閉じる→ソリューションを再度開く→5番目の手順のコードをコピペして編集</li>
-</ul>
-<h3 id="3a29dad9-d228-41aa-8497-944beefb2f33">1.「CLR 空のプロジェクト (.NET Framework)」選択</h3>
-<h3 id="6a114117-dc48-4388-85d0-68d4c097d92d">2. 項目を入力して作成ボタンをクリック</h3>
-<h3 id="cfc3a432-3c9d-42f1-a284-7a1e808aca1a">3. 「新しい項目の追加(W)&#8230;」を選択して「Windows フォーム」を追加する</h3>
-<h3 id="8e48d3c6-ffe6-4885-a91c-fcdc77ce6d52">4. 一旦ソリューション閉じて再度開く</h3>
-<h3 id="1bc58e6a-97da-4760-8b68-1a0d2d99cdde">5. MyForm.cppを編集</h3>
-<p id="8954704a-9513-48f4-b281-e74b47bf4b02">MyForm.cppを以下のように編集した。</p>
-<pre id="7bd1471d-e228-4ee8-b14d-2d2d6415d72a"><code>#include "MyForm.h"
-
-using namespace Project1;
-
-int WinMain() {
-	MyForm^ form = gcnew MyForm();
-	form-&gt;ShowDialog();
-	return 0;
-}</code></pre>
-<p id="3cab28ea-3e51-486c-9a9b-92f91813d79b">これをしないとエントリーポイントの関数が存在しないため、起動できない。<br />
-using namespaceのProject1については使うネームスペース名(プロジェクト名)にすること。<br />
-WinMain()ではなくmain()で関数定義するとコンソールが表示されるので注意</p>
-<h2 id="2382b1c6-1ee5-4f0e-9ad0-1124c29c273f">終わりに</h2>
-<p id="1bc8cade-71e7-43bf-9ea3-b1aca97a1598">これで楽しくC++でGUIがつくれちゃいます！！</p>
-<h2 id="07fc5dd3-2965-40c7-a277-cf4dd94a3ce5">参考サイト</h2>
-<ul id="0a35c340-725a-4fa1-b159-805c8683b06c">
-<li><a href="https://syokado.exblog.jp/29398798/">https://syokado.exblog.jp/29398798/</a></li>
-<li><a href="http://y-okamoto-psy1949.la.coocan.jp/VCpp/OnVSCpp2019/">http://y-okamoto-psy1949.la.coocan.jp/VCpp/OnVSCpp2019/</a></li>
-</ul>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/2022071820/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

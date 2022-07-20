@@ -9,10 +9,10 @@
 
 <channel>
 	<title>ソフトウェア  |  ぴたぶろぐ</title>
-	<atom:link href="/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Tue, 19 Jul 2022 15:47:51 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 20 Jul 2022 12:12:16 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,16 +21,215 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>ソフトウェア  |  ぴたぶろぐ</title>
-	<link></link>
+	<link>https://blog.pkom.ml</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
+		<title>無料のWikiソフトウェアを比較してみる</title>
+		<link>https://blog.pkom.ml/20220720111/</link>
+					<comments>https://blog.pkom.ml/20220720111/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 12:07:44 +0000</pubDate>
+				<category><![CDATA[DokuWiki]]></category>
+		<category><![CDATA[GROWI]]></category>
+		<category><![CDATA[MediaWiki]]></category>
+		<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[CMS]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Wiki]]></category>
+		<category><![CDATA[Wikiソフトウェア]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=111</guid>
+
+					<description><![CDATA[目次 はじめにWikiソフトウェアPukiWikiメリットデメリットDokuWikiメリットデメリットMediaWikiメリットデメリットGROWIメリットおわりに はじめに ここでのWikiソフトウェアは、誰でも編集で [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">Wikiソフトウェア</a><ol><li><a href="#toc3" tabindex="0">PukiWiki</a><ol><li><a href="#toc4" tabindex="0">メリット</a></li><li><a href="#toc5" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc6" tabindex="0">DokuWiki</a><ol><li><a href="#toc7" tabindex="0">メリット</a></li><li><a href="#toc8" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc9" tabindex="0">MediaWiki</a><ol><li><a href="#toc10" tabindex="0">メリット</a></li><li><a href="#toc11" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc12" tabindex="0">GROWI</a><ol><li><a href="#toc13" tabindex="0">メリット</a></li></ol></li></ol></li></ol></li><li><a href="#toc14" tabindex="0">おわりに</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">はじめに</span></h2>
+<p>ここでのWikiソフトウェアは、誰でも編集できるWebサイトということを指します。<br />
+あくまで私の意見ですので、鵜呑みにせず・・<br />
+今回は無料のWikiソフトウェアを比較しようと思います。</p>
+<h3><span id="toc2">Wikiソフトウェア</span></h3>
+<h4><span id="toc3">PukiWiki</span></h4>
+<p>ところどころで使われている日本産のWikiソフトウェア<br />
+掲示板、バグトラッキングシステム、メモ、ブログとしても使えたり。<br />
+wikiwiki.jpやatwiki.jpのベースだったり。<br />
+一時期、開発が止まっていたものの、今でもメンテナンスされ続けています。</p>
+<p>言語: PHP<br />
+開発: PukiWiki Development Team<br />
+誕生: 2001年<br />
+ライセンス: GPLv2+</p>
+<a rel="noopener" href="https://pukiwiki.osdn.jp/" title="FrontPage - PukiWiki-official" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpukiwiki.osdn.jp%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">FrontPage - PukiWiki-official</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://pukiwiki.osdn.jp/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">pukiwiki.osdn.jp</div></div></div></div></a>
+<h5><span id="toc4">メリット</span></h5>
+<p>データベース不要<br />
+簡単に設置可能<br />
+ページの管理が簡単<br />
+プラグインが豊富<br />
+機能は比較的多い</p>
+<h5><span id="toc5">デメリット</span></h5>
+<p>アカウント管理機能がない(プラグインを使えば可能)<br />
+デザインが古臭い(スキンを使えば可能)<br />
+WYSIWYG編集未対応(プラグインを使えば可能)</p>
+<h4><span id="toc6">DokuWiki</span></h4>
+<p>こちらもPukiWikiと同様、データベース不要というのが特徴的ですね。<br />
+大量のプラグインもあります。<br />
+ドキュメント管理には向いています。</p>
+<p>言語: PHP<br />
+開発: Andreas Gohr<br />
+誕生: 2004年<br />
+ライセンス: GPLv2</p>
+<a rel="noopener" href="https://www.dokuwiki.org/" title="dokuwiki [DokuWiki]" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.dokuwiki.org%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">dokuwiki [DokuWiki]</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.dokuwiki.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.dokuwiki.org</div></div></div></div></a>
+<h5><span id="toc7">メリット</span></h5>
+<p>データベース不要<br />
+アカウント管理機能<br />
+ファイルの管理が直接DokuWikiでできる<br />
+多言語対応<br />
+スパム対策機能</p>
+<h5><span id="toc8">デメリット</span></h5>
+<p>日本人の利用者はあまりいない<br />
+Markdown未対応(プラグインを使えば可能)<br />
+WYSIWYG編集未対応(プラグインを使えば可能)</p>
+<h4><span id="toc9">MediaWiki</span></h4>
+<p>あのWikipediaで使われているソフトウェアですね。<br />
+デザインも綺麗で見慣れています。<br />
+ただ、直感で操作できる訳ではないでしょうね、</p>
+<p>言語: PHP<br />
+開発: Wikimedia Foundation Inc.<br />
+誕生: 2001年<br />
+ライセンス: GPL</p>
+<a rel="noopener" href="https://www.mediawiki.org/" title="MediaWiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/baa5aa3d42a4f5cea6bcba78108be849.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">MediaWiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.mediawiki.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.mediawiki.org</div></div></div></div></a>
+<h5><span id="toc10">メリット</span></h5>
+<p>アカウント管理機能<br />
+多言語対応<br />
+スパム対策機能<br />
+とても多機能<br />
+WYSIWYG編集</p>
+<h5><span id="toc11">デメリット</span></h5>
+<p>処理が重たい<br />
+Markdown未対応(プラグインを使えば可能)<br />
+管理が大変</p>
+<h4><span id="toc12">GROWI</span></h4>
+<p>Crowiをベースとしたウィキソフトウェア。<br />
+Markdownが使える。<br />
+クラウドサービスも行っているようだ。</p>
+<a rel="noopener" href="https://growi.org/" title="OSS開発wikiツールのGROWI | 快適な情報共有を、全ての人へ" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/c73cfccf0479301e9b71a134bb42458c.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">OSS開発wikiツールのGROWI | 快適な情報共有を、全ての人へ</div><div class="blogcard-snippet external-blogcard-snippet">GROWIはWESEEKが開発を行い、MITライセンスで公開しているオープンソースソフトウェアです。 dockerへのインストールやオンプレ対応も可能です。 開発を手伝っていただけるコントリビューター、開発してみたいインターン生も募集しています。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://growi.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">growi.org</div></div></div></div></a>
+<p>言語: JavaScript (Node.js)<br />
+開発: 株式会社WESEEK<br />
+誕生: 2017年<br />
+ライセンス: MIT</p>
+<h5><span id="toc13">メリット</span></h5>
+<p>Markdown<br />
+グループ・アカウント管理機能<br />
+編集機能が多い<br />
+UML記述機能<br />
+管理が簡単<br />
+デメリット<br />
+プラグインが少ない<br />
+少し重たい</p>
+<h2><span id="toc14">おわりに</span></h2>
+<p>私はやっぱりPukiWikiが好みです。<br />
+プラグイン開発も楽しいですし、管理もしやすい。<br />
+何よりナビバーの操作性が高い点ですね。<br />
+もちろんMediaWikiやGrowiなどもいいんですけどね。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220720111/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【PukiWiki】PukiWikiにGUI編集プラグインEasyEditを導入する</title>
+		<link>https://blog.pkom.ml/20220720104/</link>
+					<comments>https://blog.pkom.ml/20220720104/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 12:01:41 +0000</pubDate>
+				<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[GUI編集]]></category>
+		<category><![CDATA[PukiWikiプラグイン]]></category>
+		<category><![CDATA[WYSIWIG]]></category>
+		<category><![CDATA[自作プラグイン]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=104</guid>
+
+					<description><![CDATA[この記事を書いた頃より2年前ぐらい、PukiWiki Plus!のリポジトリに入っていたguieditを修正してeasyeditをつくってみました。 ただ、当時は私の技術もあまりなかったためにバグも酷く、ページのレイアウ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>この記事を書いた頃より2年前ぐらい、PukiWiki Plus!のリポジトリに入っていたguieditを修正してeasyeditをつくってみました。<br />
+ただ、当時は私の技術もあまりなかったためにバグも酷く、ページのレイアウトが崩れてしまうことがありました。<br />
+はいふんさんがPHP8へ対応させてくださいました。<br />
+ただ、2022年現在もう一度修正してみたら、ほぼきちんと動作するようになりました。</p>
+<p>そして、この方がKCFinderと一緒に使ってくださっているみたいなので本体に組み込んでみました。<br />
+<a href="https://uura.site/pukiwiki-wysiwyg/">https://uura.site/pukiwiki-wysiwyg/</a></p>
+<p>私が管理しているWikiChree.COMにEasyEditを配置してますので試してもらって構いません。<br />
+<a href="https://wikichree.com/TrialWiki/?cmd=easyedit&amp;page=SandBox/2">https://wikichree.com/TrialWiki/?cmd=easyedit&amp;page=SandBox/2</a></p>
+<p>EasyEditの詳細は以下のリンクで確認してください。<br />
+<a href="https://pkom.ml/?%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php">https://pkom.ml/?%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php</a></p>
+<h3 id="動作環境"><span id="toc1">動作環境</span></h3>
+<ul>
+<li>PukiWiki 1.5.4</li>
+<li>PHP8.0.1</li>
+</ul>
+<h3 id="前提条件"><span id="toc2">前提条件</span></h3>
+<ul>
+<li>PukiWiki 1.5系</li>
+<li>PHP7～PHP8.x</li>
+</ul>
+<p>もしかしたら1.4系、PHP4, 5でも動くかもしれませんが、その時はコメントで伝えてくださるとありがたいです^^</p>
+<h3 id="導入"><span id="toc3">導入</span></h3>
+<h4 id="1-ダウンロード設置"><span id="toc4">1. ダウンロード＆設置</span></h4>
+<a rel="noopener" href="https://pukiwiki.osdn.jp/?%E8%87%AA%E4%BD%9C%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php" title="&#33258;&#20316;&#12503;&#12521;&#12464;&#12452;&#12531;/easyedit.inc.php - PukiWiki-official" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpukiwiki.osdn.jp%2F%3F%25E8%2587%25AA%25E4%25BD%259C%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%2Feasyedit.inc.php?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">&#33258;&#20316;&#12503;&#12521;&#12464;&#12452;&#12531;/easyedit.inc.php - PukiWiki-official</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://pukiwiki.osdn.jp/?%E8%87%AA%E4%BD%9C%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">pukiwiki.osdn.jp</div></div></div></div></a>
+<p>1. 上記のURLからeasyeditのzipファイルをダウンロードする</p>
+<p>2. easyedit, image, pluginのフォルダをPukiWikiのルート(pukiwiki.ini.phpが入っているフォルダ)へ放り込み</p>
+<h4 id="2-ナビゲーションバーのリンク追加-方法"><span id="toc5">2. ナビゲーションバーのリンク追加 (方法①)</span></h4>
+<p>こちらの方法は1つのPHPファイルを修正するだけなのでお手軽ですね。</p>
+<pre>&lt;?php global $vars;echo '&lt;a href="./?cmd=easyedit&amp;page='.$vars['page'].'"&gt;編集(<a class="keyword" href="http://d.hatena.ne.jp/keyword/GUI">GUI</a>)&lt;/a&gt;'; ?&gt; |</pre>
+<p><strong>skin/pukiwiki.skin.php</strong>の「&lt;?php _navigator(&#8216;edit&#8217;) ?&gt; |」の行の次に上記のコードを追加してください。</p>
+<h4 id="3-ナビゲーションバーのリンク追加-方法"><span id="toc6">3. ナビゲーションバーのリンク追加 (方法②)</span></h4>
+<pre>&lt;?php echo '&lt;a href="' . $script . '?cmd=easyedit&amp;page=' . $r_page . '"&gt;' . $lang['easyedit'] . '&lt;/a&gt;' ?&gt; |</pre>
+<p>1. <strong>skin/pukiwiki.skin.php</strong>の「&lt;?php _navigator(&#8216;edit&#8217;) ?&gt; |」の行の次に上記のコードを追加してください。</p>
+<p>2. ja.lng.phpの「$_LANG[&#8216;skin&#8217;][&#8216;edit&#8217;]      = &#8216;編集&#8217;;」の次に以下のコードを追記してください。<br />
+文字列については好みに変更しても構いません。</p>
+<pre>$_LANG['skin']['easyedit']   = '編集(GUI)';</pre>
+<h3 id="カスタマイズ"><span id="toc7">カスタマイズ</span></h3>
+<h4 id="見出し編集"><span id="toc8">見出し編集</span></h4>
+<p>v1.11から見出し編集を追加してみました。<br />
+seceditが入っている場合は、seceditを自動で利用できるようにしています。</p>
+<p>以下の関数(コード)をclass Heading&#8230;に追加します。</p>
+<pre>// 見出し編集
+function wrap($string, $tag, $param = '', $canomit = TRUE) {
+  if (exist_plugin("easyedit"))
+    $string = plugin_easyedit_heading_add_link($string, $this-&gt;id);
+  if (exist_plugin("secedit")) {
+    $secedit = plugin_secedit_wrap($string, $tag, $param, $this-&gt;id);
+    return $secedit ? $secedit : parent::wrap($string, $tag, $param, $canomit);
+    }
+  return parent::wrap($string, $tag, $param, $canomit);
+}</pre>
+<h4 id="KCFinder削除"><span id="toc9">KCFinder削除</span></h4>
+<p>KCFinderを使わない場合は、easyedit内のkcfinderをフォルダごと削除した方がいいと思います。<br />
+そして<strong>plugin/easyedit.inc.phpの</strong>定数<strong>PLUGIN_EASYEDIT_ENABLE_KCFINDER</strong>をFALSEにします。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220720104/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【無料Wikiレンタルサービス】WikiChree.COMの紹介</title>
-		<link>/2022072068/</link>
-					<comments>/2022072068/#respond</comments>
+		<link>https://blog.pkom.ml/2022072068/</link>
+					<comments>https://blog.pkom.ml/2022072068/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Tue, 19 Jul 2022 15:46:33 +0000</pubDate>
@@ -45,14 +244,14 @@
 		<category><![CDATA[Wiki]]></category>
 		<category><![CDATA[レンタルサービス]]></category>
 		<category><![CDATA[自作サービス]]></category>
-		<guid isPermaLink="false">/?p=68</guid>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=68</guid>
 
 					<description><![CDATA[わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。 是非使って見てください。 https://wikichree.com/ 目次 特徴その1. PukiWikiその2. カスタマイズ性その3. WIS [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。<br />
 是非使って見てください。<br />
 <a href="https://wikichree.com/">https://wikichree.com/</a></p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">特徴</a><ol><li><a href="#toc2" tabindex="0">その1. PukiWiki</a></li><li><a href="#toc3" tabindex="0">その2. カスタマイズ性</a></li><li><a href="#toc4" tabindex="0">その3. WISYWIGエディタ</a></li><li><a href="#toc5" tabindex="0">その4. ユーザー管理</a></li><li><a href="#toc6" tabindex="0">その5. Discord</a></li></ol></li><li><a href="#toc7" tabindex="0">短所</a><ol><li><a href="#toc8" tabindex="0">スキンが少ない</a></li><li><a href="#toc9" tabindex="0">広告</a></li><li><a href="#toc10" tabindex="0">利用者が少ない</a></li></ol></li><li><a href="#toc11" tabindex="0">結果</a></li></ol>
     </div>
@@ -95,15 +294,15 @@
 <p>レンタルサービスの中ではAtWikiとWIKIWIKI.JPは最強！（ry</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022072068/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pkom.ml/2022072068/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【WordPress】GitHub Pagesを利用して静的化したWordPressをほぼ無料で公開する</title>
-		<link>/2022072049/</link>
-					<comments>/2022072049/#respond</comments>
+		<link>https://blog.pkom.ml/2022072049/</link>
+					<comments>https://blog.pkom.ml/2022072049/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Tue, 19 Jul 2022 15:20:12 +0000</pubDate>
@@ -120,7 +319,7 @@
 		<category><![CDATA[通信技術]]></category>
 		<category><![CDATA[GitHub Pages]]></category>
 		<category><![CDATA[WordPressプラグイン]]></category>
-		<guid isPermaLink="false">/?p=49</guid>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=49</guid>
 
 					<description><![CDATA[元々、このブログ以前のブログはレンタルサーバーで動かしていました。 あまり更新しなかったため、必要性はないと感じ、新たにWordPressをローカルへ導入し、静的化した後、GitHub Pagesで運用することを考えまし [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>元々、このブログ以前のブログはレンタルサーバーで動かしていました。<br />
@@ -130,7 +329,7 @@
 Cocoonテーマを利用しているので少し変わるかもしれません。<br />
 私はWordPressに関しては完全に素人なので申し訳ないです。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">手順</a></li><li><a href="#toc2" tabindex="0">Simply Staticの導入</a></li><li><a href="#toc3" tabindex="0">GitHub の設定</a></li><li><a href="#toc4" tabindex="0">おまけ</a><ol><li><a href="#toc5" tabindex="0">検索を機能させる</a></li><li><a href="#toc6" tabindex="0">コメントを機能させる</a></li></ol></li></ol>
     </div>
@@ -165,24 +364,24 @@ git push</pre>
 </li>
 </ol>
 <h2><span id="toc2">Simply Staticの導入</span></h2>
-<p><img loading="lazy" class="alignnone wp-image-51 size-large" src="/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png" alt="" width="1024" height="254" srcset="/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png 1024w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-300x75.png 300w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-768x191.png 768w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1536x382.png 1536w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530.png 1723w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p><img loading="lazy" class="alignnone wp-image-51 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png" alt="" width="1024" height="254" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-300x75.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-768x191.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1536x382.png 1536w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530.png 1723w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <p>※インストール後、必ず<span class="bold red">有効化</span>しておきましょう。</p>
 <p>こちらのプラグインは静的化するためのプラグインです。<br />
 静的化とは静的ファイルであるHTML、JS、CSS、画像など簡単に言えばアクセスしてもソースが変化しないクライアントサイドのファイルに変換することを指します。<br />
 つまり、PHPが生成したソースをHTMLファイルとして保存します。</p>
 <p>適当にSimply Static用のフォルダをつくります。つくったフォルダをsimplystatic/とします。</p>
 <p>正しく導入できれば、WordPressの管理メニューのサイドバーにSimply Staticという項目が追加されていると思います。<br />
-<img loading="lazy" class="alignnone size-medium wp-image-52" src="/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png" alt="" width="300" height="147" srcset="/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png 300w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147.png 334w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<img loading="lazy" class="alignnone size-medium wp-image-52" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png" alt="" width="300" height="147" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147.png 334w" sizes="(max-width: 300px) 100vw, 300px" /></p>
 <p>まず、設定を選びましょう。<br />
-<img loading="lazy" class="alignnone wp-image-54 size-large" src="/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png" alt="" width="1024" height="726" srcset="/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png 1024w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-300x213.png 300w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-768x544.png 768w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507.png 1205w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<img loading="lazy" class="alignnone wp-image-54 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png" alt="" width="1024" height="726" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-300x213.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-768x544.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507.png 1205w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <p>配送方法はローカルディレクトリに設定してあげましょう。<br />
 ローカルディレクトリの入力欄にはつくったフォルダであるsimplystatic/(任意)のパスを指定します。</p>
-<p><img loading="lazy" class="alignnone wp-image-53 size-large" src="/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png" alt="" width="1024" height="258" srcset="/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png 1024w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-300x76.png 300w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-768x194.png 768w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402.png 1244w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p><img loading="lazy" class="alignnone wp-image-53 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png" alt="" width="1024" height="258" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-300x76.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-768x194.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402.png 1244w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <p>生成を選択し、<span class="bold blue">静的ファイルを生成する</span>をクリックしましょう。</p>
 <p>待機すると生成されると思います。<br />
 クソ長いですよね、、、一分もかかりました&#8230;(笑)</p>
 <h2><span id="toc3">GitHub の設定</span></h2>
-<p><img loading="lazy" class="alignnone wp-image-55 size-large" src="/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png" alt="" width="1024" height="700" srcset="/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png 1024w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-300x205.png 300w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-768x525.png 768w, /wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111.png 1141w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p><img loading="lazy" class="alignnone wp-image-55 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png" alt="" width="1024" height="700" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-300x205.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-768x525.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111.png 1141w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <p>GitHubのリポジトリでSettingsを開き、Pagesの項目に移動してください。<br />
 Sourceのブランチをmainで選択してSaveをクリックしましょう。<br />
 これで完了なのですが、Custom domainも私は設定しました。</p>
@@ -370,7 +569,7 @@ if ( is_comment_allow() || have_comments() ): ?&gt;
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022072049/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pkom.ml/2022072049/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
