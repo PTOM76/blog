@@ -10,10 +10,10 @@ var $htmlSetted = false;
 function apprStr($str) {
 	$str = $str.toLowerCase();
 	$str = $str.replace(/(<([^>]+)>)/gi, '');
-	$str = $str.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function($m) {
+	$str = $str.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function ($m) {
 		return String.fromCharCode($m.charCodeAt(0) - 0xFEE0);
 	});
-	$str = $str.replace(/[\u30a1-\u30f6]/g, function($m) {
+	$str = $str.replace(/[\u30a1-\u30f6]/g, function ($m) {
 		return String.fromCharCode($m.charCodeAt(0) - 0x60);
 	});
 	return $str;
@@ -27,8 +27,7 @@ function getMeta($metaProperty) {
 		}
 	}
 }
-
-if ($params.has('s') ) {
+if ($params.has('s')) {
 	var $s = $params.get('s');
 	var $isFound = false;
 	var $html = `
@@ -40,75 +39,80 @@ if ($params.has('s') ) {
 		<div id="list" class="list ect-entry-card front-page-type-index">
 	`;
 	document.title = $client_lang['search_result'].replace('$1', $s) + "  |  " + getMeta("og:site_name");
-	
 	var $categories_name = new Array();
+	var $thumbs;
+
+	var $proc2 = function() {
+		fetch('./wp-json/wp/v2/posts/index.json').then(($response) => $response.json()).then(($data) => {
+			if ($data !== undefined) $data.forEach($item => {
+				if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
+					$isFound = true;
+					var $categories_html;
+					$item.categories.forEach($id => {
+						$categories_html += '<span class="entry-category">' + $categories_name[$id] + '</span>';
+					});
+					var $post_date = $item.date.replaceAll('-', '.');
+					$post_date = $post_date.substr(0, $post_date.indexOf('T'));
+					var $thumb_url = "/wp-content/themes/cocoon-master/images/no-image-320.png";
+					if ($thumbs[$id] !== undefined) {
+						$thumb_url = $thumbs[$id];
+					}
+					$html += `
+				<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}">
+					<article>
+						<figure class="entry-card-thumb card-thumb e-card-thumb">
+							<img src="${$thumb_url}" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" />						<span class="cat-label cat-label-13">Minecraft</span>		</figure><!-- /.entry-card-thumb -->
+						<div class="entry-card-content card-content e-card-content">
+							<h2 class="entry-card-title card-title e-card-title" itemprop="headline">${$item.title.rendered}</h2>
+							<div class="entry-card-snippet card-snippet e-card-snippet">
+								${$item.excerpt.rendered}
+							</div>
+							<div class="entry-card-meta card-meta e-card-meta">
+								<div class="entry-card-info e-card-info">
+									<span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> ${$post_date}</span>
+								</div>
+								<div class="entry-card-categorys">${$categories_html}</div>
+							</div>
+						</div><!-- /.entry-card-content -->
+					</article>
+				</a>
+			`;
+				}
+			});
+			if ($isFound === false) {
+				$html += `
+			<div class="posts-not-found">
+				<h2>NOT FOUND</h2>
+				<p>${$client_lang['posts_not_found']}</p>
+			</div>
+		`;
+			}
+			$html += `</div><!-- .list -->`;
+			document.addEventListener("DOMContentLoaded", function () {
+				if ($htmlSetted === false) {
+					document.getElementById("main").innerHTML = $html;
+					$htmlSetted = true;
+				}
+			});
+			window.addEventListener("load", function () {
+				if ($htmlSetted === false) {
+					document.getElementById("main").innerHTML = $html;
+					$htmlSetted = true;
+				}
+			});
+		});
+	}
+
 	fetch('./static-json/categories/index.json') // /index.json
-	.then(($response) => $response.json())
-	.then(($data) => {
-		if ($data !== undefined)
-			Object.keys($data).forEach($key => {
+		.then(($response) => $response.json()).then(($data) => {
+			if ($data !== undefined) Object.keys($data).forEach($key => {
 				var $item = $data[$key];
 				$categories_name[$item.term_id] = $item.name;
 			});
-	fetch('./wp-json/wp/v2/posts/index.json')
-	.then(($response) => $response.json())
-	.then(($data) => {
-		if ($data !== undefined)
-		$data.forEach($item => {
-			if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
-				$isFound = true;
-				
-				var $categories_html;
-				$item.categories.forEach($id => {
-					$categories_html += '<span class="entry-category">' + $categories_name[$id] + '</span>';
-				});
-				var $post_date = $item.date.replace('-', '.');
-				$post_date = $post_date.substr(0, $post_date.indexOf('T'));
-				
-				$html += `
-					<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}">
-						<article>
-							<figure class="entry-card-thumb card-thumb e-card-thumb">
-								<img data-src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image lozad lozad-img" loading="lazy" width="320" height="180" /><noscript><img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" /></noscript>            <span class="cat-label cat-label-13">Minecraft</span>    </figure><!-- /.entry-card-thumb -->
-							<div class="entry-card-content card-content e-card-content">
-								<h2 class="entry-card-title card-title e-card-title" itemprop="headline">${$item.title.rendered}</h2>
-								<div class="entry-card-snippet card-snippet e-card-snippet">
-									${$item.excerpt.rendered}
-								</div>
-								<div class="entry-card-meta card-meta e-card-meta">
-									<div class="entry-card-info e-card-info">
-										<span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> ${$post_date}</span>
-									</div>
-									<div class="entry-card-categorys">${$categories_html}</div>
-								</div>
-							</div><!-- /.entry-card-content -->
-						</article>
-					</a>
-				`;
-			}
+			fetch('./static-json/thumbs/index.json') // /index.json
+			.then(($response) => $response.json()).then(($data) => {
+				$thumbs = $data;
+				$proc2();
+			});
 		});
-		if ($isFound === false) {
-			$html += `
-				<div class="posts-not-found">
-					<h2>NOT FOUND</h2>
-					<p>${$client_lang['posts_not_found']}</p>
-				</div>
-			`;
-		}
-		$html += `</div><!-- .list -->`;
-		document.addEventListener("DOMContentLoaded", function() {
-			if ($htmlSetted === false) {
-				document.getElementById("main").innerHTML = $html;
-				$htmlSetted = true;
-			}
-		});
-		window.addEventListener("load", function() {
-			if ($htmlSetted === false) {
-				document.getElementById("main").innerHTML = $html;
-				$htmlSetted = true;
-			}
-		});
-	});
-	});
 }
-
