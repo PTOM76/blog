@@ -55,15 +55,15 @@ if ($params.has('s')) {
 						});
 						var $post_date = $item.date.replaceAll('-', '.');
 						$post_date = $post_date.substr(0, $post_date.indexOf('T'));
-						var $thumb_url = "/wp-content/themes/cocoon-master/images/no-image-320.png";
+						var $thumb_img = '<img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" />';
 						if ($thumbs[$item.id] !== undefined) {
-							$thumb_url = $thumbs[$item.id];
+							$thumb_img = $thumbs[$item.id];
 						}
 						$html += `
 					<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}">
 						<article>
 							<figure class="entry-card-thumb card-thumb e-card-thumb">
-								<img src="${$thumb_url}" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" />						<span class="cat-label cat-label-13">Minecraft</span>		</figure><!-- /.entry-card-thumb -->
+								${$thumb_img}						<span class="cat-label cat-label-13">Minecraft</span>		</figure><!-- /.entry-card-thumb -->
 							<div class="entry-card-content card-content e-card-content">
 								<h2 class="entry-card-title card-title e-card-title" itemprop="headline">${$item.title.rendered}</h2>
 								<div class="entry-card-snippet card-snippet e-card-snippet">
