@@ -9,8 +9,8 @@
 
 <channel>
 	<title>MinecraftForge  |  ぴたぶろぐ</title>
-	<atom:link href="/tag/minecraftforge/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://blog.pkom.ml/tag/minecraftforge/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Mon, 18 Jul 2022 13:58:24 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,16 +21,16 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>MinecraftForge  |  ぴたぶろぐ</title>
-	<link></link>
+	<link>https://blog.pkom.ml</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>【Minecraft】 FabricとForgeどっちがいいのだろうか？</title>
-		<link>/2022071836/</link>
-					<comments>/2022071836/#respond</comments>
+		<link>https://blog.pkom.ml/2022071836/</link>
+					<comments>https://blog.pkom.ml/2022071836/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 06:59:02 +0000</pubDate>
@@ -42,7 +42,7 @@
 		<category><![CDATA[ModLoader]]></category>
 		<category><![CDATA[MOD開発]]></category>
 		<category><![CDATA[QuiltMC]]></category>
-		<guid isPermaLink="false">/?p=36</guid>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=36</guid>
 
 					<description><![CDATA[MinecraftのModLoaderには主に二種あります。 他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。 目次 どっちがいいのかFabricMCMin [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>MinecraftのModLoaderには主に二種あります。<br />
@@ -101,7 +101,7 @@ MOD開発では昔からあるMCPというマッピングを利用します。<b
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022071836/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pkom.ml/2022071836/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

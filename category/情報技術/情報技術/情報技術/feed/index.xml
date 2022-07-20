@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>情報技術  |  ぴたぶろぐ</title>
+	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Tue, 19 Jul 2022 15:47:51 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<title>情報技術  |  ぴたぶろぐ</title>
+	<link>https://blog.pkom.ml</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>【無料Wikiレンタルサービス】WikiChree.COMの紹介</title>
+		<link>https://blog.pkom.ml/2022072068/</link>
+					<comments>https://blog.pkom.ml/2022072068/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:46:33 +0000</pubDate>
+				<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[サーバー]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Webサービス]]></category>
+		<category><![CDATA[Wiki]]></category>
+		<category><![CDATA[レンタルサービス]]></category>
+		<category><![CDATA[自作サービス]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=68</guid>
+
+					<description><![CDATA[わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。 是非使って見てください。 https://wikichree.com/ 目次 特徴その1. PukiWikiその2. カスタマイズ性その3. WIS [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。<br />
+是非使って見てください。<br />
+<a href="https://wikichree.com/">https://wikichree.com/</a></p>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">特徴</a><ol><li><a href="#toc2" tabindex="0">その1. PukiWiki</a></li><li><a href="#toc3" tabindex="0">その2. カスタマイズ性</a></li><li><a href="#toc4" tabindex="0">その3. WISYWIGエディタ</a></li><li><a href="#toc5" tabindex="0">その4. ユーザー管理</a></li><li><a href="#toc6" tabindex="0">その5. Discord</a></li></ol></li><li><a href="#toc7" tabindex="0">短所</a><ol><li><a href="#toc8" tabindex="0">スキンが少ない</a></li><li><a href="#toc9" tabindex="0">広告</a></li><li><a href="#toc10" tabindex="0">利用者が少ない</a></li></ol></li><li><a href="#toc11" tabindex="0">結果</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">特徴</span></h2>
+<h3><span id="toc2">その1. PukiWiki</span></h3>
+<p>PukiWikiは日本産のOSSのCMSであり、主にWikiとして使うことが多いです。<br />
+使い方によってはブログサイトとして使っている方もいますし様々です。</p>
+<h3><span id="toc3">その2. カスタマイズ性</span></h3>
+<p>他のレンタルサービスとは違い、プラグインを自分で選択していれることができます。<br />
+ただし、セキュリティの観点からプラグインのアップロードはできません。要望なら募集しています。</p>
+<h3><span id="toc4">その3. WISYWIGエディタ</span></h3>
+<p>EasyEditといった私がつくったWISYWIGプラグインを導入することができます。</p>
+<h3><span id="toc5">その4. ユーザー管理</span></h3>
+<p>編集ユーザーを追加したりすることができます。<br />
+ただし、アカウント登録は今のところありません。</p>
+<h3><span id="toc6">その5. Discord</span></h3>
+<p>Discordにて質問する場所があります。</p>
+<h2><span id="toc7">短所</span></h2>
+<h3><span id="toc8">スキンが少ない</span></h3>
+<p>現在のところ以下のスキンのみとなっています。<br />
+<input id="skin_default" checked="checked" name="change_skin" type="radio" value="default" /><label for="skin_default">デフォルトスキン</label><br />
+<input id="skin_orangebox" name="change_skin" type="radio" value="orangebox" /><label for="skin_orangebox">OrangeBox</label><br />
+<input id="skin_bluebox" name="change_skin" type="radio" value="bluebox" /><label for="skin_bluebox">BlueBox</label><br />
+<input id="skin_modernskin" name="change_skin" type="radio" value="modernskin" /><label for="skin_modernskin">ModernSkin</label><br />
+<input id="skin_modernskin_black" name="change_skin" type="radio" value="modernskin_black" /><label for="skin_modernskin_black">ModernSkin (Black ver)</label><br />
+<input id="skin_monobook" name="change_skin" type="radio" value="monobook" /><label for="skin_monobook">Monobook for PukiWiki</label><br />
+<input id="skin_tffacwiki" name="change_skin" type="radio" value="tffacwiki" /><label for="skin_tffacwiki">TFFAC Wikiのスキン</label><br />
+<input id="skin_street" name="change_skin" type="radio" value="street" /><label for="skin_street">Street</label><br />
+<input id="skin_bootstrap" name="change_skin" type="radio" value="bootstrap" /><label for="skin_bootstrap">Bootstrap</label><br />
+<input id="skin_plus" name="change_skin" type="radio" value="plus" /><label for="skin_plus">PukiWiki Plus!風スキン</label><br />
+<input id="skin_ika" name="change_skin" type="radio" value="ika" /><label for="skin_ika">イカスキン</label></p>
+<h3><span id="toc9">広告</span></h3>
+<p>広告鬱陶しいですよね。収益が単に欲しい理由もありますが、維持費を回収したいのもあります。<br />
+正直言うと維持費を回収するほど収益がありませんｗ</p>
+<h3><span id="toc10">利用者が少ない</span></h3>
+<p>許して&#8230;ください&#8230;（笑）</p>
+<h2><span id="toc11">結果</span></h2>
+<p>レンタルサービスの中ではAtWikiとWIKIWIKI.JPは最強！（ry</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072068/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>JitPackでJava 8以外を使う方法</title>
+		<link>https://blog.pkom.ml/2022072064/</link>
+					<comments>https://blog.pkom.ml/2022072064/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:30:51 +0000</pubDate>
+				<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[JitPack]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=64</guid>
+
+					<description><![CDATA[FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlでjdkを指定したところ、一時期動いたのだが、また動作しなくなったため、以下のよ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlで<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>を指定したところ、一時期動いたのだが、また動作しなくなったため、以下のようにbefore_install:をymlに追加すると解決する。<br />
+jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A3%A5%EC%A5%AF%A5%C8">ディレクト</a>リ直下に配置する。</p>
+<p><strong>jitpack.yml</strong></p>
+<pre>before_install:
+  - <a class="keyword" href="http://d.hatena.ne.jp/keyword/wget">wget</a> <a href="https://github.com/sormuras/bach/raw/master/install-jdk.sh">https://github.com/sormuras/bach/raw/master/install-jdk.sh</a>
+  - source ./install-<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>.sh --feature 17 --license <a class="keyword" href="http://d.hatena.ne.jp/keyword/GPL">GPL</a>
+<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>:
+  - openjdk17</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072064/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【FabricMC】Illegal character ((CTRL-CHAR, code 31)):&#8230;の対処法</title>
+		<link>https://blog.pkom.ml/2022072062/</link>
+					<comments>https://blog.pkom.ml/2022072062/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:29:27 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<category><![CDATA[MOD開発]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=62</guid>
+
+					<description><![CDATA[FabricでMOD開発していると以下のようなエラーが出てしまいました。 Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricでMOD開発していると以下のようなエラーが出てしまいました。</p>
+<pre>Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens 333333333333333
+    at [Source: UNKNOWN; line: 1, column: 2]</pre>
+<h3>解決法</h3>
+<p>以下のコマンドを実行することにより解決しました。</p>
+<p>gradlew &#8211;refresh-dependencies</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072062/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【WordPress】GitHub Pagesを利用して静的化したWordPressをほぼ無料で公開する</title>
+		<link>https://blog.pkom.ml/2022072049/</link>
+					<comments>https://blog.pkom.ml/2022072049/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:20:12 +0000</pubDate>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[サーバー]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[GitHub Pages]]></category>
+		<category><![CDATA[WordPressプラグイン]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=49</guid>
+
+					<description><![CDATA[元々、このブログ以前のブログはレンタルサーバーで動かしていました。 あまり更新しなかったため、必要性はないと感じ、新たにWordPressをローカルへ導入し、静的化した後、GitHub Pagesで運用することを考えまし [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>元々、このブログ以前のブログはレンタルサーバーで動かしていました。<br />
+あまり更新しなかったため、必要性はないと感じ、新たにWordPressをローカルへ導入し、静的化した後、GitHub Pagesで運用することを考えました。<br />
+この２日間かけて、ようやく少し使えるような形になりました。<br />
+今回は、WordPressプラグインである、Simply Staticを使って静的化したいと思います。<br />
+Cocoonテーマを利用しているので少し変わるかもしれません。<br />
+私はWordPressに関しては完全に素人なので申し訳ないです。</p>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">手順</a></li><li><a href="#toc2" tabindex="0">Simply Staticの導入</a></li><li><a href="#toc3" tabindex="0">GitHub の設定</a></li><li><a href="#toc4" tabindex="0">おまけ</a><ol><li><a href="#toc5" tabindex="0">検索を機能させる</a></li><li><a href="#toc6" tabindex="0">コメントを機能させる</a></li></ol></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">手順</span></h2>
+<p>簡単にまとめておきます。</p>
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li>Simply Staticを導入する</li>
+<li>適当にSimply Static用のフォルダをつくる (つくったフォルダをsimplystatic/とします)</li>
+<li>WPの管理メニューのSimply Staticのページから静的ファイルを生成する</li>
+<li>simplystatic/をGitリポジトリにする (simplystatic下で以下のコマンドを実行)
+<pre>git init
+git add *
+git commit -m "first"
+git remote add origin https://github.com/(ユーザー名)/(リポジトリ名).git
+git push origin main</pre>
+</li>
+<li><a href="https://www.lotusdigital.jp/b/web/wordpress%E9%9D%99%E7%9A%84%E5%8C%96%E3%81%AE%E3%81%9F%E3%82%81simply-static%E3%82%92%E4%BD%BF%E7%94%A8/">conv_for_simply.rb</a>という日本語フォルダを変換してくれるGemをsimplystatic/につくる</li>
+<li>WordPressのルートにbatファイル(push.bat)をつくる
+<pre>cd ./simplystatic/
+ruby conv_for_simply.rb
+git add *
+git commit -m "update"
+git push</pre>
+</li>
+<li>batファイルを実行する</li>
+<li>GitHub Pagesの設定をする</li>
+</ol>
+</li>
+</ol>
+<h2><span id="toc2">Simply Staticの導入</span></h2>
+<p><img loading="lazy" class="alignnone wp-image-51 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png" alt="" width="1024" height="254" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-300x75.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-768x191.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1536x382.png 1536w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530.png 1723w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>※インストール後、必ず<span class="bold red">有効化</span>しておきましょう。</p>
+<p>こちらのプラグインは静的化するためのプラグインです。<br />
+静的化とは静的ファイルであるHTML、JS、CSS、画像など簡単に言えばアクセスしてもソースが変化しないクライアントサイドのファイルに変換することを指します。<br />
+つまり、PHPが生成したソースをHTMLファイルとして保存します。</p>
+<p>適当にSimply Static用のフォルダをつくります。つくったフォルダをsimplystatic/とします。</p>
+<p>正しく導入できれば、WordPressの管理メニューのサイドバーにSimply Staticという項目が追加されていると思います。<br />
+<img loading="lazy" class="alignnone size-medium wp-image-52" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png" alt="" width="300" height="147" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147.png 334w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>まず、設定を選びましょう。<br />
+<img loading="lazy" class="alignnone wp-image-54 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png" alt="" width="1024" height="726" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-300x213.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-768x544.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507.png 1205w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>配送方法はローカルディレクトリに設定してあげましょう。<br />
+ローカルディレクトリの入力欄にはつくったフォルダであるsimplystatic/(任意)のパスを指定します。</p>
+<p><img loading="lazy" class="alignnone wp-image-53 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png" alt="" width="1024" height="258" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-300x76.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-768x194.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402.png 1244w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>生成を選択し、<span class="bold blue">静的ファイルを生成する</span>をクリックしましょう。</p>
+<p>待機すると生成されると思います。<br />
+クソ長いですよね、、、一分もかかりました&#8230;(笑)</p>
+<h2><span id="toc3">GitHub の設定</span></h2>
+<p><img loading="lazy" class="alignnone wp-image-55 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png" alt="" width="1024" height="700" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-300x205.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-768x525.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111.png 1141w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>GitHubのリポジトリでSettingsを開き、Pagesの項目に移動してください。<br />
+Sourceのブランチをmainで選択してSaveをクリックしましょう。<br />
+これで完了なのですが、Custom domainも私は設定しました。</p>
+<h2><span id="toc4">おまけ</span></h2>
+<h3><span id="toc5">検索を機能させる</span></h3>
+<p><strong><span class="marker-red">※こちらの検索機能に関しては完全に機能しているわけではありませんのでご了承ください</span></strong></p>
+<p>静的化したら検索機能が動作しないんですよ。まあ当たり前なことです。<br />
+検索機能はPHPでつくられており、サーバーサイドで動的に処理するものなのです。<br />
+つまり、クライアント側で処理できるようにインデックス化されたものも静的化しないとなりません。<br />
+WordPressにはRest APIがあります。<br />
+APIで生成されたjsonを静的化してしまえばよいという考えになりました。<br />
+めちゃくちゃなことしてますが、私はこうするしかないと思いました。<br />
+そのためのPHPスクリプトをここにおいておきます。<br />
+名前は適当ですが、なんでもいいです。</p>
+<ul>
+<li>push.php</li>
+</ul>
+<pre>&lt;?php
+define('URL', dirname((empty($_SERVER['HTTPS']) ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . "/");
+define('DIR', "simplystatic/");
+
+function save_url2static($path, $ext = 'json') {
+$src = file_get_contents(URL . $path);
+if (!file_exists(DIR . $path))
+mkdir(DIR . $path, 0777, true);
+$src = str_replace(str_replace('/', '\/', URL), '/', $src);
+file_put_contents(DIR . $path . "/index." . $ext, $src);
+}
+
+save_url2static("wp-json/wp/v2/posts");
+save_url2static("wp-json/wp/v2/pages");
+save_url2static("wp-json/wp/v2/media");
+save_url2static("wp-json/wp/v2/comments");
+save_url2static("wp-json/wp/v2/taxonomies");
+save_url2static("wp-json/wp/v2/taxonomies");
+save_url2static("static-json/categories");
+
+if (!file_exists(DIR . 'conv_for_simply.rb'))
+copy('conv_for_simply.rb', DIR . 'conv_for_simply.rb');
+copy('client.js', DIR . 'client.js');
+
+echo exec('push.bat') . '&lt;br /&gt;';
+echo "pushed!&lt;br /&gt;";
+exit;</pre>
+<ul>
+<li>client.js</li>
+</ul>
+<pre>var $client_lang = {
+search_result: "“$1” の検索結果",
+search_in_site: "サイト内を検索",
+posts_not_found: "投稿が見つかりませんでした。"
+};
+var $url = new URL(window.location.href);
+var $params = $url.searchParams;
+var $htmlSetted = false;
+
+function apprStr($str) {
+$str = $str.toLowerCase();
+$str = $str.replace(/(&lt;([^&gt;]+)&gt;)/gi, '');
+$str = $str.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function($m) {
+return String.fromCharCode($m.charCodeAt(0) - 0xFEE0);
+});
+$str = $str.replace(/[\u30a1-\u30f6]/g, function($m) {
+return String.fromCharCode($m.charCodeAt(0) - 0x60);
+});
+return $str;
+}
+
+function getMeta($metaProperty) {
+var $metas = document.getElementsByTagName('meta');
+for (let $j = 0; $j &lt; $metas.length; $j++) {
+if ($metas[$j].getAttribute('property') === $metaProperty) {
+return $metas[$j].getAttribute('content');
+}
+}
+}
+
+if ($params.has('s') ) {
+var $s = $params.get('s');
+var $isFound = false;
+var $html = `
+&lt;h1 id="archive-title" class="archive-title"&gt;&lt;span class="fa fa-search" aria-hidden="true"&gt;&lt;/span&gt;"${$s}"&lt;/h1&gt;
+&lt;form class="search-box input-box" method="get" action="/"&gt;
+&lt;input type="text" placeholder="${$client_lang['search_in_site']}" name="s" class="search-edit" aria-label="input" value="${$s}"&gt;
+&lt;button type="submit" class="search-submit" aria-label="button"&gt;&lt;span class="fa fa-search" aria-hidden="true"&gt;&lt;/span&gt;&lt;/button&gt;
+&lt;/form&gt;
+&lt;div id="list" class="list ect-entry-card front-page-type-index"&gt;
+`;
+document.title = $client_lang['search_result'].replace('$1', $s) + " | " + getMeta("og:site_name");
+
+var $categories_name = new Array();
+fetch('./static-json/categories/index.json') // /index.json
+.then(($response) =&gt; $response.json())
+.then(($data) =&gt; {
+if ($data !== undefined)
+Object.keys($data).forEach($key =&gt; {
+var $item = $data[$key];
+$categories_name[$item.term_id] = $item.name;
+});
+fetch('./wp-json/wp/v2/posts/index.json')
+.then(($response) =&gt; $response.json())
+.then(($data) =&gt; {
+if ($data !== undefined)
+$data.forEach($item =&gt; {
+if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
+$isFound = true;
+
+var $categories_html;
+$item.categories.forEach($id =&gt; {
+$categories_html += '&lt;span class="entry-category"&gt;' + $categories_name[$id] + '&lt;/span&gt;';
+});
+var $post_date = $item.date.replace('-', '.');
+$post_date = $post_date.substr(0, $post_date.indexOf('T'));
+
+$html += `
+&lt;a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}"&gt;
+&lt;article&gt;
+&lt;figure class="entry-card-thumb card-thumb e-card-thumb"&gt;
+&lt;img data-src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image lozad lozad-img" loading="lazy" width="320" height="180" /&gt;&lt;noscript&gt;&lt;img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" /&gt;&lt;/noscript&gt; &lt;span class="cat-label cat-label-13"&gt;Minecraft&lt;/span&gt; &lt;/figure&gt;&lt;!-- /.entry-card-thumb --&gt;
+&lt;div class="entry-card-content card-content e-card-content"&gt;
+&lt;h2 class="entry-card-title card-title e-card-title" itemprop="headline"&gt;${$item.title.rendered}&lt;/h2&gt;
+&lt;div class="entry-card-snippet card-snippet e-card-snippet"&gt;
+${$item.excerpt.rendered}
+&lt;/div&gt;
+&lt;div class="entry-card-meta card-meta e-card-meta"&gt;
+&lt;div class="entry-card-info e-card-info"&gt;
+&lt;span class="post-date"&gt;&lt;span class="fa fa-clock-o" aria-hidden="true"&gt;&lt;/span&gt; ${$post_date}&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="entry-card-categorys"&gt;${$categories_html}&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /.entry-card-content --&gt;
+&lt;/article&gt;
+&lt;/a&gt;
+`;
+}
+});
+if ($isFound === false) {
+$html += `
+&lt;div class="posts-not-found"&gt;
+&lt;h2&gt;NOT FOUND&lt;/h2&gt;
+&lt;p&gt;${$client_lang['posts_not_found']}&lt;/p&gt;
+&lt;/div&gt;
+`;
+}
+$html += `&lt;/div&gt;&lt;!-- .list --&gt;`;
+document.addEventListener("DOMContentLoaded", function() {
+if ($htmlSetted === false) {
+document.getElementById("main").innerHTML = $html;
+$htmlSetted = true;
+}
+});
+window.addEventListener("load", function() {
+if ($htmlSetted === false) {
+document.getElementById("main").innerHTML = $html;
+$htmlSetted = true;
+}
+});
+});
+});
+}
+</pre>
+<p>テーマのheader.phpの&lt;/head&gt;前に以下のコードを加える</p>
+<pre>&lt;script src="./client.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</pre>
+<h3><span id="toc6">コメントを機能させる</span></h3>
+<p>Utterancesというものを使い、GitHubのIssueをサイトに埋め込み、コメント欄として利用します。<br />
+<a href="https://utteranc.es/">https://utteranc.es/</a><br />
+テーマのcomments.phpを書き換えます。</p>
+<pre>&lt;?php //コメントエリア
+/**
+* Cocoon WordPress Theme
+* @author: yhira
+* @link: https://wp-cocoon.com/
+* @license: http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+*/
+
+if ( !defined( 'ABSPATH' ) ) exit;
+
+if ( is_comment_allow() || have_comments() ): ?&gt;
+&lt;div id="utteranc_comment"&gt;
+&lt;!-- comment area --&gt;
+<span class="bold red marker-red">ここにコード</span>
+&lt;/div&gt;
+&lt;?php endif ?&gt;</pre>
+<p>生成したコードを「ここにコード」に貼り付けましょう。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072049/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>C++でWindowsのGUIアプリケーションを作成する</title>
+		<link>https://blog.pkom.ml/2022071820/</link>
+					<comments>https://blog.pkom.ml/2022071820/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2022 05:42:01 +0000</pubDate>
+				<category><![CDATA[C++]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[.NET Framework]]></category>
+		<category><![CDATA[GUIアプリケーション]]></category>
+		<category><![CDATA[Windows]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=20</guid>
+
+					<description><![CDATA[WinAPIを使わずに.NET Frameworkでアプリケーションを作成します。 他人が見てもわかるように書いてるつもりですが、一応自分用にメモ書きということで、 目次 注意手順1.「CLR 空のプロジェクト (.NE [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p id="410eaa92-a133-4d22-b2ff-f7988c13015c" data-pm-slice="0 0 []">WinAPIを使わずに.NET Frameworkでアプリケーションを作成します。<br />
+他人が見てもわかるように書いてるつもりですが、一応自分用にメモ書きということで、</p>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">注意</a></li><li><a href="#toc2" tabindex="0">手順</a><ol><li><a href="#toc3" tabindex="0">1.「CLR 空のプロジェクト (.NET Framework)」選択</a></li><li><a href="#toc4" tabindex="0">2. 項目を入力して作成ボタンをクリック</a></li><li><a href="#toc5" tabindex="0">3. 「新しい項目の追加(W)&#8230;」を選択して「Windows フォーム」を追加する</a></li><li><a href="#toc6" tabindex="0">4. 一旦ソリューション閉じて再度開く</a></li><li><a href="#toc7" tabindex="0">5. MyForm.cppを編集</a></li></ol></li><li><a href="#toc8" tabindex="0">終わりに</a></li><li><a href="#toc9" tabindex="0">参考サイト</a></li></ol>
+    </div>
+  </div>
+
+<h2 id="8fe951df-0fab-4576-8d24-e5f3f37f309b"><span id="toc1">注意</span></h2>
+<ul id="2c7807c9-b42b-4f2b-b63d-d5974d4383be">
+<li>Visual Studio 2019</li>
+<li>.NET Framework</li>
+<li>C++</li>
+<li>Windows</li>
+</ul>
+<h2 id="8a4bda6c-489f-4e68-bc11-8ee45b87e415"><span id="toc2">手順</span></h2>
+<ul id="e47c2395-d37e-4153-82b1-447ee515ab49">
+<li>「CLR 空のプロジェクト (.NET Framework)」→「プロジェクト」→「新しい項目の追加」→「Windows フォーム」→ソリューションを閉じる→ソリューションを再度開く→5番目の手順のコードをコピペして編集</li>
+</ul>
+<h3 id="3a29dad9-d228-41aa-8497-944beefb2f33"><span id="toc3">1.「CLR 空のプロジェクト (.NET Framework)」選択</span></h3>
+<h3 id="6a114117-dc48-4388-85d0-68d4c097d92d"><span id="toc4">2. 項目を入力して作成ボタンをクリック</span></h3>
+<h3 id="cfc3a432-3c9d-42f1-a284-7a1e808aca1a"><span id="toc5">3. 「新しい項目の追加(W)&#8230;」を選択して「Windows フォーム」を追加する</span></h3>
+<h3 id="8e48d3c6-ffe6-4885-a91c-fcdc77ce6d52"><span id="toc6">4. 一旦ソリューション閉じて再度開く</span></h3>
+<h3 id="1bc58e6a-97da-4760-8b68-1a0d2d99cdde"><span id="toc7">5. MyForm.cppを編集</span></h3>
+<p id="8954704a-9513-48f4-b281-e74b47bf4b02">MyForm.cppを以下のように編集した。</p>
+<pre id="7bd1471d-e228-4ee8-b14d-2d2d6415d72a"><code>#include "MyForm.h"
+
+using namespace Project1;
+
+int WinMain() {
+	MyForm^ form = gcnew MyForm();
+	form-&gt;ShowDialog();
+	return 0;
+}</code></pre>
+<p id="3cab28ea-3e51-486c-9a9b-92f91813d79b">これをしないとエントリーポイントの関数が存在しないため、起動できない。<br />
+using namespaceのProject1については使うネームスペース名(プロジェクト名)にすること。<br />
+WinMain()ではなくmain()で関数定義するとコンソールが表示されるので注意</p>
+<h2 id="2382b1c6-1ee5-4f0e-9ad0-1124c29c273f"><span id="toc8">終わりに</span></h2>
+<p id="1bc8cade-71e7-43bf-9ea3-b1aca97a1598">これで楽しくC++でGUIがつくれちゃいます！！</p>
+<h2 id="07fc5dd3-2965-40c7-a277-cf4dd94a3ce5"><span id="toc9">参考サイト</span></h2>
+<ul id="0a35c340-725a-4fa1-b159-805c8683b06c">
+<li><a href="https://syokado.exblog.jp/29398798/">https://syokado.exblog.jp/29398798/</a></li>
+<li><a href="http://y-okamoto-psy1949.la.coocan.jp/VCpp/OnVSCpp2019/">http://y-okamoto-psy1949.la.coocan.jp/VCpp/OnVSCpp2019/</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022071820/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>MOD  |  ぴたぶろぐ</title>
-	<atom:link href="/tag/mod/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://blog.pkom.ml/tag/mod/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Wed, 20 Jul 2022 05:33:41 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,16 +21,16 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>MOD  |  ぴたぶろぐ</title>
-	<link></link>
+	<link>https://blog.pkom.ml</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>【Minecraft】Fabricの軽量化MOD「Sodium」とSodiumアドオン等</title>
-		<link>/2022072081/</link>
-					<comments>/2022072081/#respond</comments>
+		<link>https://blog.pkom.ml/2022072081/</link>
+					<comments>https://blog.pkom.ml/2022072081/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Wed, 20 Jul 2022 05:17:56 +0000</pubDate>
@@ -38,7 +38,7 @@
 		<category><![CDATA[ゲーム]]></category>
 		<category><![CDATA[FabricMC]]></category>
 		<category><![CDATA[MOD]]></category>
-		<guid isPermaLink="false">/?p=81</guid>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=81</guid>
 
 					<description><![CDATA[目次 軽量化MODSodiumCanvas RendererOptiFine + OptiFabricOptiFineOptiFabricSodiumアドオン、代替MODシェーダー読み込みMOD「Iris Shaders [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -212,15 +212,15 @@
 <a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/continuity" title="https://www.curseforge.com/minecraft/mc-mods/continuity" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fcontinuity?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/continuity</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/continuity" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022072081/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pkom.ml/2022072081/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【FabricMC】Illegal character ((CTRL-CHAR, code 31)):&#8230;の対処法</title>
-		<link>/2022072062/</link>
-					<comments>/2022072062/#respond</comments>
+		<link>https://blog.pkom.ml/2022072062/</link>
+					<comments>https://blog.pkom.ml/2022072062/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Tue, 19 Jul 2022 15:29:27 +0000</pubDate>
@@ -232,7 +232,7 @@
 		<category><![CDATA[FabricMC]]></category>
 		<category><![CDATA[MOD]]></category>
 		<category><![CDATA[MOD開発]]></category>
-		<guid isPermaLink="false">/?p=62</guid>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=62</guid>
 
 					<description><![CDATA[FabricでMOD開発していると以下のようなエラーが出てしまいました。 Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>FabricでMOD開発していると以下のようなエラーが出てしまいました。</p>
@@ -243,15 +243,15 @@
 <p>gradlew &#8211;refresh-dependencies</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022072062/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pkom.ml/2022072062/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【Minecraft】Sodiumで他MODのテクスチャがバグる</title>
-		<link>/2022071840/</link>
-					<comments>/2022071840/#respond</comments>
+		<link>https://blog.pkom.ml/2022071840/</link>
+					<comments>https://blog.pkom.ml/2022071840/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 07:03:49 +0000</pubDate>
@@ -259,7 +259,7 @@
 		<category><![CDATA[ゲーム]]></category>
 		<category><![CDATA[FabricMC]]></category>
 		<category><![CDATA[MOD]]></category>
-		<guid isPermaLink="false">/?p=40</guid>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=40</guid>
 
 					<description><![CDATA[以下のURLのMOD、Indiumを入れることによって解消するようです。https://www.curseforge.com/minecraft/mc-mods/indium 原因 Sodiumでは現在、FabricAP [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>以下のURLのMOD、Indiumを入れることによって解消するようです。<a href="https://www.curseforge.com/minecraft/mc-mods/indium">https://www.curseforge.com/minecraft/mc-mods/indium</a></p>
@@ -270,15 +270,15 @@
 Indiumを入れるだけでは動作しないのでSodiumと一緒に入れましょう。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022071840/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pkom.ml/2022071840/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【Minecraft】 FabricとForgeどっちがいいのだろうか？</title>
-		<link>/2022071836/</link>
-					<comments>/2022071836/#respond</comments>
+		<link>https://blog.pkom.ml/2022071836/</link>
+					<comments>https://blog.pkom.ml/2022071836/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 06:59:02 +0000</pubDate>
@@ -290,7 +290,7 @@ Indiumを入れるだけでは動作しないのでSodiumと一緒に入れま�
 		<category><![CDATA[ModLoader]]></category>
 		<category><![CDATA[MOD開発]]></category>
 		<category><![CDATA[QuiltMC]]></category>
-		<guid isPermaLink="false">/?p=36</guid>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=36</guid>
 
 					<description><![CDATA[MinecraftのModLoaderには主に二種あります。 他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。 目次 どっちがいいのかFabricMCMin [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>MinecraftのModLoaderには主に二種あります。<br />
@@ -349,7 +349,7 @@ MOD開発では昔からあるMCPというマッピングを利用します。<b
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022071836/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pkom.ml/2022071836/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

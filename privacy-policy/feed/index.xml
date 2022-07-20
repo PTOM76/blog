@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	プライバシーポリシー へのコメント	</title>
-	<atom:link href="/privacy-policy/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://blog.pkom.ml/privacy-policy/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Mon, 18 Jul 2022 05:38:41 +0000</lastBuildDate>
 	<sy:updatePeriod>

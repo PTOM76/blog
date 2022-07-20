@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	JitPackでJava 8以外を使う方法 へのコメント	</title>
-	<atom:link href="/2022072064/feed/" rel="self" type="application/rss+xml" />
-	<link>/2022072064/</link>
+	<atom:link href="https://blog.pkom.ml/2022072064/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml/2022072064/</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Tue, 19 Jul 2022 15:31:23 +0000</lastBuildDate>
 	<sy:updatePeriod>

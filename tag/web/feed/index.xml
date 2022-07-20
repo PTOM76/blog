@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Web  |  ぴたぶろぐ</title>
-	<atom:link href="/tag/web/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https://blog.pkom.ml/tag/web/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Tue, 19 Jul 2022 15:47:51 +0000</lastBuildDate>
 	<language>ja</language>
@@ -21,16 +21,16 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 
 <image>
-	<url>/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>Web  |  ぴたぶろぐ</title>
-	<link></link>
+	<link>https://blog.pkom.ml</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>【無料Wikiレンタルサービス】WikiChree.COMの紹介</title>
-		<link>/2022072068/</link>
-					<comments>/2022072068/#respond</comments>
+		<link>https://blog.pkom.ml/2022072068/</link>
+					<comments>https://blog.pkom.ml/2022072068/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Tue, 19 Jul 2022 15:46:33 +0000</pubDate>
@@ -45,7 +45,7 @@
 		<category><![CDATA[Wiki]]></category>
 		<category><![CDATA[レンタルサービス]]></category>
 		<category><![CDATA[自作サービス]]></category>
-		<guid isPermaLink="false">/?p=68</guid>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=68</guid>
 
 					<description><![CDATA[わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。 是非使って見てください。 https://wikichree.com/ 目次 特徴その1. PukiWikiその2. カスタマイズ性その3. WIS [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。<br />
@@ -95,7 +95,7 @@
 <p>レンタルサービスの中ではAtWikiとWIKIWIKI.JPは最強！（ry</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022072068/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pkom.ml/2022072068/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
