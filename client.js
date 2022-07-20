@@ -43,8 +43,8 @@ if ($params.has('s')) {
 	var $thumbs;
 
 	var $proc2 = function() {
-		fetch('./wp-json/wp/v2/pages/index.json').then(($response) => $response.json()).then(($page_data) => {
-			fetch('./wp-json/wp/v2/posts/index.json').then(($response) => $response.json()).then(($post_data) => {
+		fetch('./wp-json/wp/v2/pages').then(($response) => $response.json()).then(($page_data) => {
+			fetch('./wp-json/wp/v2/posts').then(($response) => $response.json()).then(($post_data) => {
 				$data = Object.assign($post_data, $page_data);
 				if ($data !== undefined) $data.forEach($item => {
 					if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
@@ -107,13 +107,13 @@ if ($params.has('s')) {
 
 	}
 
-	fetch('./static-json/categories/index.json') // /index.json
+	fetch('./static-json/categories') // 
 		.then(($response) => $response.json()).then(($data) => {
 			if ($data !== undefined) Object.keys($data).forEach($key => {
 				var $item = $data[$key];
 				$categories_name[$item.term_id] = $item.name;
 			});
-			fetch('./static-json/thumbs/index.json') // /index.json
+			fetch('./static-json/thumbs') // 
 			.then(($response) => $response.json()).then(($data) => {
 				$thumbs = $data;
 				$proc2();
