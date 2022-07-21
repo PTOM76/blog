@@ -43,11 +43,11 @@ if ($params.has('s')) {
 	var $thumbs;
 
 	var $proc2 = function() {
-		fetch('./wp-json/wp/v2/pages/index.json', {cache: "no-store"}).then(($response) => $response.json()).then(($page_data) => {
-			fetch('./wp-json/wp/v2/posts/index.json', {cache: "no-store"}).then(($response) => $response.json()).then(($post_data) => {
+		fetch('./static-json/pages/index.json', {cache: "no-store"}).then(($response) => $response.json()).then(($page_data) => {
+			fetch('./static-json/posts/index.json', {cache: "no-store"}).then(($response) => $response.json()).then(($post_data) => {
 				$data = Object.assign($post_data, $page_data);
 				if ($data !== undefined) $data.forEach($item => {
-					if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
+					if (apprStr($item.title).indexOf(apprStr($s)) != -1 || apprStr($item.content).indexOf(apprStr($s)) != -1) {
 						$isFound = true;
 						
 						var $categories_html = '';
@@ -72,14 +72,14 @@ if ($params.has('s')) {
 							$thumb_img = $thumbs[$item.id];
 						}
 						$html += `
-					<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}">
+					<a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title}">
 						<article>
 							<figure class="entry-card-thumb card-thumb e-card-thumb">
 								${$thumb_img}						${$categories_html_label}		</figure><!-- /.entry-card-thumb -->
 							<div class="entry-card-content card-content e-card-content">
-								<h2 class="entry-card-title card-title e-card-title" itemprop="headline">${$item.title.rendered}</h2>
+								<h2 class="entry-card-title card-title e-card-title" itemprop="headline">${$item.title}</h2>
 								<div class="entry-card-snippet card-snippet e-card-snippet">
-									${$item.excerpt.rendered}
+									${$item.excerpt}
 								</div>
 								<div class="entry-card-meta card-meta e-card-meta">
 									<div class="entry-card-info e-card-info">
