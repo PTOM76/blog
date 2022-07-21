@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Minecraft  |  ぴたぶろぐ</title>
+	<atom:link href="https://blog.pkom.ml/category/%E3%82%B2%E3%83%BC%E3%83%A0/minecraft/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Thu, 21 Jul 2022 06:50:12 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<title>Minecraft  |  ぴたぶろぐ</title>
+	<link>https://blog.pkom.ml</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>【CurseForge】アップロードしたファイルを削除する方法</title>
+		<link>https://blog.pkom.ml/20220721119/</link>
+					<comments>https://blog.pkom.ml/20220721119/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 21 Jul 2022 06:45:21 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[CurseForge]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=119</guid>
+
+					<description><![CDATA[目次 初めに画像付きの手順簡易的に手順をまとめる最後に 初めに 間違って別のMODをアップロードしてしまい、削除したかったのですが、削除ボタンがありませんでした。そこでフォーラムで調べてみたところこれを参考にしてみると削 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">初めに</a></li><li><a href="#toc2" tabindex="0">画像付きの手順</a></li><li><a href="#toc3" tabindex="0">簡易的に手順をまとめる</a></li><li><a href="#toc4" tabindex="0">最後に</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">初めに</span></h2>
+<p><img loading="lazy" width="913" height="318" class="alignnone wp-image-121 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-1.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-1.png 913w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-1-300x104.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-1-768x267.png 768w" sizes="(max-width: 913px) 100vw, 913px" /></p>
+<p>間違って別のMODをアップロードしてしまい、削除したかったのですが、削除ボタンがありませんでした。そこでフォーラムで調べてみたところこれを参考にしてみると削除できました。</p>
+<a rel="noopener" href="https://minecraft.curseforge.com/forums/modding-java-edition/java-mods/ideas/5014-deleting-files-of-a-project" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fminecraft.curseforge.com%2Fforums%2Fmodding-java-edition%2Fjava-mods%2Fideas%2F5014-deleting-files-of-a-project?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://minecraft.curseforge.com/forums/modding-java-edition/java-mods/ideas/5014-deleting-files-of-a-project" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">minecraft.curseforge.com</div></div></div></div></a>
+<h2><span id="toc2">画像付きの手順</span></h2>
+<p>削除したいファイルにチェックします。</p>
+<p><img loading="lazy" width="258" height="340" class="alignnone wp-image-122 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-2.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-2.png 258w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-2-228x300.png 228w" sizes="(max-width: 258px) 100vw, 258px" /></p>
+<p>Archiveボタンをクリック。</p>
+<p><img loading="lazy" width="608" height="337" class="alignnone wp-image-123 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3.png 608w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3-300x166.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3-120x68.png 120w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3-160x90.png 160w" sizes="(max-width: 608px) 100vw, 608px" /></p>
+<p>ダイアログのような画面が出てくると思うのでArchive Filesをクリック。<img loading="lazy" width="249" height="228" class="alignnone wp-image-124 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-4.png" /></p>
+<p>StatusをArchivedの項目に変える。<br />
+そしてファイルの詳細画面を開くとDeleteボタンが表示されているのでクリックすると削除できます。</p>
+<p><img loading="lazy" width="914" height="607" class="alignnone wp-image-125 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-5.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-5.png 914w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-5-300x199.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-5-768x510.png 768w" sizes="(max-width: 914px) 100vw, 914px" /></p>
+<h2><span id="toc3">簡易的に手順をまとめる</span></h2>
+<ol>
+<li>削除したいファイルのチェックボックスにチェックを入れる。</li>
+<li>「Archive」ボタンをクリックする。</li>
+<li>「Archive Files」ボタンをクリックする。</li>
+<li>Statusを「Archived」に変更する。</li>
+<li>ファイルのリンクを開く。</li>
+<li>「Delete」ボタンをクリックする。</li>
+</ol>
+<h2><span id="toc4">最後に</span></h2>
+<p>少し面倒かな～と思いますが、誤ってファイルを削除してしまうことはないかと思います。<br />
+この頃はCurseForge以外にModrinthというModを配布するためのサイトが出てきたみたいですね</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220721119/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】VoxelMap非公式Fabric版 1.18〜1.19の配布先</title>
+		<link>https://blog.pkom.ml/20220720115/</link>
+					<comments>https://blog.pkom.ml/20220720115/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 12:11:40 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=115</guid>
+
+					<description><![CDATA[有志の方が以下のdiscordサーバーでVoxelMapを非公式でメンテナンスしてくださってました。 Refresh-MC Fabric/Spigot: https://discord.gg/GCKZ9Kgqny]]></description>
+										<content:encoded><![CDATA[<p>有志の方が以下のdiscordサーバーでVoxelMapを非公式でメンテナンスしてくださってました。</p>
+<p>Refresh-MC Fabric/Spigot: <a href="https://discord.gg/GCKZ9Kgqny">https://discord.gg/GCKZ9Kgqny</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220720115/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】Simple BC Pipesでパイプを使う</title>
+		<link>https://blog.pkom.ml/2022072099/</link>
+					<comments>https://blog.pkom.ml/2022072099/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 11:44:00 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[Simple Pipes]]></category>
+		<category><![CDATA[工業化MOD]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=99</guid>
+
+					<description><![CDATA[FabricにもBCのパイプはあるんですよ！！ということを伝えたいだけの記事なので適当です。 Simple Pipesの作者はBCの開発者であるAlexill氏ですね。 https://www.curseforge.co/ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricにもBCのパイプはあるんですよ！！ということを伝えたいだけの記事なので適当です。<br />
+Simple Pipesの作者はBCの開発者であるAlexill氏ですね。<br />
+<a href="https://www.curseforge.com/minecraft/mc-mods/simplepipes">https://www.curseforge.com/minecraft/mc-mods/simplepipes</a></p>
+<p><img loading="lazy" class="alignnone wp-image-100 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3.png" alt="" width="854" height="480" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3.png 854w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-300x169.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-768x432.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-120x68.png 120w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-160x90.png 160w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-320x180.png 320w" sizes="(max-width: 854px) 100vw, 854px" /></p>
+<p>木パイプをクリックしてコンテナと接続することができます。<br />
+木エンジンがないのでレッドストーン信号を与えると木パイプから抽出できます。</p>
+<p><img loading="lazy" class="alignnone wp-image-101 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1024x555.png" alt="" width="1024" height="555" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1024x555.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-300x163.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-768x416.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1536x832.png 1536w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072099/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】Fabricの軽量化MOD「Sodium」、「Canvas Renderer」、「OptiFine」と代替MOD、Sodiumアドオンの紹介</title>
+		<link>https://blog.pkom.ml/2022072081/</link>
+					<comments>https://blog.pkom.ml/2022072081/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 20 Jul 2022 05:17:56 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=81</guid>
+
+					<description><![CDATA[目次 軽量化MODSodiumCanvas RendererOptiFine + OptiFabricOptiFineOptiFabricSodiumアドオン、代替MODSodium拡張MOD「Sodium Extra」 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">軽量化MOD</a><ol><li><a href="#toc2" tabindex="0">Sodium</a></li><li><a href="#toc3" tabindex="0">Canvas Renderer</a></li><li><a href="#toc4" tabindex="0">OptiFine + OptiFabric</a><ol><li><a href="#toc5" tabindex="0">OptiFine</a></li><li><a href="#toc6" tabindex="0">OptiFabric</a></li></ol></li></ol></li><li><a href="#toc7" tabindex="0">Sodiumアドオン、代替MOD</a><ol><li><a href="#toc8" tabindex="0">Sodium拡張MOD「Sodium Extra」</a></li><li><a href="#toc9" tabindex="0">シェーダー読み込みMOD「Iris Shaders」</a></li><li><a href="#toc10" tabindex="0">Fabric Rendering APIとの互換性を修正するMOD「Indium」</a></li><li><a href="#toc11" tabindex="0">照明エンジン最適化MOD「Phosphor」</a></li><li><a href="#toc12" tabindex="0">汎用最適化MOD「Lithium」</a></li><li><a href="#toc13" tabindex="0">ビデオ設定を元に戻すMOD「Better Sodium Video Settings Button」</a></li><li><a href="#toc14" tabindex="0">メモリ使用量削減MOD「FerriteCore」</a></li><li><a href="#toc15" tabindex="0">ダイナミックライト「LambDynamicLights」</a></li><li><a href="#toc16" tabindex="0">ズームMOD「Logical Zoom」</a></li><li><a href="#toc17" tabindex="0">テクスチャを接続するMOD「Continuity」</a></li><li><a href="#toc18" tabindex="0">メモリを解放するMOD「MemoryLeakFix」</a></li><li><a href="#toc19" tabindex="0">Sodiumの設定画面を改善するMOD「Reese&#8217;s Sodium Options」</a></li></ol></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">軽量化MOD</span></h2>
+
+
+
+<p>※Sodium、Canvas、OptiFineを併用することはできません。</p>
+
+
+
+<h3><span id="toc2">Sodium</span></h3>
+
+
+
+<p>マイクラのFPSが数倍高くなる描画処理を最適化するMODです。<br />OptiFineよりSodiumの方が断然良いと私は思います。<br />OptiFineの機能がすべてあるわけでもないので代わりのMOD、アドオンも紹介ていきます。</p>
+
+
+
+<a rel="noopener" href="https://modrinth.com/mod/sodium" title="Sodium - Mods - Modrinth" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmodrinth.com%2Fmod%2Fsodium?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Sodium - Mods - Modrinth</div><div class="blogcard-snippet external-blogcard-snippet">Sodium: Modern rendering engine and client-side optimization mod for Minecraft View other minecraft mods on Modrinth today! Modrinth is a new and modern Minecra...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://modrinth.com/mod/sodium" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">modrinth.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc3">Canvas Renderer</span></h3>
+
+
+
+<p>パフォーマンスを最大限に発揮させる軽量化MODです。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/canvas-renderer" title="https://www.curseforge.com/minecraft/mc-mods/canvas-renderer" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fcanvas-renderer?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/canvas-renderer</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/canvas-renderer" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc4">OptiFine + OptiFabric</span></h3>
+
+
+
+<p>Fabricでは以下の2つを導入しないとOptiFineが動きません。</p>
+
+
+
+<h4><span id="toc5">OptiFine</span></h4>
+
+
+
+<p>定番の軽量化MODであるOptiFineです。<br />ちなみに本来は軽量化目的で作られたものではないみたいですね^^;</p>
+
+
+
+<a rel="noopener" href="https://optifine.net/downloads" title="OptiFine Downloads" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Foptifine.net%2Fdownloads?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">OptiFine Downloads</div><div class="blogcard-snippet external-blogcard-snippet">OptiFine - Minecraft performance tuning and advanced graphics</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://optifine.net/downloads" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">optifine.net</div></div></div></div></a>
+
+
+
+<h4><span id="toc6">OptiFabric</span></h4>
+
+
+
+<p>一時期開発停止を公表するなどありましたが、Chocohead氏が引き継いでくださった有志が更新し続けているMODです。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/optifabric" title="https://www.curseforge.com/minecraft/mc-mods/optifabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Foptifabric?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/optifabric</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/optifabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h2><span id="toc7">Sodiumアドオン、代替MOD</span></h2>
+<h3><span id="toc8">Sodium拡張MOD「Sodium Extra」</span></h3>
+<p>Sodiumにはないオプションを追加するSodiumアドオンです。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/sodium-extra" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fsodium-extra?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/sodium-extra" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc9">シェーダー読み込みMOD「Iris Shaders」</span></h3>
+
+
+
+<p>こちらは軽量な影MODローダーです。<br />OptiFine用のシェーダーパックとほぼ互換性があるようです。<br />私が使った感じは別に不具合もありませんでした。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/irisshaders" title="https://www.curseforge.com/minecraft/mc-mods/irisshaders" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Firisshaders?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/irisshaders</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/irisshaders" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc10">Fabric Rendering APIとの互換性を修正するMOD「Indium」</span></h3>
+
+
+
+<p>Sodiumは現在のところFabric Rendering APIをサポートしていないため、Fabric Rendering APIを利用したMODのブロックなどの表示がバグってしまうことがあります。<br />そのため、Indiumを入れることによりSodiumとFabric Rendering APIとの互換性を持たせることができます。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/indium" title="https://www.curseforge.com/minecraft/mc-mods/indium" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Findium?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/indium</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/indium" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc11">照明エンジン最適化MOD「Phosphor」</span></h3>
+
+
+
+<p>照明の描画処理を最適化するMODです。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/phosphor" title="https://www.curseforge.com/minecraft/mc-mods/phosphor" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fphosphor?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/phosphor</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/phosphor" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc12">汎用最適化MOD「Lithium」</span></h3>
+
+
+
+<p>マイクラのシステムを最適化するMODです。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/lithium" title="https://www.curseforge.com/minecraft/mc-mods/lithium" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Flithium?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/lithium</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/lithium" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h3><span id="toc13">ビデオ設定を元に戻すMOD「Better Sodium Video Settings Button」</span></h3>
+<p>Sodiumは元のビデオ設定の画面を変更します。<br />このMODを導入すると元のビデオ設定の画面に戻し、ビデオ設定にSodiumへの設定のボタンを追加します。<br />僕はこれ結構便利だなあと思ってます。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fbetter-sodium-video-settings-button?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc14">メモリ使用量削減MOD「FerriteCore」</span></h3>
+
+
+
+<p>メモリの使用量を削減するMODです。<br />元々、HydrogenというFabric用のMODがありましたが、1.18以降リリースされなくなりました。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric" title="https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fferritecore-fabric?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc15">ダイナミックライト「LambDynamicLights」</span></h3>
+
+
+
+<p>OptiFineにもあったようにアイテムが発光するMODです。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights" title="https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Flambdynamiclights?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc16">ズームMOD「Logical Zoom」</span></h3>
+
+
+
+<p>OptiFineのようにズームすることができるようになるMODです。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/logical-zoom" title="https://www.curseforge.com/minecraft/mc-mods/logical-zoom" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Flogical-zoom?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/logical-zoom</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/logical-zoom" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+
+
+
+<h3><span id="toc17">テクスチャを接続するMOD「Continuity」</span></h3>
+
+
+
+<p>Connect Textures Modの代替MODです。<br />ガラスのつなぎ目をなくすことができます。<br />導入後、有効化するにはリソースパックの設定に追加されているcontinuity/&#8230;という名前のリソースパックを適用する必要があります。</p>
+
+
+
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/continuity" title="https://www.curseforge.com/minecraft/mc-mods/continuity" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fcontinuity?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/continuity</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/continuity" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h3><span id="toc18">メモリを解放するMOD「MemoryLeakFix」</span></h3>
+<p>メモリの使用量を削減するMODです。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/memoryleakfix" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fmemoryleakfix?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/memoryleakfix" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h3><span id="toc19">Sodiumの設定画面を改善するMOD「Reese&#8217;s Sodium Options」</span></h3>
+<p><img loading="lazy" class="alignnone size-medium" src="https://i.imgur.com/I63nZVG.png" width="1920" height="1017" /></p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Freeses-sodium-options?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072081/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>JitPackでJava 8以外を使う方法</title>
+		<link>https://blog.pkom.ml/2022072064/</link>
+					<comments>https://blog.pkom.ml/2022072064/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:30:51 +0000</pubDate>
+				<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[JitPack]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=64</guid>
+
+					<description><![CDATA[FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlでjdkを指定したところ、一時期動いたのだが、また動作しなくなったため、以下のよ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlで<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>を指定したところ、一時期動いたのだが、また動作しなくなったため、以下のようにbefore_install:をymlに追加すると解決する。<br />
+jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A3%A5%EC%A5%AF%A5%C8">ディレクト</a>リ直下に配置する。</p>
+<p><strong>jitpack.yml</strong></p>
+<pre>before_install:
+  - <a class="keyword" href="http://d.hatena.ne.jp/keyword/wget">wget</a> <a href="https://github.com/sormuras/bach/raw/master/install-jdk.sh">https://github.com/sormuras/bach/raw/master/install-jdk.sh</a>
+  - source ./install-<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>.sh --feature 17 --license <a class="keyword" href="http://d.hatena.ne.jp/keyword/GPL">GPL</a>
+<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>:
+  - openjdk17</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072064/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【FabricMC】Illegal character ((CTRL-CHAR, code 31)):&#8230;の対処法</title>
+		<link>https://blog.pkom.ml/2022072062/</link>
+					<comments>https://blog.pkom.ml/2022072062/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:29:27 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<category><![CDATA[MOD開発]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=62</guid>
+
+					<description><![CDATA[FabricでMOD開発していると以下のようなエラーが出てしまいました。 Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricでMOD開発していると以下のようなエラーが出てしまいました。</p>
+<pre>Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens 333333333333333
+    at [Source: UNKNOWN; line: 1, column: 2]</pre>
+<h3>解決法</h3>
+<p>以下のコマンドを実行することにより解決しました。</p>
+<p>gradlew &#8211;refresh-dependencies</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072062/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】Sodiumで他MODのテクスチャがバグる</title>
+		<link>https://blog.pkom.ml/2022071840/</link>
+					<comments>https://blog.pkom.ml/2022071840/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2022 07:03:49 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=40</guid>
+
+					<description><![CDATA[以下のURLのMOD、Indiumを入れることによって解消するようです。https://www.curseforge.com/minecraft/mc-mods/indium 原因 Sodiumでは現在、FabricAP [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>以下のURLのMOD、Indiumを入れることによって解消するようです。<a href="https://www.curseforge.com/minecraft/mc-mods/indium">https://www.curseforge.com/minecraft/mc-mods/indium</a></p>
+<h2>原因</h2>
+<p>Sodiumでは現在、FabricAPIのレンダリング関係のAPIであるFabric Rendering APIをサポートしていません。<br />
+そのため、IndiumというSodiumのアドオンを入れる必要があります。<br />
+私はSimplePipesというBCのパイプをFabricに追加するModでブロックが見えなくなったことがあり、Indiumを入れることによって解消しました。<br />
+Indiumを入れるだけでは動作しないのでSodiumと一緒に入れましょう。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022071840/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】 FabricとForgeどっちがいいのだろうか？</title>
+		<link>https://blog.pkom.ml/2022071836/</link>
+					<comments>https://blog.pkom.ml/2022071836/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Mon, 18 Jul 2022 06:59:02 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MinecraftForge]]></category>
+		<category><![CDATA[MOD]]></category>
+		<category><![CDATA[ModLoader]]></category>
+		<category><![CDATA[MOD開発]]></category>
+		<category><![CDATA[QuiltMC]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=36</guid>
+
+					<description><![CDATA[MinecraftのModLoaderには主に二種あります。 他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。 目次 どっちがいいのかFabricMCMin [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>MinecraftのModLoaderには主に二種あります。<br />
+他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。</p>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-16" checked><label class="toc-title" for="toc-checkbox-16">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">どっちがいいのか</a><ol><li><a href="#toc2" tabindex="0">FabricMC</a></li><li><a href="#toc3" tabindex="0">MinecraftForge</a></li><li><a href="#toc4" tabindex="0">QuiltMC</a></li></ol></li><li><a href="#toc5" tabindex="0">最後に</a></li><li><a href="#toc6" tabindex="0">出典</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">どっちがいいのか</span></h2>
+<p>何があろうと使うべきModLoaderはFabricです！<br />
+といいつつ、バージョンによってはForgeが良かったりもします。<br />
+Fabricはスナップショットまで対応しており、あり得ないスピードで最新バージョンに対応することが多いです。1.19が出た1,2日後ぐらいには既にFabric Loaderがリリースされていたと思います。<br />
+Minecraft 1.14ぐらいから出てきたもので昔はMODが少なかったのですが、最近ではAE2や黄昏の森、REIといったJEIの派生版など多く見かけることがあります。目玉はSodiumといったとても凄い軽量化MODです。<br />
+特に理由がなければ1.16～のバージョンでMODを遊ぶ方はFabricをオススメしたいと私は思います。<br />
+あなたが使いたいMODがどちらかのMODにあるとするならそのLoaderを使った方がいいでしょう。<br />
+1.12.2に関しては実はLegacy Fabricといったものがあり、Fabricも存在するようなのですが、これはオススメできません。<br />
+素直にForgeを使った方が無難でしょう。</p>
+<h3><span id="toc2">FabricMC</span></h3>
+<p>Fabricは1.14のスナップショットからリリースされており、2019年辺りから出てきました。(発表されたのは2018年12月辺り)<br />
+自分も軽くてMOD開発がしやすかったので好んではいましたが、当時はMODが少なくて不便でした。<br />
+この頃は、Architectury APIというMCForge/FabricMC/QuiltMCのクロスプラットフォーム開発ができるAPIも出たお陰か多くのMODがFabricにも対応してきてることがあります。<br />
+更にエラーも出にくくインストールが簡単にできるという点が素晴らしいです。<br />
+このModLoaderは物凄くリリースするのが早く、上の項目で説明した通り、最新バージョンがリリースされた1,2日後ぐらいには既にFabric Loaderがリリースされていたことがあります。<br />
+開発者にとってはMODが作りやすいと好評です。<br />
+MOD開発にはFabric独自のYarnといったマッピングを利用しています。</p>
+<h3><span id="toc3">MinecraftForge</span></h3>
+<p>Forgeは昔からあるModLoaderで、多くのMODはこのMinecraftForgeにあります。<br />
+特に1.7.10、1.12.2で遊ぶ方はこれじゃないとMODで遊べないと思います（笑）<br />
+Forgeではマッピング直ではなく独自のAPIが結構あります。<br />
+インストールはそこそこ簡単だと思います。<br />
+FabricではMixinというものがありますが、Forgeにも対応しつつあります。<br />
+MOD開発では昔からあるMCPというマッピングを利用します。<br />
+いつもはリリースが遅いForgeなのですが、1.19では数日後にベータ版が公開されていました。</p>
+<h3><span id="toc4">QuiltMC</span></h3>
+<p>Fabricをベースとしたまた新たなModLoaderです。<br />
+1.16.5から現れたと思われます。<br />
+現在のところはFabricのMODと互換性があります。<br />
+私はこれでMOD開発をしたことがないのでわかりません。<br />
+申し訳ないです&#8230;</p>
+<h2><span id="toc5">最後に</span></h2>
+<p>どのModLoaderもいいですよね～<br />
+ちなみに私はFabric派です。</p>
+<h2><span id="toc6">出典</span></h2>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><a href="https://fabricmc.net/2018/12/10/announcement.html">https://fabricmc.net/2018/12/10/announcement.html</a></li>
+<li><a href="https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric">https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric</a></li>
+<li><a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.html">https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.html</a></li>
+<li><a href="https://quiltmc.org/">https://quiltmc.org/</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022071836/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
