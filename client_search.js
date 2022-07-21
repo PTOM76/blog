@@ -69,7 +69,7 @@ if ($params.has('s')) {
 						$post_date = $post_date.substr(0, $post_date.indexOf('T'));
 						var $thumb_img = '<img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" />';
 						if ($thumbs[$item.id] !== undefined) {
-							if ($thumbs[$item.id] == "") {
+							if ($thumbs[$item.id] != "") {
 								$thumb_img = $thumbs[$item.id];
 							}
 						}
