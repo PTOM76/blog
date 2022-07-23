@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Thu, 21 Jul 2022 06:50:12 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 23 Jul 2022 07:42:39 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,96 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【Minecraft】無料でポート開放せずにサーバーを公開するツール</title>
+		<link>https://blog.pkom.ml/20220723148/</link>
+					<comments>https://blog.pkom.ml/20220723148/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sat, 23 Jul 2022 07:41:35 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[サーバー]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[中継サーバー]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=148</guid>
+
+					<description><![CDATA[ポート開放せずにサーバーを公開するツールを2つ紹介します。 ポート開放できない方もいると思いますし、手軽にゲームサーバーを公開できるので便利だと思います。 Minecraftで使う方は多いと思います。 仕組みは中継サーバ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>ポート開放せずにサーバーを公開するツールを2つ紹介します。<br />
+ポート開放できない方もいると思いますし、手軽にゲームサーバーを公開できるので便利だと思います。<br />
+Minecraftで使う方は多いと思います。<br />
+仕組みは中継サーバー(リレーサーバー)を利用しているらしいです。<br />
+これを無料で提供してくれるのは有り難いですね。</p>
+<h2>ゲームサーバー公開(ホスト)ツール | GameServerHostingTool</h2>
+<p>こちらは日本産のゲームサーバー公開ツールです。</p>
+<a rel="noopener" href="https://gsht.io/" title="ゲームサーバー公開(ホスト)ツール 配布ページ" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/e3204717414b9ee56d894957101fc2e7.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">ゲームサーバー公開(ホスト)ツール 配布ページ</div><div class="blogcard-snippet external-blogcard-snippet">ポート開放不要でゲームサーバーを外部に公開できるツールの配布ページ、紹介ページです。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://files.esugo.net/mcsvrhost/site/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">files.esugo.net</div></div></div></div></a>
+<h2>playit</h2>
+<p>こちらは海外産のゲームサーバーを公開するためのツールです。</p>
+<a rel="noopener" href="https://playit.gg/" title="making it easy to play games with friends" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/f705ea3b30b2906fcc6440efc7c05249.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">making it easy to play games with friends</div><div class="blogcard-snippet external-blogcard-snippet">We&#039;ve been making it easy to play games with friends since March 2020. Get a free static IP and ditch port forwarding.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://playit.gg/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">playit.gg</div></div></div></div></a>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220723148/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Minecraft】FabricでBukkitプラグインを動かすサーバーMOD「Cardboard」(FabricMC × SpigotMC)</title>
+		<link>https://blog.pkom.ml/20220723134/</link>
+					<comments>https://blog.pkom.ml/20220723134/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sat, 23 Jul 2022 07:15:17 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[Bukkit]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<category><![CDATA[MOD紹介]]></category>
+		<category><![CDATA[PaperMC]]></category>
+		<category><![CDATA[SpigotMC]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=134</guid>
+
+					<description><![CDATA[はじめに FabricでBukkit/Spigot/Paperプラグインを動かすことができるCardboardをご紹介します。 1.16～1.18.2まで対応しているようで1.19は現在まだ出ていないようです。 クライア [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>はじめに</h2>
+<p>FabricでBukkit/Spigot/Paperプラグインを動かすことができる<a href="https://www.curseforge.com/minecraft/mc-mods/cardboard">Cardboard</a>をご紹介します。<br />
+1.16～1.18.2まで対応しているようで1.19は現在まだ出ていないようです。<br />
+クライアント側でも使えるかもしれませんが、確認してません。</p>
+<h2>DLリンク先</h2>
+<p><span class="bold red">※Cardboardの前提MODである<a href="https://www.curseforge.com/minecraft/mc-mods/icommonlib">CommonLib</a>が必要です。</span><br />
+前提MODとCardboardのURLを以下に載せておきます。</p>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/icommonlib" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Ficommonlib?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/icommonlib" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/cardboard" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fcardboard?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/cardboard" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
+<h2>導入方法</h2>
+<p>導入方法は至ってシンプルです。</p>
+<p><a href="https://fabricmc.net/use/installer/">Fabric Installer</a>でFabricサーバーを建て、サーバーのmodsフォルダにFabric API、Cardboard、iCommonLibを入れるだけで動きます。以下で画像付きで説明します。</p>
+<p><img loading="lazy" width="436" height="253" class="alignnone wp-image-136 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-8.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-8.png 436w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-8-300x174.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></p>
+<p>Fabric Installerを起動して1.18.2を選択してインストール先も指定し「インストール」ボタンをクリックしましょう。<br />
+<img loading="lazy" width="419" height="237" class="alignnone wp-image-137 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9.png 419w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9-300x170.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9-120x68.png 120w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9-160x90.png 160w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9-320x180.png 320w" sizes="(max-width: 419px) 100vw, 419px" /></p>
+<p>「サーバー JAR をダウンロード」を必ずクリックし、「生成」ボタンをクリックしましょう。<br />
+一度生成されたbatファイルもしくはshファイルを起動し、自動的に閉じると思うので生成されたeula.txtを開き、eula=falseをeula=trueにして保存しましょう。<br />
+<img loading="lazy" width="282" height="106" class="alignnone wp-image-138 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-10.png" /></p>
+<p>modsフォルダに以下のmodを入れておきます。</p>
+<p><img loading="lazy" width="610" height="99" class="alignnone wp-image-135 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-7.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-7.png 610w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-7-300x49.png 300w" sizes="(max-width: 610px) 100vw, 610px" /></p>
+<p>pluginsフォルダは起動すると勝手に生成されますが、ついでに予めpluginsフォルダを作ってBukkitプラグインを放り込んでおきます。<br />
+試しに<a href="https://github.com/ucchyocean/LunaChat/releases">LunaChat</a>を入れてみました。</p>
+<p><img loading="lazy" width="630" height="93" class="alignnone wp-image-139 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-11.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-11.png 630w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-11-300x44.png 300w" sizes="(max-width: 630px) 100vw, 630px" /></p>
+<p>LunaChatは上手く動作しませんでした。</p>
+<p><img loading="lazy" width="856" height="512" class="alignnone wp-image-140 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-12.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-12.png 856w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-12-300x179.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-12-768x459.png 768w" sizes="(max-width: 856px) 100vw, 856px" /></p>
+<h2>最後に</h2>
+<p>Beta版ですので、必ず安定する訳ではないと思います。<br />
+現在1.18.2のアップデートへ取り組んでいると書かれているので1.18.2より1.18.1が安定するかもですね。<br />
+<img loading="lazy" width="633" height="542" class="alignnone wp-image-141 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-13.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-13.png 633w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-13-300x257.png 300w" sizes="(max-width: 633px) 100vw, 633px" /><br />
+正式リリース版もいつか出てほしいですね。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220723134/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【CurseForge】アップロードしたファイルを削除する方法</title>
 		<link>https://blog.pkom.ml/20220721119/</link>
 					<comments>https://blog.pkom.ml/20220721119/#respond</comments>
@@ -291,7 +381,7 @@ function wrap($string, $tag, $param = '', $canomit = TRUE) {
 		
 			</item>
 		<item>
-		<title>【Minecraft】Simple BC Pipesでパイプを使う</title>
+		<title>【Minecraft】Simple BC Pipesでパイプを使う [Fabric]</title>
 		<link>https://blog.pkom.ml/2022072099/</link>
 					<comments>https://blog.pkom.ml/2022072099/#respond</comments>
 		
@@ -610,305 +700,6 @@ jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/2022072064/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【FabricMC】Illegal character ((CTRL-CHAR, code 31)):&#8230;の対処法</title>
-		<link>https://blog.pkom.ml/2022072062/</link>
-					<comments>https://blog.pkom.ml/2022072062/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Tue, 19 Jul 2022 15:29:27 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[Minecraft]]></category>
-		<category><![CDATA[ゲーム]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[FabricMC]]></category>
-		<category><![CDATA[MOD]]></category>
-		<category><![CDATA[MOD開発]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=62</guid>
-
-					<description><![CDATA[FabricでMOD開発していると以下のようなエラーが出てしまいました。 Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \ [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>FabricでMOD開発していると以下のようなエラーが出てしまいました。</p>
-<pre>Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens 333333333333333
-    at [Source: UNKNOWN; line: 1, column: 2]</pre>
-<h3>解決法</h3>
-<p>以下のコマンドを実行することにより解決しました。</p>
-<p>gradlew &#8211;refresh-dependencies</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/2022072062/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【WordPress】GitHub Pagesを利用して静的化したWordPressをほぼ無料で公開する</title>
-		<link>https://blog.pkom.ml/2022072049/</link>
-					<comments>https://blog.pkom.ml/2022072049/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Tue, 19 Jul 2022 15:20:12 +0000</pubDate>
-				<category><![CDATA[Git]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[JavaScript]]></category>
-		<category><![CDATA[PHP]]></category>
-		<category><![CDATA[WordPress]]></category>
-		<category><![CDATA[サーバー]]></category>
-		<category><![CDATA[サービス]]></category>
-		<category><![CDATA[ソフトウェア]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[通信技術]]></category>
-		<category><![CDATA[GitHub Pages]]></category>
-		<category><![CDATA[WordPressプラグイン]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=49</guid>
-
-					<description><![CDATA[元々、このブログ以前のブログはレンタルサーバーで動かしていました。 あまり更新しなかったため、必要性はないと感じ、新たにWordPressをローカルへ導入し、静的化した後、GitHub Pagesで運用することを考えまし [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>元々、このブログ以前のブログはレンタルサーバーで動かしていました。<br />
-あまり更新しなかったため、必要性はないと感じ、新たにWordPressをローカルへ導入し、静的化した後、GitHub Pagesで運用することを考えました。<br />
-この２日間かけて、ようやく少し使えるような形になりました。<br />
-今回は、WordPressプラグインである、Simply Staticを使って静的化したいと思います。<br />
-Cocoonテーマを利用しているので少し変わるかもしれません。<br />
-私はWordPressに関しては完全に素人なので申し訳ないです。</p>
-<h2>手順</h2>
-<p>簡単にまとめておきます。</p>
-<ol>
-<li style="list-style-type: none;">
-<ol>
-<li>Simply Staticを導入する</li>
-<li>適当にSimply Static用のフォルダをつくる (つくったフォルダをsimplystatic/とします)</li>
-<li>WPの管理メニューのSimply Staticのページから静的ファイルを生成する</li>
-<li>simplystatic/をGitリポジトリにする (simplystatic下で以下のコマンドを実行)
-<pre>git init
-git add *
-git commit -m "first"
-git remote add origin https://github.com/(ユーザー名)/(リポジトリ名).git
-git push origin main</pre>
-</li>
-<li><a href="https://www.lotusdigital.jp/b/web/wordpress%E9%9D%99%E7%9A%84%E5%8C%96%E3%81%AE%E3%81%9F%E3%82%81simply-static%E3%82%92%E4%BD%BF%E7%94%A8/">conv_for_simply.rb</a>という日本語フォルダを変換してくれるGemをsimplystatic/につくる</li>
-<li>WordPressのルートにbatファイル(push.bat)をつくる
-<pre>cd ./simplystatic/
-ruby conv_for_simply.rb
-git add *
-git commit -m "update"
-git push</pre>
-</li>
-<li>batファイルを実行する</li>
-<li>GitHub Pagesの設定をする</li>
-</ol>
-</li>
-</ol>
-<h2>Simply Staticの導入</h2>
-<p><img loading="lazy" class="alignnone wp-image-51 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png" alt="" width="1024" height="254" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-300x75.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-768x191.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1536x382.png 1536w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530.png 1723w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-<p>※インストール後、必ず<span class="bold red">有効化</span>しておきましょう。</p>
-<p>こちらのプラグインは静的化するためのプラグインです。<br />
-静的化とは静的ファイルであるHTML、JS、CSS、画像など簡単に言えばアクセスしてもソースが変化しないクライアントサイドのファイルに変換することを指します。<br />
-つまり、PHPが生成したソースをHTMLファイルとして保存します。</p>
-<p>適当にSimply Static用のフォルダをつくります。つくったフォルダをsimplystatic/とします。</p>
-<p>正しく導入できれば、WordPressの管理メニューのサイドバーにSimply Staticという項目が追加されていると思います。<br />
-<img loading="lazy" class="alignnone size-medium wp-image-52" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png" alt="" width="300" height="147" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147.png 334w" sizes="(max-width: 300px) 100vw, 300px" /></p>
-<p>まず、設定を選びましょう。<br />
-<img loading="lazy" class="alignnone wp-image-54 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png" alt="" width="1024" height="726" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-300x213.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-768x544.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507.png 1205w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-<p>配送方法はローカルディレクトリに設定してあげましょう。<br />
-ローカルディレクトリの入力欄にはつくったフォルダであるsimplystatic/(任意)のパスを指定します。</p>
-<p><img loading="lazy" class="alignnone wp-image-53 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png" alt="" width="1024" height="258" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-300x76.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-768x194.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402.png 1244w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-<p>生成を選択し、<span class="bold blue">静的ファイルを生成する</span>をクリックしましょう。</p>
-<p>待機すると生成されると思います。<br />
-クソ長いですよね、、、一分もかかりました&#8230;(笑)</p>
-<h2>GitHub の設定</h2>
-<p><img loading="lazy" class="alignnone wp-image-55 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png" alt="" width="1024" height="700" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-300x205.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-768x525.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111.png 1141w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-<p>GitHubのリポジトリでSettingsを開き、Pagesの項目に移動してください。<br />
-Sourceのブランチをmainで選択してSaveをクリックしましょう。<br />
-これで完了なのですが、Custom domainも私は設定しました。</p>
-<h2>おまけ</h2>
-<h3>検索を機能させる</h3>
-<p><strong><span class="marker-red">※こちらの検索機能に関しては完全に機能しているわけではありませんのでご了承ください</span></strong></p>
-<p>静的化したら検索機能が動作しないんですよ。まあ当たり前なことです。<br />
-検索機能はPHPでつくられており、サーバーサイドで動的に処理するものなのです。<br />
-つまり、クライアント側で処理できるようにインデックス化されたものも静的化しないとなりません。<br />
-WordPressにはRest APIがあります。<br />
-APIで生成されたjsonを静的化してしまえばよいという考えになりました。<br />
-めちゃくちゃなことしてますが、私はこうするしかないと思いました。<br />
-そのためのPHPスクリプトをここにおいておきます。<br />
-名前は適当ですが、なんでもいいです。</p>
-<ul>
-<li>push.php</li>
-</ul>
-<pre>&lt;?php
-define('URL', dirname((empty($_SERVER['HTTPS']) ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . "/");
-define('DIR', "simplystatic/");
-
-function save_url2static($path, $ext = 'json') {
-$src = file_get_contents(URL . $path);
-if (!file_exists(DIR . $path))
-mkdir(DIR . $path, 0777, true);
-$src = str_replace(str_replace('/', '\/', URL), '/', $src);
-file_put_contents(DIR . $path . "/index." . $ext, $src);
-}
-
-save_url2static("wp-json/wp/v2/posts");
-save_url2static("wp-json/wp/v2/pages");
-save_url2static("wp-json/wp/v2/media");
-save_url2static("wp-json/wp/v2/comments");
-save_url2static("wp-json/wp/v2/taxonomies");
-save_url2static("wp-json/wp/v2/taxonomies");
-save_url2static("static-json/categories");
-
-if (!file_exists(DIR . 'conv_for_simply.rb'))
-copy('conv_for_simply.rb', DIR . 'conv_for_simply.rb');
-copy('client.js', DIR . 'client.js');
-
-echo exec('push.bat') . '&lt;br /&gt;';
-echo "pushed!&lt;br /&gt;";
-exit;</pre>
-<ul>
-<li>client.js</li>
-</ul>
-<pre>var $client_lang = {
-search_result: "“$1” の検索結果",
-search_in_site: "サイト内を検索",
-posts_not_found: "投稿が見つかりませんでした。"
-};
-var $url = new URL(window.location.href);
-var $params = $url.searchParams;
-var $htmlSetted = false;
-
-function apprStr($str) {
-$str = $str.toLowerCase();
-$str = $str.replace(/(&lt;([^&gt;]+)&gt;)/gi, '');
-$str = $str.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function($m) {
-return String.fromCharCode($m.charCodeAt(0) - 0xFEE0);
-});
-$str = $str.replace(/[\u30a1-\u30f6]/g, function($m) {
-return String.fromCharCode($m.charCodeAt(0) - 0x60);
-});
-return $str;
-}
-
-function getMeta($metaProperty) {
-var $metas = document.getElementsByTagName('meta');
-for (let $j = 0; $j &lt; $metas.length; $j++) {
-if ($metas[$j].getAttribute('property') === $metaProperty) {
-return $metas[$j].getAttribute('content');
-}
-}
-}
-
-if ($params.has('s') ) {
-var $s = $params.get('s');
-var $isFound = false;
-var $html = `
-&lt;h1 id="archive-title" class="archive-title"&gt;&lt;span class="fa fa-search" aria-hidden="true"&gt;&lt;/span&gt;"${$s}"&lt;/h1&gt;
-&lt;form class="search-box input-box" method="get" action="/"&gt;
-&lt;input type="text" placeholder="${$client_lang['search_in_site']}" name="s" class="search-edit" aria-label="input" value="${$s}"&gt;
-&lt;button type="submit" class="search-submit" aria-label="button"&gt;&lt;span class="fa fa-search" aria-hidden="true"&gt;&lt;/span&gt;&lt;/button&gt;
-&lt;/form&gt;
-&lt;div id="list" class="list ect-entry-card front-page-type-index"&gt;
-`;
-document.title = $client_lang['search_result'].replace('$1', $s) + " | " + getMeta("og:site_name");
-
-var $categories_name = new Array();
-fetch('./static-json/categories/index.json') // /index.json
-.then(($response) =&gt; $response.json())
-.then(($data) =&gt; {
-if ($data !== undefined)
-Object.keys($data).forEach($key =&gt; {
-var $item = $data[$key];
-$categories_name[$item.term_id] = $item.name;
-});
-fetch('./wp-json/wp/v2/posts/index.json')
-.then(($response) =&gt; $response.json())
-.then(($data) =&gt; {
-if ($data !== undefined)
-$data.forEach($item =&gt; {
-if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
-$isFound = true;
-
-var $categories_html;
-$item.categories.forEach($id =&gt; {
-$categories_html += '&lt;span class="entry-category"&gt;' + $categories_name[$id] + '&lt;/span&gt;';
-});
-var $post_date = $item.date.replace('-', '.');
-$post_date = $post_date.substr(0, $post_date.indexOf('T'));
-
-$html += `
-&lt;a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}"&gt;
-&lt;article&gt;
-&lt;figure class="entry-card-thumb card-thumb e-card-thumb"&gt;
-&lt;img data-src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image lozad lozad-img" loading="lazy" width="320" height="180" /&gt;&lt;noscript&gt;&lt;img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" /&gt;&lt;/noscript&gt; &lt;span class="cat-label cat-label-13"&gt;Minecraft&lt;/span&gt; &lt;/figure&gt;&lt;!-- /.entry-card-thumb --&gt;
-&lt;div class="entry-card-content card-content e-card-content"&gt;
-&lt;h2 class="entry-card-title card-title e-card-title" itemprop="headline"&gt;${$item.title.rendered}&lt;/h2&gt;
-&lt;div class="entry-card-snippet card-snippet e-card-snippet"&gt;
-${$item.excerpt.rendered}
-&lt;/div&gt;
-&lt;div class="entry-card-meta card-meta e-card-meta"&gt;
-&lt;div class="entry-card-info e-card-info"&gt;
-&lt;span class="post-date"&gt;&lt;span class="fa fa-clock-o" aria-hidden="true"&gt;&lt;/span&gt; ${$post_date}&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="entry-card-categorys"&gt;${$categories_html}&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;!-- /.entry-card-content --&gt;
-&lt;/article&gt;
-&lt;/a&gt;
-`;
-}
-});
-if ($isFound === false) {
-$html += `
-&lt;div class="posts-not-found"&gt;
-&lt;h2&gt;NOT FOUND&lt;/h2&gt;
-&lt;p&gt;${$client_lang['posts_not_found']}&lt;/p&gt;
-&lt;/div&gt;
-`;
-}
-$html += `&lt;/div&gt;&lt;!-- .list --&gt;`;
-document.addEventListener("DOMContentLoaded", function() {
-if ($htmlSetted === false) {
-document.getElementById("main").innerHTML = $html;
-$htmlSetted = true;
-}
-});
-window.addEventListener("load", function() {
-if ($htmlSetted === false) {
-document.getElementById("main").innerHTML = $html;
-$htmlSetted = true;
-}
-});
-});
-});
-}
-</pre>
-<p>テーマのheader.phpの&lt;/head&gt;前に以下のコードを加える</p>
-<pre>&lt;script src="./client.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</pre>
-<h3>コメントを機能させる</h3>
-<p>Utterancesというものを使い、GitHubのIssueをサイトに埋め込み、コメント欄として利用します。<br />
-<a href="https://utteranc.es/">https://utteranc.es/</a><br />
-テーマのcomments.phpを書き換えます。</p>
-<pre>&lt;?php //コメントエリア
-/**
-* Cocoon WordPress Theme
-* @author: yhira
-* @link: https://wp-cocoon.com/
-* @license: http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
-*/
-
-if ( !defined( 'ABSPATH' ) ) exit;
-
-if ( is_comment_allow() || have_comments() ): ?&gt;
-&lt;div id="utteranc_comment"&gt;
-&lt;!-- comment area --&gt;
-<span class="bold red marker-red">ここにコード</span>
-&lt;/div&gt;
-&lt;?php endif ?&gt;</pre>
-<p>生成したコードを「ここにコード」に貼り付けましょう。</p>
-<p>&nbsp;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/2022072049/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

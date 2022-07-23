@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/tag/simple-pipes/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Wed, 20 Jul 2022 11:49:15 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 22 Jul 2022 07:27:42 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,7 +28,7 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>【Minecraft】Simple BC Pipesでパイプを使う</title>
+		<title>【Minecraft】Simple BC Pipesでパイプを使う [Fabric]</title>
 		<link>https://blog.pkom.ml/2022072099/</link>
 					<comments>https://blog.pkom.ml/2022072099/#respond</comments>
 		
