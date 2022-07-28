@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/author/pitan/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Sat, 23 Jul 2022 07:42:39 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 28 Jul 2022 14:53:17 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,435 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【LWJGL】描画処理 &#8211; その1(背景色) #4</title>
+		<link>https://blog.pkom.ml/20220728173/</link>
+					<comments>https://blog.pkom.ml/20220728173/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 28 Jul 2022 14:53:06 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[LWJGL]]></category>
+		<category><![CDATA[LWJGL3]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=173</guid>
+
+					<description><![CDATA[Color4fクラス 色を保存するためのクラスをつくっておきます。 なくてもいいんですが、私はつくる派です。 package ml.pkom.lwjgl.tutorial; public class Color4f {  [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>Color4fクラス</h2>
+<p>色を保存するためのクラスをつくっておきます。<br />
+なくてもいいんですが、私はつくる派です。</p>
+<pre>package ml.pkom.lwjgl.tutorial;
+
+public class Color4f {
+    public float r;
+    public float g;
+    public float b;
+    public float a;
+    
+    public Color4f(float r, float g, float b) {
+        this(r, g, b, 1.0f);
+    }
+    
+    public Color4f(float r, float g, float b, float a) {
+        this.r = r;
+        this.g = g;
+        this.b = b;
+        this.a = a;
+    }
+}</pre>
+<h2>Windowクラス</h2>
+<p>先ほどつくったColor4fクラスを使います。<br />
+つくってない場合は一つ一つr, g, bのfloat型変数を用意する必要がありますね。</p>
+<pre>// 背景色
+public Color4f bgColor new Color4f(0f, 0f, 0f);</pre>
+<pre>public void init() {
+    (省略)
+
+    // リサイズをできるように設定
+    GLFW.glfwWindowHint(GLFW.GLFW_RESIZABLE, GLFW.GLFW_TRUE);
+
+    GLFW.glfwMakeContextCurrent(window);
+    GL.createCapabilities();
+
+    // ビデオモードの取得
+    GLFWVidMode videoMode = GLFW.glfwGetVideoMode(GLFW.glfwGetPrimaryMonitor());
+
+    (省略)
+}</pre>
+<pre>// 背景色をセット
+public void setBgColor(float r, float g, float b) {
+    this.bgColor = new Color4f(r, g, b);
+}</pre>
+<p>update関数に以下の処理を追加します。</p>
+<pre>// 背景色を描画
+GL11.glClearColor(bgColor.r, bgColor.g, bgColor.b, bgColor.a);
+GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);</pre>
+<p><img loading="lazy" width="413" height="241" class="alignnone wp-image-174 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21.png 413w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21-300x175.png 300w" sizes="(max-width: 413px) 100vw, 413px" /></p>
+<p>どこかに以下のコードを埋め込むと黄色になると思います。</p>
+<pre>window.setBgColor(1.0f, 1.0f, 0.0f);</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220728173/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【LWJGL】60FPSでループ処理 #3</title>
+		<link>https://blog.pkom.ml/20220728169/</link>
+					<comments>https://blog.pkom.ml/20220728169/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 28 Jul 2022 14:34:10 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[LWJGL]]></category>
+		<category><![CDATA[LWJGL3]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=169</guid>
+
+					<description><![CDATA[Windowクラスへ以下の変数を追記しておく。 // 基準のFPS public int fps = 60; // FPS public double fpsCap = fps; public double time,  [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Windowクラスへ以下の変数を追記しておく。</p>
+<pre>// 基準のFPS
+public int fps = 60;
+
+// FPS
+public double fpsCap = fps;
+
+public double time, processedTime;</pre>
+<p>以下の関数も追記</p>
+<pre>public boolean isUpdating() {
+    double nextTime = getTime();
+    double passedTime = nextTime - time;
+    processedTime += passedTime;
+    time = nextTime;
+
+    while (processedTime &gt; 1.0/fpsCap) {
+        processedTime -= 1.0/fpsCap;
+        return true;
+    }
+    return false;
+}
+
+// 現在のFPSを取得
+public double getFPS() {
+    return fpsCap;
+}
+
+// 時間の取得
+public double getTime() {
+    return (double) System.nanoTime() / (double) 1000000000;
+}</pre>
+<p>Windowクラスのinit()関数の最後に以下の処理を追記</p>
+<pre>time = getTime();</pre>
+<p><img loading="lazy" width="281" height="447" class="alignnone wp-image-170 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19.png 281w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19-189x300.png 189w" sizes="(max-width: 281px) 100vw, 281px" /></p>
+<h2>Mainクラス(動作確認)</h2>
+<pre>public static void main(String[] args) {
+    Window window = new Window();
+
+    // ウィンドウの初期化
+    window.init();
+
+    // 閉じるまでループ
+    while (!window.isClosed()) {
+        if (window.isUpdating()) {
+            // イベントの更新
+            window.update();
+
+            System.out.println(window.getFPS());
+
+            // バッファの更新
+            window.swapBuffers();
+        }
+    }
+}</pre>
+<p><img loading="lazy" width="257" height="346" class="alignnone wp-image-171 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20.png 257w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20-223x300.png 223w" sizes="(max-width: 257px) 100vw, 257px" /></p>
+<p>現在のFPS(60.0)が表示されたら成功です。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220728169/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【LWJGL】キー、マウス入力 #2</title>
+		<link>https://blog.pkom.ml/20220728160/</link>
+					<comments>https://blog.pkom.ml/20220728160/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 28 Jul 2022 14:10:32 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[LWJGL]]></category>
+		<category><![CDATA[LWJGL3]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=160</guid>
+
+					<description><![CDATA[次はキー、マウス入力となります。 キーの入力 // キーが押されているか public boolean isKeyDown(int key) { return GLFW.glfwGetKey(window, key) = [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>次はキー、マウス入力となります。</p>
+<h2>キーの入力</h2>
+<pre>// キーが押されているか
+public boolean isKeyDown(int key) {
+    return GLFW.glfwGetKey(window, key) == 1;
+}
+
+// キーが押されたか
+public boolean isKeyPressed(int key) {
+    return isKeyDown(key) &amp;&amp; !lastKeys[key];
+}
+
+// キーが離されたか
+public boolean isKeyReleased(int key) {
+    return !isKeyDown(key) &amp;&amp; lastKeys[key];
+}</pre>
+<p>上記のコードをWindowクラスに追加してください。<br />
+GLFW.glfwGetKeyでは引数に指定されたキーが押されているか確認できます。1が返されると押されているということになるみたいですね。</p>
+<h2>マウスの入力</h2>
+<pre>// マウスが押されているか
+public boolean isMouseDown(int button) {
+    return GLFW.glfwGetMouseButton(window, button) == 1;
+}
+
+// マウスが押されたか
+public boolean isMousePressed(int button) {
+    return isMouseDown(button) &amp;&amp; !lastMouseButtons[button];
+}
+
+// マウスが離されたか
+public boolean isMouseReleased(int button) {
+    return !isMouseDown(button) &amp;&amp; lastMouseButtons[button];
+}</pre>
+<p>こちらもWindowクラスに付け足してください。<br />
+上の項目の仕様と同じみたいです。</p>
+<pre>// 最後に押されたキー
+public boolean[] lastKeys = new boolean[GLFW.GLFW_KEY_LAST];
+
+// 最後に押されたマウスボタン
+public boolean[] lastMouseButtons = new boolean[GLFW.GLFW_MOUSE_BUTTON_LAST];</pre>
+<p>上記の配列は上らへんに追記しておいてください。<br />
+これがないと最後に押されたキーを記録できません。</p>
+<pre>public void update() {
+    for (int i = 0; i &lt; GLFW.GLFW_KEY_LAST; i++)
+        lastKeys[i] = isKeyDown(i);
+    for (int i = 0; i &lt; GLFW.GLFW_MOUSE_BUTTON_LAST; i++)
+        lastMouseButtons[i] = isMouseDown(i);
+
+    // マウスなど入力されたイベントを記録する
+    GLFW.glfwPollEvents();
+}</pre>
+<p>update関数にlastKeys, lastMouseButtonsへ最後に押されたキーを保存する処理を追加します。</p>
+<h2>マウスカーソルの座標</h2>
+<pre>// マウスカーソルのX座標を取得
+public double getMouseX() {
+    DoubleBuffer buffer = BufferUtils.createDoubleBuffer(1);
+    GLFW.glfwGetCursorPos(window, buffer, null);
+    return buffer.get(0);
+}
+
+// マウスカーソルのY座標を取得
+public double getMouseY() {
+    DoubleBuffer buffer = BufferUtils.createDoubleBuffer(1);
+    GLFW.glfwGetCursorPos(window, null, buffer);
+    return buffer.get(0);
+}</pre>
+<p>※DoubleBufferはダブルバッファリングではありません。<br />
+Double型のバッファにglfwGetCursorPos関数がマウスカーソルの位置を書き込むみたいですね。</p>
+<h2>動作確認</h2>
+<pre>public static void main(String[] args) {
+    Window window = new Window();
+
+    // ウィンドウの初期化
+    window.init();
+
+    // 閉じるまでループ
+    while (!window.isClosed()) {
+
+        // イベントの更新
+        window.update();
+
+        if (window.isKeyPressed(GLFW.GLFW_KEY_A)) {
+            System.out.println("Pressed A");
+        }
+        if (window.isKeyReleased(GLFW.GLFW_KEY_A)) {
+            System.out.println("Released A");
+        }
+        if (window.isMousePressed(GLFW.GLFW_MOUSE_BUTTON_LEFT)) {
+            System.out.println("Pressed Left");
+            System.out.println("CursorPos: (" + window.getMouseX() + ", " + window.getMouseY() + ")");
+        }
+        if (window.isMouseReleased(GLFW.GLFW_MOUSE_BUTTON_LEFT)) {
+            System.out.println("Released Left");
+        }
+
+        // バッファの更新
+        window.swapBuffers();
+
+    }
+}</pre>
+<p><img loading="lazy" width="233" height="270" class="alignnone wp-image-167 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-18.png" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220728160/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【LWJGL】ウィンドウの作成 #1</title>
+		<link>https://blog.pkom.ml/20220728158/</link>
+					<comments>https://blog.pkom.ml/20220728158/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 28 Jul 2022 10:33:02 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[LWJGL]]></category>
+		<category><![CDATA[LWJGL3]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=158</guid>
+
+					<description><![CDATA[適当に初期クラスのMainクラスとウィンドウの処理を書くためのWindowクラスをつくっておきます。 Windowクラス package ml.pkom.lwjgl.tutorial; import org.lwjgl. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>適当に初期クラスのMainクラスとウィンドウの処理を書くためのWindowクラスをつくっておきます。</p>
+<ul>
+<li>Windowクラス</li>
+</ul>
+<pre>package ml.pkom.lwjgl.tutorial;
+
+import org.lwjgl.glfw.GLFW;
+import org.lwjgl.glfw.GLFWVidMode;
+import static org.lwjgl.system.MemoryUtil.*;
+
+public class Window {
+
+    public long window;
+
+    // ウィンドウの横幅
+    public int width = 640;
+
+    // ウィンドウの縦幅
+    public int height = 360;
+
+    // ウィンドウのタイトル名
+    public String title = "HogeHoge";
+
+    public void init() {
+        // GLFWの初期化
+        GLFW.glfwInit();
+
+        // ウィンドウを作成
+        window = GLFW.glfwCreateWindow(width, height, title, NULL, NULL);
+
+        // ウィンドウが見えるように設定
+        GLFW.glfwWindowHint(GLFW.GLFW_VISIBLE, GLFW.GLFW_FALSE);
+
+        // リサイズをできるように設定
+        GLFW.glfwWindowHint(GLFW.GLFW_RESIZABLE, GLFW.GLFW_TRUE);
+
+        // ビデオモードの取得
+        GLFWVidMode videoMode = GLFW.glfwGetVideoMode(GLFW.glfwGetPrimaryMonitor());
+
+        // 画面のサイズを取得
+        int screenWidth = videoMode.width();
+        int screenHeight = videoMode.height();
+
+        // ウィンドウの位置を中央へセットする
+        GLFW.glfwSetWindowPos(window, (screenWidth - width) / 2, (screenHeight - height) / 2);
+
+        // ウィンドウを表示
+        GLFW.glfwShowWindow(window);
+    }
+
+    // 閉じるボタンが押されるとtrueを返す
+    public boolean isClosed() {
+        return GLFW.glfwWindowShouldClose(window);
+    }
+
+    public void update() {
+        // マウスなど入力されたイベントを記録する
+        GLFW.glfwPollEvents();
+    }
+
+    public void swapBuffers() {
+        // カラーバッファ(色表示)を入れ替える
+        GLFW.glfwSwapBuffers(window);
+    }
+}</pre>
+<ul>
+<li>Mainクラス</li>
+</ul>
+<pre>package ml.pkom.lwjgl.tutorial;
+
+public class Main {
+    public static void main(String[] args) {
+        Window window = new Window();
+
+        // ウィンドウの初期化
+        window.init();
+
+        // 閉じるまでループ
+        while (!window.isClosed()) {
+            // イベントの更新
+            window.update();
+            
+            // バッファの更新
+            window.swapBuffers();
+        }
+    }
+}</pre>
+<p><img loading="lazy" width="642" height="392" class="alignnone wp-image-163 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17.png 642w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17-300x183.png 300w" sizes="(max-width: 642px) 100vw, 642px" /></p>
+<p>実行してみるとウィンドウが表示されました。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220728158/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【LWJGL3】セットアップ #0</title>
+		<link>https://blog.pkom.ml/20220728153/</link>
+					<comments>https://blog.pkom.ml/20220728153/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 28 Jul 2022 09:57:58 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[LWJGL]]></category>
+		<category><![CDATA[LWJGL3]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=153</guid>
+
+					<description><![CDATA[JavaのLWJGLを学ぶついでに記事も書こうと思います。 日本語で説明されているものが少なかったので以下の動画を参考に日本語で説明していきます。 私のコードは好きに使ってもらって構いません。 開発環境 環境 OS: W [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>JavaのLWJGLを学ぶついでに記事も書こうと思います。<br />
+日本語で説明されているものが少なかったので以下の動画を参考に日本語で説明していきます。<br />
+私のコードは好きに使ってもらって構いません。</p>
+<p><iframe loading="lazy" title="3D Game using LWJGL 3 Tutorial - #1 Making a Window" width="1107" height="623" src="https://www.youtube.com/embed/ISWcMXxl26s?list=PLaWuTOi9sDepAlbNEOXhjjFSo2WBkWOT2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2>開発環境</h2>
+<h3 style="text-align: left;">環境</h3>
+<p>OS: Windows 11<br />
+IDE: Intellij IDEA<br />
+Java: OpenJDK 17<br />
+LWJGL: 3.3.1</p>
+<h3>pom.xml</h3>
+<p>以下のページでpom.xmlを生成します。</p>
+<a rel="noopener" href="https://www.lwjgl.org/customize" title="LWJGL - Lightweight Java Game Library" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lwjgl.org%2Fcustomize?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">LWJGL - Lightweight Java Game Library</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.lwjgl.org/customize" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.lwjgl.org</div></div></div></div></a>
+<p>Releseの方を選択してみます。</p>
+<p>pom.xmlを生成したいのでMavenを選びます。</p>
+<p><img loading="lazy" width="151" height="158" class="alignnone wp-image-154 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-14.png" /></p>
+<p>JOMLも追加しておきます。</p>
+<p><img loading="lazy" width="253" height="189" class="alignnone wp-image-155 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-15.png" /></p>
+<p>下の「DOWNLOAD POM.XML」か「COPY TO CLIPBOARD」でpom.xmlを自身のpom.xmlに貼り付けるか一部だけ貼り付けてください。</p>
+<p><img loading="lazy" width="698" height="69" class="alignnone wp-image-156 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16.png 698w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16-300x30.png 300w" sizes="(max-width: 698px) 100vw, 698px" /></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220728153/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Minecraft】無料でポート開放せずにサーバーを公開するツール</title>
 		<link>https://blog.pkom.ml/20220723148/</link>
 					<comments>https://blog.pkom.ml/20220723148/#respond</comments>
@@ -298,408 +727,6 @@ UML記述機能<br />
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/20220720111/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【PukiWiki】PukiWikiにGUI編集プラグインEasyEditを導入する</title>
-		<link>https://blog.pkom.ml/20220720104/</link>
-					<comments>https://blog.pkom.ml/20220720104/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Wed, 20 Jul 2022 12:01:41 +0000</pubDate>
-				<category><![CDATA[PukiWiki]]></category>
-		<category><![CDATA[ソフトウェア]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[GUI編集]]></category>
-		<category><![CDATA[PukiWikiプラグイン]]></category>
-		<category><![CDATA[WYSIWIG]]></category>
-		<category><![CDATA[自作プラグイン]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=104</guid>
-
-					<description><![CDATA[この記事を書いた頃より2年前ぐらい、PukiWiki Plus!のリポジトリに入っていたguieditを修正してeasyeditをつくってみました。 ただ、当時は私の技術もあまりなかったためにバグも酷く、ページのレイアウ [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>この記事を書いた頃より2年前ぐらい、PukiWiki Plus!のリポジトリに入っていたguieditを修正してeasyeditをつくってみました。<br />
-ただ、当時は私の技術もあまりなかったためにバグも酷く、ページのレイアウトが崩れてしまうことがありました。<br />
-はいふんさんがPHP8へ対応させてくださいました。<br />
-ただ、2022年現在もう一度修正してみたら、ほぼきちんと動作するようになりました。</p>
-<p>そして、この方がKCFinderと一緒に使ってくださっているみたいなので本体に組み込んでみました。<br />
-<a href="https://uura.site/pukiwiki-wysiwyg/">https://uura.site/pukiwiki-wysiwyg/</a></p>
-<p>私が管理しているWikiChree.COMにEasyEditを配置してますので試してもらって構いません。<br />
-<a href="https://wikichree.com/TrialWiki/?cmd=easyedit&amp;page=SandBox/2">https://wikichree.com/TrialWiki/?cmd=easyedit&amp;page=SandBox/2</a></p>
-<p>EasyEditの詳細は以下のリンクで確認してください。<br />
-<a href="https://pkom.ml/?%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php">https://pkom.ml/?%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php</a></p>
-<h3 id="動作環境">動作環境</h3>
-<ul>
-<li>PukiWiki 1.5.4</li>
-<li>PHP8.0.1</li>
-</ul>
-<h3 id="前提条件">前提条件</h3>
-<ul>
-<li>PukiWiki 1.5系</li>
-<li>PHP7～PHP8.x</li>
-</ul>
-<p>もしかしたら1.4系、PHP4, 5でも動くかもしれませんが、その時はコメントで伝えてくださるとありがたいです^^</p>
-<h3 id="導入">導入</h3>
-<h4 id="1-ダウンロード設置">1. ダウンロード＆設置</h4>
-<a rel="noopener" href="https://pukiwiki.osdn.jp/?%E8%87%AA%E4%BD%9C%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php" title="&#33258;&#20316;&#12503;&#12521;&#12464;&#12452;&#12531;/easyedit.inc.php - PukiWiki-official" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpukiwiki.osdn.jp%2F%3F%25E8%2587%25AA%25E4%25BD%259C%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25B0%25E3%2582%25A4%25E3%2583%25B3%2Feasyedit.inc.php?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">&#33258;&#20316;&#12503;&#12521;&#12464;&#12452;&#12531;/easyedit.inc.php - PukiWiki-official</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://pukiwiki.osdn.jp/?%E8%87%AA%E4%BD%9C%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/easyedit.inc.php" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">pukiwiki.osdn.jp</div></div></div></div></a>
-<p>1. 上記のURLからeasyeditのzipファイルをダウンロードする</p>
-<p>2. easyedit, image, pluginのフォルダをPukiWikiのルート(pukiwiki.ini.phpが入っているフォルダ)へ放り込み</p>
-<h4 id="2-ナビゲーションバーのリンク追加-方法">2. ナビゲーションバーのリンク追加 (方法①)</h4>
-<p>こちらの方法は1つのPHPファイルを修正するだけなのでお手軽ですね。</p>
-<pre>&lt;?php global $vars;echo '&lt;a href="./?cmd=easyedit&amp;page='.$vars['page'].'"&gt;編集(<a class="keyword" href="http://d.hatena.ne.jp/keyword/GUI">GUI</a>)&lt;/a&gt;'; ?&gt; |</pre>
-<p><strong>skin/pukiwiki.skin.php</strong>の「&lt;?php _navigator(&#8216;edit&#8217;) ?&gt; |」の行の次に上記のコードを追加してください。</p>
-<h4 id="3-ナビゲーションバーのリンク追加-方法">3. ナビゲーションバーのリンク追加 (方法②)</h4>
-<pre>&lt;?php echo '&lt;a href="' . $script . '?cmd=easyedit&amp;page=' . $r_page . '"&gt;' . $lang['easyedit'] . '&lt;/a&gt;' ?&gt; |</pre>
-<p>1. <strong>skin/pukiwiki.skin.php</strong>の「&lt;?php _navigator(&#8216;edit&#8217;) ?&gt; |」の行の次に上記のコードを追加してください。</p>
-<p>2. ja.lng.phpの「$_LANG[&#8216;skin&#8217;][&#8216;edit&#8217;]      = &#8216;編集&#8217;;」の次に以下のコードを追記してください。<br />
-文字列については好みに変更しても構いません。</p>
-<pre>$_LANG['skin']['easyedit']   = '編集(GUI)';</pre>
-<h3 id="カスタマイズ">カスタマイズ</h3>
-<h4 id="見出し編集">見出し編集</h4>
-<p>v1.11から見出し編集を追加してみました。<br />
-seceditが入っている場合は、seceditを自動で利用できるようにしています。</p>
-<p>以下の関数(コード)をclass Heading&#8230;に追加します。</p>
-<pre>// 見出し編集
-function wrap($string, $tag, $param = '', $canomit = TRUE) {
-  if (exist_plugin("easyedit"))
-    $string = plugin_easyedit_heading_add_link($string, $this-&gt;id);
-  if (exist_plugin("secedit")) {
-    $secedit = plugin_secedit_wrap($string, $tag, $param, $this-&gt;id);
-    return $secedit ? $secedit : parent::wrap($string, $tag, $param, $canomit);
-    }
-  return parent::wrap($string, $tag, $param, $canomit);
-}</pre>
-<h4 id="KCFinder削除">KCFinder削除</h4>
-<p>KCFinderを使わない場合は、easyedit内のkcfinderをフォルダごと削除した方がいいと思います。<br />
-そして<strong>plugin/easyedit.inc.phpの</strong>定数<strong>PLUGIN_EASYEDIT_ENABLE_KCFINDER</strong>をFALSEにします。</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220720104/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【Minecraft】Simple BC Pipesでパイプを使う [Fabric]</title>
-		<link>https://blog.pkom.ml/2022072099/</link>
-					<comments>https://blog.pkom.ml/2022072099/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Wed, 20 Jul 2022 11:44:00 +0000</pubDate>
-				<category><![CDATA[Minecraft]]></category>
-		<category><![CDATA[ゲーム]]></category>
-		<category><![CDATA[FabricMC]]></category>
-		<category><![CDATA[Simple Pipes]]></category>
-		<category><![CDATA[工業化MOD]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=99</guid>
-
-					<description><![CDATA[FabricにもBCのパイプはあるんですよ！！ということを伝えたいだけの記事なので適当です。 Simple Pipesの作者はBCの開発者であるAlexill氏ですね。 https://www.curseforge.co/ [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>FabricにもBCのパイプはあるんですよ！！ということを伝えたいだけの記事なので適当です。<br />
-Simple Pipesの作者はBCの開発者であるAlexill氏ですね。<br />
-<a href="https://www.curseforge.com/minecraft/mc-mods/simplepipes">https://www.curseforge.com/minecraft/mc-mods/simplepipes</a></p>
-<p><img loading="lazy" class="alignnone wp-image-100 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3.png" alt="" width="854" height="480" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3.png 854w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-300x169.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-768x432.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-120x68.png 120w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-160x90.png 160w, https://blog.pkom.ml/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-320x180.png 320w" sizes="(max-width: 854px) 100vw, 854px" /></p>
-<p>木パイプをクリックしてコンテナと接続することができます。<br />
-木エンジンがないのでレッドストーン信号を与えると木パイプから抽出できます。</p>
-<p><img loading="lazy" class="alignnone wp-image-101 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1024x555.png" alt="" width="1024" height="555" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1024x555.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-300x163.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-768x416.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1536x832.png 1536w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/2022072099/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【Minecraft】Fabricの軽量化MOD「Sodium」、「Canvas Renderer」、「OptiFine」と代替MOD、Sodiumアドオンの紹介</title>
-		<link>https://blog.pkom.ml/2022072081/</link>
-					<comments>https://blog.pkom.ml/2022072081/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Wed, 20 Jul 2022 05:17:56 +0000</pubDate>
-				<category><![CDATA[Minecraft]]></category>
-		<category><![CDATA[ゲーム]]></category>
-		<category><![CDATA[FabricMC]]></category>
-		<category><![CDATA[MOD]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=81</guid>
-
-					<description><![CDATA[軽量化MOD ※Sodium、Canvas、OptiFineを併用することはできません。 Sodium マイクラのFPSが数倍高くなる描画処理を最適化するMODです。OptiFineよりSodiumの方が断然良いと私は思 [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<h2>軽量化MOD</h2>
-
-
-
-<p>※Sodium、Canvas、OptiFineを併用することはできません。</p>
-
-
-
-<h3>Sodium</h3>
-
-
-
-<p>マイクラのFPSが数倍高くなる描画処理を最適化するMODです。<br />OptiFineよりSodiumの方が断然良いと私は思います。<br />OptiFineの機能がすべてあるわけでもないので代わりのMOD、アドオンも紹介ていきます。</p>
-
-
-
-<a rel="noopener" href="https://modrinth.com/mod/sodium" title="Sodium - Mods - Modrinth" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmodrinth.com%2Fmod%2Fsodium?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Sodium - Mods - Modrinth</div><div class="blogcard-snippet external-blogcard-snippet">Sodium: Modern rendering engine and client-side optimization mod for Minecraft View other minecraft mods on Modrinth today! Modrinth is a new and modern Minecra...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://modrinth.com/mod/sodium" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">modrinth.com</div></div></div></div></a>
-
-
-
-<h3>Canvas Renderer</h3>
-
-
-
-<p>パフォーマンスを最大限に発揮させる軽量化MODです。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/canvas-renderer" title="https://www.curseforge.com/minecraft/mc-mods/canvas-renderer" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fcanvas-renderer?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/canvas-renderer</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/canvas-renderer" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h3>OptiFine + OptiFabric</h3>
-
-
-
-<p>Fabricでは以下の2つを導入しないとOptiFineが動きません。</p>
-
-
-
-<h4>OptiFine</h4>
-
-
-
-<p>定番の軽量化MODであるOptiFineです。<br />ちなみに本来は軽量化目的で作られたものではないみたいですね^^;</p>
-
-
-
-<a rel="noopener" href="https://optifine.net/downloads" title="OptiFine Downloads" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Foptifine.net%2Fdownloads?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">OptiFine Downloads</div><div class="blogcard-snippet external-blogcard-snippet">OptiFine - Minecraft performance tuning and advanced graphics</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://optifine.net/downloads" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">optifine.net</div></div></div></div></a>
-
-
-
-<h4>OptiFabric</h4>
-
-
-
-<p>一時期開発停止を公表するなどありましたが、Chocohead氏が引き継いでくださった有志が更新し続けているMODです。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/optifabric" title="https://www.curseforge.com/minecraft/mc-mods/optifabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Foptifabric?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/optifabric</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/optifabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h2>Sodiumアドオン、代替MOD</h2>
-<h3>Sodium拡張MOD「Sodium Extra」</h3>
-<p>Sodiumにはないオプションを追加するSodiumアドオンです。</p>
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/sodium-extra" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fsodium-extra?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/sodium-extra" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h3>シェーダー読み込みMOD「Iris Shaders」</h3>
-
-
-
-<p>こちらは軽量な影MODローダーです。<br />OptiFine用のシェーダーパックとほぼ互換性があるようです。<br />私が使った感じは別に不具合もありませんでした。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/irisshaders" title="https://www.curseforge.com/minecraft/mc-mods/irisshaders" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Firisshaders?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/irisshaders</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/irisshaders" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h3>Fabric Rendering APIとの互換性を修正するMOD「Indium」</h3>
-
-
-
-<p>Sodiumは現在のところFabric Rendering APIをサポートしていないため、Fabric Rendering APIを利用したMODのブロックなどの表示がバグってしまうことがあります。<br />そのため、Indiumを入れることによりSodiumとFabric Rendering APIとの互換性を持たせることができます。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/indium" title="https://www.curseforge.com/minecraft/mc-mods/indium" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Findium?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/indium</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/indium" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h3>照明エンジン最適化MOD「Phosphor」</h3>
-
-
-
-<p>照明の描画処理を最適化するMODです。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/phosphor" title="https://www.curseforge.com/minecraft/mc-mods/phosphor" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fphosphor?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/phosphor</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/phosphor" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h3>汎用最適化MOD「Lithium」</h3>
-
-
-
-<p>マイクラのシステムを最適化するMODです。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/lithium" title="https://www.curseforge.com/minecraft/mc-mods/lithium" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Flithium?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/lithium</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/lithium" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-<h3>ビデオ設定を元に戻すMOD「Better Sodium Video Settings Button」</h3>
-<p>Sodiumは元のビデオ設定の画面を変更します。<br />このMODを導入すると元のビデオ設定の画面に戻し、ビデオ設定にSodiumへの設定のボタンを追加します。<br />僕はこれ結構便利だなあと思ってます。</p>
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fbetter-sodium-video-settings-button?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/better-sodium-video-settings-button" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h3>メモリ使用量削減MOD「FerriteCore」</h3>
-
-
-
-<p>メモリの使用量を削減するMODです。<br />元々、HydrogenというFabric用のMODがありましたが、1.18以降リリースされなくなりました。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric" title="https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fferritecore-fabric?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h3>ダイナミックライト「LambDynamicLights」</h3>
-
-
-
-<p>OptiFineにもあったようにアイテムが発光するMODです。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights" title="https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Flambdynamiclights?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h3>ズームMOD「Logical Zoom」</h3>
-
-
-
-<p>OptiFineのようにズームすることができるようになるMODです。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/logical-zoom" title="https://www.curseforge.com/minecraft/mc-mods/logical-zoom" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Flogical-zoom?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/logical-zoom</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/logical-zoom" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-
-
-
-<h3>テクスチャを接続するMOD「Continuity」</h3>
-
-
-
-<p>Connect Textures Modの代替MODです。<br />ガラスのつなぎ目をなくすことができます。<br />導入後、有効化するにはリソースパックの設定に追加されているcontinuity/&#8230;という名前のリソースパックを適用する必要があります。</p>
-
-
-
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/continuity" title="https://www.curseforge.com/minecraft/mc-mods/continuity" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fcontinuity?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://www.curseforge.com/minecraft/mc-mods/continuity</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/continuity" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-<h3>メモリを解放するMOD「MemoryLeakFix」</h3>
-<p>メモリの使用量を削減するMODです。</p>
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/memoryleakfix" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fmemoryleakfix?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/memoryleakfix" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-<h3>Sodiumの設定画面を改善するMOD「Reese&#8217;s Sodium Options」</h3>
-<p><img loading="lazy" class="alignnone size-medium" src="https://i.imgur.com/I63nZVG.png" width="1920" height="1017" /></p>
-<a rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Freeses-sodium-options?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.curseforge.com</div></div></div></div></a>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/2022072081/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【無料Wikiレンタルサービス】WikiChree.COMの紹介</title>
-		<link>https://blog.pkom.ml/2022072068/</link>
-					<comments>https://blog.pkom.ml/2022072068/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Tue, 19 Jul 2022 15:46:33 +0000</pubDate>
-				<category><![CDATA[PukiWiki]]></category>
-		<category><![CDATA[サーバー]]></category>
-		<category><![CDATA[サービス]]></category>
-		<category><![CDATA[ソフトウェア]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[通信技術]]></category>
-		<category><![CDATA[Web]]></category>
-		<category><![CDATA[Webサービス]]></category>
-		<category><![CDATA[Wiki]]></category>
-		<category><![CDATA[レンタルサービス]]></category>
-		<category><![CDATA[自作サービス]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=68</guid>
-
-					<description><![CDATA[わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。 是非使って見てください。 https://wikichree.com/ 特徴 その1. PukiWiki PukiWikiは日本産のOSSのCMSで [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>わいがつくった無料でWikiをつくれるサービスを紹介したいと思います。<br />
-是非使って見てください。<br />
-<a href="https://wikichree.com/">https://wikichree.com/</a></p>
-<h2>特徴</h2>
-<h3>その1. PukiWiki</h3>
-<p>PukiWikiは日本産のOSSのCMSであり、主にWikiとして使うことが多いです。<br />
-使い方によってはブログサイトとして使っている方もいますし様々です。</p>
-<h3>その2. カスタマイズ性</h3>
-<p>他のレンタルサービスとは違い、プラグインを自分で選択していれることができます。<br />
-ただし、セキュリティの観点からプラグインのアップロードはできません。要望なら募集しています。</p>
-<h3>その3. WISYWIGエディタ</h3>
-<p>EasyEditといった私がつくったWISYWIGプラグインを導入することができます。</p>
-<h3>その4. ユーザー管理</h3>
-<p>編集ユーザーを追加したりすることができます。<br />
-ただし、アカウント登録は今のところありません。</p>
-<h3>その5. Discord</h3>
-<p>Discordにて質問する場所があります。</p>
-<h2>短所</h2>
-<h3>スキンが少ない</h3>
-<p>現在のところ以下のスキンのみとなっています。<br />
-<input id="skin_default" checked="checked" name="change_skin" type="radio" value="default" /><label for="skin_default">デフォルトスキン</label><br />
-<input id="skin_orangebox" name="change_skin" type="radio" value="orangebox" /><label for="skin_orangebox">OrangeBox</label><br />
-<input id="skin_bluebox" name="change_skin" type="radio" value="bluebox" /><label for="skin_bluebox">BlueBox</label><br />
-<input id="skin_modernskin" name="change_skin" type="radio" value="modernskin" /><label for="skin_modernskin">ModernSkin</label><br />
-<input id="skin_modernskin_black" name="change_skin" type="radio" value="modernskin_black" /><label for="skin_modernskin_black">ModernSkin (Black ver)</label><br />
-<input id="skin_monobook" name="change_skin" type="radio" value="monobook" /><label for="skin_monobook">Monobook for PukiWiki</label><br />
-<input id="skin_tffacwiki" name="change_skin" type="radio" value="tffacwiki" /><label for="skin_tffacwiki">TFFAC Wikiのスキン</label><br />
-<input id="skin_street" name="change_skin" type="radio" value="street" /><label for="skin_street">Street</label><br />
-<input id="skin_bootstrap" name="change_skin" type="radio" value="bootstrap" /><label for="skin_bootstrap">Bootstrap</label><br />
-<input id="skin_plus" name="change_skin" type="radio" value="plus" /><label for="skin_plus">PukiWiki Plus!風スキン</label><br />
-<input id="skin_ika" name="change_skin" type="radio" value="ika" /><label for="skin_ika">イカスキン</label></p>
-<h3>広告</h3>
-<p>広告鬱陶しいですよね。収益が単に欲しい理由もありますが、維持費を回収したいのもあります。<br />
-正直言うと維持費を回収するほど収益がありませんｗ</p>
-<h3>利用者が少ない</h3>
-<p>許して&#8230;ください&#8230;（笑）</p>
-<h2>結果</h2>
-<p>レンタルサービスの中ではAtWikiとWIKIWIKI.JPは最強！（ry</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/2022072068/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>JitPackでJava 8以外を使う方法</title>
-		<link>https://blog.pkom.ml/2022072064/</link>
-					<comments>https://blog.pkom.ml/2022072064/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Tue, 19 Jul 2022 15:30:51 +0000</pubDate>
-				<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[Java]]></category>
-		<category><![CDATA[JitPack]]></category>
-		<category><![CDATA[Minecraft]]></category>
-		<category><![CDATA[ゲーム]]></category>
-		<category><![CDATA[サービス]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[通信技術]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=64</guid>
-
-					<description><![CDATA[FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlでjdkを指定したところ、一時期動いたのだが、また動作しなくなったため、以下のよ [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlで<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>を指定したところ、一時期動いたのだが、また動作しなくなったため、以下のようにbefore_install:をymlに追加すると解決する。<br />
-jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A3%A5%EC%A5%AF%A5%C8">ディレクト</a>リ直下に配置する。</p>
-<p><strong>jitpack.yml</strong></p>
-<pre>before_install:
-  - <a class="keyword" href="http://d.hatena.ne.jp/keyword/wget">wget</a> <a href="https://github.com/sormuras/bach/raw/master/install-jdk.sh">https://github.com/sormuras/bach/raw/master/install-jdk.sh</a>
-  - source ./install-<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>.sh --feature 17 --license <a class="keyword" href="http://d.hatena.ne.jp/keyword/GPL">GPL</a>
-<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>:
-  - openjdk17</pre>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/2022072064/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
