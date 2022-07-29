@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Thu, 28 Jul 2022 14:53:17 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 29 Jul 2022 03:36:02 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,7 +28,82 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>【LWJGL】描画処理 &#8211; その1(背景色) #4</title>
+		<title>GitHub Pagesを利用してMavenリポジトリをつくる</title>
+		<link>https://blog.pkom.ml/20220729178/</link>
+					<comments>https://blog.pkom.ml/20220729178/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Fri, 29 Jul 2022 03:18:02 +0000</pubDate>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[GitHub Pages]]></category>
+		<category><![CDATA[Maven]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=178</guid>
+
+					<description><![CDATA[はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポジトリへ設置し、GitHub Pagesで公開してみました。 設置したMavenリポジトリ Index of /ma [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>はじめに</h2>
+<p>FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポジトリへ設置し、GitHub Pagesで公開してみました。</p>
+<h3>設置したMavenリポジトリ</h3>
+<a rel="noopener" href="https://maven.pkom.ml/" title="Index of /" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmaven.pkom.ml%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of /</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://maven.pkom.ml/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">maven.pkom.ml</div></div></div></div></a>
+<h3 id="content_1_2">PHPスクリプト</h3>
+<p>PHPでMavenリポジトリをアップロードし、自動的にディレクトリリストのHTMLを生成し、GitHubへプッシュするスクリプトを書いてみました。</p>
+<a rel="noopener" href="https://github.com/Pitan76/maven/raw/main/maven.php" title="Index of {$displaydir}" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgithub.com%2FPitan76%2Fmaven%2Fraw%2Fmain%2Fmaven.php?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of {$displaydir}</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://github.com/Pitan76/maven/raw/main/maven.php" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">github.com</div></div></div></div></a>
+<h3 id="content_1_3">前提条件</h3>
+<ul class="list1 list-indent1">
+<li>PHPを動作させるWebサーバーをインストールしておく(XAMPP、LAMP等)</li>
+<li>Gitを入れておく</li>
+<li>GitHubのアカウントをつくっておく</li>
+<li>Mavenリポジトリとして使うGitリポジトリをGitHubにつくっておく</li>
+</ul>
+<h3>やり方</h3>
+<p>Pitan Mod Wikiの文章をそのまま載せておきます。</p>
+<a rel="noopener" href="https://wikichree.com/pitan76/?Diary/2022-07-14" title="Diary/2022-07-14 - Pitan&#x20;Mod&#x20;Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwikichree.com%2Fpitan76%2F%3FDiary%2F2022-07-14?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Diary/2022-07-14 - Pitan&#x20;Mod&#x20;Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://wikichree.com/pitan76/?Diary/2022-07-14" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">wikichree.com</div></div></div></div></a>
+<p>1. GitHubのGitリポジトリを開き、[Settings]→[Pages]→SourceがNoneになっているのでbranchを選択する<br />
+2. 特定のhtdocsにmavenリポジトリとするフォルダをつくる。(htdocs/maven/にしました。)<br />
+3. つくったフォルダにmaven.phpを放り込む。(今回はhtdocs/maven/maven.phpに放り込みました。)<br />
+4. つくったフォルダでターミナルを開き、<strong>git init</strong>を実行<br />
+5. <strong>git add *</strong>を実行<br />
+6. <strong>git commit -m &#8220;(任意)&#8221;</strong>を実行<br />
+7. <strong>git branch -M main</strong>を実行<br />
+8. <strong>git remote add origin https://github.com/(ユーザー名)/(リポジトリ名).git</strong>を実行<br />
+9. <strong>git push -u origin main</strong>を実行<br />
+10. ブラウザでmaven.phpを開き、jarをアップロードする。(私の場合はlocalhost/maven/maven.phpとなっています)</p>
+<h3 id="content_1_5">maven.phpの仕様</h3>
+<ul class="list1 list-indent1">
+<li>アップロード後、自動でgit push</li>
+<li>ハッシュファイルを作成する</li>
+<li>ディレクトリリストのindex.htmlを自動生成する</li>
+</ul>
+<p>ここからは任意ですが、Customドメインもついでに設定しておきます<br />
+Custom domainで自分のドメインを設定しました。</p>
+<h2>さいごに</h2>
+<p>MavenリポジトリをGitHub Pagesに設置し、ライブラリを公開できて面白かったです。<br />
+正しい方法ではないと思うので外部の関連サイトも載せておきます。</p>
+<h3>関連リンク</h3>
+<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
+<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
+<a rel="noopener" href="https://qiita.com/koduki/items/6babcc6f2b233da96e06" title="2020年のMavenリポジトリの作り方 - Qiita" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png?ixlib=rb-4.0.0&#038;w=1200&#038;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9MjAyMCVFNSVCOSVCNCVFMyU4MSVBRU1hdmVuJUUzJTgzJUFBJUUzJTgzJTlEJUUzJTgyJUI4JUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFFJUU0JUJEJTlDJUUzJTgyJThBJUU2JTk2JUI5JnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz1jOWJkN2RhOTRhYmY5ZjI5MTQ3OTE4ZmI2ODFjYThkOA&#038;mark-x=142&#038;mark-y=112&#038;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwa29kdWtpJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz01N2QxMjJjOGVkNzgwMmM0ZGM0NzhmNzUzYTVjN2M2Yw&#038;blend-x=142&#038;blend-y=491&#038;blend-mode=normal&#038;s=5065ef28c6bc083f309e217ff68622f0" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">2020年のMavenリポジトリの作り方 - Qiita</div><div class="blogcard-snippet external-blogcard-snippet">
+
+はじめに
+
+Javaのエンジニアであれば何だかんだでMavenリポジトリを使うことは非常に多いと思います。Gradleであっても使いますしね。
+
+OSSなどはセントラルリポジトリから落とすとして自作のライブラリの管理をどうしていま...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://qiita.com/koduki/items/6babcc6f2b233da96e06" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">qiita.com</div></div></div></div></a>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220729178/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【LWJGL3】描画処理 &#8211; その1(背景色) #4</title>
 		<link>https://blog.pkom.ml/20220728173/</link>
 					<comments>https://blog.pkom.ml/20220728173/#respond</comments>
 		
@@ -102,7 +177,7 @@ GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);</pre>
 		
 			</item>
 		<item>
-		<title>【LWJGL】60FPSでループ処理 #3</title>
+		<title>【LWJGL3】60FPSでループ処理 #3</title>
 		<link>https://blog.pkom.ml/20220728169/</link>
 					<comments>https://blog.pkom.ml/20220728169/#respond</comments>
 		
@@ -180,7 +255,7 @@ public double getTime() {
 		
 			</item>
 		<item>
-		<title>【LWJGL】キー、マウス入力 #2</title>
+		<title>【LWJGL3】キー、マウス入力 #2</title>
 		<link>https://blog.pkom.ml/20220728160/</link>
 					<comments>https://blog.pkom.ml/20220728160/#respond</comments>
 		
@@ -303,7 +378,7 @@ Double型のバッファにglfwGetCursorPos関数がマウスカーソルの位�
 		
 			</item>
 		<item>
-		<title>【LWJGL】ウィンドウの作成 #1</title>
+		<title>【LWJGL3】ウィンドウの作成 #1</title>
 		<link>https://blog.pkom.ml/20220728158/</link>
 					<comments>https://blog.pkom.ml/20220728158/#respond</comments>
 		
@@ -613,120 +688,6 @@ Minecraftで使う方は多いと思います。<br />
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/20220720115/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>無料のWikiソフトウェアを比較してみる</title>
-		<link>https://blog.pkom.ml/20220720111/</link>
-					<comments>https://blog.pkom.ml/20220720111/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Wed, 20 Jul 2022 12:07:44 +0000</pubDate>
-				<category><![CDATA[DokuWiki]]></category>
-		<category><![CDATA[GROWI]]></category>
-		<category><![CDATA[MediaWiki]]></category>
-		<category><![CDATA[PukiWiki]]></category>
-		<category><![CDATA[ソフトウェア]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[通信技術]]></category>
-		<category><![CDATA[CMS]]></category>
-		<category><![CDATA[Web]]></category>
-		<category><![CDATA[Wiki]]></category>
-		<category><![CDATA[Wikiソフトウェア]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=111</guid>
-
-					<description><![CDATA[はじめに ここでのWikiソフトウェアは、誰でも編集できるWebサイトということを指します。 あくまで私の意見ですので、鵜呑みにせず・・ 今回は無料のWikiソフトウェアを比較しようと思います。 Wikiソフトウェア P [&#8230;]]]></description>
-										<content:encoded><![CDATA[<h2>はじめに</h2>
-<p>ここでのWikiソフトウェアは、誰でも編集できるWebサイトということを指します。<br />
-あくまで私の意見ですので、鵜呑みにせず・・<br />
-今回は無料のWikiソフトウェアを比較しようと思います。</p>
-<h3>Wikiソフトウェア</h3>
-<h4>PukiWiki</h4>
-<p>ところどころで使われている日本産のWikiソフトウェア<br />
-掲示板、バグトラッキングシステム、メモ、ブログとしても使えたり。<br />
-wikiwiki.jpやatwiki.jpのベースだったり。<br />
-一時期、開発が止まっていたものの、今でもメンテナンスされ続けています。</p>
-<p>言語: PHP<br />
-開発: PukiWiki Development Team<br />
-誕生: 2001年<br />
-ライセンス: GPLv2+</p>
-<a rel="noopener" href="https://pukiwiki.osdn.jp/" title="FrontPage - PukiWiki-official" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpukiwiki.osdn.jp%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">FrontPage - PukiWiki-official</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://pukiwiki.osdn.jp/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">pukiwiki.osdn.jp</div></div></div></div></a>
-<h5>メリット</h5>
-<p>データベース不要<br />
-簡単に設置可能<br />
-ページの管理が簡単<br />
-プラグインが豊富<br />
-機能は比較的多い</p>
-<h5>デメリット</h5>
-<p>アカウント管理機能がない(プラグインを使えば可能)<br />
-デザインが古臭い(スキンを使えば可能)<br />
-WYSIWYG編集未対応(プラグインを使えば可能)</p>
-<h4>DokuWiki</h4>
-<p>こちらもPukiWikiと同様、データベース不要というのが特徴的ですね。<br />
-大量のプラグインもあります。<br />
-ドキュメント管理には向いています。</p>
-<p>言語: PHP<br />
-開発: Andreas Gohr<br />
-誕生: 2004年<br />
-ライセンス: GPLv2</p>
-<a rel="noopener" href="https://www.dokuwiki.org/" title="dokuwiki [DokuWiki]" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.dokuwiki.org%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">dokuwiki [DokuWiki]</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.dokuwiki.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.dokuwiki.org</div></div></div></div></a>
-<h5>メリット</h5>
-<p>データベース不要<br />
-アカウント管理機能<br />
-ファイルの管理が直接DokuWikiでできる<br />
-多言語対応<br />
-スパム対策機能</p>
-<h5>デメリット</h5>
-<p>日本人の利用者はあまりいない<br />
-Markdown未対応(プラグインを使えば可能)<br />
-WYSIWYG編集未対応(プラグインを使えば可能)</p>
-<h4>MediaWiki</h4>
-<p>あのWikipediaで使われているソフトウェアですね。<br />
-デザインも綺麗で見慣れています。<br />
-ただ、直感で操作できる訳ではないでしょうね、</p>
-<p>言語: PHP<br />
-開発: Wikimedia Foundation Inc.<br />
-誕生: 2001年<br />
-ライセンス: GPL</p>
-<a rel="noopener" href="https://www.mediawiki.org/" title="MediaWiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/baa5aa3d42a4f5cea6bcba78108be849.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">MediaWiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.mediawiki.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.mediawiki.org</div></div></div></div></a>
-<h5>メリット</h5>
-<p>アカウント管理機能<br />
-多言語対応<br />
-スパム対策機能<br />
-とても多機能<br />
-WYSIWYG編集</p>
-<h5>デメリット</h5>
-<p>処理が重たい<br />
-Markdown未対応(プラグインを使えば可能)<br />
-管理が大変</p>
-<h4>GROWI</h4>
-<p>Crowiをベースとしたウィキソフトウェア。<br />
-Markdownが使える。<br />
-クラウドサービスも行っているようだ。</p>
-<a rel="noopener" href="https://growi.org/" title="OSS開発wikiツールのGROWI | 快適な情報共有を、全ての人へ" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/c73cfccf0479301e9b71a134bb42458c.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">OSS開発wikiツールのGROWI | 快適な情報共有を、全ての人へ</div><div class="blogcard-snippet external-blogcard-snippet">GROWIはWESEEKが開発を行い、MITライセンスで公開しているオープンソースソフトウェアです。 dockerへのインストールやオンプレ対応も可能です。 開発を手伝っていただけるコントリビューター、開発してみたいインターン生も募集しています。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://growi.org/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">growi.org</div></div></div></div></a>
-<p>言語: JavaScript (Node.js)<br />
-開発: 株式会社WESEEK<br />
-誕生: 2017年<br />
-ライセンス: MIT</p>
-<h5>メリット</h5>
-<p>Markdown<br />
-グループ・アカウント管理機能<br />
-編集機能が多い<br />
-UML記述機能<br />
-管理が簡単<br />
-デメリット<br />
-プラグインが少ない<br />
-少し重たい</p>
-<h2>おわりに</h2>
-<p>私はやっぱりPukiWikiが好みです。<br />
-プラグイン開発も楽しいですし、管理もしやすい。<br />
-何よりナビバーの操作性が高い点ですね。<br />
-もちろんMediaWikiやGrowiなどもいいんですけどね。</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220720111/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/php/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Tue, 19 Jul 2022 15:23:57 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 29 Jul 2022 03:18:02 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,88 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>GitHub Pagesを利用してMavenリポジトリをつくる</title>
+		<link>https://blog.pkom.ml/20220729178/</link>
+					<comments>https://blog.pkom.ml/20220729178/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Fri, 29 Jul 2022 03:18:02 +0000</pubDate>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[GitHub Pages]]></category>
+		<category><![CDATA[Maven]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=178</guid>
+
+					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">設置したMavenリポジトリ</a></li><li><a href="#toc3" tabindex="0">PHPスクリプト</a></li><li><a href="#toc4" tabindex="0">前提条件</a></li><li><a href="#toc5" tabindex="0">やり方</a></li><li><a href="#toc6" tabindex="0">maven.phpの仕様</a></li></ol></li><li><a href="#toc7" tabindex="0">さいごに</a><ol><li><a href="#toc8" tabindex="0">関連リンク</a></li></ol></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">はじめに</span></h2>
+<p>FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポジトリへ設置し、GitHub Pagesで公開してみました。</p>
+<h3><span id="toc2">設置したMavenリポジトリ</span></h3>
+<a rel="noopener" href="https://maven.pkom.ml/" title="Index of /" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmaven.pkom.ml%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of /</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://maven.pkom.ml/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">maven.pkom.ml</div></div></div></div></a>
+<h3 id="content_1_2"><span id="toc3">PHPスクリプト</span></h3>
+<p>PHPでMavenリポジトリをアップロードし、自動的にディレクトリリストのHTMLを生成し、GitHubへプッシュするスクリプトを書いてみました。</p>
+<a rel="noopener" href="https://github.com/Pitan76/maven/raw/main/maven.php" title="Index of {$displaydir}" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgithub.com%2FPitan76%2Fmaven%2Fraw%2Fmain%2Fmaven.php?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of {$displaydir}</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://github.com/Pitan76/maven/raw/main/maven.php" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">github.com</div></div></div></div></a>
+<h3 id="content_1_3"><span id="toc4">前提条件</span></h3>
+<ul class="list1 list-indent1">
+<li>PHPを動作させるWebサーバーをインストールしておく(XAMPP、LAMP等)</li>
+<li>Gitを入れておく</li>
+<li>GitHubのアカウントをつくっておく</li>
+<li>Mavenリポジトリとして使うGitリポジトリをGitHubにつくっておく</li>
+</ul>
+<h3><span id="toc5">やり方</span></h3>
+<p>Pitan Mod Wikiの文章をそのまま載せておきます。</p>
+<a rel="noopener" href="https://wikichree.com/pitan76/?Diary/2022-07-14" title="Diary/2022-07-14 - Pitan&#x20;Mod&#x20;Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwikichree.com%2Fpitan76%2F%3FDiary%2F2022-07-14?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Diary/2022-07-14 - Pitan&#x20;Mod&#x20;Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://wikichree.com/pitan76/?Diary/2022-07-14" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">wikichree.com</div></div></div></div></a>
+<p>1. GitHubのGitリポジトリを開き、[Settings]→[Pages]→SourceがNoneになっているのでbranchを選択する<br />
+2. 特定のhtdocsにmavenリポジトリとするフォルダをつくる。(htdocs/maven/にしました。)<br />
+3. つくったフォルダにmaven.phpを放り込む。(今回はhtdocs/maven/maven.phpに放り込みました。)<br />
+4. つくったフォルダでターミナルを開き、<strong>git init</strong>を実行<br />
+5. <strong>git add *</strong>を実行<br />
+6. <strong>git commit -m &#8220;(任意)&#8221;</strong>を実行<br />
+7. <strong>git branch -M main</strong>を実行<br />
+8. <strong>git remote add origin https://github.com/(ユーザー名)/(リポジトリ名).git</strong>を実行<br />
+9. <strong>git push -u origin main</strong>を実行<br />
+10. ブラウザでmaven.phpを開き、jarをアップロードする。(私の場合はlocalhost/maven/maven.phpとなっています)</p>
+<h3 id="content_1_5"><span id="toc6">maven.phpの仕様</span></h3>
+<ul class="list1 list-indent1">
+<li>アップロード後、自動でgit push</li>
+<li>ハッシュファイルを作成する</li>
+<li>ディレクトリリストのindex.htmlを自動生成する</li>
+</ul>
+<p>ここからは任意ですが、Customドメインもついでに設定しておきます<br />
+Custom domainで自分のドメインを設定しました。</p>
+<h2><span id="toc7">さいごに</span></h2>
+<p>MavenリポジトリをGitHub Pagesに設置し、ライブラリを公開できて面白かったです。<br />
+正しい方法ではないと思うので外部の関連サイトも載せておきます。</p>
+<h3><span id="toc8">関連リンク</span></h3>
+<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
+<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
+<a rel="noopener" href="https://qiita.com/koduki/items/6babcc6f2b233da96e06" title="2020年のMavenリポジトリの作り方 - Qiita" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png?ixlib=rb-4.0.0&#038;w=1200&#038;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9MjAyMCVFNSVCOSVCNCVFMyU4MSVBRU1hdmVuJUUzJTgzJUFBJUUzJTgzJTlEJUUzJTgyJUI4JUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFFJUU0JUJEJTlDJUUzJTgyJThBJUU2JTk2JUI5JnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz1jOWJkN2RhOTRhYmY5ZjI5MTQ3OTE4ZmI2ODFjYThkOA&#038;mark-x=142&#038;mark-y=112&#038;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwa29kdWtpJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz01N2QxMjJjOGVkNzgwMmM0ZGM0NzhmNzUzYTVjN2M2Yw&#038;blend-x=142&#038;blend-y=491&#038;blend-mode=normal&#038;s=5065ef28c6bc083f309e217ff68622f0" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">2020年のMavenリポジトリの作り方 - Qiita</div><div class="blogcard-snippet external-blogcard-snippet">
+
+はじめに
+
+Javaのエンジニアであれば何だかんだでMavenリポジトリを使うことは非常に多いと思います。Gradleであっても使いますしね。
+
+OSSなどはセントラルリポジトリから落とすとして自作のライブラリの管理をどうしていま...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://qiita.com/koduki/items/6babcc6f2b233da96e06" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">qiita.com</div></div></div></div></a>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220729178/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【WordPress】GitHub Pagesを利用して静的化したWordPressをほぼ無料で公開する</title>
 		<link>https://blog.pkom.ml/2022072049/</link>
 					<comments>https://blog.pkom.ml/2022072049/#respond</comments>
@@ -57,7 +139,7 @@
 Cocoonテーマを利用しているので少し変わるかもしれません。<br />
 私はWordPressに関しては完全に素人なので申し訳ないです。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">手順</a></li><li><a href="#toc2" tabindex="0">Simply Staticの導入</a></li><li><a href="#toc3" tabindex="0">GitHub の設定</a></li><li><a href="#toc4" tabindex="0">おまけ</a><ol><li><a href="#toc5" tabindex="0">検索を機能させる</a></li><li><a href="#toc6" tabindex="0">コメントを機能させる</a></li></ol></li></ol>
     </div>

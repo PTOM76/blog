@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/tag/lwjgl/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Thu, 28 Jul 2022 14:53:17 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 29 Jul 2022 03:36:02 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,7 +28,7 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>【LWJGL】描画処理 &#8211; その1(背景色) #4</title>
+		<title>【LWJGL3】描画処理 &#8211; その1(背景色) #4</title>
 		<link>https://blog.pkom.ml/20220728173/</link>
 					<comments>https://blog.pkom.ml/20220728173/#respond</comments>
 		
@@ -109,7 +109,7 @@ GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);</pre>
 		
 			</item>
 		<item>
-		<title>【LWJGL】60FPSでループ処理 #3</title>
+		<title>【LWJGL3】60FPSでループ処理 #3</title>
 		<link>https://blog.pkom.ml/20220728169/</link>
 					<comments>https://blog.pkom.ml/20220728169/#respond</comments>
 		
@@ -187,7 +187,7 @@ public double getTime() {
 		
 			</item>
 		<item>
-		<title>【LWJGL】キー、マウス入力 #2</title>
+		<title>【LWJGL3】キー、マウス入力 #2</title>
 		<link>https://blog.pkom.ml/20220728160/</link>
 					<comments>https://blog.pkom.ml/20220728160/#respond</comments>
 		
@@ -317,7 +317,7 @@ Double型のバッファにglfwGetCursorPos関数がマウスカーソルの位�
 		
 			</item>
 		<item>
-		<title>【LWJGL】ウィンドウの作成 #1</title>
+		<title>【LWJGL3】ウィンドウの作成 #1</title>
 		<link>https://blog.pkom.ml/20220728158/</link>
 					<comments>https://blog.pkom.ml/20220728158/#respond</comments>
 		
