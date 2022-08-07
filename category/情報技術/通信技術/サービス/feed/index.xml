@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E9%80%9A%E4%BF%A1%E6%8A%80%E8%A1%93/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Fri, 29 Jul 2022 03:18:02 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 07 Aug 2022 10:25:20 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,107 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【Cloudflare】WikiChree.COMの設置にMuuMuuDomainとCoreServerでCloudflareを使った話</title>
+		<link>https://blog.pkom.ml/20220807196/</link>
+					<comments>https://blog.pkom.ml/20220807196/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sun, 07 Aug 2022 10:25:20 +0000</pubDate>
+				<category><![CDATA[サーバー]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[Cloudflare]]></category>
+		<category><![CDATA[CoreServer]]></category>
+		<category><![CDATA[MuuMuuDomain]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=196</guid>
+
+					<description><![CDATA[目次 はじめに前提条件Cloudflareアカウント登録サイト追加ネームサーバーの設定ネームサーバー設定ガイドおまけDDoS対策HTTPS化キャッシングおわりに はじめに WikiChree.COM、個人サイト、当ブログ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">前提条件</a></li><li><a href="#toc3" tabindex="0">Cloudflare</a><ol><li><a href="#toc4" tabindex="0">アカウント登録</a></li><li><a href="#toc5" tabindex="0">サイト追加</a></li><li><a href="#toc6" tabindex="0">ネームサーバーの設定</a><ol><li><a href="#toc7" tabindex="0">ネームサーバー設定ガイド</a></li></ol></li></ol></li><li><a href="#toc8" tabindex="0">おまけ</a><ol><li><a href="#toc9" tabindex="0">DDoS対策</a></li><li><a href="#toc10" tabindex="0">HTTPS化</a></li><li><a href="#toc11" tabindex="0">キャッシング</a></li></ol></li><li><a href="#toc12" tabindex="0">おわりに</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">はじめに</span></h2>
+<p>WikiChree.COM、個人サイト、当ブログなど私の所有しているサイトではHTTPS化、サイバー攻撃(DDoS等)対策、キャッシング等をするためにCloudflareを使ってます。<br />
+Cloudflareは有料な部分もありますが、基本的には無料で使うことはできます。<br />
+今回はそのCloudflareのセットアップ方法を説明します。<br />
+WikiChree.COMではMuuMuuDomainとCoreServerを使っているのでMuuMuuDomainでDNSの設定、CloudflareでのDNSはCoreServerのIPを参照させますが、他のサービスでも参考になるとは思います。</p>
+<h2><span id="toc2">前提条件</span></h2>
+<ul>
+<li>独自ドメインを取得していて、ドメインからCoreServerのサーバーへアクセスできる状態であること。</li>
+</ul>
+<h2><span id="toc3">Cloudflare</span></h2>
+<h3><span id="toc4">アカウント登録</span></h3>
+<a rel="noopener" href="https://dash.cloudflare.com/sign-up" title="Please Wait... | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdash.cloudflare.com%2Fsign-up?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Please Wait... | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://dash.cloudflare.com/sign-up" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">dash.cloudflare.com</div></div></div></div></a>
+<p>上記のURLでCloudflareのアカウントを作成しましょう。<br />
+右上から日本語を選択できます。</p>
+<p><img loading="lazy" width="935" height="554" class="alignnone wp-image-197 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted.png 935w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-300x178.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-768x455.png 768w" sizes="(max-width: 935px) 100vw, 935px" /></p>
+<h3><span id="toc5">サイト追加</span></h3>
+<p>作成ボタンをクリックしたら、左のサイドバーから「Web サイト」、真ん中の「サイトを追加」で進みましょう。</p>
+<p><img loading="lazy" width="950" height="753" class="alignnone wp-image-198 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-1.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-1.png 950w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-1-300x238.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-1-768x609.png 768w" sizes="(max-width: 950px) 100vw, 950px" /></p>
+<p>自分のルートドメインを入力して進みましょう。</p>
+<p><img loading="lazy" width="639" height="329" class="alignnone wp-image-199 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-2.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-2.png 639w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-2-300x154.png 300w" sizes="(max-width: 639px) 100vw, 639px" /></p>
+<p>無料である一番下のFreeプランにしました。</p>
+<p><img loading="lazy" width="894" height="876" class="alignnone wp-image-200 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-3.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-3.png 894w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-3-300x294.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-3-768x753.png 768w" sizes="(max-width: 894px) 100vw, 894px" /></p>
+<p>以前のDNSを自動で取得してくれるため、DNS管理の画面が出てきます、そのまま進めてください。</p>
+<h3><span id="toc6">ネームサーバーの設定</span></h3>
+<p>以下の通りにドメイン レジストラ(MuuMuuDomain、Value Domain等)でCloudflareのネームサーバーを追加しましょう。</p>
+<p><img loading="lazy" width="815" height="864" class="alignnone wp-image-201 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-4.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-4.png 815w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-4-283x300.png 283w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-4-768x814.png 768w" sizes="(max-width: 815px) 100vw, 815px" /></p>
+<p>MuuMuuDomainではネームサーバー設定変更のボタンをクリックしてネームサーバーの画面が開けます。<br />
+サービスによってはネームサーバーの設定画面、もしくはDNS設定画面でネームサーバーを指定することができます。</p>
+<p><img loading="lazy" width="489" height="667" class="alignnone wp-image-202 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-5.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-5.png 489w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-5-220x300.png 220w" sizes="(max-width: 489px) 100vw, 489px" /></p>
+<p><img loading="lazy" width="401" height="432" class="alignnone wp-image-203 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-6.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-6.png 401w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-6-278x300.png 278w" sizes="(max-width: 401px) 100vw, 401px" /></p>
+<p>上記のように<span class="bold red">必ずCloudflareからコピーした</span>ネームサーバーのドメインを貼り付けてください。<br />
+既に私は登録しているので、画像でムームードメインでの登録例を見せています。<br />
+Cloudflareの方を進めましょう。<br />
+レジストラ(ドメインサービス)によっては反映までに時間がかかるものもあるようですが、私はすぐに反映されました。<br />
+あ、CoreServer側の設定は不要でしたね^^;</p>
+<h4><span id="toc7">ネームサーバー設定ガイド</span></h4>
+<ul>
+<li>お名前.com: <a href="https://www.onamae.com/guide/p/67">https://www.onamae.com/guide/p/67</a></li>
+<li>ムームードメイン: <a href="https://support.muumuu-domain.com/hc/ja/articles/360047097273-%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%90%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E6%96%B9%E6%B3%95-GMO%E3%83%9A%E3%83%91%E3%83%9C%E4%BB%A5%E5%A4%96%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9-">https://support.muumuu-domain.com/hc/ja/articles/360047097273-%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B5%E3%83%BC%E3%83%90%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E6%96%B9%E6%B3%95-GMO%E3%83%9A%E3%83%91%E3%83%9C%E4%BB%A5%E5%A4%96%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9-</a></li>
+<li>バリュードメイン: <a href="https://www.value-domain.com/userguide/manual/modns">https://www.value-domain.com/userguide/manual/modns</a></li>
+<li>Google Domains: <a href="https://support.google.com/domains/answer/3290309?hl=ja">https://support.google.com/domains/answer/3290309?hl=ja</a></li>
+</ul>
+<h2><span id="toc8">おまけ</span></h2>
+<h3><span id="toc9">DDoS対策</span></h3>
+<p>DDoS攻撃を受けている際はサイドバーの「概要」から「Under Attack モード」を有効にしてみてください。</p>
+<p><img loading="lazy" width="338" height="61" class="alignnone wp-image-204 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-7.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-7.png 338w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-7-300x54.png 300w" sizes="(max-width: 338px) 100vw, 338px" /></p>
+<p>一度オンにしてオフにしてみると以下のような画面が出てきます。</p>
+<p><img loading="lazy" width="898" height="504" class="alignnone wp-image-205 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8.png 898w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-300x168.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-768x431.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-120x68.png 120w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-160x90.png 160w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-320x180.png 320w" sizes="(max-width: 898px) 100vw, 898px" /></p>
+<p>セキュリティ レベルは攻撃されていないのであれば普通は標準かオフでもいいでしょう。<br />
+1日1回、毎回DDoS攻撃されているのであれば、Unser Attack モード、もしくは高にしましょう。</p>
+<h3><span id="toc10">HTTPS化</span></h3>
+<p>サイドバーの「SSL/TLS」からSSLの設定を開きましょう。</p>
+<p><img loading="lazy" width="1040" height="497" class="alignnone wp-image-206 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9.png 1040w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9-300x143.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9-1024x489.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9-768x367.png 768w" sizes="(max-width: 1040px) 100vw, 1040px" /></p>
+<p>サーバー上でSSL化しているのであれば「フル」、最初からSSL化していないのであれば「フレキシブル」でいいでしょう。<br />
+これだけでHTTPS化は完了なのですが、ついでに以下の設定も行いましょう。</p>
+<p>サイドバーの「SSL/TLS」＞「エッジ証明書」を開きましょう。</p>
+<p><img loading="lazy" width="1040" height="239" class="alignnone wp-image-207 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10.png 1040w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10-300x69.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10-1024x235.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10-768x176.png 768w" sizes="(max-width: 1040px) 100vw, 1040px" /></p>
+<p><img loading="lazy" width="1046" height="271" class="alignnone wp-image-208 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11.png 1046w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11-300x78.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11-1024x265.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11-768x199.png 768w" sizes="(max-width: 1046px) 100vw, 1046px" /></p>
+<p>私は上記のように設定しています。<br />
+日和見暗号化とは、暗号化済み、SSL化済みしているが、見た目上はhttpのままにできるという機能です。SEO対策には影響ありませんのでオンにしてても問題はありませんが、httpsの方が私は好きなのでオフにしてますね。</p>
+<h3><span id="toc11">キャッシング</span></h3>
+<p>勝手にキャッシングされるようになってますが、3時間ぐらいにした方が良さそうです。JavaScript、CSSを更新しても、このキャッシュで更新されずに困ることがあるんですよね。<br />
+<img loading="lazy" width="1095" height="861" class="alignnone wp-image-209 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12.png 1095w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12-300x236.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12-1024x805.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12-768x604.png 768w" sizes="(max-width: 1095px) 100vw, 1095px" /></p>
+<p>3時間にしておきます。<br />
+また、更新したCSS、JavaScript、画像など確認したい際は開発モードを有効にするといいでしょう。</p>
+<p><img loading="lazy" width="335" height="68" class="alignnone wp-image-210 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-13.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-13.png 335w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-13-300x61.png 300w" sizes="(max-width: 335px) 100vw, 335px" /></p>
+<h2><span id="toc12">おわりに</span></h2>
+<p>イメージ的には「独自ドメイン」→「Cloudflare」→「CoreServer」といった感じでしょうかね。</p>
+<p>Cloudflareはアクセス解析、ドメイン購入といろいろできるので素晴らしいサービスだと思います。<br />
+無料でここまでできるのも凄いですよね。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220807196/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>GitHub Pagesを利用してMavenリポジトリをつくる</title>
 		<link>https://blog.pkom.ml/20220729178/</link>
 					<comments>https://blog.pkom.ml/20220729178/#respond</comments>
@@ -48,7 +149,7 @@
 
 					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">設置したMavenリポジトリ</a></li><li><a href="#toc3" tabindex="0">PHPスクリプト</a></li><li><a href="#toc4" tabindex="0">前提条件</a></li><li><a href="#toc5" tabindex="0">やり方</a></li><li><a href="#toc6" tabindex="0">maven.phpの仕様</a></li></ol></li><li><a href="#toc7" tabindex="0">さいごに</a><ol><li><a href="#toc8" tabindex="0">関連リンク</a></li></ol></li></ol>
     </div>
@@ -132,7 +233,7 @@ Minecraftで使う方は多いと思います。<br />
 仕組みは中継サーバー(リレーサーバー)を利用しているらしいです。<br />
 これを無料で提供してくれるのは有り難いですね。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">ゲームサーバー公開(ホスト)ツール | GameServerHostingTool</a></li><li><a href="#toc2" tabindex="0">playit</a></li></ol>
     </div>
@@ -168,7 +269,7 @@ Minecraftで使う方は多いと思います。<br />
 
 					<description><![CDATA[目次 初めに画像付きの手順簡易的に手順をまとめる最後に 初めに 間違って別のMODをアップロードしてしまい、削除したかったのですが、削除ボタンがありませんでした。そこでフォーラムで調べてみたところこれを参考にしてみると削 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">初めに</a></li><li><a href="#toc2" tabindex="0">画像付きの手順</a></li><li><a href="#toc3" tabindex="0">簡易的に手順をまとめる</a></li><li><a href="#toc4" tabindex="0">最後に</a></li></ol>
     </div>
@@ -231,7 +332,7 @@ Minecraftで使う方は多いと思います。<br />
 是非使って見てください。<br />
 <a href="https://wikichree.com/">https://wikichree.com/</a></p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">特徴</a><ol><li><a href="#toc2" tabindex="0">その1. PukiWiki</a></li><li><a href="#toc3" tabindex="0">その2. カスタマイズ性</a></li><li><a href="#toc4" tabindex="0">その3. WISYWIGエディタ</a></li><li><a href="#toc5" tabindex="0">その4. ユーザー管理</a></li><li><a href="#toc6" tabindex="0">その5. Discord</a></li></ol></li><li><a href="#toc7" tabindex="0">短所</a><ol><li><a href="#toc8" tabindex="0">スキンが少ない</a></li><li><a href="#toc9" tabindex="0">広告</a></li><li><a href="#toc10" tabindex="0">利用者が少ない</a></li></ol></li><li><a href="#toc11" tabindex="0">結果</a></li></ol>
     </div>
@@ -343,7 +444,7 @@ jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A
 Cocoonテーマを利用しているので少し変わるかもしれません。<br />
 私はWordPressに関しては完全に素人なので申し訳ないです。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-12" checked><label class="toc-title" for="toc-checkbox-12">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-14" checked><label class="toc-title" for="toc-checkbox-14">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">手順</a></li><li><a href="#toc2" tabindex="0">Simply Staticの導入</a></li><li><a href="#toc3" tabindex="0">GitHub の設定</a></li><li><a href="#toc4" tabindex="0">おまけ</a><ol><li><a href="#toc5" tabindex="0">検索を機能させる</a></li><li><a href="#toc6" tabindex="0">コメントを機能させる</a></li></ol></li></ol>
     </div>
