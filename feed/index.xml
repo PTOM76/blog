@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Sun, 07 Aug 2022 10:25:20 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 13 Aug 2022 08:10:46 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,115 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【Discord】強力なスパム対策ができるボット「Wick」を紹介します。</title>
+		<link>https://blog.pkom.ml/20220813212/</link>
+					<comments>https://blog.pkom.ml/20220813212/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sat, 13 Aug 2022 08:07:17 +0000</pubDate>
+				<category><![CDATA[Discord]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[スパム対策]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=212</guid>
+
+					<description><![CDATA[はじめに Discordでは荒らされているサーバーを数々見かけます。 DiscordにはBAN、キック、タイムアウト、低速チャットなどがありますが、それだけでは必ずしもとは言いませんが、完全に荒らしを防ぐことができません [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>はじめに</h2>
+<p>Discordでは荒らされているサーバーを数々見かけます。<br />
+DiscordにはBAN、キック、タイムアウト、低速チャットなどがありますが、それだけでは必ずしもとは言いませんが、完全に荒らしを防ぐことができません。<br />
+そのため、botで荒らし対策していることが多いので、今回は荒らし対策のボットの中で最も強力だと思った「Wick」を紹介したいと思います。</p>
+<p>ほんと日本語でこのBot紹介している記事見かけませんよね。<br />
+昔書いた記事を再度、ここで見やすく書き直すことにします。<br />
+一部そのままにしているところもあります。</p>
+<p>私も最初は公式のDocsを読みながら、フレンドに教えてもらいながらとセットアップに苦労しました。</p>
+<div class="blank-box bb-tab bb-point bb-yellow">・カスタマイズ性が高い<br />
+・Vortexのように導入制限はない<br />
+・ほぼほぼスパマーを撃退してくれる</div>
+<h3>導入方法</h3>
+<ol>
+<li>まず、<a href="https://wickbot.com/">https://wickbot.com/</a>から「Add Wick」ボタンをクリックし、Discordのアカウントと紐付け、botをサーバーに導入しましょう。</li>
+<li>Wickのロールの位置を上に持っていきましょう。<br />
+<img id="thepasted-1" src="https://image02.seesaawiki.jp/f/o/fortunes-memo/fbOC_75yR8.png" /></li>
+<li>サーバー上で「w!setup」と送信し、コマンドを実行しましょう。
+<div class="alert-box common-icon-box">※このコマンドはサーバーの所有者、またはWickの権限(Discordの役職、ロールではない)所有者のみ実行できます。</div>
+<p><img id="thepasted-2" src="https://image02.seesaawiki.jp/f/o/fortunes-memo/PdgUT_CHVf.png" /><br />
+上の画像のようにすべての項目にチェックマークが付いていればWickのセットアップが成功しています。<br />
+どれか1つでもバツマークが付いていると失敗しています。<br />
+その際は再度、上に戻ってやり直しましょう。</p>
+<div id="content_block_13-body" class="wiki-section-body-3 information-box common-icon-box">
+<p>※確認したエラーのみ記載してます。もし、何かあれば報告ください。</p>
+<table id="content_block_14">
+<tbody>
+<tr>
+<th>エラーメッセージ</th>
+<th>意味</th>
+<th>対処法</th>
+</tr>
+<tr>
+<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img loading="lazy" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Checking Wick&#8217;s role position&#8230;</td>
+<td>× Wickのロールの位置を確認中&#8230;</td>
+<td>番号2を参照</td>
+</tr>
+<tr>
+<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img loading="lazy" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Checking for permissions&#8230;</td>
+<td>× 権限を確認中&#8230;</td>
+<td>素直に入れ直してWickに管理者権限を与えましょう。</td>
+</tr>
+<tr>
+<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img loading="lazy" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Only Server Owners (Permit5) and up can use this command!</td>
+<td>× サーバー所有者(許可レベル5)以上のみ、このコマンドを使えます！</td>
+<td>所有者がこのコマンドを実行する、または「ユーザーへWickの権限を与える」の項目を参照</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+<h3>Wickの設定</h3>
+<div class="information-box common-icon-box"><a href="https://wickbot.com/docs/setup">https://wickbot.com/docs/setup</a><br />
+こちらのドキュメントに細かく記載されています。</div>
+<h4>おすすめの設定</h4>
+<ol>
+<li><a href="https://wickbot.com/dashboard">https://wickbot.com/dashboard</a>から設定したいサーバーの青いマーク(Server Overview)を選択しましょう。<img loading="lazy" width="1525" height="553" class="alignnone wp-image-213 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14.png 1525w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14-300x109.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14-1024x371.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14-768x278.png 768w" sizes="(max-width: 1525px) 100vw, 1525px" /></li>
+<li>Auto Modの項目の「Filters」を選択<br />
+<img id="thepasted-8" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/jIu6ltJf7o.png" /></li>
+<li>Warn(警告)、Mute(タイムアウト)、Kick(キック)、BANのどれかを選択し、Muteを選択した場合は、時間も設定しましょう。<br />
+基本的に「Normal Message」(連投対策)と「Similar Message」(類似連投対策)は設定しておきましょう。<br />
+<img loading="lazy" width="1253" height="809" class="alignnone wp-image-215 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16.png 1253w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16-300x194.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16-1024x661.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16-768x496.png 768w" sizes="(max-width: 1253px) 100vw, 1253px" /></li>
+</ol>
+<h4>ユーザーへWickの権限を与える</h4>
+<p>w!s &lt;ユーザー/ロール&gt; ?add &lt;権限レベル？&gt;</p>
+<p>ユーザー/ロールは名前でもIDでも構いません。<br />
+権限レベル？は4がWickモデレーター、3がWick管理者、10が信頼されたWick管理者、11がサーバーオーナー、Wickオーナーとなるみたいです。</p>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnchcyUyMCUzQ3VzZXIlM0UlMjAlM0ZhZGQlMjAxMSUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybWFyayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlJTIyJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMm1hcmslMjIlMkMlMjJ0eXBlJTIyJTNBJTIyYm9sZCUyMiUyQyUyMmRhdGElMjIlM0ElN0IlN0QlN0QlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyOGFiNTlhNDNjMjM2NDIzNjkzZjk4ZmIxNDcxZDA5ZTMlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI3NTQ4MjdlMzZmZTI0ZWFmYmYyZDI2OGEyZDliNzdhYiUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMmQ2MmJlN2MzMThiODQxNmRhOGE1ZDFjOTQ2MTdiMjA2JTIyJTdE">設定例: w!s 0123456789101112 ?add 11</span></p>
+<ul>
+<li><a href="https://docs.wickbot.com/v3/commands/settings/statics#permit">https://docs.wickbot.com/v3/commands/settings/statics#permit</a></li>
+</ul>
+<h3>便利なコマンド</h3>
+<h4>w!purge [削除するメッセージ数] (オプションなど)</h4>
+<p>例えば、<span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnchcHVyZ2UlMjAxMCUyMGhhcyUyMHdobyUyMGlzJTIwZm5ha2klMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMm1hcmslMjIlMkMlMjJ0eXBlJTIyJTNBJTIyY29kZSUyMiUyQyUyMmRhdGElMjIlM0ElN0IlN0QlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJtYXJrJTIyJTJDJTIydHlwZSUyMiUzQSUyMmJvbGQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTdEJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMmE3ZjIxZDdmMzlmNzRhYzJhNDNmODQzZjM3ZGE5Y2UxJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyZmViYmRlMzlhNGQzNGM3ODk0YWIyZmM0MWI3NDRjNjIlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJmNmNjNmQzNTZhZjg0YzRmYWM3NDVmYWE5MDU4MDUxZiUyMiU3RA==">w!purge 10 -h who is fnakiだと&#8221;who is fnaki&#8221;を含むメッセージを10個消します。<br />
+オプションは以下を参考にしてみてください。</span></p>
+<ul>
+<li><a href="https://docs.wickbot.com/v3/commands/moderation/purge">https://docs.wickbot.com/v3/commands/moderation/purge</a></li>
+</ul>
+<h2>おわりに</h2>
+<p>寝ていても荒らし対策してくれるので便利ですよね～^^<br />
+ただ、設定も多いので困りました。</p>
+<h2>参考</h2>
+<ul>
+<li><a href="https://docs.wickbot.com/">https://docs.wickbot.com/</a></li>
+<li><a href="https://wickbot.com/docs/setup">https://wickbot.com/docs/setup</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220813212/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Cloudflare】WikiChree.COMの設置にMuuMuuDomainとCoreServerでCloudflareを使った話</title>
 		<link>https://blog.pkom.ml/20220807196/</link>
 					<comments>https://blog.pkom.ml/20220807196/#respond</comments>
@@ -711,54 +820,6 @@ Minecraftで使う方は多いと思います。<br />
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/20220723134/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【CurseForge】アップロードしたファイルを削除する方法</title>
-		<link>https://blog.pkom.ml/20220721119/</link>
-					<comments>https://blog.pkom.ml/20220721119/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Thu, 21 Jul 2022 06:45:21 +0000</pubDate>
-				<category><![CDATA[Minecraft]]></category>
-		<category><![CDATA[ゲーム]]></category>
-		<category><![CDATA[サービス]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[通信技術]]></category>
-		<category><![CDATA[CurseForge]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=119</guid>
-
-					<description><![CDATA[初めに 間違って別のMODをアップロードしてしまい、削除したかったのですが、削除ボタンがありませんでした。そこでフォーラムで調べてみたところこれを参考にしてみると削除できました。 Attention Required!  [&#8230;]]]></description>
-										<content:encoded><![CDATA[<h2>初めに</h2>
-<p><img loading="lazy" width="913" height="318" class="alignnone wp-image-121 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-1.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-1.png 913w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-1-300x104.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-1-768x267.png 768w" sizes="(max-width: 913px) 100vw, 913px" /></p>
-<p>間違って別のMODをアップロードしてしまい、削除したかったのですが、削除ボタンがありませんでした。そこでフォーラムで調べてみたところこれを参考にしてみると削除できました。</p>
-<a rel="noopener" href="https://minecraft.curseforge.com/forums/modding-java-edition/java-mods/ideas/5014-deleting-files-of-a-project" title="Attention Required! | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fminecraft.curseforge.com%2Fforums%2Fmodding-java-edition%2Fjava-mods%2Fideas%2F5014-deleting-files-of-a-project?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Attention Required! | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://minecraft.curseforge.com/forums/modding-java-edition/java-mods/ideas/5014-deleting-files-of-a-project" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">minecraft.curseforge.com</div></div></div></div></a>
-<h2>画像付きの手順</h2>
-<p>削除したいファイルにチェックします。</p>
-<p><img loading="lazy" width="258" height="340" class="alignnone wp-image-122 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-2.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-2.png 258w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-2-228x300.png 228w" sizes="(max-width: 258px) 100vw, 258px" /></p>
-<p>Archiveボタンをクリック。</p>
-<p><img loading="lazy" width="608" height="337" class="alignnone wp-image-123 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3.png 608w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3-300x166.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3-120x68.png 120w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-3-160x90.png 160w" sizes="(max-width: 608px) 100vw, 608px" /></p>
-<p>ダイアログのような画面が出てくると思うのでArchive Filesをクリック。<img loading="lazy" width="249" height="228" class="alignnone wp-image-124 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-4.png" /></p>
-<p>StatusをArchivedの項目に変える。<br />
-そしてファイルの詳細画面を開くとDeleteボタンが表示されているのでクリックすると削除できます。</p>
-<p><img loading="lazy" width="914" height="607" class="alignnone wp-image-125 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-5.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-5.png 914w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-5-300x199.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-5-768x510.png 768w" sizes="(max-width: 914px) 100vw, 914px" /></p>
-<h2>簡易的に手順をまとめる</h2>
-<ol>
-<li>削除したいファイルのチェックボックスにチェックを入れる。</li>
-<li>「Archive」ボタンをクリックする。</li>
-<li>「Archive Files」ボタンをクリックする。</li>
-<li>Statusを「Archived」に変更する。</li>
-<li>ファイルのリンクを開く。</li>
-<li>「Delete」ボタンをクリックする。</li>
-</ol>
-<h2>最後に</h2>
-<p>少し面倒かな～と思いますが、誤ってファイルを削除してしまうことはないかと思います。<br />
-この頃はCurseForge以外にModrinthというModを配布するためのサイトが出てきたみたいですね</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220721119/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
