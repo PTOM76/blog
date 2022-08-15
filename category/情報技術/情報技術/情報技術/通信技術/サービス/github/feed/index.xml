@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>GitHub  |  ぴたぶろぐ</title>
+	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E9%80%9A%E4%BF%A1%E6%8A%80%E8%A1%93/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/github/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Fri, 29 Jul 2022 03:18:02 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<title>GitHub  |  ぴたぶろぐ</title>
+	<link>https://blog.pkom.ml</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>GitHub Pagesを利用してMavenリポジトリをつくる</title>
+		<link>https://blog.pkom.ml/20220729178/</link>
+					<comments>https://blog.pkom.ml/20220729178/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Fri, 29 Jul 2022 03:18:02 +0000</pubDate>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[GitHub Pages]]></category>
+		<category><![CDATA[Maven]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=178</guid>
+
+					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">設置したMavenリポジトリ</a></li><li><a href="#toc3" tabindex="0">PHPスクリプト</a></li><li><a href="#toc4" tabindex="0">前提条件</a></li><li><a href="#toc5" tabindex="0">やり方</a></li><li><a href="#toc6" tabindex="0">maven.phpの仕様</a></li></ol></li><li><a href="#toc7" tabindex="0">さいごに</a><ol><li><a href="#toc8" tabindex="0">関連リンク</a></li></ol></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">はじめに</span></h2>
+<p>FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポジトリへ設置し、GitHub Pagesで公開してみました。</p>
+<h3><span id="toc2">設置したMavenリポジトリ</span></h3>
+<a rel="noopener" href="https://maven.pkom.ml/" title="Index of /" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmaven.pkom.ml%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of /</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://maven.pkom.ml/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">maven.pkom.ml</div></div></div></div></a>
+<h3 id="content_1_2"><span id="toc3">PHPスクリプト</span></h3>
+<p>PHPでMavenリポジトリをアップロードし、自動的にディレクトリリストのHTMLを生成し、GitHubへプッシュするスクリプトを書いてみました。</p>
+<a rel="noopener" href="https://github.com/Pitan76/maven/raw/main/maven.php" title="Index of {$displaydir}" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgithub.com%2FPitan76%2Fmaven%2Fraw%2Fmain%2Fmaven.php?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of {$displaydir}</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://github.com/Pitan76/maven/raw/main/maven.php" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">github.com</div></div></div></div></a>
+<h3 id="content_1_3"><span id="toc4">前提条件</span></h3>
+<ul class="list1 list-indent1">
+<li>PHPを動作させるWebサーバーをインストールしておく(XAMPP、LAMP等)</li>
+<li>Gitを入れておく</li>
+<li>GitHubのアカウントをつくっておく</li>
+<li>Mavenリポジトリとして使うGitリポジトリをGitHubにつくっておく</li>
+</ul>
+<h3><span id="toc5">やり方</span></h3>
+<p>Pitan Mod Wikiの文章をそのまま載せておきます。</p>
+<a rel="noopener" href="https://wikichree.com/pitan76/?Diary/2022-07-14" title="Diary/2022-07-14 - Pitan&#x20;Mod&#x20;Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwikichree.com%2Fpitan76%2F%3FDiary%2F2022-07-14?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Diary/2022-07-14 - Pitan&#x20;Mod&#x20;Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://wikichree.com/pitan76/?Diary/2022-07-14" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">wikichree.com</div></div></div></div></a>
+<p>1. GitHubのGitリポジトリを開き、[Settings]→[Pages]→SourceがNoneになっているのでbranchを選択する<br />
+2. 特定のhtdocsにmavenリポジトリとするフォルダをつくる。(htdocs/maven/にしました。)<br />
+3. つくったフォルダにmaven.phpを放り込む。(今回はhtdocs/maven/maven.phpに放り込みました。)<br />
+4. つくったフォルダでターミナルを開き、<strong>git init</strong>を実行<br />
+5. <strong>git add *</strong>を実行<br />
+6. <strong>git commit -m &#8220;(任意)&#8221;</strong>を実行<br />
+7. <strong>git branch -M main</strong>を実行<br />
+8. <strong>git remote add origin https://github.com/(ユーザー名)/(リポジトリ名).git</strong>を実行<br />
+9. <strong>git push -u origin main</strong>を実行<br />
+10. ブラウザでmaven.phpを開き、jarをアップロードする。(私の場合はlocalhost/maven/maven.phpとなっています)</p>
+<h3 id="content_1_5"><span id="toc6">maven.phpの仕様</span></h3>
+<ul class="list1 list-indent1">
+<li>アップロード後、自動でgit push</li>
+<li>ハッシュファイルを作成する</li>
+<li>ディレクトリリストのindex.htmlを自動生成する</li>
+</ul>
+<p>ここからは任意ですが、Customドメインもついでに設定しておきます<br />
+Custom domainで自分のドメインを設定しました。</p>
+<h2><span id="toc7">さいごに</span></h2>
+<p>MavenリポジトリをGitHub Pagesに設置し、ライブラリを公開できて面白かったです。<br />
+正しい方法ではないと思うので外部の関連サイトも載せておきます。</p>
+<h3><span id="toc8">関連リンク</span></h3>
+<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
+<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
+<a rel="noopener" href="https://qiita.com/koduki/items/6babcc6f2b233da96e06" title="2020年のMavenリポジトリの作り方 - Qiita" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png?ixlib=rb-4.0.0&#038;w=1200&#038;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9MjAyMCVFNSVCOSVCNCVFMyU4MSVBRU1hdmVuJUUzJTgzJUFBJUUzJTgzJTlEJUUzJTgyJUI4JUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFFJUU0JUJEJTlDJUUzJTgyJThBJUU2JTk2JUI5JnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz1jOWJkN2RhOTRhYmY5ZjI5MTQ3OTE4ZmI2ODFjYThkOA&#038;mark-x=142&#038;mark-y=112&#038;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwa29kdWtpJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz01N2QxMjJjOGVkNzgwMmM0ZGM0NzhmNzUzYTVjN2M2Yw&#038;blend-x=142&#038;blend-y=491&#038;blend-mode=normal&#038;s=5065ef28c6bc083f309e217ff68622f0" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">2020年のMavenリポジトリの作り方 - Qiita</div><div class="blogcard-snippet external-blogcard-snippet">
+
+はじめに
+
+Javaのエンジニアであれば何だかんだでMavenリポジトリを使うことは非常に多いと思います。Gradleであっても使いますしね。
+
+OSSなどはセントラルリポジトリから落とすとして自作のライブラリの管理をどうしていま...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://qiita.com/koduki/items/6babcc6f2b233da96e06" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">qiita.com</div></div></div></div></a>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220729178/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>JitPackでJava 8以外を使う方法</title>
+		<link>https://blog.pkom.ml/2022072064/</link>
+					<comments>https://blog.pkom.ml/2022072064/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:30:51 +0000</pubDate>
+				<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[JitPack]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=64</guid>
+
+					<description><![CDATA[FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlでjdkを指定したところ、一時期動いたのだが、また動作しなくなったため、以下のよ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlで<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>を指定したところ、一時期動いたのだが、また動作しなくなったため、以下のようにbefore_install:をymlに追加すると解決する。<br />
+jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A3%A5%EC%A5%AF%A5%C8">ディレクト</a>リ直下に配置する。</p>
+<p><strong>jitpack.yml</strong></p>
+<pre>before_install:
+  - <a class="keyword" href="http://d.hatena.ne.jp/keyword/wget">wget</a> <a href="https://github.com/sormuras/bach/raw/master/install-jdk.sh">https://github.com/sormuras/bach/raw/master/install-jdk.sh</a>
+  - source ./install-<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>.sh --feature 17 --license <a class="keyword" href="http://d.hatena.ne.jp/keyword/GPL">GPL</a>
+<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>:
+  - openjdk17</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072064/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【WordPress】GitHub Pagesを利用して静的化したWordPressをほぼ無料で公開する</title>
+		<link>https://blog.pkom.ml/2022072049/</link>
+					<comments>https://blog.pkom.ml/2022072049/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2022 15:20:12 +0000</pubDate>
+				<category><![CDATA[Git]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[サーバー]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[GitHub Pages]]></category>
+		<category><![CDATA[WordPressプラグイン]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=49</guid>
+
+					<description><![CDATA[元々、このブログ以前のブログはレンタルサーバーで動かしていました。 あまり更新しなかったため、必要性はないと感じ、新たにWordPressをローカルへ導入し、静的化した後、GitHub Pagesで運用することを考えまし [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>元々、このブログ以前のブログはレンタルサーバーで動かしていました。<br />
+あまり更新しなかったため、必要性はないと感じ、新たにWordPressをローカルへ導入し、静的化した後、GitHub Pagesで運用することを考えました。<br />
+この２日間かけて、ようやく少し使えるような形になりました。<br />
+今回は、WordPressプラグインである、Simply Staticを使って静的化したいと思います。<br />
+Cocoonテーマを利用しているので少し変わるかもしれません。<br />
+私はWordPressに関しては完全に素人なので申し訳ないです。</p>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">手順</a></li><li><a href="#toc2" tabindex="0">Simply Staticの導入</a></li><li><a href="#toc3" tabindex="0">GitHub の設定</a></li><li><a href="#toc4" tabindex="0">おまけ</a><ol><li><a href="#toc5" tabindex="0">検索を機能させる</a></li><li><a href="#toc6" tabindex="0">コメントを機能させる</a></li></ol></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">手順</span></h2>
+<p>簡単にまとめておきます。</p>
+<ol>
+<li style="list-style-type: none;">
+<ol>
+<li>Simply Staticを導入する</li>
+<li>適当にSimply Static用のフォルダをつくる (つくったフォルダをsimplystatic/とします)</li>
+<li>WPの管理メニューのSimply Staticのページから静的ファイルを生成する</li>
+<li>simplystatic/をGitリポジトリにする (simplystatic下で以下のコマンドを実行)
+<pre>git init
+git add *
+git commit -m "first"
+git remote add origin https://github.com/(ユーザー名)/(リポジトリ名).git
+git push origin main</pre>
+</li>
+<li><a href="https://www.lotusdigital.jp/b/web/wordpress%E9%9D%99%E7%9A%84%E5%8C%96%E3%81%AE%E3%81%9F%E3%82%81simply-static%E3%82%92%E4%BD%BF%E7%94%A8/">conv_for_simply.rb</a>という日本語フォルダを変換してくれるGemをsimplystatic/につくる</li>
+<li>WordPressのルートにbatファイル(push.bat)をつくる
+<pre>cd ./simplystatic/
+ruby conv_for_simply.rb
+git add *
+git commit -m "update"
+git push</pre>
+</li>
+<li>batファイルを実行する</li>
+<li>GitHub Pagesの設定をする</li>
+</ol>
+</li>
+</ol>
+<h2><span id="toc2">Simply Staticの導入</span></h2>
+<p><img loading="lazy" class="alignnone wp-image-51 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png" alt="" width="1024" height="254" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-300x75.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-768x191.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1536x382.png 1536w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530.png 1723w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>※インストール後、必ず<span class="bold red">有効化</span>しておきましょう。</p>
+<p>こちらのプラグインは静的化するためのプラグインです。<br />
+静的化とは静的ファイルであるHTML、JS、CSS、画像など簡単に言えばアクセスしてもソースが変化しないクライアントサイドのファイルに変換することを指します。<br />
+つまり、PHPが生成したソースをHTMLファイルとして保存します。</p>
+<p>適当にSimply Static用のフォルダをつくります。つくったフォルダをsimplystatic/とします。</p>
+<p>正しく導入できれば、WordPressの管理メニューのサイドバーにSimply Staticという項目が追加されていると思います。<br />
+<img loading="lazy" class="alignnone size-medium wp-image-52" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png" alt="" width="300" height="147" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147.png 334w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>まず、設定を選びましょう。<br />
+<img loading="lazy" class="alignnone wp-image-54 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png" alt="" width="1024" height="726" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-300x213.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-768x544.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507.png 1205w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>配送方法はローカルディレクトリに設定してあげましょう。<br />
+ローカルディレクトリの入力欄にはつくったフォルダであるsimplystatic/(任意)のパスを指定します。</p>
+<p><img loading="lazy" class="alignnone wp-image-53 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png" alt="" width="1024" height="258" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-300x76.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-768x194.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402.png 1244w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>生成を選択し、<span class="bold blue">静的ファイルを生成する</span>をクリックしましょう。</p>
+<p>待機すると生成されると思います。<br />
+クソ長いですよね、、、一分もかかりました&#8230;(笑)</p>
+<h2><span id="toc3">GitHub の設定</span></h2>
+<p><img loading="lazy" class="alignnone wp-image-55 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png" alt="" width="1024" height="700" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-300x205.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-768x525.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111.png 1141w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>GitHubのリポジトリでSettingsを開き、Pagesの項目に移動してください。<br />
+Sourceのブランチをmainで選択してSaveをクリックしましょう。<br />
+これで完了なのですが、Custom domainも私は設定しました。</p>
+<h2><span id="toc4">おまけ</span></h2>
+<h3><span id="toc5">検索を機能させる</span></h3>
+<p><strong><span class="marker-red">※こちらの検索機能に関しては完全に機能しているわけではありませんのでご了承ください</span></strong></p>
+<p>静的化したら検索機能が動作しないんですよ。まあ当たり前なことです。<br />
+検索機能はPHPでつくられており、サーバーサイドで動的に処理するものなのです。<br />
+つまり、クライアント側で処理できるようにインデックス化されたものも静的化しないとなりません。<br />
+WordPressにはRest APIがあります。<br />
+APIで生成されたjsonを静的化してしまえばよいという考えになりました。<br />
+めちゃくちゃなことしてますが、私はこうするしかないと思いました。<br />
+そのためのPHPスクリプトをここにおいておきます。<br />
+名前は適当ですが、なんでもいいです。</p>
+<ul>
+<li>push.php</li>
+</ul>
+<pre>&lt;?php
+define('URL', dirname((empty($_SERVER['HTTPS']) ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) . "/");
+define('DIR', "simplystatic/");
+
+function save_url2static($path, $ext = 'json') {
+$src = file_get_contents(URL . $path);
+if (!file_exists(DIR . $path))
+mkdir(DIR . $path, 0777, true);
+$src = str_replace(str_replace('/', '\/', URL), '/', $src);
+file_put_contents(DIR . $path . "/index." . $ext, $src);
+}
+
+save_url2static("wp-json/wp/v2/posts");
+save_url2static("wp-json/wp/v2/pages");
+save_url2static("wp-json/wp/v2/media");
+save_url2static("wp-json/wp/v2/comments");
+save_url2static("wp-json/wp/v2/taxonomies");
+save_url2static("wp-json/wp/v2/taxonomies");
+save_url2static("static-json/categories");
+
+if (!file_exists(DIR . 'conv_for_simply.rb'))
+copy('conv_for_simply.rb', DIR . 'conv_for_simply.rb');
+copy('client.js', DIR . 'client.js');
+
+echo exec('push.bat') . '&lt;br /&gt;';
+echo "pushed!&lt;br /&gt;";
+exit;</pre>
+<ul>
+<li>client.js</li>
+</ul>
+<pre>var $client_lang = {
+search_result: "“$1” の検索結果",
+search_in_site: "サイト内を検索",
+posts_not_found: "投稿が見つかりませんでした。"
+};
+var $url = new URL(window.location.href);
+var $params = $url.searchParams;
+var $htmlSetted = false;
+
+function apprStr($str) {
+$str = $str.toLowerCase();
+$str = $str.replace(/(&lt;([^&gt;]+)&gt;)/gi, '');
+$str = $str.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function($m) {
+return String.fromCharCode($m.charCodeAt(0) - 0xFEE0);
+});
+$str = $str.replace(/[\u30a1-\u30f6]/g, function($m) {
+return String.fromCharCode($m.charCodeAt(0) - 0x60);
+});
+return $str;
+}
+
+function getMeta($metaProperty) {
+var $metas = document.getElementsByTagName('meta');
+for (let $j = 0; $j &lt; $metas.length; $j++) {
+if ($metas[$j].getAttribute('property') === $metaProperty) {
+return $metas[$j].getAttribute('content');
+}
+}
+}
+
+if ($params.has('s') ) {
+var $s = $params.get('s');
+var $isFound = false;
+var $html = `
+&lt;h1 id="archive-title" class="archive-title"&gt;&lt;span class="fa fa-search" aria-hidden="true"&gt;&lt;/span&gt;"${$s}"&lt;/h1&gt;
+&lt;form class="search-box input-box" method="get" action="/"&gt;
+&lt;input type="text" placeholder="${$client_lang['search_in_site']}" name="s" class="search-edit" aria-label="input" value="${$s}"&gt;
+&lt;button type="submit" class="search-submit" aria-label="button"&gt;&lt;span class="fa fa-search" aria-hidden="true"&gt;&lt;/span&gt;&lt;/button&gt;
+&lt;/form&gt;
+&lt;div id="list" class="list ect-entry-card front-page-type-index"&gt;
+`;
+document.title = $client_lang['search_result'].replace('$1', $s) + " | " + getMeta("og:site_name");
+
+var $categories_name = new Array();
+fetch('./static-json/categories/index.json') // /index.json
+.then(($response) =&gt; $response.json())
+.then(($data) =&gt; {
+if ($data !== undefined)
+Object.keys($data).forEach($key =&gt; {
+var $item = $data[$key];
+$categories_name[$item.term_id] = $item.name;
+});
+fetch('./wp-json/wp/v2/posts/index.json')
+.then(($response) =&gt; $response.json())
+.then(($data) =&gt; {
+if ($data !== undefined)
+$data.forEach($item =&gt; {
+if (apprStr($item.title.rendered).indexOf(apprStr($s)) != -1 || apprStr($item.content.rendered).indexOf(apprStr($s)) != -1) {
+$isFound = true;
+
+var $categories_html;
+$item.categories.forEach($id =&gt; {
+$categories_html += '&lt;span class="entry-category"&gt;' + $categories_name[$id] + '&lt;/span&gt;';
+});
+var $post_date = $item.date.replace('-', '.');
+$post_date = $post_date.substr(0, $post_date.indexOf('T'));
+
+$html += `
+&lt;a href="${$item.link}" class="entry-card-wrap a-wrap border-element cf" title="${$item.title.rendered}"&gt;
+&lt;article&gt;
+&lt;figure class="entry-card-thumb card-thumb e-card-thumb"&gt;
+&lt;img data-src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image lozad lozad-img" loading="lazy" width="320" height="180" /&gt;&lt;noscript&gt;&lt;img src="/wp-content/themes/cocoon-master/images/no-image-320.png" alt="" class="no-image entry-card-thumb-image list-no-image" width="320" height="180" /&gt;&lt;/noscript&gt; &lt;span class="cat-label cat-label-13"&gt;Minecraft&lt;/span&gt; &lt;/figure&gt;&lt;!-- /.entry-card-thumb --&gt;
+&lt;div class="entry-card-content card-content e-card-content"&gt;
+&lt;h2 class="entry-card-title card-title e-card-title" itemprop="headline"&gt;${$item.title.rendered}&lt;/h2&gt;
+&lt;div class="entry-card-snippet card-snippet e-card-snippet"&gt;
+${$item.excerpt.rendered}
+&lt;/div&gt;
+&lt;div class="entry-card-meta card-meta e-card-meta"&gt;
+&lt;div class="entry-card-info e-card-info"&gt;
+&lt;span class="post-date"&gt;&lt;span class="fa fa-clock-o" aria-hidden="true"&gt;&lt;/span&gt; ${$post_date}&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="entry-card-categorys"&gt;${$categories_html}&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /.entry-card-content --&gt;
+&lt;/article&gt;
+&lt;/a&gt;
+`;
+}
+});
+if ($isFound === false) {
+$html += `
+&lt;div class="posts-not-found"&gt;
+&lt;h2&gt;NOT FOUND&lt;/h2&gt;
+&lt;p&gt;${$client_lang['posts_not_found']}&lt;/p&gt;
+&lt;/div&gt;
+`;
+}
+$html += `&lt;/div&gt;&lt;!-- .list --&gt;`;
+document.addEventListener("DOMContentLoaded", function() {
+if ($htmlSetted === false) {
+document.getElementById("main").innerHTML = $html;
+$htmlSetted = true;
+}
+});
+window.addEventListener("load", function() {
+if ($htmlSetted === false) {
+document.getElementById("main").innerHTML = $html;
+$htmlSetted = true;
+}
+});
+});
+});
+}
+</pre>
+<p>テーマのheader.phpの&lt;/head&gt;前に以下のコードを加える</p>
+<pre>&lt;script src="./client.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;</pre>
+<h3><span id="toc6">コメントを機能させる</span></h3>
+<p>Utterancesというものを使い、GitHubのIssueをサイトに埋め込み、コメント欄として利用します。<br />
+<a href="https://utteranc.es/">https://utteranc.es/</a><br />
+テーマのcomments.phpを書き換えます。</p>
+<pre>&lt;?php //コメントエリア
+/**
+* Cocoon WordPress Theme
+* @author: yhira
+* @link: https://wp-cocoon.com/
+* @license: http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
+*/
+
+if ( !defined( 'ABSPATH' ) ) exit;
+
+if ( is_comment_allow() || have_comments() ): ?&gt;
+&lt;div id="utteranc_comment"&gt;
+&lt;!-- comment area --&gt;
+<span class="bold red marker-red">ここにコード</span>
+&lt;/div&gt;
+&lt;?php endif ?&gt;</pre>
+<p>生成したコードを「ここにコード」に貼り付けましょう。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/2022072049/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
