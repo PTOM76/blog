@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/author/pitan/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Mon, 15 Aug 2022 09:09:01 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 28 Aug 2022 13:41:27 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,163 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Kyash、バンドルカード、WebMoneyの特徴についてまとめてみる</title>
+		<link>https://blog.pkom.ml/20220828267/</link>
+					<comments>https://blog.pkom.ml/20220828267/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sun, 28 Aug 2022 13:41:13 +0000</pubDate>
+				<category><![CDATA[プリペイドカード]]></category>
+		<category><![CDATA[決済サービス]]></category>
+		<category><![CDATA[生活]]></category>
+		<category><![CDATA[Kyash]]></category>
+		<category><![CDATA[WebMoney]]></category>
+		<category><![CDATA[バンドル]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=267</guid>
+
+					<description><![CDATA[はじめに 私はこれまでKyash、バンドルカード、WebMoneyといった未成年でも利用できるプリペイドカード(プリペイド式クレジットカード、決済カード)を使ってました。 その中で私はKyashカードを好んでおり、3つの [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>はじめに</h2>
+<p>私はこれまでKyash、バンドルカード、WebMoneyといった未成年でも利用できるプリペイドカード(プリペイド式クレジットカード、決済カード)を使ってました。<br />
+その中で私はKyashカードを好んでおり、3つのカードの特徴をまとめてみようと思います。<br />
+※2022/08/28に書いた記事であり、常に正しい内容ではありません。各自、公式サイトを確認してください。</p>
+<h3>Kyash</h3>
+<h4>概要</h4>
+<p>ポイント還元と送金請求機能が特にこのカードの素晴らしいところですね。<br />
+プリペイドカードと言いつつ、イマすぐ入金って後払いですし、クレジットカードでもあるんじゃないのでしょうか&#8230;w<br />
+Kyash Card Liteは正直オススメできません。私はKyash Cardをオススメします。</p>
+<p>決済ブランド: Visaカード<br />
+リアルカード: Kyash Card 900円, Kyash Card Lite 300円</p>
+<h4>特徴</h4>
+<ul>
+<li>ポイント還元 (0.2%～1.0%)</li>
+<li>送金・請求機能</li>
+<li>サブスク決済</li>
+<li>QUICPay決済 (<span class="red bold">※Kyash Cardが必要</span>)</li>
+<li>3D セキュア (<span class="red bold">※Kyash Cardが必要</span>)</li>
+<li>タッチ決済 (<span class="red bold">※Kyash Cardが必要</span>)</li>
+<li>サインレス決済 (<span class="red bold">※Kyash Cardが必要</span>)</li>
+</ul>
+<h4>入金方法</h4>
+<ul>
+<li>イマすぐ入金</li>
+<li>銀行口座</li>
+<li>カード</li>
+<li>セブン銀行ATM</li>
+<li>コンビニ</li>
+<li>ペイジー</li>
+</ul>
+<h4>注意点</h4>
+<p>Kyash Card LiteではICチップが入っておらず、3D セキュアがないので3D セキュアが必要であればKyash Cardにしましょう。一部では3D セキュアが必要なサービスもあるので、私はKyash Cardにしています。</p>
+<h3>バンドルカード</h3>
+<h4>概要</h4>
+<p>このカードはビットコインも対応しています。<br />
+こちらもまさかのポチっとチャージという後払い決済がありますね。</p>
+<p>決済ブランド: Visaカード<br />
+リアルカード: バンドルカード リアル 300円, バンドルカード リアル+ 600円</p>
+<h4>特徴</h4>
+<ul>
+<li>サブスク決済</li>
+</ul>
+<h4>入金方法</h4>
+<ul>
+<li>ポチッとチャージ</li>
+<li>銀行口座</li>
+<li>カード</li>
+<li>セブン銀行ATM</li>
+<li>コンビニ</li>
+<li>ペイジー</li>
+<li>ドコモ払い</li>
+<li>ビットコイン</li>
+<li>ビットコイン (bitFlyer)</li>
+<li>ギフトコード</li>
+<li>ネット銀行</li>
+</ul>
+<h3>WebMoney</h3>
+<h4>概要</h4>
+<p>なんとこのカード、リアルカードを発行する手数料がないんです。ただし、振り込みによっては手数料がかかることもあるので注意。</p>
+<p>決済ブランド: Masterカード<br />
+リアルカード: 無料</p>
+<h4>特徴</h4>
+<ul>
+<li>サブスク決済</li>
+<li>送金機能</li>
+</ul>
+<h4>入金方法</h4>
+<ul>
+<li>ポチッとチャージ</li>
+<li>auショップ</li>
+<li>セブン銀行ATM</li>
+<li>ローソン</li>
+<li>カード</li>
+</ul>
+<h2>おわりに</h2>
+<p>どれも凄いんですけど、やはりKyashですね。<br />
+Kyash CardにはICチップが入っているので決済がクッソ楽です。<br />
+3つの中では900円もするので比較的高いのですが、これでもほんと安い方だと思います。<br />
+サインレス、3D セキュア、タッチ決済が対応しているなんてほんと素晴らしいです。</p>
+<p>Kyashもバンドルも後払い対応しているなんて本当にプリペイドカードとしての機能を超えているような気がします。</p>
+<h2>公式サイト</h2>
+<a rel="noopener" href="https://www.kyash.co/" title="Kyash - お支払いもお金の管理もかんたんに" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/8e7fcae0cb0f2a721134d5a0d1e8ae5c.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Kyash - お支払いもお金の管理もかんたんに</div><div class="blogcard-snippet external-blogcard-snippet">年会費無料でどこでも使える、Visaプリペイドカードでお支払い。履歴はアプリにすぐ反映、自動で分類されて使いすぎを防止。最大1%のポイント還元も。カードの利用停止もアプリからできて安全です。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.kyash.co/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.kyash.co</div></div></div></div></a>
+<a rel="noopener" href="https://vandle.jp/" title="VANDLE CARD[バンドルカード] - 1分でカードを作って、3分でお買い物。" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/1b8ef443d7edba6d21f82479a154c284.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">VANDLE CARD[バンドルカード] - 1分でカードを作って、3分でお買い物。</div><div class="blogcard-snippet external-blogcard-snippet">バンドルカードは、もっと便利で楽しいカードを目指して、これまでにないカード体験を作ります。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://vandle.jp" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">vandle.jp</div></div></div></div></a>
+<a rel="noopener" href="https://www.webmoney.jp/" title="電子マネーWebMoney（ウェブマネー）" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.webmoney.jp%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">電子マネーWebMoney（ウェブマネー）</div><div class="blogcard-snippet external-blogcard-snippet">電子マネーWebMoney（ウェブマネー）は、オンラインゲームや音楽ダウンロードなどインターネット決済で最も標準的なプリペイド電子マネー。コンビニで誰でも購入ＯＫ＆個人情報不要でセキュリティ面でも安心です。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.webmoney.jp/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.webmoney.jp</div></div></div></div></a>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220828267/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>1.13以下でもFabricがある！？「Legacy Fabric」、「Cursed Fabric」について紹介</title>
+		<link>https://blog.pkom.ml/20220827263/</link>
+					<comments>https://blog.pkom.ml/20220827263/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sat, 27 Aug 2022 07:02:07 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MOD]]></category>
+		<category><![CDATA[ModLoader]]></category>
+		<category><![CDATA[MOD紹介]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=263</guid>
+
+					<description><![CDATA[Fabric まず、Fabricとは何か知らない方は以下のサイトを確認してみてください。 MOD解説/Fabric.minecraftjapan.miraheze.org FabricはForgeと同レベルなぐらいメジャ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>Fabric</h2>
+<p>まず、Fabricとは何か知らない方は以下のサイトを確認してみてください。</p>
+<a rel="noopener" href="https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric" title="MOD解説/Fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/0b9b9b3c06d71a87fe3fb659307f7ec4.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">MOD解説/Fabric</div><div class="blogcard-snippet external-blogcard-snippet">.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">minecraftjapan.miraheze.org</div></div></div></div></a>
+<p>FabricはForgeと同レベルなぐらいメジャーなMod Loaderですが、mc 1.14から出ていたことで知られています。<br />
+しかし、そんなFabricにもmc 1.13以前のバージョンで動作する<strong>Legacy Fabric</strong>、Minecraft 1.0以前のプレビュー版、ベータ版、アルファ版のバージョンでも動く<strong>Cursed Fabric</strong>というものがあります。<br />
+今回はその2つのMODを紹介しようと思います。</p>
+<h2>Legacy Fabric</h2>
+<p>Legacy Fabricは1.13以前で動くFabricですが、Fabric Loaderは通常のFabricのものであると思います。おそらく、Yarnを1.13以下のバージョンに移植しているんだと思います。<br />
+これはFabricとは無関係ですのでFabricの公式サイトではなく、Legacy Fabricのサイトでダウンロードできます。</p>
+<p>1.8.9以外は開発中とのことで、現在、1.8.9のみサポートしているとのことです。</p>
+<p><img loading="lazy" width="436" height="253" class="alignnone wp-image-264 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-27.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-27.png 436w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-27-300x174.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></p>
+<h3>公式サイト</h3>
+<a rel="noopener" href="https://legacyfabric.net/" title="Legacy Fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/328bc41d3cdfafebf21da1a6d1ab747a.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Legacy Fabric</div><div class="blogcard-snippet external-blogcard-snippet">The home of legacy version support for Fabric.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://legacyfabric.net/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">legacyfabric.net</div></div></div></div></a>
+<h3>対応バージョン</h3>
+<p>1.3.1～1.13.2</p>
+<h3>参考</h3>
+<a rel="noopener" href="https://ftb.fandom.com/wiki/Legacy_Fabric" title="Legacy Fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://static.wikia.nocookie.net/ftb_gamepedia/images/6/64/Legacyfabriclogo.png/revision/latest?cb=20201001072815" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Legacy Fabric</div><div class="blogcard-snippet external-blogcard-snippet">This page is for Legacy Fabric only. Any information listed is not compatible or related to Fabric, Fabric API, or Cursed Fabric; They are all completely separa...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://ftb.fandom.com/wiki/Legacy_Fabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">ftb.fandom.com</div></div></div></div></a>
+<h2>Cursed Fabric</h2>
+<p>Cursed Fabricはベータ版のマイクラのバージョンであるb1.7.3のみサポートしているみたいです。</p>
+<p><img loading="lazy" width="527" height="264" class="alignnone wp-image-265 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-28.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-28.png 527w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-28-300x150.png 300w" sizes="(max-width: 527px) 100vw, 527px" /></p>
+<h3>公式サイト</h3>
+<a rel="noopener" href="https://minecraft-cursed-legacy.github.io/" title="Minecraft Cursed Legacy" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fminecraft-cursed-legacy.github.io%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Minecraft Cursed Legacy</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://minecraft-cursed-legacy.github.io/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">minecraft-cursed-legacy.github.io</div></div></div></div></a>
+<h3>対応バージョン</h3>
+<p>b1.7.3</p>
+<h3>参考</h3>
+<a rel="noopener" href="https://ftb.fandom.com/wiki/Cursed_Fabric" title="Cursed Fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://static.wikia.nocookie.net/ftb_gamepedia/images/0/08/Better_Nether_With_Remaining_Tools_At_Night.png/revision/latest/scale-to-width-down/1200?cb=20210514032702" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Cursed Fabric</div><div class="blogcard-snippet external-blogcard-snippet">Note: This page is for Cursed Fabric only, any information listed is not compatible or related to Fabric, Fabric API, or Legacy Fabric. They are all completely ...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://ftb.fandom.com/wiki/Cursed_Fabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">ftb.fandom.com</div></div></div></div></a>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220827263/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Wired Redstone】Fabric版のRSWires、「Wired Redstone」を紹介【Minecraft 1.18.2】</title>
 		<link>https://blog.pkom.ml/20220815240/</link>
 					<comments>https://blog.pkom.ml/20220815240/#respond</comments>
@@ -690,160 +847,6 @@ Double型のバッファにglfwGetCursorPos関数がマウスカーソルの位�
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/20220728160/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【LWJGL3】ウィンドウの作成 #1</title>
-		<link>https://blog.pkom.ml/20220728158/</link>
-					<comments>https://blog.pkom.ml/20220728158/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Thu, 28 Jul 2022 10:33:02 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[LWJGL]]></category>
-		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=158</guid>
-
-					<description><![CDATA[適当に初期クラスのMainクラスとウィンドウの処理を書くためのWindowクラスをつくっておきます。 Windowクラス package ml.pkom.lwjgl.tutorial; import org.lwjgl. [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>適当に初期クラスのMainクラスとウィンドウの処理を書くためのWindowクラスをつくっておきます。</p>
-<ul>
-<li>Windowクラス</li>
-</ul>
-<pre>package ml.pkom.lwjgl.tutorial;
-
-import org.lwjgl.glfw.GLFW;
-import org.lwjgl.glfw.GLFWVidMode;
-import static org.lwjgl.system.MemoryUtil.*;
-
-public class Window {
-
-    public long window;
-
-    // ウィンドウの横幅
-    public int width = 640;
-
-    // ウィンドウの縦幅
-    public int height = 360;
-
-    // ウィンドウのタイトル名
-    public String title = "HogeHoge";
-
-    public void init() {
-        // GLFWの初期化
-        GLFW.glfwInit();
-
-        // ウィンドウを作成
-        window = GLFW.glfwCreateWindow(width, height, title, NULL, NULL);
-
-        // ウィンドウが見えるように設定
-        GLFW.glfwWindowHint(GLFW.GLFW_VISIBLE, GLFW.GLFW_FALSE);
-
-        // リサイズをできるように設定
-        GLFW.glfwWindowHint(GLFW.GLFW_RESIZABLE, GLFW.GLFW_TRUE);
-
-        // ビデオモードの取得
-        GLFWVidMode videoMode = GLFW.glfwGetVideoMode(GLFW.glfwGetPrimaryMonitor());
-
-        // 画面のサイズを取得
-        int screenWidth = videoMode.width();
-        int screenHeight = videoMode.height();
-
-        // ウィンドウの位置を中央へセットする
-        GLFW.glfwSetWindowPos(window, (screenWidth - width) / 2, (screenHeight - height) / 2);
-
-        // ウィンドウを表示
-        GLFW.glfwShowWindow(window);
-    }
-
-    // 閉じるボタンが押されるとtrueを返す
-    public boolean isClosed() {
-        return GLFW.glfwWindowShouldClose(window);
-    }
-
-    public void update() {
-        // マウスなど入力されたイベントを記録する
-        GLFW.glfwPollEvents();
-    }
-
-    public void swapBuffers() {
-        // カラーバッファ(色表示)を入れ替える
-        GLFW.glfwSwapBuffers(window);
-    }
-}</pre>
-<ul>
-<li>Mainクラス</li>
-</ul>
-<pre>package ml.pkom.lwjgl.tutorial;
-
-public class Main {
-    public static void main(String[] args) {
-        Window window = new Window();
-
-        // ウィンドウの初期化
-        window.init();
-
-        // 閉じるまでループ
-        while (!window.isClosed()) {
-            // イベントの更新
-            window.update();
-            
-            // バッファの更新
-            window.swapBuffers();
-        }
-    }
-}</pre>
-<p><img loading="lazy" width="642" height="392" class="alignnone wp-image-163 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17.png 642w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17-300x183.png 300w" sizes="(max-width: 642px) 100vw, 642px" /></p>
-<p>実行してみるとウィンドウが表示されました。</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220728158/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【LWJGL3】セットアップ #0</title>
-		<link>https://blog.pkom.ml/20220728153/</link>
-					<comments>https://blog.pkom.ml/20220728153/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Thu, 28 Jul 2022 09:57:58 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[LWJGL]]></category>
-		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=153</guid>
-
-					<description><![CDATA[JavaのLWJGLを学ぶついでに記事も書こうと思います。 日本語で説明されているものが少なかったので以下の動画を参考に日本語で説明していきます。 私のコードは好きに使ってもらって構いません。 開発環境 環境 OS: W [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>JavaのLWJGLを学ぶついでに記事も書こうと思います。<br />
-日本語で説明されているものが少なかったので以下の動画を参考に日本語で説明していきます。<br />
-私のコードは好きに使ってもらって構いません。</p>
-<p><iframe loading="lazy" title="3D Game using LWJGL 3 Tutorial - #1 Making a Window" width="1107" height="623" src="https://www.youtube.com/embed/ISWcMXxl26s?list=PLaWuTOi9sDepAlbNEOXhjjFSo2WBkWOT2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<h2>開発環境</h2>
-<h3 style="text-align: left;">環境</h3>
-<p>OS: Windows 11<br />
-IDE: Intellij IDEA<br />
-Java: OpenJDK 17<br />
-LWJGL: 3.3.1</p>
-<h3>pom.xml</h3>
-<p>以下のページでpom.xmlを生成します。</p>
-<a rel="noopener" href="https://www.lwjgl.org/customize" title="LWJGL - Lightweight Java Game Library" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lwjgl.org%2Fcustomize?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">LWJGL - Lightweight Java Game Library</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.lwjgl.org/customize" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.lwjgl.org</div></div></div></div></a>
-<p>Releseの方を選択してみます。</p>
-<p>pom.xmlを生成したいのでMavenを選びます。</p>
-<p><img loading="lazy" width="151" height="158" class="alignnone wp-image-154 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-14.png" /></p>
-<p>JOMLも追加しておきます。</p>
-<p><img loading="lazy" width="253" height="189" class="alignnone wp-image-155 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-15.png" /></p>
-<p>下の「DOWNLOAD POM.XML」か「COPY TO CLIPBOARD」でpom.xmlを自身のpom.xmlに貼り付けるか一部だけ貼り付けてください。</p>
-<p><img loading="lazy" width="698" height="69" class="alignnone wp-image-156 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16.png 698w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16-300x30.png 300w" sizes="(max-width: 698px) 100vw, 698px" /></p>
-<p>&nbsp;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220728153/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
