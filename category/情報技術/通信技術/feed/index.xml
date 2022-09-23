@@ -12,13 +12,13 @@
 	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E9%80%9A%E4%BF%A1%E6%8A%80%E8%A1%93/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Sun, 07 Aug 2022 10:25:20 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 13 Aug 2022 08:10:46 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
 
 <image>
 	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -28,6 +28,122 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【Discord】強力なスパム対策ができるボット「Wick」を紹介します。</title>
+		<link>https://blog.pkom.ml/20220813212/</link>
+					<comments>https://blog.pkom.ml/20220813212/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sat, 13 Aug 2022 08:07:17 +0000</pubDate>
+				<category><![CDATA[Discord]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[スパム対策]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=212</guid>
+
+					<description><![CDATA[目次 はじめに導入方法Wickの設定おすすめの設定ユーザーへWickの権限を与える便利なコマンドw!purge [削除するメッセージ数] (オプションなど)おわりに参考 はじめに Discordでは荒らされているサーバー [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">導入方法</a></li><li><a href="#toc3" tabindex="0">Wickの設定</a><ol><li><a href="#toc4" tabindex="0">おすすめの設定</a></li><li><a href="#toc5" tabindex="0">ユーザーへWickの権限を与える</a></li></ol></li><li><a href="#toc6" tabindex="0">便利なコマンド</a><ol><li><a href="#toc7" tabindex="0">w!purge [削除するメッセージ数] (オプションなど)</a></li></ol></li></ol></li><li><a href="#toc8" tabindex="0">おわりに</a></li><li><a href="#toc9" tabindex="0">参考</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">はじめに</span></h2>
+<p>Discordでは荒らされているサーバーを数々見かけます。<br />
+DiscordにはBAN、キック、タイムアウト、低速チャットなどがありますが、それだけでは必ずしもとは言いませんが、完全に荒らしを防ぐことができません。<br />
+そのため、botで荒らし対策していることが多いので、今回は荒らし対策のボットの中で最も強力だと思った「Wick」を紹介したいと思います。</p>
+<p>ほんと日本語でこのBot紹介している記事見かけませんよね。<br />
+昔書いた記事を再度、ここで見やすく書き直すことにします。<br />
+一部そのままにしているところもあります。</p>
+<p>私も最初は公式のDocsを読みながら、フレンドに教えてもらいながらとセットアップに苦労しました。</p>
+<div class="blank-box bb-tab bb-point bb-yellow">・カスタマイズ性が高い<br />
+・Vortexのように導入制限はない<br />
+・ほぼほぼスパマーを撃退してくれる</div>
+<h3><span id="toc2">導入方法</span></h3>
+<ol>
+<li>まず、<a href="https://wickbot.com/">https://wickbot.com/</a>から「Add Wick」ボタンをクリックし、Discordのアカウントと紐付け、botをサーバーに導入しましょう。</li>
+<li>Wickのロールの位置を上に持っていきましょう。<br />
+<img id="thepasted-1" src="https://image02.seesaawiki.jp/f/o/fortunes-memo/fbOC_75yR8.png" /></li>
+<li>サーバー上で「w!setup」と送信し、コマンドを実行しましょう。
+<div class="alert-box common-icon-box">※このコマンドはサーバーの所有者、またはWickの権限(Discordの役職、ロールではない)所有者のみ実行できます。</div>
+<p><img id="thepasted-2" src="https://image02.seesaawiki.jp/f/o/fortunes-memo/PdgUT_CHVf.png" /><br />
+上の画像のようにすべての項目にチェックマークが付いていればWickのセットアップが成功しています。<br />
+どれか1つでもバツマークが付いていると失敗しています。<br />
+その際は再度、上に戻ってやり直しましょう。</p>
+<div id="content_block_13-body" class="wiki-section-body-3 information-box common-icon-box">
+<p>※確認したエラーのみ記載してます。もし、何かあれば報告ください。</p>
+<table id="content_block_14">
+<tbody>
+<tr>
+<th>エラーメッセージ</th>
+<th>意味</th>
+<th>対処法</th>
+</tr>
+<tr>
+<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img loading="lazy" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Checking Wick&#8217;s role position&#8230;</td>
+<td>× Wickのロールの位置を確認中&#8230;</td>
+<td>番号2を参照</td>
+</tr>
+<tr>
+<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img loading="lazy" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Checking for permissions&#8230;</td>
+<td>× 権限を確認中&#8230;</td>
+<td>素直に入れ直してWickに管理者権限を与えましょう。</td>
+</tr>
+<tr>
+<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img loading="lazy" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Only Server Owners (Permit5) and up can use this command!</td>
+<td>× サーバー所有者(許可レベル5)以上のみ、このコマンドを使えます！</td>
+<td>所有者がこのコマンドを実行する、または「ユーザーへWickの権限を与える」の項目を参照</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+<h3><span id="toc3">Wickの設定</span></h3>
+<div class="information-box common-icon-box"><a href="https://wickbot.com/docs/setup">https://wickbot.com/docs/setup</a><br />
+こちらのドキュメントに細かく記載されています。</div>
+<h4><span id="toc4">おすすめの設定</span></h4>
+<ol>
+<li><a href="https://wickbot.com/dashboard">https://wickbot.com/dashboard</a>から設定したいサーバーの青いマーク(Server Overview)を選択しましょう。<img loading="lazy" width="1525" height="553" class="alignnone wp-image-213 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14.png 1525w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14-300x109.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14-1024x371.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14-768x278.png 768w" sizes="(max-width: 1525px) 100vw, 1525px" /></li>
+<li>Auto Modの項目の「Filters」を選択<br />
+<img id="thepasted-8" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/jIu6ltJf7o.png" /></li>
+<li>Warn(警告)、Mute(タイムアウト)、Kick(キック)、BANのどれかを選択し、Muteを選択した場合は、時間も設定しましょう。<br />
+基本的に「Normal Message」(連投対策)と「Similar Message」(類似連投対策)は設定しておきましょう。<br />
+<img loading="lazy" width="1253" height="809" class="alignnone wp-image-215 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16.png 1253w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16-300x194.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16-1024x661.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16-768x496.png 768w" sizes="(max-width: 1253px) 100vw, 1253px" /></li>
+</ol>
+<h4><span id="toc5">ユーザーへWickの権限を与える</span></h4>
+<p>w!s &lt;ユーザー/ロール&gt; ?add &lt;権限レベル？&gt;</p>
+<p>ユーザー/ロールは名前でもIDでも構いません。<br />
+権限レベル？は4がWickモデレーター、3がWick管理者、10が信頼されたWick管理者、11がサーバーオーナー、Wickオーナーとなるみたいです。</p>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnchcyUyMCUzQ3VzZXIlM0UlMjAlM0ZhZGQlMjAxMSUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybWFyayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJjb2RlJTIyJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMm1hcmslMjIlMkMlMjJ0eXBlJTIyJTNBJTIyYm9sZCUyMiUyQyUyMmRhdGElMjIlM0ElN0IlN0QlN0QlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyOGFiNTlhNDNjMjM2NDIzNjkzZjk4ZmIxNDcxZDA5ZTMlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI3NTQ4MjdlMzZmZTI0ZWFmYmYyZDI2OGEyZDliNzdhYiUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMmQ2MmJlN2MzMThiODQxNmRhOGE1ZDFjOTQ2MTdiMjA2JTIyJTdE">設定例: w!s 0123456789101112 ?add 11</span></p>
+<ul>
+<li><a href="https://docs.wickbot.com/v3/commands/settings/statics#permit">https://docs.wickbot.com/v3/commands/settings/statics#permit</a></li>
+</ul>
+<h3><span id="toc6">便利なコマンド</span></h3>
+<h4><span id="toc7">w!purge [削除するメッセージ数] (オプションなど)</span></h4>
+<p>例えば、<span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnchcHVyZ2UlMjAxMCUyMGhhcyUyMHdobyUyMGlzJTIwZm5ha2klMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMm1hcmslMjIlMkMlMjJ0eXBlJTIyJTNBJTIyY29kZSUyMiUyQyUyMmRhdGElMjIlM0ElN0IlN0QlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJtYXJrJTIyJTJDJTIydHlwZSUyMiUzQSUyMmJvbGQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTdEJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMmE3ZjIxZDdmMzlmNzRhYzJhNDNmODQzZjM3ZGE5Y2UxJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyZmViYmRlMzlhNGQzNGM3ODk0YWIyZmM0MWI3NDRjNjIlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJmNmNjNmQzNTZhZjg0YzRmYWM3NDVmYWE5MDU4MDUxZiUyMiU3RA==">w!purge 10 -h who is fnakiだと&#8221;who is fnaki&#8221;を含むメッセージを10個消します。<br />
+オプションは以下を参考にしてみてください。</span></p>
+<ul>
+<li><a href="https://docs.wickbot.com/v3/commands/moderation/purge">https://docs.wickbot.com/v3/commands/moderation/purge</a></li>
+</ul>
+<h2><span id="toc8">おわりに</span></h2>
+<p>寝ていても荒らし対策してくれるので便利ですよね～^^<br />
+ただ、設定も多いので困りました。</p>
+<h2><span id="toc9">参考</span></h2>
+<ul>
+<li><a href="https://docs.wickbot.com/">https://docs.wickbot.com/</a></li>
+<li><a href="https://wickbot.com/docs/setup">https://wickbot.com/docs/setup</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220813212/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Cloudflare】WikiChree.COMの設置にMuuMuuDomainとCoreServerでCloudflareを使った話</title>
 		<link>https://blog.pkom.ml/20220807196/</link>
 					<comments>https://blog.pkom.ml/20220807196/#respond</comments>
@@ -45,7 +161,7 @@
 
 					<description><![CDATA[目次 はじめに前提条件Cloudflareアカウント登録サイト追加ネームサーバーの設定ネームサーバー設定ガイドおまけDDoS対策HTTPS化キャッシングおわりに はじめに WikiChree.COM、個人サイト、当ブログ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">前提条件</a></li><li><a href="#toc3" tabindex="0">Cloudflare</a><ol><li><a href="#toc4" tabindex="0">アカウント登録</a></li><li><a href="#toc5" tabindex="0">サイト追加</a></li><li><a href="#toc6" tabindex="0">ネームサーバーの設定</a><ol><li><a href="#toc7" tabindex="0">ネームサーバー設定ガイド</a></li></ol></li></ol></li><li><a href="#toc8" tabindex="0">おまけ</a><ol><li><a href="#toc9" tabindex="0">DDoS対策</a></li><li><a href="#toc10" tabindex="0">HTTPS化</a></li><li><a href="#toc11" tabindex="0">キャッシング</a></li></ol></li><li><a href="#toc12" tabindex="0">おわりに</a></li></ol>
     </div>
@@ -149,7 +265,7 @@ Cloudflareの方を進めましょう。<br />
 
 					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">設置したMavenリポジトリ</a></li><li><a href="#toc3" tabindex="0">PHPスクリプト</a></li><li><a href="#toc4" tabindex="0">前提条件</a></li><li><a href="#toc5" tabindex="0">やり方</a></li><li><a href="#toc6" tabindex="0">maven.phpの仕様</a></li></ol></li><li><a href="#toc7" tabindex="0">さいごに</a><ol><li><a href="#toc8" tabindex="0">関連リンク</a></li></ol></li></ol>
     </div>
@@ -233,7 +349,7 @@ Minecraftで使う方は多いと思います。<br />
 仕組みは中継サーバー(リレーサーバー)を利用しているらしいです。<br />
 これを無料で提供してくれるのは有り難いですね。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">ゲームサーバー公開(ホスト)ツール | GameServerHostingTool</a></li><li><a href="#toc2" tabindex="0">playit</a></li></ol>
     </div>
@@ -269,7 +385,7 @@ Minecraftで使う方は多いと思います。<br />
 
 					<description><![CDATA[目次 初めに画像付きの手順簡易的に手順をまとめる最後に 初めに 間違って別のMODをアップロードしてしまい、削除したかったのですが、削除ボタンがありませんでした。そこでフォーラムで調べてみたところこれを参考にしてみると削 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">初めに</a></li><li><a href="#toc2" tabindex="0">画像付きの手順</a></li><li><a href="#toc3" tabindex="0">簡易的に手順をまとめる</a></li><li><a href="#toc4" tabindex="0">最後に</a></li></ol>
     </div>
@@ -329,7 +445,7 @@ Minecraftで使う方は多いと思います。<br />
 
 					<description><![CDATA[目次 はじめにWikiソフトウェアPukiWikiメリットデメリットDokuWikiメリットデメリットMediaWikiメリットデメリットGROWIメリットおわりに はじめに ここでのWikiソフトウェアは、誰でも編集で [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-12" checked><label class="toc-title" for="toc-checkbox-12">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">Wikiソフトウェア</a><ol><li><a href="#toc3" tabindex="0">PukiWiki</a><ol><li><a href="#toc4" tabindex="0">メリット</a></li><li><a href="#toc5" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc6" tabindex="0">DokuWiki</a><ol><li><a href="#toc7" tabindex="0">メリット</a></li><li><a href="#toc8" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc9" tabindex="0">MediaWiki</a><ol><li><a href="#toc10" tabindex="0">メリット</a></li><li><a href="#toc11" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc12" tabindex="0">GROWI</a><ol><li><a href="#toc13" tabindex="0">メリット</a></li></ol></li></ol></li></ol></li><li><a href="#toc14" tabindex="0">おわりに</a></li></ol>
     </div>
@@ -453,7 +569,7 @@ UML記述機能<br />
 是非使って見てください。<br />
 <a href="https://wikichree.com/">https://wikichree.com/</a></p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-12" checked><label class="toc-title" for="toc-checkbox-12">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-14" checked><label class="toc-title" for="toc-checkbox-14">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">特徴</a><ol><li><a href="#toc2" tabindex="0">その1. PukiWiki</a></li><li><a href="#toc3" tabindex="0">その2. カスタマイズ性</a></li><li><a href="#toc4" tabindex="0">その3. WISYWIGエディタ</a></li><li><a href="#toc5" tabindex="0">その4. ユーザー管理</a></li><li><a href="#toc6" tabindex="0">その5. Discord</a></li></ol></li><li><a href="#toc7" tabindex="0">短所</a><ol><li><a href="#toc8" tabindex="0">スキンが少ない</a></li><li><a href="#toc9" tabindex="0">広告</a></li><li><a href="#toc10" tabindex="0">利用者が少ない</a></li></ol></li><li><a href="#toc11" tabindex="0">結果</a></li></ol>
     </div>
@@ -565,7 +681,7 @@ jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A
 Cocoonテーマを利用しているので少し変わるかもしれません。<br />
 私はWordPressに関しては完全に素人なので申し訳ないです。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-16" checked><label class="toc-title" for="toc-checkbox-16">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-18" checked><label class="toc-title" for="toc-checkbox-18">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">手順</a></li><li><a href="#toc2" tabindex="0">Simply Staticの導入</a></li><li><a href="#toc3" tabindex="0">GitHub の設定</a></li><li><a href="#toc4" tabindex="0">おまけ</a><ol><li><a href="#toc5" tabindex="0">検索を機能させる</a></li><li><a href="#toc6" tabindex="0">コメントを機能させる</a></li></ol></li></ol>
     </div>

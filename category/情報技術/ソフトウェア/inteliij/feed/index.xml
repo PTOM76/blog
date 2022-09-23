@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>InteliiJ  |  ぴたぶろぐ</title>
+	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2/inteliij/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Fri, 23 Sep 2022 09:42:44 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<title>InteliiJ  |  ぴたぶろぐ</title>
+	<link>https://blog.pkom.ml</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Minecraftの開発には欠かせないIntelliJとIntelliJプラグイン</title>
+		<link>https://blog.pkom.ml/20220923289/</link>
+					<comments>https://blog.pkom.ml/20220923289/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Fri, 23 Sep 2022 09:42:44 +0000</pubDate>
+				<category><![CDATA[InteliiJ]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=289</guid>
+
+					<description><![CDATA[目次 1. IntelliJ IDEA2. Minecraft Delelopment3. Architectury 1. IntelliJ IDEA Javaでの開発をするためのJava製のIDEです。 これがマイクラ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">1. IntelliJ IDEA</a></li><li><a href="#toc2" tabindex="0">2. Minecraft Delelopment</a></li><li><a href="#toc3" tabindex="0">3. Architectury</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">1. IntelliJ IDEA</span></h2>
+<p>Javaでの開発をするためのJava製のIDEです。<br />
+これがマイクラの開発に適している理由は、マイクラでMOD/プラグイン開発するためのIntelliJプラグインがあるためです。</p>
+<a rel="noopener" href="https://www.jetbrains.com/ja-jp/idea/download/" title="ダウンロード IntelliJ IDEA: JetBrains の人間工学に基づく高機能 Java IDE" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/preview.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">ダウンロード IntelliJ IDEA: JetBrains の人間工学に基づく高機能 Java IDE</div><div class="blogcard-snippet external-blogcard-snippet">最新バージョンをダウンロード IntelliJ IDEA ：Windows、macOS、Linux用。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.jetbrains.com/ja-jp/idea/download/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.jetbrains.com</div></div></div></div></a>
+<p><img loading="lazy" width="258" height="186" class="alignnone wp-image-290 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-6.png" /></p>
+<p>特に理由がない方はCommunityで問題ないです。</p>
+<h2><span id="toc2">2. Minecraft Delelopment</span></h2>
+<a rel="noopener" href="https://plugins.jetbrains.com/plugin/8327-minecraft-development" title="Minecraft Development - IntelliJ IDEs Plugin | Marketplace" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F8327-minecraft-development?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Minecraft Development - IntelliJ IDEs Plugin | Marketplace</div><div class="blogcard-snippet external-blogcard-snippet">Brings support for Bukkit, Spigot, Paper, Sponge, Forge, Fabric, MCP, Mixin, Velocity, BungeeCord, Waterfall, and
+      LiteLoader projects to Intellij IDEA.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://plugins.jetbrains.com/plugin/8327-minecraft-development" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">plugins.jetbrains.com</div></div></div></div></a>
+<p><img loading="lazy" width="795" height="653" class="alignnone wp-image-291 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7.png 795w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7-300x246.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></p>
+<p>現時点ではBukkit、Spigot、Paper、Sponge、Forge、Fabric、LiteLoader、Velocity、BungeeCord、Waterfallのプラットフォームが選択できます。<br />
+MOD開発環境を自動で生成してくれるので最強のプラグインやと思います。</p>
+<p>開発環境を構築しないといけない面倒くさい工程を省くことができるので私はこれを使ってほんと楽になりました。</p>
+<p>Architecturyに関しては別のプラグインを入れる必要があると思います。</p>
+<h2><span id="toc3">3. Architectury</span></h2>
+<a rel="noopener" href="https://plugins.jetbrains.com/plugin/16210-architectury" title="Architectury - IntelliJ IDEs Plugin | Marketplace" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F16210-architectury?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Architectury - IntelliJ IDEs Plugin | Marketplace</div><div class="blogcard-snippet external-blogcard-snippet">Adds helpers for the cross-platform Minecraft modding framework Architectury.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://plugins.jetbrains.com/plugin/16210-architectury" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">plugins.jetbrains.com</div></div></div></div></a>
+<p>FabricとForgeとのマルチプラットフォーム開発には欠かせないArchitectury APIの開発環境を自動で構築してくれます。<br />
+入れると確かMinecraft Developmentの新規プロジェクト画面にArchitecturyの項目が追加されていると思います。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220923289/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

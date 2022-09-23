@@ -12,13 +12,13 @@
 	<atom:link href="https://blog.pkom.ml/author/pitan/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Sun, 28 Aug 2022 13:41:27 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 23 Sep 2022 09:42:44 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
 
 <image>
 	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -28,6 +28,153 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Minecraftの開発には欠かせないIntelliJとIntelliJプラグイン</title>
+		<link>https://blog.pkom.ml/20220923289/</link>
+					<comments>https://blog.pkom.ml/20220923289/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Fri, 23 Sep 2022 09:42:44 +0000</pubDate>
+				<category><![CDATA[InteliiJ]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=289</guid>
+
+					<description><![CDATA[1. IntelliJ IDEA Javaでの開発をするためのJava製のIDEです。 これがマイクラの開発に適している理由は、マイクラでMOD/プラグイン開発するためのIntelliJプラグインがあるためです。 ダウン [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>1. IntelliJ IDEA</h2>
+<p>Javaでの開発をするためのJava製のIDEです。<br />
+これがマイクラの開発に適している理由は、マイクラでMOD/プラグイン開発するためのIntelliJプラグインがあるためです。</p>
+<a rel="noopener" href="https://www.jetbrains.com/ja-jp/idea/download/" title="ダウンロード IntelliJ IDEA: JetBrains の人間工学に基づく高機能 Java IDE" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/preview.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">ダウンロード IntelliJ IDEA: JetBrains の人間工学に基づく高機能 Java IDE</div><div class="blogcard-snippet external-blogcard-snippet">最新バージョンをダウンロード IntelliJ IDEA ：Windows、macOS、Linux用。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.jetbrains.com/ja-jp/idea/download/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.jetbrains.com</div></div></div></div></a>
+<p><img loading="lazy" width="258" height="186" class="alignnone wp-image-290 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-6.png" /></p>
+<p>特に理由がない方はCommunityで問題ないです。</p>
+<h2>2. Minecraft Delelopment</h2>
+<a rel="noopener" href="https://plugins.jetbrains.com/plugin/8327-minecraft-development" title="Minecraft Development - IntelliJ IDEs Plugin | Marketplace" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F8327-minecraft-development?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Minecraft Development - IntelliJ IDEs Plugin | Marketplace</div><div class="blogcard-snippet external-blogcard-snippet">Brings support for Bukkit, Spigot, Paper, Sponge, Forge, Fabric, MCP, Mixin, Velocity, BungeeCord, Waterfall, and
+      LiteLoader projects to Intellij IDEA.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://plugins.jetbrains.com/plugin/8327-minecraft-development" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">plugins.jetbrains.com</div></div></div></div></a>
+<p><img loading="lazy" width="795" height="653" class="alignnone wp-image-291 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7.png 795w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7-300x246.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></p>
+<p>現時点ではBukkit、Spigot、Paper、Sponge、Forge、Fabric、LiteLoader、Velocity、BungeeCord、Waterfallのプラットフォームが選択できます。<br />
+MOD開発環境を自動で生成してくれるので最強のプラグインやと思います。</p>
+<p>開発環境を構築しないといけない面倒くさい工程を省くことができるので私はこれを使ってほんと楽になりました。</p>
+<p>Architecturyに関しては別のプラグインを入れる必要があると思います。</p>
+<h2>3. Architectury</h2>
+<a rel="noopener" href="https://plugins.jetbrains.com/plugin/16210-architectury" title="Architectury - IntelliJ IDEs Plugin | Marketplace" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F16210-architectury?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Architectury - IntelliJ IDEs Plugin | Marketplace</div><div class="blogcard-snippet external-blogcard-snippet">Adds helpers for the cross-platform Minecraft modding framework Architectury.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://plugins.jetbrains.com/plugin/16210-architectury" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">plugins.jetbrains.com</div></div></div></div></a>
+<p>FabricとForgeとのマルチプラットフォーム開発には欠かせないArchitectury APIの開発環境を自動で構築してくれます。<br />
+入れると確かMinecraft Developmentの新規プロジェクト画面にArchitecturyの項目が追加されていると思います。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220923289/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>大阪にある古潭ラーメンが美味い！</title>
+		<link>https://blog.pkom.ml/20220923283/</link>
+					<comments>https://blog.pkom.ml/20220923283/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 22 Sep 2022 16:10:43 +0000</pubDate>
+				<category><![CDATA[ラーメン店]]></category>
+		<category><![CDATA[生活]]></category>
+		<category><![CDATA[飲食店]]></category>
+		<category><![CDATA[ラーメン]]></category>
+		<category><![CDATA[古潭ラーメン]]></category>
+		<category><![CDATA[大阪市]]></category>
+		<category><![CDATA[大阪府]]></category>
+		<category><![CDATA[難波]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=283</guid>
+
+					<description><![CDATA[軽い程度の記事です。 古潭ラーメン(塩)を食べたのですが、濃すぎず薄すぎず、ちょうどバランスの良いスープでめちゃくちゃ美味かったです。 単品で頼んだのですが、満足でした。 大阪市内ならいくつかあるみたいで、堺市や神戸市に [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>軽い程度の記事です。</p>
+<p>古潭ラーメン(塩)を食べたのですが、濃すぎず薄すぎず、ちょうどバランスの良いスープでめちゃくちゃ美味かったです。<br />
+単品で頼んだのですが、満足でした。<br />
+大阪市内ならいくつかあるみたいで、堺市や神戸市にも少しあるっぽいです。<br />
+私はなんばパークスとなんばシティで2回ぐらい行きました。<br />
+また行きたいですな～</p>
+<a rel="noopener" href="http://ramen-kotan.co.jp/" title="ラーメン老舗大阪の味！｜らーめん古潭 | 大阪のラーメン店「古潭」は昭和43年創業。これからも変わらぬご愛顧お願い申し上げます。" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/925c1f2d2d9b29e88cad41e716367252.gif" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">ラーメン老舗大阪の味！｜らーめん古潭 | 大阪のラーメン店「古潭」は昭和43年創業。これからも変わらぬご愛顧お願い申し上げます。</div><div class="blogcard-snippet external-blogcard-snippet">大阪のラーメン店「古潭」は昭和43年創業。これからも変わらぬご愛顧お願い申し上げます。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=http://ramen-kotan.co.jp/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">ramen-kotan.co.jp</div></div></div></div></a>
+<p>&nbsp;</p>
+<p><img loading="lazy" width="1316" height="860" class="alignnone wp-image-286 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-5.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-5.png 1316w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-5-300x196.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-5-1024x669.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-5-768x502.png 768w" sizes="(max-width: 1316px) 100vw, 1316px" /></p>
+<p>難波と梅田に店舗が多いみたいですね</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220923283/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【PukiWiki】1.5.4の変更点を見てみる</title>
+		<link>https://blog.pkom.ml/20220923276/</link>
+					<comments>https://blog.pkom.ml/20220923276/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 22 Sep 2022 16:03:56 +0000</pubDate>
+				<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=276</guid>
+
+					<description><![CDATA[はじめに まず、PukiWikiってなんだろうっていう人はWikipediaか公式サイトを御覧ください。簡単にいえばWikiのソフトウェアです。 1.5.4について 1.5.3も2020年3月30日にリリースされてました [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>はじめに</h2>
+<p>まず、PukiWikiってなんだろうっていう人は<a href="https://ja.wikipedia.org/wiki/PukiWiki">Wikipedia</a>か<a href="https://pukiwiki.osdn.jp/">公式サイト</a>を御覧ください。簡単にいえばWikiのソフトウェアです。</p>
+<h2>1.5.4について</h2>
+<p>1.5.3も2020年3月30日にリリースされてましたが、1.5.4も今年(2022)の3月30日と同じ日にリリースされていました。</p>
+<p><img loading="lazy" width="554" height="136" class="alignnone wp-image-277 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted.png 554w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-300x74.png 300w" sizes="(max-width: 554px) 100vw, 554px" /></p>
+<p>公式サイトによるとPHP8.1に対応しているみたいです。<br />
+ちなみにまさかのPHP4.1～8.1まで対応しているってぶっ飛んでますよね。<br />
+凄すぎます。。。</p>
+<p><img loading="lazy" width="1207" height="308" class="alignnone wp-image-278 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1.png 1207w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1-300x77.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1-1024x261.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1-768x196.png 768w" sizes="(max-width: 1207px) 100vw, 1207px" /></p>
+<p>1.5.4では脆弱性も修正されているみたいでこれは必ず1.5.4に更新しないといけないのではと思います。</p>
+<p><a href="https://pukiwiki.osdn.jp/?PukiWiki/Download/1.5.4">https://pukiwiki.osdn.jp/?PukiWiki/Download/1.5.4</a>より<br />
+<img loading="lazy" width="987" height="895" class="alignnone wp-image-279 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2.png 987w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2-300x272.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2-768x696.png 768w" sizes="(max-width: 987px) 100vw, 987px" /></p>
+<p>主にURLカスタマイズ機構という新機能が追加されたみたいです。<br />
+BOLDという新たな書式も追加されたようで久々の書式追加じゃないでしょうかね。<br />
+<img loading="lazy" width="588" height="501" class="alignnone wp-image-280 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-3.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-3.png 588w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-3-300x256.png 300w" sizes="(max-width: 588px) 100vw, 588px" /></p>
+<p>RecentChangesも変わってました。<br />
+img, refプラグインが改良されてサイズ指定の999xなどという書き方もできるようになったのでより便利になりましたね。<br />
+検索も1.5.3で非同期処理になりましたし、カウンターも今回非同期で処理できるようになったみたいで最近のPukiWikiは非同期が増えてきているような気がします。</p>
+<p>あとコミッターが1人増えたみたいですね、それでも開発チームには2,3人しかいないみたいですな。</p>
+<h2>さいごに</h2>
+<p>PukiWikiって大体2年単位でアップデート来ますよね、1.5.5も二年後ぐらいなのか、待ち遠しいですな～</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220923276/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>理系線、文系線キャンパスノートをオススメしたい</title>
+		<link>https://blog.pkom.ml/20220831271/</link>
+					<comments>https://blog.pkom.ml/20220831271/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Wed, 31 Aug 2022 07:03:58 +0000</pubDate>
+				<category><![CDATA[未分類]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=271</guid>
+
+					<description><![CDATA[ドット入り罫線ノート &#31185;&#30446;&#21029;&#12391;&#20351;&#12356;&#20998;&#12369;&#12424;&#12358;&#65281;&#12489;&#1 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<h2>ドット入り罫線ノート</h2>
+<a rel="noopener" href="https://www.kokuyo-st.co.jp/stationery/dotkei_bunri/" title="&#31185;&#30446;&#21029;&#12391;&#20351;&#12356;&#20998;&#12369;&#12424;&#12358;&#65281;&#12489;&#12483;&#12488;&#20837;&#12426;&#32619;&#32218;&#12471;&#12522;&#12540;&#12474;&#65288;&#25991;&#31995;&#32218;&#12539;&#29702;&#31995;&#32218;&#65289;&#65372;&#12467;&#12463;&#12520;  " class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.kokuyo-st.co.jp%2Fstationery%2Fdotkei_bunri%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">&#31185;&#30446;&#21029;&#12391;&#20351;&#12356;&#20998;&#12369;&#12424;&#12358;&#65281;&#12489;&#12483;&#12488;&#20837;&#12426;&#32619;&#32218;&#12471;&#12522;&#12540;&#12474;&#65288;&#25991;&#31995;&#32218;&#12539;&#29702;&#31995;&#32218;&#65289;&#65372;&#12467;&#12463;&#12520;  </div><div class="blogcard-snippet external-blogcard-snippet">ノートを美しく書くためのドット入り罫線に、文系科目用「文系線」と理系科目用「理系線」が登場。国語や社会など文系科目には文字の読み書きしやすさに特化した文系線を。数学や理科など理系科目には図や表を描きやすさに特化した理系線を。科目やノートのとり方にあわせて、自分にぴったりのノートをお選びください。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.kokuyo-st.co.jp/stationery/dotkei_bunri/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.kokuyo-st.co.jp</div></div></div></div></a>
+<p>このノートは2種類あり、「理系線」と「文系線」のノートがあります。<br />
+私は理系ノートを数学類と化基化学、物基物理に使い、文系ノートを現文、英語類に使ってます。</p>
+<h3>理系ノート</h3>
+<p>このノートは数学、理科の科目で利用するといいでしょう。<br />
+地理もよくグラフ、地形を描くことがあったりするので地理もこちらを利用した方が良いかもしれませんね。</p>
+<p>マス目一つ一つにドットが入っているので図形、グラフ、絵をバランスよく描くことができると思います。</p>
+<h3>文系ノート</h3>
+<p>このノートは国語、英語、社会(地理は除く)の科目で利用するといいでしょう。</p>
+<p>自分は文字が大きくがちなので困ってました。<br />
+少し余白があるので見やすいノートがつくれます。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220831271/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Kyash、バンドルカード、WebMoneyの特徴についてまとめてみる</title>
 		<link>https://blog.pkom.ml/20220828267/</link>
 					<comments>https://blog.pkom.ml/20220828267/#respond</comments>
@@ -497,356 +644,6 @@ Cloudflareの方を進めましょう。<br />
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/20220807196/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>GitHub Pagesを利用してMavenリポジトリをつくる</title>
-		<link>https://blog.pkom.ml/20220729178/</link>
-					<comments>https://blog.pkom.ml/20220729178/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Fri, 29 Jul 2022 03:18:02 +0000</pubDate>
-				<category><![CDATA[Git]]></category>
-		<category><![CDATA[GitHub]]></category>
-		<category><![CDATA[Java]]></category>
-		<category><![CDATA[PHP]]></category>
-		<category><![CDATA[サービス]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[通信技術]]></category>
-		<category><![CDATA[GitHub Pages]]></category>
-		<category><![CDATA[Maven]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=178</guid>
-
-					<description><![CDATA[はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポジトリへ設置し、GitHub Pagesで公開してみました。 設置したMavenリポジトリ Index of /ma [&#8230;]]]></description>
-										<content:encoded><![CDATA[<h2>はじめに</h2>
-<p>FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポジトリへ設置し、GitHub Pagesで公開してみました。</p>
-<h3>設置したMavenリポジトリ</h3>
-<a rel="noopener" href="https://maven.pkom.ml/" title="Index of /" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmaven.pkom.ml%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of /</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://maven.pkom.ml/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">maven.pkom.ml</div></div></div></div></a>
-<h3 id="content_1_2">PHPスクリプト</h3>
-<p>PHPでMavenリポジトリをアップロードし、自動的にディレクトリリストのHTMLを生成し、GitHubへプッシュするスクリプトを書いてみました。</p>
-<a rel="noopener" href="https://github.com/Pitan76/maven/raw/main/maven.php" title="Index of {$displaydir}" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgithub.com%2FPitan76%2Fmaven%2Fraw%2Fmain%2Fmaven.php?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of {$displaydir}</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://github.com/Pitan76/maven/raw/main/maven.php" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">github.com</div></div></div></div></a>
-<h3 id="content_1_3">前提条件</h3>
-<ul class="list1 list-indent1">
-<li>PHPを動作させるWebサーバーをインストールしておく(XAMPP、LAMP等)</li>
-<li>Gitを入れておく</li>
-<li>GitHubのアカウントをつくっておく</li>
-<li>Mavenリポジトリとして使うGitリポジトリをGitHubにつくっておく</li>
-</ul>
-<h3>やり方</h3>
-<p>Pitan Mod Wikiの文章をそのまま載せておきます。</p>
-<a rel="noopener" href="https://wikichree.com/pitan76/?Diary/2022-07-14" title="Diary/2022-07-14 - Pitan&#x20;Mod&#x20;Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwikichree.com%2Fpitan76%2F%3FDiary%2F2022-07-14?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Diary/2022-07-14 - Pitan&#x20;Mod&#x20;Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://wikichree.com/pitan76/?Diary/2022-07-14" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">wikichree.com</div></div></div></div></a>
-<p>1. GitHubのGitリポジトリを開き、[Settings]→[Pages]→SourceがNoneになっているのでbranchを選択する<br />
-2. 特定のhtdocsにmavenリポジトリとするフォルダをつくる。(htdocs/maven/にしました。)<br />
-3. つくったフォルダにmaven.phpを放り込む。(今回はhtdocs/maven/maven.phpに放り込みました。)<br />
-4. つくったフォルダでターミナルを開き、<strong>git init</strong>を実行<br />
-5. <strong>git add *</strong>を実行<br />
-6. <strong>git commit -m &#8220;(任意)&#8221;</strong>を実行<br />
-7. <strong>git branch -M main</strong>を実行<br />
-8. <strong>git remote add origin https://github.com/(ユーザー名)/(リポジトリ名).git</strong>を実行<br />
-9. <strong>git push -u origin main</strong>を実行<br />
-10. ブラウザでmaven.phpを開き、jarをアップロードする。(私の場合はlocalhost/maven/maven.phpとなっています)</p>
-<h3 id="content_1_5">maven.phpの仕様</h3>
-<ul class="list1 list-indent1">
-<li>アップロード後、自動でgit push</li>
-<li>ハッシュファイルを作成する</li>
-<li>ディレクトリリストのindex.htmlを自動生成する</li>
-</ul>
-<p>ここからは任意ですが、Customドメインもついでに設定しておきます<br />
-Custom domainで自分のドメインを設定しました。</p>
-<h2>さいごに</h2>
-<p>MavenリポジトリをGitHub Pagesに設置し、ライブラリを公開できて面白かったです。<br />
-正しい方法ではないと思うので外部の関連サイトも載せておきます。</p>
-<h3>関連リンク</h3>
-<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
-<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
-<a rel="noopener" href="https://qiita.com/koduki/items/6babcc6f2b233da96e06" title="2020年のMavenリポジトリの作り方 - Qiita" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png?ixlib=rb-4.0.0&#038;w=1200&#038;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9MjAyMCVFNSVCOSVCNCVFMyU4MSVBRU1hdmVuJUUzJTgzJUFBJUUzJTgzJTlEJUUzJTgyJUI4JUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFFJUU0JUJEJTlDJUUzJTgyJThBJUU2JTk2JUI5JnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz1jOWJkN2RhOTRhYmY5ZjI5MTQ3OTE4ZmI2ODFjYThkOA&#038;mark-x=142&#038;mark-y=112&#038;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwa29kdWtpJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz01N2QxMjJjOGVkNzgwMmM0ZGM0NzhmNzUzYTVjN2M2Yw&#038;blend-x=142&#038;blend-y=491&#038;blend-mode=normal&#038;s=5065ef28c6bc083f309e217ff68622f0" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">2020年のMavenリポジトリの作り方 - Qiita</div><div class="blogcard-snippet external-blogcard-snippet">
-
-はじめに
-
-Javaのエンジニアであれば何だかんだでMavenリポジトリを使うことは非常に多いと思います。Gradleであっても使いますしね。
-
-OSSなどはセントラルリポジトリから落とすとして自作のライブラリの管理をどうしていま...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://qiita.com/koduki/items/6babcc6f2b233da96e06" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">qiita.com</div></div></div></div></a>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220729178/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【LWJGL3】描画処理 &#8211; その1(背景色) #4</title>
-		<link>https://blog.pkom.ml/20220728173/</link>
-					<comments>https://blog.pkom.ml/20220728173/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Thu, 28 Jul 2022 14:53:06 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[LWJGL]]></category>
-		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=173</guid>
-
-					<description><![CDATA[Color4fクラス 色を保存するためのクラスをつくっておきます。 なくてもいいんですが、私はつくる派です。 package ml.pkom.lwjgl.tutorial; public class Color4f {  [&#8230;]]]></description>
-										<content:encoded><![CDATA[<h2>Color4fクラス</h2>
-<p>色を保存するためのクラスをつくっておきます。<br />
-なくてもいいんですが、私はつくる派です。</p>
-<pre>package ml.pkom.lwjgl.tutorial;
-
-public class Color4f {
-    public float r;
-    public float g;
-    public float b;
-    public float a;
-    
-    public Color4f(float r, float g, float b) {
-        this(r, g, b, 1.0f);
-    }
-    
-    public Color4f(float r, float g, float b, float a) {
-        this.r = r;
-        this.g = g;
-        this.b = b;
-        this.a = a;
-    }
-}</pre>
-<h2>Windowクラス</h2>
-<p>先ほどつくったColor4fクラスを使います。<br />
-つくってない場合は一つ一つr, g, bのfloat型変数を用意する必要がありますね。</p>
-<pre>// 背景色
-public Color4f bgColor new Color4f(0f, 0f, 0f);</pre>
-<pre>public void init() {
-    (省略)
-
-    // リサイズをできるように設定
-    GLFW.glfwWindowHint(GLFW.GLFW_RESIZABLE, GLFW.GLFW_TRUE);
-
-    GLFW.glfwMakeContextCurrent(window);
-    GL.createCapabilities();
-
-    // ビデオモードの取得
-    GLFWVidMode videoMode = GLFW.glfwGetVideoMode(GLFW.glfwGetPrimaryMonitor());
-
-    (省略)
-}</pre>
-<pre>// 背景色をセット
-public void setBgColor(float r, float g, float b) {
-    this.bgColor = new Color4f(r, g, b);
-}</pre>
-<p>update関数に以下の処理を追加します。</p>
-<pre>// 背景色を描画
-GL11.glClearColor(bgColor.r, bgColor.g, bgColor.b, bgColor.a);
-GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);</pre>
-<p><img loading="lazy" width="413" height="241" class="alignnone wp-image-174 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21.png 413w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21-300x175.png 300w" sizes="(max-width: 413px) 100vw, 413px" /></p>
-<p>どこかに以下のコードを埋め込むと黄色になると思います。</p>
-<pre>window.setBgColor(1.0f, 1.0f, 0.0f);</pre>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220728173/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【LWJGL3】60FPSでループ処理 #3</title>
-		<link>https://blog.pkom.ml/20220728169/</link>
-					<comments>https://blog.pkom.ml/20220728169/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Thu, 28 Jul 2022 14:34:10 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[LWJGL]]></category>
-		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=169</guid>
-
-					<description><![CDATA[Windowクラスへ以下の変数を追記しておく。 // 基準のFPS public int fps = 60; // FPS public double fpsCap = fps; public double time,  [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>Windowクラスへ以下の変数を追記しておく。</p>
-<pre>// 基準のFPS
-public int fps = 60;
-
-// FPS
-public double fpsCap = fps;
-
-public double time, processedTime;</pre>
-<p>以下の関数も追記</p>
-<pre>public boolean isUpdating() {
-    double nextTime = getTime();
-    double passedTime = nextTime - time;
-    processedTime += passedTime;
-    time = nextTime;
-
-    while (processedTime &gt; 1.0/fpsCap) {
-        processedTime -= 1.0/fpsCap;
-        return true;
-    }
-    return false;
-}
-
-// 現在のFPSを取得
-public double getFPS() {
-    return fpsCap;
-}
-
-// 時間の取得
-public double getTime() {
-    return (double) System.nanoTime() / (double) 1000000000;
-}</pre>
-<p>Windowクラスのinit()関数の最後に以下の処理を追記</p>
-<pre>time = getTime();</pre>
-<p><img loading="lazy" width="281" height="447" class="alignnone wp-image-170 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19.png 281w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19-189x300.png 189w" sizes="(max-width: 281px) 100vw, 281px" /></p>
-<h2>Mainクラス(動作確認)</h2>
-<pre>public static void main(String[] args) {
-    Window window = new Window();
-
-    // ウィンドウの初期化
-    window.init();
-
-    // 閉じるまでループ
-    while (!window.isClosed()) {
-        if (window.isUpdating()) {
-            // イベントの更新
-            window.update();
-
-            System.out.println(window.getFPS());
-
-            // バッファの更新
-            window.swapBuffers();
-        }
-    }
-}</pre>
-<p><img loading="lazy" width="257" height="346" class="alignnone wp-image-171 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20.png 257w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20-223x300.png 223w" sizes="(max-width: 257px) 100vw, 257px" /></p>
-<p>現在のFPS(60.0)が表示されたら成功です。</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220728169/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【LWJGL3】キー、マウス入力 #2</title>
-		<link>https://blog.pkom.ml/20220728160/</link>
-					<comments>https://blog.pkom.ml/20220728160/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Thu, 28 Jul 2022 14:10:32 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[LWJGL]]></category>
-		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=160</guid>
-
-					<description><![CDATA[次はキー、マウス入力となります。 キーの入力 // キーが押されているか public boolean isKeyDown(int key) { return GLFW.glfwGetKey(window, key) = [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>次はキー、マウス入力となります。</p>
-<h2>キーの入力</h2>
-<pre>// キーが押されているか
-public boolean isKeyDown(int key) {
-    return GLFW.glfwGetKey(window, key) == 1;
-}
-
-// キーが押されたか
-public boolean isKeyPressed(int key) {
-    return isKeyDown(key) &amp;&amp; !lastKeys[key];
-}
-
-// キーが離されたか
-public boolean isKeyReleased(int key) {
-    return !isKeyDown(key) &amp;&amp; lastKeys[key];
-}</pre>
-<p>上記のコードをWindowクラスに追加してください。<br />
-GLFW.glfwGetKeyでは引数に指定されたキーが押されているか確認できます。1が返されると押されているということになるみたいですね。</p>
-<h2>マウスの入力</h2>
-<pre>// マウスが押されているか
-public boolean isMouseDown(int button) {
-    return GLFW.glfwGetMouseButton(window, button) == 1;
-}
-
-// マウスが押されたか
-public boolean isMousePressed(int button) {
-    return isMouseDown(button) &amp;&amp; !lastMouseButtons[button];
-}
-
-// マウスが離されたか
-public boolean isMouseReleased(int button) {
-    return !isMouseDown(button) &amp;&amp; lastMouseButtons[button];
-}</pre>
-<p>こちらもWindowクラスに付け足してください。<br />
-上の項目の仕様と同じみたいです。</p>
-<pre>// 最後に押されたキー
-public boolean[] lastKeys = new boolean[GLFW.GLFW_KEY_LAST];
-
-// 最後に押されたマウスボタン
-public boolean[] lastMouseButtons = new boolean[GLFW.GLFW_MOUSE_BUTTON_LAST];</pre>
-<p>上記の配列は上らへんに追記しておいてください。<br />
-これがないと最後に押されたキーを記録できません。</p>
-<pre>public void update() {
-    for (int i = 0; i &lt; GLFW.GLFW_KEY_LAST; i++)
-        lastKeys[i] = isKeyDown(i);
-    for (int i = 0; i &lt; GLFW.GLFW_MOUSE_BUTTON_LAST; i++)
-        lastMouseButtons[i] = isMouseDown(i);
-
-    // マウスなど入力されたイベントを記録する
-    GLFW.glfwPollEvents();
-}</pre>
-<p>update関数にlastKeys, lastMouseButtonsへ最後に押されたキーを保存する処理を追加します。</p>
-<h2>マウスカーソルの座標</h2>
-<pre>// マウスカーソルのX座標を取得
-public double getMouseX() {
-    DoubleBuffer buffer = BufferUtils.createDoubleBuffer(1);
-    GLFW.glfwGetCursorPos(window, buffer, null);
-    return buffer.get(0);
-}
-
-// マウスカーソルのY座標を取得
-public double getMouseY() {
-    DoubleBuffer buffer = BufferUtils.createDoubleBuffer(1);
-    GLFW.glfwGetCursorPos(window, null, buffer);
-    return buffer.get(0);
-}</pre>
-<p>※DoubleBufferはダブルバッファリングではありません。<br />
-Double型のバッファにglfwGetCursorPos関数がマウスカーソルの位置を書き込むみたいですね。</p>
-<h2>動作確認</h2>
-<pre>public static void main(String[] args) {
-    Window window = new Window();
-
-    // ウィンドウの初期化
-    window.init();
-
-    // 閉じるまでループ
-    while (!window.isClosed()) {
-
-        // イベントの更新
-        window.update();
-
-        if (window.isKeyPressed(GLFW.GLFW_KEY_A)) {
-            System.out.println("Pressed A");
-        }
-        if (window.isKeyReleased(GLFW.GLFW_KEY_A)) {
-            System.out.println("Released A");
-        }
-        if (window.isMousePressed(GLFW.GLFW_MOUSE_BUTTON_LEFT)) {
-            System.out.println("Pressed Left");
-            System.out.println("CursorPos: (" + window.getMouseX() + ", " + window.getMouseY() + ")");
-        }
-        if (window.isMouseReleased(GLFW.GLFW_MOUSE_BUTTON_LEFT)) {
-            System.out.println("Released Left");
-        }
-
-        // バッファの更新
-        window.swapBuffers();
-
-    }
-}</pre>
-<p><img loading="lazy" width="233" height="270" class="alignnone wp-image-167 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-18.png" /></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220728160/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

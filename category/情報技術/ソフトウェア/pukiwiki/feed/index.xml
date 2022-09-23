@@ -12,13 +12,13 @@
 	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2/pukiwiki/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Wed, 20 Jul 2022 12:12:16 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 22 Sep 2022 16:04:21 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.1</generator>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
 
 <image>
 	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -28,6 +28,54 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【PukiWiki】1.5.4の変更点を見てみる</title>
+		<link>https://blog.pkom.ml/20220923276/</link>
+					<comments>https://blog.pkom.ml/20220923276/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 22 Sep 2022 16:03:56 +0000</pubDate>
+				<category><![CDATA[PukiWiki]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=276</guid>
+
+					<description><![CDATA[目次 はじめに1.5.4についてさいごに はじめに まず、PukiWikiってなんだろうっていう人はWikipediaか公式サイトを御覧ください。簡単にいえばWikiのソフトウェアです。 1.5.4について 1.5.3も [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">1.5.4について</a></li><li><a href="#toc3" tabindex="0">さいごに</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">はじめに</span></h2>
+<p>まず、PukiWikiってなんだろうっていう人は<a href="https://ja.wikipedia.org/wiki/PukiWiki">Wikipedia</a>か<a href="https://pukiwiki.osdn.jp/">公式サイト</a>を御覧ください。簡単にいえばWikiのソフトウェアです。</p>
+<h2><span id="toc2">1.5.4について</span></h2>
+<p>1.5.3も2020年3月30日にリリースされてましたが、1.5.4も今年(2022)の3月30日と同じ日にリリースされていました。</p>
+<p><img loading="lazy" width="554" height="136" class="alignnone wp-image-277 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted.png 554w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-300x74.png 300w" sizes="(max-width: 554px) 100vw, 554px" /></p>
+<p>公式サイトによるとPHP8.1に対応しているみたいです。<br />
+ちなみにまさかのPHP4.1～8.1まで対応しているってぶっ飛んでますよね。<br />
+凄すぎます。。。</p>
+<p><img loading="lazy" width="1207" height="308" class="alignnone wp-image-278 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1.png 1207w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1-300x77.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1-1024x261.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1-768x196.png 768w" sizes="(max-width: 1207px) 100vw, 1207px" /></p>
+<p>1.5.4では脆弱性も修正されているみたいでこれは必ず1.5.4に更新しないといけないのではと思います。</p>
+<p><a href="https://pukiwiki.osdn.jp/?PukiWiki/Download/1.5.4">https://pukiwiki.osdn.jp/?PukiWiki/Download/1.5.4</a>より<br />
+<img loading="lazy" width="987" height="895" class="alignnone wp-image-279 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2.png 987w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2-300x272.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2-768x696.png 768w" sizes="(max-width: 987px) 100vw, 987px" /></p>
+<p>主にURLカスタマイズ機構という新機能が追加されたみたいです。<br />
+BOLDという新たな書式も追加されたようで久々の書式追加じゃないでしょうかね。<br />
+<img loading="lazy" width="588" height="501" class="alignnone wp-image-280 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-3.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-3.png 588w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-3-300x256.png 300w" sizes="(max-width: 588px) 100vw, 588px" /></p>
+<p>RecentChangesも変わってました。<br />
+img, refプラグインが改良されてサイズ指定の999xなどという書き方もできるようになったのでより便利になりましたね。<br />
+検索も1.5.3で非同期処理になりましたし、カウンターも今回非同期で処理できるようになったみたいで最近のPukiWikiは非同期が増えてきているような気がします。</p>
+<p>あとコミッターが1人増えたみたいですね、それでも開発チームには2,3人しかいないみたいですな。</p>
+<h2><span id="toc3">さいごに</span></h2>
+<p>PukiWikiって大体2年単位でアップデート来ますよね、1.5.5も二年後ぐらいなのか、待ち遠しいですな～</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220923276/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>無料のWikiソフトウェアを比較してみる</title>
 		<link>https://blog.pkom.ml/20220720111/</link>
 					<comments>https://blog.pkom.ml/20220720111/#respond</comments>
@@ -49,7 +97,7 @@
 
 					<description><![CDATA[目次 はじめにWikiソフトウェアPukiWikiメリットデメリットDokuWikiメリットデメリットMediaWikiメリットデメリットGROWIメリットおわりに はじめに ここでのWikiソフトウェアは、誰でも編集で [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">Wikiソフトウェア</a><ol><li><a href="#toc3" tabindex="0">PukiWiki</a><ol><li><a href="#toc4" tabindex="0">メリット</a></li><li><a href="#toc5" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc6" tabindex="0">DokuWiki</a><ol><li><a href="#toc7" tabindex="0">メリット</a></li><li><a href="#toc8" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc9" tabindex="0">MediaWiki</a><ol><li><a href="#toc10" tabindex="0">メリット</a></li><li><a href="#toc11" tabindex="0">デメリット</a></li></ol></li><li><a href="#toc12" tabindex="0">GROWI</a><ol><li><a href="#toc13" tabindex="0">メリット</a></li></ol></li></ol></li></ol></li><li><a href="#toc14" tabindex="0">おわりに</a></li></ol>
     </div>
@@ -251,7 +299,7 @@ function wrap($string, $tag, $param = '', $canomit = TRUE) {
 是非使って見てください。<br />
 <a href="https://wikichree.com/">https://wikichree.com/</a></p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">特徴</a><ol><li><a href="#toc2" tabindex="0">その1. PukiWiki</a></li><li><a href="#toc3" tabindex="0">その2. カスタマイズ性</a></li><li><a href="#toc4" tabindex="0">その3. WISYWIGエディタ</a></li><li><a href="#toc5" tabindex="0">その4. ユーザー管理</a></li><li><a href="#toc6" tabindex="0">その5. Discord</a></li></ol></li><li><a href="#toc7" tabindex="0">短所</a><ol><li><a href="#toc8" tabindex="0">スキンが少ない</a></li><li><a href="#toc9" tabindex="0">広告</a></li><li><a href="#toc10" tabindex="0">利用者が少ない</a></li></ol></li><li><a href="#toc11" tabindex="0">結果</a></li></ol>
     </div>
