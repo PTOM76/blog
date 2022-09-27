@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Architectury API  |  ぴたぶろぐ</title>
+	<atom:link href="https://blog.pkom.ml/tag/architectury-api/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pkom.ml</link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Sat, 24 Sep 2022 13:28:34 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<title>Architectury API  |  ぴたぶろぐ</title>
+	<link>https://blog.pkom.ml</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>【Architectury API】Architectury APIで開発するための下準備 #0</title>
+		<link>https://blog.pkom.ml/20220924300/</link>
+					<comments>https://blog.pkom.ml/20220924300/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sat, 24 Sep 2022 13:02:39 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[Architectury API]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MinecraftForge]]></category>
+		<category><![CDATA[QuiltMC]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=300</guid>
+
+					<description><![CDATA[目次 Architectury APIとは開発環境構築Yarnのマッピングを使う (任意) Architectury APIとは Architectury API - Minecraft Modding Wikimcmo [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">Architectury APIとは</a></li><li><a href="#toc2" tabindex="0">開発環境構築</a></li><li><a href="#toc3" tabindex="0">Yarnのマッピングを使う (任意)</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">Architectury APIとは</span></h2>
+<a rel="noopener" href="https://mcmodding.jp/modding/index.php/Architectury_API" title="Architectury API - Minecraft Modding Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmcmodding.jp%2Fmodding%2Findex.php%2FArchitectury_API?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Architectury API - Minecraft Modding Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://mcmodding.jp/modding/index.php/Architectury_API" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">mcmodding.jp</div></div></div></div></a>
+<p>Minecraft Modding Wikiによると「MODのクロスプラットフォーム開発(マルチプラットフォーム開発)をするための中間APIである。つまり、FabricとMinecraft Forge、QuiltのMODを同時に開発することができる。」と書かれています。</p>
+<p>MOD開発に置いては非常に便利なものなのです。</p>
+<h2><span id="toc2">開発環境構築</span></h2>
+<a rel="noopener" href="https://wikichree.com/pitan76/?Diary/2022-07-15" title="Diary/2022-07-15 - Pitan&#x20;Mod&#x20;Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwikichree.com%2Fpitan76%2F%3FDiary%2F2022-07-15?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Diary/2022-07-15 - Pitan&#x20;Mod&#x20;Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://wikichree.com/pitan76/?Diary/2022-07-15" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">wikichree.com</div></div></div></div></a>
+<p>上記の私のPitan Mod Wikiというサイトで開発環境の構築方法を記載しています。<br />
+IntelliJ IDEAを使えばすぐに構築できます。</p>
+<p>私は以下のような感じに入力しました。<br />
+FabricでMCPitanLibというライブラリを僕は作ってたんですけど、これを機にArchitecturyでライブラリを作り直そうと思います。<br />
+ミックスインを使うのでUse Mixinsもチェックします。(推奨)</p>
+<p><img loading="lazy" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
+ついでにGitHubでリポジトリもつくっておきます。</p>
+<p><img loading="lazy" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
+<p>うむ、javaファイルが生成されてますなー</p>
+<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-309 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p>さて、ハイライト(ソースに色が付く)されるまで待ちますか。<br />
+ちなみになぜMCPitanLibarchかというとMCPitanLib+Architectury APIという考えで付けたんですけどセンスありませんよね。。。許してください&#8230;w</p>
+<p>いやーそれにしても長いですねえ&#8230;</p>
+<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-310 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p>お、来ましたね。</p>
+<p><img loading="lazy" width="249" height="219" class="alignnone wp-image-312 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-20.png" /></p>
+<p>ここからクライアントとサーバーを起動できますね！</p>
+<p>ちなみにビルドは右のGradleからTasks→build→buildを実行するとForge、Fabricのjarがそれぞれ生成されます。最強ですね！</p>
+<p><img loading="lazy" width="456" height="264" class="alignnone wp-image-313 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png 456w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-300x174.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-120x68.png 120w" sizes="(max-width: 456px) 100vw, 456px" /></p>
+<h2><span id="toc3">Yarnのマッピングを使う (任意)</span></h2>
+<p>gradle.propertiesを早速少しいじります。私の場合は以下のようになってます。</p>
+<pre>org.gradle.jvmargs=-Xmx1G
+minecraft_version=1.18.2
+archives_base_name=mcpitanlibarch
+mod_version=1.0.0
+maven_group=ml.pkom
+architectury_version=4.9.84
+fabric_loader_version=0.14.9
+fabric_api_version=0.58.0+1.18.2
+forge_version=1.18.2-40.1.80</pre>
+<pre>org.gradle.jvmargs=-Xmx3G
+
+minecraft_version=1.18.2
+archives_base_name=mcpitanlibarch
+mod_version=1.0.0
+maven_group=ml.pkom
+
+# https://www.curseforge.com/minecraft/mc-mods/architectury-api
+architectury_version=4.9.84
+
+# https://fabricmc.net/develop/
+fabric_loader_version=0.14.9
+yarn_mappings=1.18.2+build.4
+fabric_api_version=0.58.0+1.18.2
+
+# https://files.minecraftforge.net/net/minecraftforge/forge/
+forge_version=1.18.2-40.1.80</pre>
+<p>このように書き換えました。<br />
+Yarnを使うのでyarn_mappingsってのを追加しています。<br />
+fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/develop/">https://fabricmc.net/develop/</a>でコピーしたもののままだとloader_versionとかなってるのでfabric_を先端に加えましょうね。</p>
+<p>Yarnにしたい方はbuild.gradleを開きましょう。。</p>
+<pre>dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    // The following line declares the mojmap mappings, you may use other mappings as well
+    mappings loom.officialMojangMappings()
+    // The following line declares the yarn mappings you may select this one as well.
+    // mappings "net.fabricmc:yarn:@YARN_MAPPINGS@:v2"
+}</pre>
+<p>mappings loom.officialMojangMappings()をコメントアウトし、mappings &#8220;net.fabricmc:yarn:@YARN_MAPPINGS@:v2&#8243;のコメントを外しましょう。</p>
+<p>@YARN_MAPPINGS@は<span class="pl-pse">${</span>rootProject.yarn_mappings<span class="pl-pse">}にしちゃいましょう。</span></p>
+<pre>dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    // The following line declares the mojmap mappings, you may use other mappings as well
+    // mappings loom.officialMojangMappings()
+    // The following line declares the yarn mappings you may select this one as well.
+    mappings "net.fabricmc:yarn:${rootProject.yarn_mappings}:v2"
+}</pre>
+<p>officialMojangMappingsなんて使わずにFabricのYarnMappingsを薦めます！</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220924300/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

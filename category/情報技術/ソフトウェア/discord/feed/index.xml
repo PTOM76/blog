@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2/discord/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Sat, 13 Aug 2022 08:10:23 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 23 Sep 2022 15:52:41 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,45 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>もしかしたらRythm復活！？秋頃にベータ版Rythmを開始する予定！</title>
+		<link>https://blog.pkom.ml/20220924293/</link>
+					<comments>https://blog.pkom.ml/20220924293/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Fri, 23 Sep 2022 15:52:25 +0000</pubDate>
+				<category><![CDATA[Discord]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=293</guid>
+
+					<description><![CDATA[Discordの音楽ボットだったRythm、いつしか突然、Googleに規制され、姿を消したボットであるが、偶然、僕はRythmを見かけ、Webサイトへアクセスしてみました。 Rythm — Returning Soon [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Discordの音楽ボットだったRythm、いつしか突然、Googleに規制され、姿を消したボットであるが、偶然、僕はRythmを見かけ、Webサイトへアクセスしてみました。</p>
+<a rel="noopener" href="https://rythm.fm/" title="Rythm — Returning Soon™" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Frythm.fm%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Rythm — Returning Soon™</div><div class="blogcard-snippet external-blogcard-snippet">Music is meant to be enjoyed with others. Here at Rythm, we&#039;re making it possible to share and enjoy music with others around the world.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://rythm.app/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">rythm.app</div></div></div></div></a>
+<p>するとなんと、サイトが変わっており、Beta programへ参加できるではありませんか。</p>
+<p><img loading="lazy" width="933" height="630" class="alignnone wp-image-294 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8.png 933w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8-300x203.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8-768x519.png 768w" sizes="(max-width: 933px) 100vw, 933px" /></p>
+<p><img loading="lazy" width="906" height="370" class="alignnone wp-image-295 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9.png 906w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9-300x123.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9-768x314.png 768w" sizes="(max-width: 906px) 100vw, 906px" /></p>
+<p>Cody氏の文章をDeepLで翻訳してみました。<br />
+「プレイリストからもっとも恥ずかしい曲を選び、友達全員にDMを送るDiscord統合機能」</p>
+<p>よくわかりませんが、またRythmを使ってDiscordで音楽を聴けるのでしょうか&#8230;？</p>
+<h2>ベータプログラムへの参加方法</h2>
+<p><img loading="lazy" width="381" height="81" class="alignnone wp-image-296 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-10.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-10.png 381w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-10-300x64.png 300w" sizes="(max-width: 381px) 100vw, 381px" /></p>
+<p>Apply for our beta programというボタンを押しましょう。</p>
+<p><img loading="lazy" width="879" height="824" class="alignnone wp-image-297 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11.png 879w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11-300x281.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11-768x720.png 768w" sizes="(max-width: 879px) 100vw, 879px" /></p>
+<p>Auth with Discordでディスコードと紐づけるか、メールアドレスを書き込みましょう。<br />
+名前と性別？と国を選択して次のステップに進みましょう。</p>
+<p><img loading="lazy" width="767" height="747" class="alignnone wp-image-298 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-12.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-12.png 767w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-12-300x292.png 300w" sizes="(max-width: 767px) 100vw, 767px" /></p>
+<p>使っている音楽サービスを選択し、Rythmを以前に使っていたのであればチェックしましょう。</p>
+<p>次の空欄には何をつくっていると思いますか？と多分聞かれてます。<br />
+最後はまた好みの音楽のジャンルが聞かれます。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220924293/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Discord】強力なスパム対策ができるボット「Wick」を紹介します。</title>
 		<link>https://blog.pkom.ml/20220813212/</link>
 					<comments>https://blog.pkom.ml/20220813212/#respond</comments>
@@ -44,7 +83,7 @@
 
 					<description><![CDATA[目次 はじめに導入方法Wickの設定おすすめの設定ユーザーへWickの権限を与える便利なコマンドw!purge [削除するメッセージ数] (オプションなど)おわりに参考 はじめに Discordでは荒らされているサーバー [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">導入方法</a></li><li><a href="#toc3" tabindex="0">Wickの設定</a><ol><li><a href="#toc4" tabindex="0">おすすめの設定</a></li><li><a href="#toc5" tabindex="0">ユーザーへWickの権限を与える</a></li></ol></li><li><a href="#toc6" tabindex="0">便利なコマンド</a><ol><li><a href="#toc7" tabindex="0">w!purge [削除するメッセージ数] (オプションなど)</a></li></ol></li></ol></li><li><a href="#toc8" tabindex="0">おわりに</a></li><li><a href="#toc9" tabindex="0">参考</a></li></ol>
     </div>

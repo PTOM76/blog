@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/tag/fabricmc/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Sat, 27 Aug 2022 07:02:24 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 24 Sep 2022 13:28:34 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,115 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【Architectury API】Architectury APIで開発するための下準備 #0</title>
+		<link>https://blog.pkom.ml/20220924300/</link>
+					<comments>https://blog.pkom.ml/20220924300/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sat, 24 Sep 2022 13:02:39 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[Architectury API]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MinecraftForge]]></category>
+		<category><![CDATA[QuiltMC]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=300</guid>
+
+					<description><![CDATA[目次 Architectury APIとは開発環境構築Yarnのマッピングを使う (任意) Architectury APIとは Architectury API - Minecraft Modding Wikimcmo [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">Architectury APIとは</a></li><li><a href="#toc2" tabindex="0">開発環境構築</a></li><li><a href="#toc3" tabindex="0">Yarnのマッピングを使う (任意)</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">Architectury APIとは</span></h2>
+<a rel="noopener" href="https://mcmodding.jp/modding/index.php/Architectury_API" title="Architectury API - Minecraft Modding Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmcmodding.jp%2Fmodding%2Findex.php%2FArchitectury_API?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Architectury API - Minecraft Modding Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://mcmodding.jp/modding/index.php/Architectury_API" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">mcmodding.jp</div></div></div></div></a>
+<p>Minecraft Modding Wikiによると「MODのクロスプラットフォーム開発(マルチプラットフォーム開発)をするための中間APIである。つまり、FabricとMinecraft Forge、QuiltのMODを同時に開発することができる。」と書かれています。</p>
+<p>MOD開発に置いては非常に便利なものなのです。</p>
+<h2><span id="toc2">開発環境構築</span></h2>
+<a rel="noopener" href="https://wikichree.com/pitan76/?Diary/2022-07-15" title="Diary/2022-07-15 - Pitan&#x20;Mod&#x20;Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwikichree.com%2Fpitan76%2F%3FDiary%2F2022-07-15?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Diary/2022-07-15 - Pitan&#x20;Mod&#x20;Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://wikichree.com/pitan76/?Diary/2022-07-15" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">wikichree.com</div></div></div></div></a>
+<p>上記の私のPitan Mod Wikiというサイトで開発環境の構築方法を記載しています。<br />
+IntelliJ IDEAを使えばすぐに構築できます。</p>
+<p>私は以下のような感じに入力しました。<br />
+FabricでMCPitanLibというライブラリを僕は作ってたんですけど、これを機にArchitecturyでライブラリを作り直そうと思います。<br />
+ミックスインを使うのでUse Mixinsもチェックします。(推奨)</p>
+<p><img loading="lazy" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
+ついでにGitHubでリポジトリもつくっておきます。</p>
+<p><img loading="lazy" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
+<p>うむ、javaファイルが生成されてますなー</p>
+<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-309 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p>さて、ハイライト(ソースに色が付く)されるまで待ちますか。<br />
+ちなみになぜMCPitanLibarchかというとMCPitanLib+Architectury APIという考えで付けたんですけどセンスありませんよね。。。許してください&#8230;w</p>
+<p>いやーそれにしても長いですねえ&#8230;</p>
+<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-310 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p>お、来ましたね。</p>
+<p><img loading="lazy" width="249" height="219" class="alignnone wp-image-312 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-20.png" /></p>
+<p>ここからクライアントとサーバーを起動できますね！</p>
+<p>ちなみにビルドは右のGradleからTasks→build→buildを実行するとForge、Fabricのjarがそれぞれ生成されます。最強ですね！</p>
+<p><img loading="lazy" width="456" height="264" class="alignnone wp-image-313 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png 456w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-300x174.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-120x68.png 120w" sizes="(max-width: 456px) 100vw, 456px" /></p>
+<h2><span id="toc3">Yarnのマッピングを使う (任意)</span></h2>
+<p>gradle.propertiesを早速少しいじります。私の場合は以下のようになってます。</p>
+<pre>org.gradle.jvmargs=-Xmx1G
+minecraft_version=1.18.2
+archives_base_name=mcpitanlibarch
+mod_version=1.0.0
+maven_group=ml.pkom
+architectury_version=4.9.84
+fabric_loader_version=0.14.9
+fabric_api_version=0.58.0+1.18.2
+forge_version=1.18.2-40.1.80</pre>
+<pre>org.gradle.jvmargs=-Xmx3G
+
+minecraft_version=1.18.2
+archives_base_name=mcpitanlibarch
+mod_version=1.0.0
+maven_group=ml.pkom
+
+# https://www.curseforge.com/minecraft/mc-mods/architectury-api
+architectury_version=4.9.84
+
+# https://fabricmc.net/develop/
+fabric_loader_version=0.14.9
+yarn_mappings=1.18.2+build.4
+fabric_api_version=0.58.0+1.18.2
+
+# https://files.minecraftforge.net/net/minecraftforge/forge/
+forge_version=1.18.2-40.1.80</pre>
+<p>このように書き換えました。<br />
+Yarnを使うのでyarn_mappingsってのを追加しています。<br />
+fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/develop/">https://fabricmc.net/develop/</a>でコピーしたもののままだとloader_versionとかなってるのでfabric_を先端に加えましょうね。</p>
+<p>Yarnにしたい方はbuild.gradleを開きましょう。。</p>
+<pre>dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    // The following line declares the mojmap mappings, you may use other mappings as well
+    mappings loom.officialMojangMappings()
+    // The following line declares the yarn mappings you may select this one as well.
+    // mappings "net.fabricmc:yarn:@YARN_MAPPINGS@:v2"
+}</pre>
+<p>mappings loom.officialMojangMappings()をコメントアウトし、mappings &#8220;net.fabricmc:yarn:@YARN_MAPPINGS@:v2&#8243;のコメントを外しましょう。</p>
+<p>@YARN_MAPPINGS@は<span class="pl-pse">${</span>rootProject.yarn_mappings<span class="pl-pse">}にしちゃいましょう。</span></p>
+<pre>dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    // The following line declares the mojmap mappings, you may use other mappings as well
+    // mappings loom.officialMojangMappings()
+    // The following line declares the yarn mappings you may select this one as well.
+    mappings "net.fabricmc:yarn:${rootProject.yarn_mappings}:v2"
+}</pre>
+<p>officialMojangMappingsなんて使わずにFabricのYarnMappingsを薦めます！</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220924300/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>1.13以下でもFabricがある！？「Legacy Fabric」、「Cursed Fabric」について紹介</title>
 		<link>https://blog.pkom.ml/20220827263/</link>
 					<comments>https://blog.pkom.ml/20220827263/#respond</comments>
@@ -44,7 +153,7 @@
 
 					<description><![CDATA[目次 FabricLegacy Fabric公式サイト対応バージョン参考Cursed Fabric公式サイト対応バージョン参考 Fabric まず、Fabricとは何か知らない方は以下のサイトを確認してみてください。 M [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">Fabric</a></li><li><a href="#toc2" tabindex="0">Legacy Fabric</a><ol><li><a href="#toc3" tabindex="0">公式サイト</a></li><li><a href="#toc4" tabindex="0">対応バージョン</a></li><li><a href="#toc5" tabindex="0">参考</a></li></ol></li><li><a href="#toc6" tabindex="0">Cursed Fabric</a><ol><li><a href="#toc7" tabindex="0">公式サイト</a></li><li><a href="#toc8" tabindex="0">対応バージョン</a></li><li><a href="#toc9" tabindex="0">参考</a></li></ol></li></ol>
     </div>
@@ -100,7 +209,7 @@
 
 					<description><![CDATA[目次 はじめにWired Redstoneのダウンロード先アイテムをつくる使ってみる はじめに この記事を書いた時点では、バージョンは1.18～1.19まで対応しているみたいです。 RSWiresのようなmod、Knee [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">Wired Redstoneのダウンロード先</a></li><li><a href="#toc3" tabindex="0">アイテムをつくる</a></li><li><a href="#toc4" tabindex="0">使ってみる</a></li></ol>
     </div>
@@ -146,7 +255,7 @@ RSWiresのようなmod、Kneelawk氏のWired Redstoneを紹介します。</p>
 
 					<description><![CDATA[目次 樹液を得るゴムをつくる (1)マシンをつくる発電機抽出機ゴムをつくる (2)おまけマシンとコンテナの接続 樹液を得る ツリータップ(木の蛇口, Treetap)をつくりましょう。 作業台で木材x4と棒x1を以下のよ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">樹液を得る</a></li><li><a href="#toc2" tabindex="0">ゴムをつくる (1)</a></li><li><a href="#toc3" tabindex="0">マシンをつくる</a><ol><li><a href="#toc4" tabindex="0">発電機</a></li><li><a href="#toc5" tabindex="0">抽出機</a></li></ol></li><li><a href="#toc6" tabindex="0">ゴムをつくる (2)</a></li><li><a href="#toc7" tabindex="0">おまけ</a><ol><li><a href="#toc8" tabindex="0">マシンとコンテナの接続</a></li></ol></li></ol>
     </div>
@@ -231,7 +340,7 @@ Auto Inputをオンにしておきましょう。</p>
 
 					<description><![CDATA[目次 はじめにDLリンク先導入方法最後に はじめに FabricでBukkit/Spigot/Paperプラグインを動かすことができるCardboardをご紹介します。 1.16～1.18.2まで対応しているようで1.1 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">DLリンク先</a></li><li><a href="#toc3" tabindex="0">導入方法</a></li><li><a href="#toc4" tabindex="0">最後に</a></li></ol>
     </div>
@@ -342,7 +451,7 @@ Simple Pipesの作者はBCの開発者であるAlexill氏ですね。<br />
 					<description><![CDATA[目次 軽量化MODSodiumCanvas RendererOptiFine + OptiFabricOptiFineOptiFabricSodiumアドオン、代替MODSodium拡張MOD「Sodium Extra」 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-14" checked><label class="toc-title" for="toc-checkbox-14">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-16" checked><label class="toc-title" for="toc-checkbox-16">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">軽量化MOD</a><ol><li><a href="#toc2" tabindex="0">Sodium</a></li><li><a href="#toc3" tabindex="0">Canvas Renderer</a></li><li><a href="#toc4" tabindex="0">OptiFine + OptiFabric</a><ol><li><a href="#toc5" tabindex="0">OptiFine</a></li><li><a href="#toc6" tabindex="0">OptiFabric</a></li></ol></li></ol></li><li><a href="#toc7" tabindex="0">Sodiumアドオン、代替MOD</a><ol><li><a href="#toc8" tabindex="0">Sodium拡張MOD「Sodium Extra」</a></li><li><a href="#toc9" tabindex="0">シェーダー読み込みMOD「Iris Shaders」</a></li><li><a href="#toc10" tabindex="0">Fabric Rendering APIとの互換性を修正するMOD「Indium」</a></li><li><a href="#toc11" tabindex="0">照明エンジン最適化MOD「Phosphor」</a></li><li><a href="#toc12" tabindex="0">汎用最適化MOD「Lithium」</a></li><li><a href="#toc13" tabindex="0">ビデオ設定を元に戻すMOD「Better Sodium Video Settings Button」</a></li><li><a href="#toc14" tabindex="0">メモリ使用量削減MOD「FerriteCore」</a></li><li><a href="#toc15" tabindex="0">ダイナミックライト「LambDynamicLights」</a></li><li><a href="#toc16" tabindex="0">ズームMOD「Logical Zoom」</a></li><li><a href="#toc17" tabindex="0">テクスチャを接続するMOD「Continuity」</a></li><li><a href="#toc18" tabindex="0">メモリを解放するMOD「MemoryLeakFix」</a></li><li><a href="#toc19" tabindex="0">Sodiumの設定画面を改善するMOD「Reese&#8217;s Sodium Options」</a></li></ol></li></ol>
     </div>
@@ -582,85 +691,6 @@ Indiumを入れるだけでは動作しないのでSodiumと一緒に入れま�
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/2022071840/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【Minecraft】 FabricとForgeどっちがいいのだろうか？</title>
-		<link>https://blog.pkom.ml/2022071836/</link>
-					<comments>https://blog.pkom.ml/2022071836/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Mon, 18 Jul 2022 06:59:02 +0000</pubDate>
-				<category><![CDATA[Minecraft]]></category>
-		<category><![CDATA[ゲーム]]></category>
-		<category><![CDATA[FabricMC]]></category>
-		<category><![CDATA[MinecraftForge]]></category>
-		<category><![CDATA[MOD]]></category>
-		<category><![CDATA[ModLoader]]></category>
-		<category><![CDATA[MOD開発]]></category>
-		<category><![CDATA[QuiltMC]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=36</guid>
-
-					<description><![CDATA[MinecraftのModLoaderには主に二種あります。 他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。 目次 どっちがいいのかFabricMCMin [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>MinecraftのModLoaderには主に二種あります。<br />
-他にもQuiltMCといったModLoaderもありますが、今回はFabricとForgeを主に話していきます。</p>
-
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-20" checked><label class="toc-title" for="toc-checkbox-20">目次</label>
-    <div class="toc-content">
-    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">どっちがいいのか</a><ol><li><a href="#toc2" tabindex="0">FabricMC</a></li><li><a href="#toc3" tabindex="0">MinecraftForge</a></li><li><a href="#toc4" tabindex="0">QuiltMC</a></li></ol></li><li><a href="#toc5" tabindex="0">最後に</a></li><li><a href="#toc6" tabindex="0">出典</a></li></ol>
-    </div>
-  </div>
-
-<h2><span id="toc1">どっちがいいのか</span></h2>
-<p>何があろうと使うべきModLoaderはFabricです！<br />
-といいつつ、バージョンによってはForgeが良かったりもします。<br />
-Fabricはスナップショットまで対応しており、あり得ないスピードで最新バージョンに対応することが多いです。1.19が出た1,2日後ぐらいには既にFabric Loaderがリリースされていたと思います。<br />
-Minecraft 1.14ぐらいから出てきたもので昔はMODが少なかったのですが、最近ではAE2や黄昏の森、REIといったJEIの派生版など多く見かけることがあります。目玉はSodiumといったとても凄い軽量化MODです。<br />
-特に理由がなければ1.16～のバージョンでMODを遊ぶ方はFabricをオススメしたいと私は思います。<br />
-あなたが使いたいMODがどちらかのMODにあるとするならそのLoaderを使った方がいいでしょう。<br />
-1.12.2に関しては実はLegacy Fabricといったものがあり、Fabricも存在するようなのですが、これはオススメできません。<br />
-素直にForgeを使った方が無難でしょう。</p>
-<h3><span id="toc2">FabricMC</span></h3>
-<p>Fabricは1.14のスナップショットからリリースされており、2019年辺りから出てきました。(発表されたのは2018年12月辺り)<br />
-自分も軽くてMOD開発がしやすかったので好んではいましたが、当時はMODが少なくて不便でした。<br />
-この頃は、Architectury APIというMCForge/FabricMC/QuiltMCのクロスプラットフォーム開発ができるAPIも出たお陰か多くのMODがFabricにも対応してきてることがあります。<br />
-更にエラーも出にくくインストールが簡単にできるという点が素晴らしいです。<br />
-このModLoaderは物凄くリリースするのが早く、上の項目で説明した通り、最新バージョンがリリースされた1,2日後ぐらいには既にFabric Loaderがリリースされていたことがあります。<br />
-開発者にとってはMODが作りやすいと好評です。<br />
-MOD開発にはFabric独自のYarnといったマッピングを利用しています。</p>
-<h3><span id="toc3">MinecraftForge</span></h3>
-<p>Forgeは昔からあるModLoaderで、多くのMODはこのMinecraftForgeにあります。<br />
-特に1.7.10、1.12.2で遊ぶ方はこれじゃないとMODで遊べないと思います（笑）<br />
-Forgeではマッピング直ではなく独自のAPIが結構あります。<br />
-インストールはそこそこ簡単だと思います。<br />
-FabricではMixinというものがありますが、Forgeにも対応しつつあります。<br />
-MOD開発では昔からあるMCPというマッピングを利用します。<br />
-いつもはリリースが遅いForgeなのですが、1.19では数日後にベータ版が公開されていました。</p>
-<h3><span id="toc4">QuiltMC</span></h3>
-<p>Fabricをベースとしたまた新たなModLoaderです。<br />
-1.16.5から現れたと思われます。<br />
-現在のところはFabricのMODと互換性があります。<br />
-私はこれでMOD開発をしたことがないのでわかりません。<br />
-申し訳ないです&#8230;</p>
-<h2><span id="toc5">最後に</span></h2>
-<p>どのModLoaderもいいですよね～<br />
-ちなみに私はFabric派です。</p>
-<h2><span id="toc6">出典</span></h2>
-<ul>
-<li style="list-style-type: none;">
-<ul>
-<li><a href="https://fabricmc.net/2018/12/10/announcement.html">https://fabricmc.net/2018/12/10/announcement.html</a></li>
-<li><a href="https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric">https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric</a></li>
-<li><a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.html">https://files.minecraftforge.net/net/minecraftforge/forge/index_1.19.html</a></li>
-<li><a href="https://quiltmc.org/">https://quiltmc.org/</a></li>
-</ul>
-</li>
-</ul>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/2022071836/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

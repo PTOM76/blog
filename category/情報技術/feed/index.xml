@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pkom.ml</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Fri, 23 Sep 2022 09:42:44 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 24 Sep 2022 13:28:34 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,154 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【Architectury API】Architectury APIで開発するための下準備 #0</title>
+		<link>https://blog.pkom.ml/20220924300/</link>
+					<comments>https://blog.pkom.ml/20220924300/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sat, 24 Sep 2022 13:02:39 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[Architectury API]]></category>
+		<category><![CDATA[FabricMC]]></category>
+		<category><![CDATA[MinecraftForge]]></category>
+		<category><![CDATA[QuiltMC]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=300</guid>
+
+					<description><![CDATA[目次 Architectury APIとは開発環境構築Yarnのマッピングを使う (任意) Architectury APIとは Architectury API - Minecraft Modding Wikimcmo [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">Architectury APIとは</a></li><li><a href="#toc2" tabindex="0">開発環境構築</a></li><li><a href="#toc3" tabindex="0">Yarnのマッピングを使う (任意)</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">Architectury APIとは</span></h2>
+<a rel="noopener" href="https://mcmodding.jp/modding/index.php/Architectury_API" title="Architectury API - Minecraft Modding Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmcmodding.jp%2Fmodding%2Findex.php%2FArchitectury_API?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Architectury API - Minecraft Modding Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://mcmodding.jp/modding/index.php/Architectury_API" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">mcmodding.jp</div></div></div></div></a>
+<p>Minecraft Modding Wikiによると「MODのクロスプラットフォーム開発(マルチプラットフォーム開発)をするための中間APIである。つまり、FabricとMinecraft Forge、QuiltのMODを同時に開発することができる。」と書かれています。</p>
+<p>MOD開発に置いては非常に便利なものなのです。</p>
+<h2><span id="toc2">開発環境構築</span></h2>
+<a rel="noopener" href="https://wikichree.com/pitan76/?Diary/2022-07-15" title="Diary/2022-07-15 - Pitan&#x20;Mod&#x20;Wiki" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwikichree.com%2Fpitan76%2F%3FDiary%2F2022-07-15?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Diary/2022-07-15 - Pitan&#x20;Mod&#x20;Wiki</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://wikichree.com/pitan76/?Diary/2022-07-15" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">wikichree.com</div></div></div></div></a>
+<p>上記の私のPitan Mod Wikiというサイトで開発環境の構築方法を記載しています。<br />
+IntelliJ IDEAを使えばすぐに構築できます。</p>
+<p>私は以下のような感じに入力しました。<br />
+FabricでMCPitanLibというライブラリを僕は作ってたんですけど、これを機にArchitecturyでライブラリを作り直そうと思います。<br />
+ミックスインを使うのでUse Mixinsもチェックします。(推奨)</p>
+<p><img loading="lazy" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
+ついでにGitHubでリポジトリもつくっておきます。</p>
+<p><img loading="lazy" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
+<p>うむ、javaファイルが生成されてますなー</p>
+<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-309 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p>さて、ハイライト(ソースに色が付く)されるまで待ちますか。<br />
+ちなみになぜMCPitanLibarchかというとMCPitanLib+Architectury APIという考えで付けたんですけどセンスありませんよね。。。許してください&#8230;w</p>
+<p>いやーそれにしても長いですねえ&#8230;</p>
+<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-310 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p>お、来ましたね。</p>
+<p><img loading="lazy" width="249" height="219" class="alignnone wp-image-312 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-20.png" /></p>
+<p>ここからクライアントとサーバーを起動できますね！</p>
+<p>ちなみにビルドは右のGradleからTasks→build→buildを実行するとForge、Fabricのjarがそれぞれ生成されます。最強ですね！</p>
+<p><img loading="lazy" width="456" height="264" class="alignnone wp-image-313 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png 456w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-300x174.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-120x68.png 120w" sizes="(max-width: 456px) 100vw, 456px" /></p>
+<h2><span id="toc3">Yarnのマッピングを使う (任意)</span></h2>
+<p>gradle.propertiesを早速少しいじります。私の場合は以下のようになってます。</p>
+<pre>org.gradle.jvmargs=-Xmx1G
+minecraft_version=1.18.2
+archives_base_name=mcpitanlibarch
+mod_version=1.0.0
+maven_group=ml.pkom
+architectury_version=4.9.84
+fabric_loader_version=0.14.9
+fabric_api_version=0.58.0+1.18.2
+forge_version=1.18.2-40.1.80</pre>
+<pre>org.gradle.jvmargs=-Xmx3G
+
+minecraft_version=1.18.2
+archives_base_name=mcpitanlibarch
+mod_version=1.0.0
+maven_group=ml.pkom
+
+# https://www.curseforge.com/minecraft/mc-mods/architectury-api
+architectury_version=4.9.84
+
+# https://fabricmc.net/develop/
+fabric_loader_version=0.14.9
+yarn_mappings=1.18.2+build.4
+fabric_api_version=0.58.0+1.18.2
+
+# https://files.minecraftforge.net/net/minecraftforge/forge/
+forge_version=1.18.2-40.1.80</pre>
+<p>このように書き換えました。<br />
+Yarnを使うのでyarn_mappingsってのを追加しています。<br />
+fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/develop/">https://fabricmc.net/develop/</a>でコピーしたもののままだとloader_versionとかなってるのでfabric_を先端に加えましょうね。</p>
+<p>Yarnにしたい方はbuild.gradleを開きましょう。。</p>
+<pre>dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    // The following line declares the mojmap mappings, you may use other mappings as well
+    mappings loom.officialMojangMappings()
+    // The following line declares the yarn mappings you may select this one as well.
+    // mappings "net.fabricmc:yarn:@YARN_MAPPINGS@:v2"
+}</pre>
+<p>mappings loom.officialMojangMappings()をコメントアウトし、mappings &#8220;net.fabricmc:yarn:@YARN_MAPPINGS@:v2&#8243;のコメントを外しましょう。</p>
+<p>@YARN_MAPPINGS@は<span class="pl-pse">${</span>rootProject.yarn_mappings<span class="pl-pse">}にしちゃいましょう。</span></p>
+<pre>dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    // The following line declares the mojmap mappings, you may use other mappings as well
+    // mappings loom.officialMojangMappings()
+    // The following line declares the yarn mappings you may select this one as well.
+    mappings "net.fabricmc:yarn:${rootProject.yarn_mappings}:v2"
+}</pre>
+<p>officialMojangMappingsなんて使わずにFabricのYarnMappingsを薦めます！</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220924300/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>もしかしたらRythm復活！？秋頃にベータ版Rythmを開始する予定！</title>
+		<link>https://blog.pkom.ml/20220924293/</link>
+					<comments>https://blog.pkom.ml/20220924293/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Fri, 23 Sep 2022 15:52:25 +0000</pubDate>
+				<category><![CDATA[Discord]]></category>
+		<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=293</guid>
+
+					<description><![CDATA[Discordの音楽ボットだったRythm、いつしか突然、Googleに規制され、姿を消したボットであるが、偶然、僕はRythmを見かけ、Webサイトへアクセスしてみました。 Rythm — Returning Soon [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Discordの音楽ボットだったRythm、いつしか突然、Googleに規制され、姿を消したボットであるが、偶然、僕はRythmを見かけ、Webサイトへアクセスしてみました。</p>
+<a rel="noopener" href="https://rythm.fm/" title="Rythm — Returning Soon™" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Frythm.fm%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Rythm — Returning Soon™</div><div class="blogcard-snippet external-blogcard-snippet">Music is meant to be enjoyed with others. Here at Rythm, we&#039;re making it possible to share and enjoy music with others around the world.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://rythm.app/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">rythm.app</div></div></div></div></a>
+<p>するとなんと、サイトが変わっており、Beta programへ参加できるではありませんか。</p>
+<p><img loading="lazy" width="933" height="630" class="alignnone wp-image-294 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8.png 933w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8-300x203.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8-768x519.png 768w" sizes="(max-width: 933px) 100vw, 933px" /></p>
+<p><img loading="lazy" width="906" height="370" class="alignnone wp-image-295 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9.png 906w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9-300x123.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9-768x314.png 768w" sizes="(max-width: 906px) 100vw, 906px" /></p>
+<p>Cody氏の文章をDeepLで翻訳してみました。<br />
+「プレイリストからもっとも恥ずかしい曲を選び、友達全員にDMを送るDiscord統合機能」</p>
+<p>よくわかりませんが、またRythmを使ってDiscordで音楽を聴けるのでしょうか&#8230;？</p>
+<h2>ベータプログラムへの参加方法</h2>
+<p><img loading="lazy" width="381" height="81" class="alignnone wp-image-296 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-10.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-10.png 381w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-10-300x64.png 300w" sizes="(max-width: 381px) 100vw, 381px" /></p>
+<p>Apply for our beta programというボタンを押しましょう。</p>
+<p><img loading="lazy" width="879" height="824" class="alignnone wp-image-297 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11.png 879w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11-300x281.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11-768x720.png 768w" sizes="(max-width: 879px) 100vw, 879px" /></p>
+<p>Auth with Discordでディスコードと紐づけるか、メールアドレスを書き込みましょう。<br />
+名前と性別？と国を選択して次のステップに進みましょう。</p>
+<p><img loading="lazy" width="767" height="747" class="alignnone wp-image-298 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-12.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-12.png 767w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-12-300x292.png 300w" sizes="(max-width: 767px) 100vw, 767px" /></p>
+<p>使っている音楽サービスを選択し、Rythmを以前に使っていたのであればチェックしましょう。</p>
+<p>次の空欄には何をつくっていると思いますか？と多分聞かれてます。<br />
+最後はまた好みの音楽のジャンルが聞かれます。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220924293/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Minecraftの開発には欠かせないIntelliJとIntelliJプラグイン</title>
 		<link>https://blog.pkom.ml/20220923289/</link>
 					<comments>https://blog.pkom.ml/20220923289/#respond</comments>
@@ -43,7 +191,7 @@
 
 					<description><![CDATA[目次 1. IntelliJ IDEA2. Minecraft Delelopment3. Architectury 1. IntelliJ IDEA Javaでの開発をするためのJava製のIDEです。 これがマイクラ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">1. IntelliJ IDEA</a></li><li><a href="#toc2" tabindex="0">2. Minecraft Delelopment</a></li><li><a href="#toc3" tabindex="0">3. Architectury</a></li></ol>
     </div>
@@ -89,7 +237,7 @@ MOD開発環境を自動で生成してくれるので最強のプラグイン�
 
 					<description><![CDATA[目次 はじめに1.5.4についてさいごに はじめに まず、PukiWikiってなんだろうっていう人はWikipediaか公式サイトを御覧ください。簡単にいえばWikiのソフトウェアです。 1.5.4について 1.5.3も [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">1.5.4について</a></li><li><a href="#toc3" tabindex="0">さいごに</a></li></ol>
     </div>
@@ -124,6 +272,28 @@ img, refプラグインが改良されてサイズ指定の999xなどという�
 		
 			</item>
 		<item>
+		<title>【LWJGL3】描画処理 – その2(図形の描画) #5</title>
+		<link>https://blog.pkom.ml/20220904274/</link>
+					<comments>https://blog.pkom.ml/20220904274/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Sun, 04 Sep 2022 00:59:44 +0000</pubDate>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[プログラミング]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[LWJGL]]></category>
+		<category><![CDATA[LWJGL3]]></category>
+		<guid isPermaLink="false">https://blog.pkom.ml/?p=274</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pkom.ml/20220904274/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Discord】強力なスパム対策ができるボット「Wick」を紹介します。</title>
 		<link>https://blog.pkom.ml/20220813212/</link>
 					<comments>https://blog.pkom.ml/20220813212/#respond</comments>
@@ -140,7 +310,7 @@ img, refプラグインが改良されてサイズ指定の999xなどという�
 
 					<description><![CDATA[目次 はじめに導入方法Wickの設定おすすめの設定ユーザーへWickの権限を与える便利なコマンドw!purge [削除するメッセージ数] (オプションなど)おわりに参考 はじめに Discordでは荒らされているサーバー [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-13" checked><label class="toc-title" for="toc-checkbox-13">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">導入方法</a></li><li><a href="#toc3" tabindex="0">Wickの設定</a><ol><li><a href="#toc4" tabindex="0">おすすめの設定</a></li><li><a href="#toc5" tabindex="0">ユーザーへWickの権限を与える</a></li></ol></li><li><a href="#toc6" tabindex="0">便利なコマンド</a><ol><li><a href="#toc7" tabindex="0">w!purge [削除するメッセージ数] (オプションなど)</a></li></ol></li></ol></li><li><a href="#toc8" tabindex="0">おわりに</a></li><li><a href="#toc9" tabindex="0">参考</a></li></ol>
     </div>
@@ -257,7 +427,7 @@ DiscordにはBAN、キック、タイムアウト、低速チャットなどが�
 
 					<description><![CDATA[目次 はじめに前提条件Cloudflareアカウント登録サイト追加ネームサーバーの設定ネームサーバー設定ガイドおまけDDoS対策HTTPS化キャッシングおわりに はじめに WikiChree.COM、個人サイト、当ブログ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-15" checked><label class="toc-title" for="toc-checkbox-15">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">前提条件</a></li><li><a href="#toc3" tabindex="0">Cloudflare</a><ol><li><a href="#toc4" tabindex="0">アカウント登録</a></li><li><a href="#toc5" tabindex="0">サイト追加</a></li><li><a href="#toc6" tabindex="0">ネームサーバーの設定</a><ol><li><a href="#toc7" tabindex="0">ネームサーバー設定ガイド</a></li></ol></li></ol></li><li><a href="#toc8" tabindex="0">おまけ</a><ol><li><a href="#toc9" tabindex="0">DDoS対策</a></li><li><a href="#toc10" tabindex="0">HTTPS化</a></li><li><a href="#toc11" tabindex="0">キャッシング</a></li></ol></li><li><a href="#toc12" tabindex="0">おわりに</a></li></ol>
     </div>
@@ -361,7 +531,7 @@ Cloudflareの方を進めましょう。<br />
 
 					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-17" checked><label class="toc-title" for="toc-checkbox-17">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">設置したMavenリポジトリ</a></li><li><a href="#toc3" tabindex="0">PHPスクリプト</a></li><li><a href="#toc4" tabindex="0">前提条件</a></li><li><a href="#toc5" tabindex="0">やり方</a></li><li><a href="#toc6" tabindex="0">maven.phpの仕様</a></li></ol></li><li><a href="#toc7" tabindex="0">さいごに</a><ol><li><a href="#toc8" tabindex="0">関連リンク</a></li></ol></li></ol>
     </div>
@@ -438,7 +608,7 @@ OSSなどはセントラルリポジトリから落とすとして自作のラ�
 
 					<description><![CDATA[目次 Color4fクラスWindowクラス Color4fクラス 色を保存するためのクラスをつくっておきます。 なくてもいいんですが、私はつくる派です。 package ml.pkom.lwjgl.tutorial;  [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-12" checked><label class="toc-title" for="toc-checkbox-12">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-19" checked><label class="toc-title" for="toc-checkbox-19">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">Color4fクラス</a></li><li><a href="#toc2" tabindex="0">Windowクラス</a></li></ol>
     </div>
@@ -577,297 +747,6 @@ public double getTime() {
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pkom.ml/20220728169/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【LWJGL3】キー、マウス入力 #2</title>
-		<link>https://blog.pkom.ml/20220728160/</link>
-					<comments>https://blog.pkom.ml/20220728160/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Thu, 28 Jul 2022 14:10:32 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[LWJGL]]></category>
-		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=160</guid>
-
-					<description><![CDATA[次はキー、マウス入力となります。 目次 キーの入力マウスの入力マウスカーソルの座標動作確認 キーの入力 // キーが押されているか public boolean isKeyDown(int key) { return G [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>次はキー、マウス入力となります。</p>
-
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-16" checked><label class="toc-title" for="toc-checkbox-16">目次</label>
-    <div class="toc-content">
-    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">キーの入力</a></li><li><a href="#toc2" tabindex="0">マウスの入力</a></li><li><a href="#toc3" tabindex="0">マウスカーソルの座標</a></li><li><a href="#toc4" tabindex="0">動作確認</a></li></ol>
-    </div>
-  </div>
-
-<h2><span id="toc1">キーの入力</span></h2>
-<pre>// キーが押されているか
-public boolean isKeyDown(int key) {
-    return GLFW.glfwGetKey(window, key) == 1;
-}
-
-// キーが押されたか
-public boolean isKeyPressed(int key) {
-    return isKeyDown(key) &amp;&amp; !lastKeys[key];
-}
-
-// キーが離されたか
-public boolean isKeyReleased(int key) {
-    return !isKeyDown(key) &amp;&amp; lastKeys[key];
-}</pre>
-<p>上記のコードをWindowクラスに追加してください。<br />
-GLFW.glfwGetKeyでは引数に指定されたキーが押されているか確認できます。1が返されると押されているということになるみたいですね。</p>
-<h2><span id="toc2">マウスの入力</span></h2>
-<pre>// マウスが押されているか
-public boolean isMouseDown(int button) {
-    return GLFW.glfwGetMouseButton(window, button) == 1;
-}
-
-// マウスが押されたか
-public boolean isMousePressed(int button) {
-    return isMouseDown(button) &amp;&amp; !lastMouseButtons[button];
-}
-
-// マウスが離されたか
-public boolean isMouseReleased(int button) {
-    return !isMouseDown(button) &amp;&amp; lastMouseButtons[button];
-}</pre>
-<p>こちらもWindowクラスに付け足してください。<br />
-上の項目の仕様と同じみたいです。</p>
-<pre>// 最後に押されたキー
-public boolean[] lastKeys = new boolean[GLFW.GLFW_KEY_LAST];
-
-// 最後に押されたマウスボタン
-public boolean[] lastMouseButtons = new boolean[GLFW.GLFW_MOUSE_BUTTON_LAST];</pre>
-<p>上記の配列は上らへんに追記しておいてください。<br />
-これがないと最後に押されたキーを記録できません。</p>
-<pre>public void update() {
-    for (int i = 0; i &lt; GLFW.GLFW_KEY_LAST; i++)
-        lastKeys[i] = isKeyDown(i);
-    for (int i = 0; i &lt; GLFW.GLFW_MOUSE_BUTTON_LAST; i++)
-        lastMouseButtons[i] = isMouseDown(i);
-
-    // マウスなど入力されたイベントを記録する
-    GLFW.glfwPollEvents();
-}</pre>
-<p>update関数にlastKeys, lastMouseButtonsへ最後に押されたキーを保存する処理を追加します。</p>
-<h2><span id="toc3">マウスカーソルの座標</span></h2>
-<pre>// マウスカーソルのX座標を取得
-public double getMouseX() {
-    DoubleBuffer buffer = BufferUtils.createDoubleBuffer(1);
-    GLFW.glfwGetCursorPos(window, buffer, null);
-    return buffer.get(0);
-}
-
-// マウスカーソルのY座標を取得
-public double getMouseY() {
-    DoubleBuffer buffer = BufferUtils.createDoubleBuffer(1);
-    GLFW.glfwGetCursorPos(window, null, buffer);
-    return buffer.get(0);
-}</pre>
-<p>※DoubleBufferはダブルバッファリングではありません。<br />
-Double型のバッファにglfwGetCursorPos関数がマウスカーソルの位置を書き込むみたいですね。</p>
-<h2><span id="toc4">動作確認</span></h2>
-<pre>public static void main(String[] args) {
-    Window window = new Window();
-
-    // ウィンドウの初期化
-    window.init();
-
-    // 閉じるまでループ
-    while (!window.isClosed()) {
-
-        // イベントの更新
-        window.update();
-
-        if (window.isKeyPressed(GLFW.GLFW_KEY_A)) {
-            System.out.println("Pressed A");
-        }
-        if (window.isKeyReleased(GLFW.GLFW_KEY_A)) {
-            System.out.println("Released A");
-        }
-        if (window.isMousePressed(GLFW.GLFW_MOUSE_BUTTON_LEFT)) {
-            System.out.println("Pressed Left");
-            System.out.println("CursorPos: (" + window.getMouseX() + ", " + window.getMouseY() + ")");
-        }
-        if (window.isMouseReleased(GLFW.GLFW_MOUSE_BUTTON_LEFT)) {
-            System.out.println("Released Left");
-        }
-
-        // バッファの更新
-        window.swapBuffers();
-
-    }
-}</pre>
-<p><img loading="lazy" width="233" height="270" class="alignnone wp-image-167 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-18.png" /></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220728160/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【LWJGL3】ウィンドウの作成 #1</title>
-		<link>https://blog.pkom.ml/20220728158/</link>
-					<comments>https://blog.pkom.ml/20220728158/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Thu, 28 Jul 2022 10:33:02 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[LWJGL]]></category>
-		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=158</guid>
-
-					<description><![CDATA[適当に初期クラスのMainクラスとウィンドウの処理を書くためのWindowクラスをつくっておきます。 Windowクラス package ml.pkom.lwjgl.tutorial; import org.lwjgl. [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>適当に初期クラスのMainクラスとウィンドウの処理を書くためのWindowクラスをつくっておきます。</p>
-<ul>
-<li>Windowクラス</li>
-</ul>
-<pre>package ml.pkom.lwjgl.tutorial;
-
-import org.lwjgl.glfw.GLFW;
-import org.lwjgl.glfw.GLFWVidMode;
-import static org.lwjgl.system.MemoryUtil.*;
-
-public class Window {
-
-    public long window;
-
-    // ウィンドウの横幅
-    public int width = 640;
-
-    // ウィンドウの縦幅
-    public int height = 360;
-
-    // ウィンドウのタイトル名
-    public String title = "HogeHoge";
-
-    public void init() {
-        // GLFWの初期化
-        GLFW.glfwInit();
-
-        // ウィンドウを作成
-        window = GLFW.glfwCreateWindow(width, height, title, NULL, NULL);
-
-        // ウィンドウが見えるように設定
-        GLFW.glfwWindowHint(GLFW.GLFW_VISIBLE, GLFW.GLFW_FALSE);
-
-        // リサイズをできるように設定
-        GLFW.glfwWindowHint(GLFW.GLFW_RESIZABLE, GLFW.GLFW_TRUE);
-
-        // ビデオモードの取得
-        GLFWVidMode videoMode = GLFW.glfwGetVideoMode(GLFW.glfwGetPrimaryMonitor());
-
-        // 画面のサイズを取得
-        int screenWidth = videoMode.width();
-        int screenHeight = videoMode.height();
-
-        // ウィンドウの位置を中央へセットする
-        GLFW.glfwSetWindowPos(window, (screenWidth - width) / 2, (screenHeight - height) / 2);
-
-        // ウィンドウを表示
-        GLFW.glfwShowWindow(window);
-    }
-
-    // 閉じるボタンが押されるとtrueを返す
-    public boolean isClosed() {
-        return GLFW.glfwWindowShouldClose(window);
-    }
-
-    public void update() {
-        // マウスなど入力されたイベントを記録する
-        GLFW.glfwPollEvents();
-    }
-
-    public void swapBuffers() {
-        // カラーバッファ(色表示)を入れ替える
-        GLFW.glfwSwapBuffers(window);
-    }
-}</pre>
-<ul>
-<li>Mainクラス</li>
-</ul>
-<pre>package ml.pkom.lwjgl.tutorial;
-
-public class Main {
-    public static void main(String[] args) {
-        Window window = new Window();
-
-        // ウィンドウの初期化
-        window.init();
-
-        // 閉じるまでループ
-        while (!window.isClosed()) {
-            // イベントの更新
-            window.update();
-            
-            // バッファの更新
-            window.swapBuffers();
-        }
-    }
-}</pre>
-<p><img loading="lazy" width="642" height="392" class="alignnone wp-image-163 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17.png 642w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17-300x183.png 300w" sizes="(max-width: 642px) 100vw, 642px" /></p>
-<p>実行してみるとウィンドウが表示されました。</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220728158/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【LWJGL3】セットアップ #0</title>
-		<link>https://blog.pkom.ml/20220728153/</link>
-					<comments>https://blog.pkom.ml/20220728153/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Thu, 28 Jul 2022 09:57:58 +0000</pubDate>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[プログラミング]]></category>
-		<category><![CDATA[情報技術]]></category>
-		<category><![CDATA[LWJGL]]></category>
-		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=153</guid>
-
-					<description><![CDATA[JavaのLWJGLを学ぶついでに記事も書こうと思います。 日本語で説明されているものが少なかったので以下の動画を参考に日本語で説明していきます。 私のコードは好きに使ってもらって構いません。 目次 開発環境環境pom. [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>JavaのLWJGLを学ぶついでに記事も書こうと思います。<br />
-日本語で説明されているものが少なかったので以下の動画を参考に日本語で説明していきます。<br />
-私のコードは好きに使ってもらって構いません。</p>
-<p><iframe loading="lazy" title="3D Game using LWJGL 3 Tutorial - #1 Making a Window" width="1107" height="623" src="https://www.youtube.com/embed/ISWcMXxl26s?list=PLaWuTOi9sDepAlbNEOXhjjFSo2WBkWOT2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-20" checked><label class="toc-title" for="toc-checkbox-20">目次</label>
-    <div class="toc-content">
-    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">開発環境</a><ol><li><a href="#toc2" tabindex="0">環境</a></li><li><a href="#toc3" tabindex="0">pom.xml</a></li></ol></li></ol>
-    </div>
-  </div>
-
-<h2><span id="toc1">開発環境</span></h2>
-<h3 style="text-align: left;"><span id="toc2">環境</span></h3>
-<p>OS: Windows 11<br />
-IDE: Intellij IDEA<br />
-Java: OpenJDK 17<br />
-LWJGL: 3.3.1</p>
-<h3><span id="toc3">pom.xml</span></h3>
-<p>以下のページでpom.xmlを生成します。</p>
-<a rel="noopener" href="https://www.lwjgl.org/customize" title="LWJGL - Lightweight Java Game Library" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lwjgl.org%2Fcustomize?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">LWJGL - Lightweight Java Game Library</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.lwjgl.org/customize" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.lwjgl.org</div></div></div></div></a>
-<p>Releseの方を選択してみます。</p>
-<p>pom.xmlを生成したいのでMavenを選びます。</p>
-<p><img loading="lazy" width="151" height="158" class="alignnone wp-image-154 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-14.png" /></p>
-<p>JOMLも追加しておきます。</p>
-<p><img loading="lazy" width="253" height="189" class="alignnone wp-image-155 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-15.png" /></p>
-<p>下の「DOWNLOAD POM.XML」か「COPY TO CLIPBOARD」でpom.xmlを自身のpom.xmlに貼り付けるか一部だけ貼り付けてください。</p>
-<p><img loading="lazy" width="698" height="69" class="alignnone wp-image-156 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16.png 698w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16-300x30.png 300w" sizes="(max-width: 698px) 100vw, 698px" /></p>
-<p>&nbsp;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pkom.ml/20220728153/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
