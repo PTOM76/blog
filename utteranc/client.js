@@ -4,7 +4,7 @@
     n = t.searchParams.get("utterances");
   n && (localStorage.setItem("utterances-session", n), t.searchParams.delete("utterances"), history.replaceState(void 0, document.title, t.href));
   let r = document.currentScript;
-  void 0 === r && (r = document.querySelector('script[src^="https://blog.pkom.ml/utteranc/client.js"],script[src^="http://localhost/wordpress/utteranc/client.js"]'));
+  void 0 === r && (r = document.querySelector('script[src^="https://blog.pkom.ml/utteranc/client.js"],script[src^="https://blog.pkom.ml/utteranc/client.js"]'));
   const i = {};
   for (let e = 0; e < r.attributes.length; e++) {
     const t = r.attributes.item(e);
