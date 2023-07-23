@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Maven  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/tag/maven/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/tag/maven/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Fri, 29 Jul 2022 03:18:02 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>Maven  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>GitHub Pagesを利用してMavenリポジトリをつくる</title>
-		<link>https://blog.pkom.ml/20220729178/</link>
-					<comments>https://blog.pkom.ml/20220729178/#respond</comments>
+		<link>https://blog.pitan76.net/20220729178/</link>
+					<comments>https://blog.pitan76.net/20220729178/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Fri, 29 Jul 2022 03:18:02 +0000</pubDate>
@@ -44,7 +44,7 @@
 		<category><![CDATA[通信技術]]></category>
 		<category><![CDATA[GitHub Pages]]></category>
 		<category><![CDATA[Maven]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=178</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=178</guid>
 
 					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -93,8 +93,8 @@ Custom domainで自分のドメインを設定しました。</p>
 <p>MavenリポジトリをGitHub Pagesに設置し、ライブラリを公開できて面白かったです。<br />
 正しい方法ではないと思うので外部の関連サイトも載せておきます。</p>
 <h3><span id="toc8">関連リンク</span></h3>
-<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
-<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
+<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
+<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
 <a rel="noopener" href="https://qiita.com/koduki/items/6babcc6f2b233da96e06" title="2020年のMavenリポジトリの作り方 - Qiita" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png?ixlib=rb-4.0.0&#038;w=1200&#038;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9MjAyMCVFNSVCOSVCNCVFMyU4MSVBRU1hdmVuJUUzJTgzJUFBJUUzJTgzJTlEJUUzJTgyJUI4JUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFFJUU0JUJEJTlDJUUzJTgyJThBJUU2JTk2JUI5JnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz1jOWJkN2RhOTRhYmY5ZjI5MTQ3OTE4ZmI2ODFjYThkOA&#038;mark-x=142&#038;mark-y=112&#038;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwa29kdWtpJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz01N2QxMjJjOGVkNzgwMmM0ZGM0NzhmNzUzYTVjN2M2Yw&#038;blend-x=142&#038;blend-y=491&#038;blend-mode=normal&#038;s=5065ef28c6bc083f309e217ff68622f0" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">2020年のMavenリポジトリの作り方 - Qiita</div><div class="blogcard-snippet external-blogcard-snippet">
 
 はじめに
@@ -104,7 +104,7 @@ Javaのエンジニアであれば何だかんだでMavenリポジトリを使�
 OSSなどはセントラルリポジトリから落とすとして自作のライブラリの管理をどうしていま...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://qiita.com/koduki/items/6babcc6f2b233da96e06" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">qiita.com</div></div></div></div></a>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220729178/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220729178/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

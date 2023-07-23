@@ -9,8 +9,8 @@
 
 <channel>
 	<title>中継サーバー  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/tag/%E4%B8%AD%E7%B6%99%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/tag/%E4%B8%AD%E7%B6%99%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Sat, 23 Jul 2022 07:42:39 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>中継サーバー  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>【Minecraft】無料でポート開放せずにサーバーを公開するツール</title>
-		<link>https://blog.pkom.ml/20220723148/</link>
-					<comments>https://blog.pkom.ml/20220723148/#respond</comments>
+		<link>https://blog.pitan76.net/20220723148/</link>
+					<comments>https://blog.pitan76.net/20220723148/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Sat, 23 Jul 2022 07:41:35 +0000</pubDate>
@@ -41,7 +41,7 @@
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[通信技術]]></category>
 		<category><![CDATA[中継サーバー]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=148</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=148</guid>
 
 					<description><![CDATA[ポート開放せずにサーバーを公開するツールを2つ紹介します。 ポート開放できない方もいると思いますし、手軽にゲームサーバーを公開できるので便利だと思います。 Minecraftで使う方は多いと思います。 仕組みは中継サーバ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>ポート開放せずにサーバーを公開するツールを2つ紹介します。<br />
@@ -58,13 +58,13 @@ Minecraftで使う方は多いと思います。<br />
 
 <h2><span id="toc1">ゲームサーバー公開(ホスト)ツール | GameServerHostingTool</span></h2>
 <p>こちらは日本産のゲームサーバー公開ツールです。</p>
-<a rel="noopener" href="https://gsht.io/" title="ゲームサーバー公開(ホスト)ツール 配布ページ" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/e3204717414b9ee56d894957101fc2e7.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">ゲームサーバー公開(ホスト)ツール 配布ページ</div><div class="blogcard-snippet external-blogcard-snippet">ポート開放不要でゲームサーバーを外部に公開できるツールの配布ページ、紹介ページです。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://files.esugo.net/mcsvrhost/site/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">files.esugo.net</div></div></div></div></a>
+<a rel="noopener" href="https://gsht.io/" title="ゲームサーバー公開(ホスト)ツール 配布ページ" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/e3204717414b9ee56d894957101fc2e7.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">ゲームサーバー公開(ホスト)ツール 配布ページ</div><div class="blogcard-snippet external-blogcard-snippet">ポート開放不要でゲームサーバーを外部に公開できるツールの配布ページ、紹介ページです。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://files.esugo.net/mcsvrhost/site/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">files.esugo.net</div></div></div></div></a>
 <h2><span id="toc2">playit</span></h2>
 <p>こちらは海外産のゲームサーバーを公開するためのツールです。</p>
-<a rel="noopener" href="https://playit.gg/" title="making it easy to play games with friends" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/f705ea3b30b2906fcc6440efc7c05249.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">making it easy to play games with friends</div><div class="blogcard-snippet external-blogcard-snippet">We&#039;ve been making it easy to play games with friends since March 2020. Get a free static IP and ditch port forwarding.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://playit.gg/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">playit.gg</div></div></div></div></a>
+<a rel="noopener" href="https://playit.gg/" title="making it easy to play games with friends" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/f705ea3b30b2906fcc6440efc7c05249.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">making it easy to play games with friends</div><div class="blogcard-snippet external-blogcard-snippet">We&#039;ve been making it easy to play games with friends since March 2020. Get a free static IP and ditch port forwarding.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://playit.gg/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">playit.gg</div></div></div></div></a>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220723148/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220723148/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>プログラミング  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Sat, 24 Sep 2022 13:28:34 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>プログラミング  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>【Architectury API】Architectury APIで開発するための下準備 #0</title>
-		<link>https://blog.pkom.ml/20220924300/</link>
-					<comments>https://blog.pkom.ml/20220924300/#respond</comments>
+		<link>https://blog.pitan76.net/20220924300/</link>
+					<comments>https://blog.pitan76.net/20220924300/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Sat, 24 Sep 2022 13:02:39 +0000</pubDate>
@@ -43,7 +43,7 @@
 		<category><![CDATA[FabricMC]]></category>
 		<category><![CDATA[MinecraftForge]]></category>
 		<category><![CDATA[QuiltMC]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=300</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=300</guid>
 
 					<description><![CDATA[目次 Architectury APIとは開発環境構築Yarnのマッピングを使う (任意) Architectury APIとは Architectury API - Minecraft Modding Wikimcmo [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -64,20 +64,20 @@ IntelliJ IDEAを使えばすぐに構築できます。</p>
 <p>私は以下のような感じに入力しました。<br />
 FabricでMCPitanLibというライブラリを僕は作ってたんですけど、これを機にArchitecturyでライブラリを作り直そうと思います。<br />
 ミックスインを使うのでUse Mixinsもチェックします。(推奨)</p>
-<p><img loading="lazy" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
+<p><img decoding="async" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
 ついでにGitHubでリポジトリもつくっておきます。</p>
-<p><img loading="lazy" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
+<p><img decoding="async" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
 <p>うむ、javaファイルが生成されてますなー</p>
-<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-309 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p><img decoding="async" width="1920" height="1033" class="alignnone wp-image-309 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17.png 1920w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-300x161.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-1024x551.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-768x413.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
 <p>さて、ハイライト(ソースに色が付く)されるまで待ちますか。<br />
 ちなみになぜMCPitanLibarchかというとMCPitanLib+Architectury APIという考えで付けたんですけどセンスありませんよね。。。許してください&#8230;w</p>
 <p>いやーそれにしても長いですねえ&#8230;</p>
-<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-310 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p><img decoding="async" width="1920" height="1033" class="alignnone wp-image-310 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18.png 1920w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-300x161.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-1024x551.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-768x413.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
 <p>お、来ましたね。</p>
-<p><img loading="lazy" width="249" height="219" class="alignnone wp-image-312 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-20.png" /></p>
+<p><img decoding="async" width="249" height="219" class="alignnone wp-image-312 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-20.png" /></p>
 <p>ここからクライアントとサーバーを起動できますね！</p>
 <p>ちなみにビルドは右のGradleからTasks→build→buildを実行するとForge、Fabricのjarがそれぞれ生成されます。最強ですね！</p>
-<p><img loading="lazy" width="456" height="264" class="alignnone wp-image-313 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png 456w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-300x174.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-120x68.png 120w" sizes="(max-width: 456px) 100vw, 456px" /></p>
+<p><img decoding="async" width="456" height="264" class="alignnone wp-image-313 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21.png 456w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21-300x174.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21-120x68.png 120w" sizes="(max-width: 456px) 100vw, 456px" /></p>
 <h2><span id="toc3">Yarnのマッピングを使う (任意)</span></h2>
 <p>gradle.propertiesを早速少しいじります。私の場合は以下のようになってます。</p>
 <pre>org.gradle.jvmargs=-Xmx1G
@@ -131,15 +131,15 @@ fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/devel
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220924300/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220924300/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【LWJGL3】描画処理 – その2(図形の描画) #5</title>
-		<link>https://blog.pkom.ml/20220904274/</link>
-					<comments>https://blog.pkom.ml/20220904274/#respond</comments>
+		<link>https://blog.pitan76.net/20220904274/</link>
+					<comments>https://blog.pitan76.net/20220904274/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Sun, 04 Sep 2022 00:59:44 +0000</pubDate>
@@ -148,20 +148,20 @@ fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/devel
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[LWJGL]]></category>
 		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=274</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=274</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220904274/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220904274/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>GitHub Pagesを利用してMavenリポジトリをつくる</title>
-		<link>https://blog.pkom.ml/20220729178/</link>
-					<comments>https://blog.pkom.ml/20220729178/#respond</comments>
+		<link>https://blog.pitan76.net/20220729178/</link>
+					<comments>https://blog.pitan76.net/20220729178/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Fri, 29 Jul 2022 03:18:02 +0000</pubDate>
@@ -175,7 +175,7 @@ fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/devel
 		<category><![CDATA[通信技術]]></category>
 		<category><![CDATA[GitHub Pages]]></category>
 		<category><![CDATA[Maven]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=178</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=178</guid>
 
 					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -224,8 +224,8 @@ Custom domainで自分のドメインを設定しました。</p>
 <p>MavenリポジトリをGitHub Pagesに設置し、ライブラリを公開できて面白かったです。<br />
 正しい方法ではないと思うので外部の関連サイトも載せておきます。</p>
 <h3><span id="toc8">関連リンク</span></h3>
-<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
-<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
+<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
+<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
 <a rel="noopener" href="https://qiita.com/koduki/items/6babcc6f2b233da96e06" title="2020年のMavenリポジトリの作り方 - Qiita" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png?ixlib=rb-4.0.0&#038;w=1200&#038;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9MjAyMCVFNSVCOSVCNCVFMyU4MSVBRU1hdmVuJUUzJTgzJUFBJUUzJTgzJTlEJUUzJTgyJUI4JUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFFJUU0JUJEJTlDJUUzJTgyJThBJUU2JTk2JUI5JnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz1jOWJkN2RhOTRhYmY5ZjI5MTQ3OTE4ZmI2ODFjYThkOA&#038;mark-x=142&#038;mark-y=112&#038;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwa29kdWtpJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz01N2QxMjJjOGVkNzgwMmM0ZGM0NzhmNzUzYTVjN2M2Yw&#038;blend-x=142&#038;blend-y=491&#038;blend-mode=normal&#038;s=5065ef28c6bc083f309e217ff68622f0" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">2020年のMavenリポジトリの作り方 - Qiita</div><div class="blogcard-snippet external-blogcard-snippet">
 
 はじめに
@@ -235,15 +235,15 @@ Javaのエンジニアであれば何だかんだでMavenリポジトリを使�
 OSSなどはセントラルリポジトリから落とすとして自作のライブラリの管理をどうしていま...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://qiita.com/koduki/items/6babcc6f2b233da96e06" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">qiita.com</div></div></div></div></a>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220729178/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220729178/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【LWJGL3】描画処理 &#8211; その1(背景色) #4</title>
-		<link>https://blog.pkom.ml/20220728173/</link>
-					<comments>https://blog.pkom.ml/20220728173/#respond</comments>
+		<link>https://blog.pitan76.net/20220728173/</link>
+					<comments>https://blog.pitan76.net/20220728173/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Thu, 28 Jul 2022 14:53:06 +0000</pubDate>
@@ -252,7 +252,7 @@ OSSなどはセントラルリポジトリから落とすとして自作のラ�
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[LWJGL]]></category>
 		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=173</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=173</guid>
 
 					<description><![CDATA[目次 Color4fクラスWindowクラス Color4fクラス 色を保存するためのクラスをつくっておきます。 なくてもいいんですが、私はつくる派です。 package ml.pkom.lwjgl.tutorial;  [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -311,20 +311,20 @@ public void setBgColor(float r, float g, float b) {
 <pre>// 背景色を描画
 GL11.glClearColor(bgColor.r, bgColor.g, bgColor.b, bgColor.a);
 GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);</pre>
-<p><img loading="lazy" width="413" height="241" class="alignnone wp-image-174 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21.png 413w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21-300x175.png 300w" sizes="(max-width: 413px) 100vw, 413px" /></p>
+<p><img decoding="async" width="413" height="241" class="alignnone wp-image-174 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-21.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-21.png 413w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-21-300x175.png 300w" sizes="(max-width: 413px) 100vw, 413px" /></p>
 <p>どこかに以下のコードを埋め込むと黄色になると思います。</p>
 <pre>window.setBgColor(1.0f, 1.0f, 0.0f);</pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220728173/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220728173/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【LWJGL3】60FPSでループ処理 #3</title>
-		<link>https://blog.pkom.ml/20220728169/</link>
-					<comments>https://blog.pkom.ml/20220728169/#respond</comments>
+		<link>https://blog.pitan76.net/20220728169/</link>
+					<comments>https://blog.pitan76.net/20220728169/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Thu, 28 Jul 2022 14:34:10 +0000</pubDate>
@@ -333,7 +333,7 @@ GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);</pre>
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[LWJGL]]></category>
 		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=169</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=169</guid>
 
 					<description><![CDATA[Windowクラスへ以下の変数を追記しておく。 // 基準のFPS public int fps = 60; // FPS public double fpsCap = fps; public double time,  [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>Windowクラスへ以下の変数を追記しておく。</p>
@@ -369,7 +369,7 @@ public double getTime() {
 }</pre>
 <p>Windowクラスのinit()関数の最後に以下の処理を追記</p>
 <pre>time = getTime();</pre>
-<p><img loading="lazy" width="281" height="447" class="alignnone wp-image-170 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19.png 281w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19-189x300.png 189w" sizes="(max-width: 281px) 100vw, 281px" /></p>
+<p><img decoding="async" width="281" height="447" class="alignnone wp-image-170 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-19.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-19.png 281w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-19-189x300.png 189w" sizes="(max-width: 281px) 100vw, 281px" /></p>
 <h2>Mainクラス(動作確認)</h2>
 <pre>public static void main(String[] args) {
     Window window = new Window();
@@ -390,19 +390,19 @@ public double getTime() {
         }
     }
 }</pre>
-<p><img loading="lazy" width="257" height="346" class="alignnone wp-image-171 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20.png 257w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20-223x300.png 223w" sizes="(max-width: 257px) 100vw, 257px" /></p>
+<p><img decoding="async" width="257" height="346" class="alignnone wp-image-171 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-20.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-20.png 257w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-20-223x300.png 223w" sizes="(max-width: 257px) 100vw, 257px" /></p>
 <p>現在のFPS(60.0)が表示されたら成功です。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220728169/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220728169/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【LWJGL3】キー、マウス入力 #2</title>
-		<link>https://blog.pkom.ml/20220728160/</link>
-					<comments>https://blog.pkom.ml/20220728160/#respond</comments>
+		<link>https://blog.pitan76.net/20220728160/</link>
+					<comments>https://blog.pitan76.net/20220728160/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Thu, 28 Jul 2022 14:10:32 +0000</pubDate>
@@ -411,7 +411,7 @@ public double getTime() {
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[LWJGL]]></category>
 		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=160</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=160</guid>
 
 					<description><![CDATA[次はキー、マウス入力となります。 目次 キーの入力マウスの入力マウスカーソルの座標動作確認 キーの入力 // キーが押されているか public boolean isKeyDown(int key) { return G [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>次はキー、マウス入力となります。</p>
@@ -521,18 +521,18 @@ Double型のバッファにglfwGetCursorPos関数がマウスカーソルの位�
 
     }
 }</pre>
-<p><img loading="lazy" width="233" height="270" class="alignnone wp-image-167 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-18.png" /></p>
+<p><img decoding="async" width="233" height="270" class="alignnone wp-image-167 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-18.png" /></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220728160/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220728160/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【LWJGL3】ウィンドウの作成 #1</title>
-		<link>https://blog.pkom.ml/20220728158/</link>
-					<comments>https://blog.pkom.ml/20220728158/#respond</comments>
+		<link>https://blog.pitan76.net/20220728158/</link>
+					<comments>https://blog.pitan76.net/20220728158/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Thu, 28 Jul 2022 10:33:02 +0000</pubDate>
@@ -541,7 +541,7 @@ Double型のバッファにglfwGetCursorPos関数がマウスカーソルの位�
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[LWJGL]]></category>
 		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=158</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=158</guid>
 
 					<description><![CDATA[適当に初期クラスのMainクラスとウィンドウの処理を書くためのWindowクラスをつくっておきます。 Windowクラス package ml.pkom.lwjgl.tutorial; import org.lwjgl. [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>適当に初期クラスのMainクラスとウィンドウの処理を書くためのWindowクラスをつくっておきます。</p>
@@ -631,19 +631,19 @@ public class Main {
         }
     }
 }</pre>
-<p><img loading="lazy" width="642" height="392" class="alignnone wp-image-163 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17.png 642w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-17-300x183.png 300w" sizes="(max-width: 642px) 100vw, 642px" /></p>
+<p><img decoding="async" width="642" height="392" class="alignnone wp-image-163 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-17.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-17.png 642w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-17-300x183.png 300w" sizes="(max-width: 642px) 100vw, 642px" /></p>
 <p>実行してみるとウィンドウが表示されました。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220728158/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220728158/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【LWJGL3】セットアップ #0</title>
-		<link>https://blog.pkom.ml/20220728153/</link>
-					<comments>https://blog.pkom.ml/20220728153/#respond</comments>
+		<link>https://blog.pitan76.net/20220728153/</link>
+					<comments>https://blog.pitan76.net/20220728153/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Thu, 28 Jul 2022 09:57:58 +0000</pubDate>
@@ -652,13 +652,13 @@ public class Main {
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[LWJGL]]></category>
 		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=153</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=153</guid>
 
 					<description><![CDATA[JavaのLWJGLを学ぶついでに記事も書こうと思います。 日本語で説明されているものが少なかったので以下の動画を参考に日本語で説明していきます。 私のコードは好きに使ってもらって構いません。 目次 開発環境環境pom. [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>JavaのLWJGLを学ぶついでに記事も書こうと思います。<br />
 日本語で説明されているものが少なかったので以下の動画を参考に日本語で説明していきます。<br />
 私のコードは好きに使ってもらって構いません。</p>
-<p><iframe loading="lazy" title="3D Game using LWJGL 3 Tutorial - #1 Making a Window" width="1107" height="623" src="https://www.youtube.com/embed/ISWcMXxl26s?list=PLaWuTOi9sDepAlbNEOXhjjFSo2WBkWOT2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><iframe title="3D Game using LWJGL 3 Tutorial - #1 Making a Window" width="1107" height="623" src="https://www.youtube.com/embed/ISWcMXxl26s?list=PLaWuTOi9sDepAlbNEOXhjjFSo2WBkWOT2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
   <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-17" checked><label class="toc-title" for="toc-checkbox-17">目次</label>
     <div class="toc-content">
@@ -677,23 +677,23 @@ LWJGL: 3.3.1</p>
 <a rel="noopener" href="https://www.lwjgl.org/customize" title="LWJGL - Lightweight Java Game Library" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.lwjgl.org%2Fcustomize?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">LWJGL - Lightweight Java Game Library</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.lwjgl.org/customize" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.lwjgl.org</div></div></div></div></a>
 <p>Releseの方を選択してみます。</p>
 <p>pom.xmlを生成したいのでMavenを選びます。</p>
-<p><img loading="lazy" width="151" height="158" class="alignnone wp-image-154 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-14.png" /></p>
+<p><img decoding="async" width="151" height="158" class="alignnone wp-image-154 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-14.png" /></p>
 <p>JOMLも追加しておきます。</p>
-<p><img loading="lazy" width="253" height="189" class="alignnone wp-image-155 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-15.png" /></p>
+<p><img decoding="async" width="253" height="189" class="alignnone wp-image-155 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-15.png" /></p>
 <p>下の「DOWNLOAD POM.XML」か「COPY TO CLIPBOARD」でpom.xmlを自身のpom.xmlに貼り付けるか一部だけ貼り付けてください。</p>
-<p><img loading="lazy" width="698" height="69" class="alignnone wp-image-156 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16.png 698w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-16-300x30.png 300w" sizes="(max-width: 698px) 100vw, 698px" /></p>
+<p><img decoding="async" width="698" height="69" class="alignnone wp-image-156 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-16.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-16.png 698w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-16-300x30.png 300w" sizes="(max-width: 698px) 100vw, 698px" /></p>
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220728153/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220728153/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>JitPackでJava 8以外を使う方法</title>
-		<link>https://blog.pkom.ml/2022072064/</link>
-					<comments>https://blog.pkom.ml/2022072064/#respond</comments>
+		<link>https://blog.pitan76.net/2022072064/</link>
+					<comments>https://blog.pitan76.net/2022072064/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Tue, 19 Jul 2022 15:30:51 +0000</pubDate>
@@ -706,7 +706,7 @@ LWJGL: 3.3.1</p>
 		<category><![CDATA[プログラミング]]></category>
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[通信技術]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=64</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=64</guid>
 
 					<description><![CDATA[FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlでjdkを指定したところ、一時期動いたのだが、また動作しなくなったため、以下のよ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>FabricMCのMOD開発でライブラリをJitPackにあげたかったのだが、ビルドでエラーが発生してしまった。そこでjitpack.ymlで<a class="keyword" href="http://d.hatena.ne.jp/keyword/jdk">jdk</a>を指定したところ、一時期動いたのだが、また動作しなくなったため、以下のようにbefore_install:をymlに追加すると解決する。<br />
@@ -719,15 +719,15 @@ jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A
   - openjdk17</pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/2022072064/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/2022072064/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【FabricMC】Illegal character ((CTRL-CHAR, code 31)):&#8230;の対処法</title>
-		<link>https://blog.pkom.ml/2022072062/</link>
-					<comments>https://blog.pkom.ml/2022072062/#respond</comments>
+		<link>https://blog.pitan76.net/2022072062/</link>
+					<comments>https://blog.pitan76.net/2022072062/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Tue, 19 Jul 2022 15:29:27 +0000</pubDate>
@@ -739,7 +739,7 @@ jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A
 		<category><![CDATA[FabricMC]]></category>
 		<category><![CDATA[MOD]]></category>
 		<category><![CDATA[MOD開発]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=62</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=62</guid>
 
 					<description><![CDATA[FabricでMOD開発していると以下のようなエラーが出てしまいました。 Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>FabricでMOD開発していると以下のようなエラーが出てしまいました。</p>
@@ -750,7 +750,7 @@ jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A
 <p>gradlew &#8211;refresh-dependencies</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/2022072062/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/2022072062/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

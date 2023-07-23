@@ -9,8 +9,8 @@
 
 <channel>
 	<title>GitHub Pages  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/tag/github-pages/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/tag/github-pages/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Fri, 29 Jul 2022 03:18:02 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>GitHub Pages  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>GitHub Pagesを利用してMavenリポジトリをつくる</title>
-		<link>https://blog.pkom.ml/20220729178/</link>
-					<comments>https://blog.pkom.ml/20220729178/#respond</comments>
+		<link>https://blog.pitan76.net/20220729178/</link>
+					<comments>https://blog.pitan76.net/20220729178/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Fri, 29 Jul 2022 03:18:02 +0000</pubDate>
@@ -44,7 +44,7 @@
 		<category><![CDATA[通信技術]]></category>
 		<category><![CDATA[GitHub Pages]]></category>
 		<category><![CDATA[Maven]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=178</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=178</guid>
 
 					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -93,8 +93,8 @@ Custom domainで自分のドメインを設定しました。</p>
 <p>MavenリポジトリをGitHub Pagesに設置し、ライブラリを公開できて面白かったです。<br />
 正しい方法ではないと思うので外部の関連サイトも載せておきます。</p>
 <h3><span id="toc8">関連リンク</span></h3>
-<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
-<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
+<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
+<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
 <a rel="noopener" href="https://qiita.com/koduki/items/6babcc6f2b233da96e06" title="2020年のMavenリポジトリの作り方 - Qiita" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png?ixlib=rb-4.0.0&#038;w=1200&#038;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9MjAyMCVFNSVCOSVCNCVFMyU4MSVBRU1hdmVuJUUzJTgzJUFBJUUzJTgzJTlEJUUzJTgyJUI4JUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFFJUU0JUJEJTlDJUUzJTgyJThBJUU2JTk2JUI5JnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz1jOWJkN2RhOTRhYmY5ZjI5MTQ3OTE4ZmI2ODFjYThkOA&#038;mark-x=142&#038;mark-y=112&#038;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwa29kdWtpJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz01N2QxMjJjOGVkNzgwMmM0ZGM0NzhmNzUzYTVjN2M2Yw&#038;blend-x=142&#038;blend-y=491&#038;blend-mode=normal&#038;s=5065ef28c6bc083f309e217ff68622f0" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">2020年のMavenリポジトリの作り方 - Qiita</div><div class="blogcard-snippet external-blogcard-snippet">
 
 はじめに
@@ -104,15 +104,15 @@ Javaのエンジニアであれば何だかんだでMavenリポジトリを使�
 OSSなどはセントラルリポジトリから落とすとして自作のライブラリの管理をどうしていま...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://qiita.com/koduki/items/6babcc6f2b233da96e06" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">qiita.com</div></div></div></div></a>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220729178/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220729178/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【WordPress】GitHub Pagesを利用して静的化したWordPressをほぼ無料で公開する</title>
-		<link>https://blog.pkom.ml/2022072049/</link>
-					<comments>https://blog.pkom.ml/2022072049/#respond</comments>
+		<link>https://blog.pitan76.net/2022072049/</link>
+					<comments>https://blog.pitan76.net/2022072049/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Tue, 19 Jul 2022 15:20:12 +0000</pubDate>
@@ -129,7 +129,7 @@ OSSなどはセントラルリポジトリから落とすとして自作のラ�
 		<category><![CDATA[通信技術]]></category>
 		<category><![CDATA[GitHub Pages]]></category>
 		<category><![CDATA[WordPressプラグイン]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=49</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=49</guid>
 
 					<description><![CDATA[元々、このブログ以前のブログはレンタルサーバーで動かしていました。 あまり更新しなかったため、必要性はないと感じ、新たにWordPressをローカルへ導入し、静的化した後、GitHub Pagesで運用することを考えまし [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>元々、このブログ以前のブログはレンタルサーバーで動かしていました。<br />
@@ -174,24 +174,24 @@ git push</pre>
 </li>
 </ol>
 <h2><span id="toc2">Simply Staticの導入</span></h2>
-<p><img loading="lazy" class="alignnone wp-image-51 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png" alt="" width="1024" height="254" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-300x75.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-768x191.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1536x382.png 1536w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530.png 1723w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p><img decoding="async" class="alignnone wp-image-51 size-large" src="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png" alt="" width="1024" height="254" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-300x75.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-768x191.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1536x382.png 1536w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530.png 1723w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <p>※インストール後、必ず<span class="bold red">有効化</span>しておきましょう。</p>
 <p>こちらのプラグインは静的化するためのプラグインです。<br />
 静的化とは静的ファイルであるHTML、JS、CSS、画像など簡単に言えばアクセスしてもソースが変化しないクライアントサイドのファイルに変換することを指します。<br />
 つまり、PHPが生成したソースをHTMLファイルとして保存します。</p>
 <p>適当にSimply Static用のフォルダをつくります。つくったフォルダをsimplystatic/とします。</p>
 <p>正しく導入できれば、WordPressの管理メニューのサイドバーにSimply Staticという項目が追加されていると思います。<br />
-<img loading="lazy" class="alignnone size-medium wp-image-52" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png" alt="" width="300" height="147" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147.png 334w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<img decoding="async" class="alignnone size-medium wp-image-52" src="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png" alt="" width="300" height="147" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147-300x147.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235147.png 334w" sizes="(max-width: 300px) 100vw, 300px" /></p>
 <p>まず、設定を選びましょう。<br />
-<img loading="lazy" class="alignnone wp-image-54 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png" alt="" width="1024" height="726" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-300x213.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-768x544.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507.png 1205w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<img decoding="async" class="alignnone wp-image-54 size-large" src="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png" alt="" width="1024" height="726" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-1024x726.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-300x213.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507-768x544.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235507.png 1205w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <p>配送方法はローカルディレクトリに設定してあげましょう。<br />
 ローカルディレクトリの入力欄にはつくったフォルダであるsimplystatic/(任意)のパスを指定します。</p>
-<p><img loading="lazy" class="alignnone wp-image-53 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png" alt="" width="1024" height="258" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-300x76.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-768x194.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402.png 1244w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p><img decoding="async" class="alignnone wp-image-53 size-large" src="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png" alt="" width="1024" height="258" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-1024x258.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-300x76.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402-768x194.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-235402.png 1244w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <p>生成を選択し、<span class="bold blue">静的ファイルを生成する</span>をクリックしましょう。</p>
 <p>待機すると生成されると思います。<br />
 クソ長いですよね、、、一分もかかりました&#8230;(笑)</p>
 <h2><span id="toc3">GitHub の設定</span></h2>
-<p><img loading="lazy" class="alignnone wp-image-55 size-large" src="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png" alt="" width="1024" height="700" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-300x205.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-768x525.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111.png 1141w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p><img decoding="async" class="alignnone wp-image-55 size-large" src="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png" alt="" width="1024" height="700" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-1024x700.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-300x205.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111-768x525.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-20-000111.png 1141w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <p>GitHubのリポジトリでSettingsを開き、Pagesの項目に移動してください。<br />
 Sourceのブランチをmainで選択してSaveをクリックしましょう。<br />
 これで完了なのですが、Custom domainも私は設定しました。</p>
@@ -379,7 +379,7 @@ if ( is_comment_allow() || have_comments() ): ?&gt;
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/2022072049/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/2022072049/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

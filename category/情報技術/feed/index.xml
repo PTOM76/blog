@@ -9,8 +9,8 @@
 
 <channel>
 	<title>情報技術  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Sat, 24 Sep 2022 13:28:34 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>情報技術  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>【Architectury API】Architectury APIで開発するための下準備 #0</title>
-		<link>https://blog.pkom.ml/20220924300/</link>
-					<comments>https://blog.pkom.ml/20220924300/#respond</comments>
+		<link>https://blog.pitan76.net/20220924300/</link>
+					<comments>https://blog.pitan76.net/20220924300/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Sat, 24 Sep 2022 13:02:39 +0000</pubDate>
@@ -43,7 +43,7 @@
 		<category><![CDATA[FabricMC]]></category>
 		<category><![CDATA[MinecraftForge]]></category>
 		<category><![CDATA[QuiltMC]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=300</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=300</guid>
 
 					<description><![CDATA[目次 Architectury APIとは開発環境構築Yarnのマッピングを使う (任意) Architectury APIとは Architectury API - Minecraft Modding Wikimcmo [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -64,20 +64,20 @@ IntelliJ IDEAを使えばすぐに構築できます。</p>
 <p>私は以下のような感じに入力しました。<br />
 FabricでMCPitanLibというライブラリを僕は作ってたんですけど、これを機にArchitecturyでライブラリを作り直そうと思います。<br />
 ミックスインを使うのでUse Mixinsもチェックします。(推奨)</p>
-<p><img loading="lazy" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
+<p><img decoding="async" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
 ついでにGitHubでリポジトリもつくっておきます。</p>
-<p><img loading="lazy" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
+<p><img decoding="async" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
 <p>うむ、javaファイルが生成されてますなー</p>
-<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-309 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p><img decoding="async" width="1920" height="1033" class="alignnone wp-image-309 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17.png 1920w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-300x161.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-1024x551.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-768x413.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
 <p>さて、ハイライト(ソースに色が付く)されるまで待ちますか。<br />
 ちなみになぜMCPitanLibarchかというとMCPitanLib+Architectury APIという考えで付けたんですけどセンスありませんよね。。。許してください&#8230;w</p>
 <p>いやーそれにしても長いですねえ&#8230;</p>
-<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-310 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p><img decoding="async" width="1920" height="1033" class="alignnone wp-image-310 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18.png 1920w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-300x161.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-1024x551.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-768x413.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
 <p>お、来ましたね。</p>
-<p><img loading="lazy" width="249" height="219" class="alignnone wp-image-312 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-20.png" /></p>
+<p><img decoding="async" width="249" height="219" class="alignnone wp-image-312 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-20.png" /></p>
 <p>ここからクライアントとサーバーを起動できますね！</p>
 <p>ちなみにビルドは右のGradleからTasks→build→buildを実行するとForge、Fabricのjarがそれぞれ生成されます。最強ですね！</p>
-<p><img loading="lazy" width="456" height="264" class="alignnone wp-image-313 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png 456w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-300x174.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-120x68.png 120w" sizes="(max-width: 456px) 100vw, 456px" /></p>
+<p><img decoding="async" width="456" height="264" class="alignnone wp-image-313 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21.png 456w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21-300x174.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21-120x68.png 120w" sizes="(max-width: 456px) 100vw, 456px" /></p>
 <h2><span id="toc3">Yarnのマッピングを使う (任意)</span></h2>
 <p>gradle.propertiesを早速少しいじります。私の場合は以下のようになってます。</p>
 <pre>org.gradle.jvmargs=-Xmx1G
@@ -131,54 +131,54 @@ fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/devel
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220924300/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220924300/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>もしかしたらRythm復活！？秋頃にベータ版Rythmを開始する予定！</title>
-		<link>https://blog.pkom.ml/20220924293/</link>
-					<comments>https://blog.pkom.ml/20220924293/#respond</comments>
+		<link>https://blog.pitan76.net/20220924293/</link>
+					<comments>https://blog.pitan76.net/20220924293/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Fri, 23 Sep 2022 15:52:25 +0000</pubDate>
 				<category><![CDATA[Discord]]></category>
 		<category><![CDATA[ソフトウェア]]></category>
 		<category><![CDATA[情報技術]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=293</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=293</guid>
 
 					<description><![CDATA[Discordの音楽ボットだったRythm、いつしか突然、Googleに規制され、姿を消したボットであるが、偶然、僕はRythmを見かけ、Webサイトへアクセスしてみました。 Rythm — Returning Soon [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>Discordの音楽ボットだったRythm、いつしか突然、Googleに規制され、姿を消したボットであるが、偶然、僕はRythmを見かけ、Webサイトへアクセスしてみました。</p>
 <a rel="noopener" href="https://rythm.fm/" title="Rythm — Returning Soon™" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Frythm.fm%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Rythm — Returning Soon™</div><div class="blogcard-snippet external-blogcard-snippet">Music is meant to be enjoyed with others. Here at Rythm, we&#039;re making it possible to share and enjoy music with others around the world.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://rythm.app/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">rythm.app</div></div></div></div></a>
 <p>するとなんと、サイトが変わっており、Beta programへ参加できるではありませんか。</p>
-<p><img loading="lazy" width="933" height="630" class="alignnone wp-image-294 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8.png 933w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8-300x203.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-8-768x519.png 768w" sizes="(max-width: 933px) 100vw, 933px" /></p>
-<p><img loading="lazy" width="906" height="370" class="alignnone wp-image-295 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9.png 906w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9-300x123.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-9-768x314.png 768w" sizes="(max-width: 906px) 100vw, 906px" /></p>
+<p><img decoding="async" width="933" height="630" class="alignnone wp-image-294 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-8.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-8.png 933w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-8-300x203.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-8-768x519.png 768w" sizes="(max-width: 933px) 100vw, 933px" /></p>
+<p><img decoding="async" width="906" height="370" class="alignnone wp-image-295 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-9.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-9.png 906w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-9-300x123.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-9-768x314.png 768w" sizes="(max-width: 906px) 100vw, 906px" /></p>
 <p>Cody氏の文章をDeepLで翻訳してみました。<br />
 「プレイリストからもっとも恥ずかしい曲を選び、友達全員にDMを送るDiscord統合機能」</p>
 <p>よくわかりませんが、またRythmを使ってDiscordで音楽を聴けるのでしょうか&#8230;？</p>
 <h2>ベータプログラムへの参加方法</h2>
-<p><img loading="lazy" width="381" height="81" class="alignnone wp-image-296 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-10.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-10.png 381w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-10-300x64.png 300w" sizes="(max-width: 381px) 100vw, 381px" /></p>
+<p><img decoding="async" width="381" height="81" class="alignnone wp-image-296 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-10.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-10.png 381w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-10-300x64.png 300w" sizes="(max-width: 381px) 100vw, 381px" /></p>
 <p>Apply for our beta programというボタンを押しましょう。</p>
-<p><img loading="lazy" width="879" height="824" class="alignnone wp-image-297 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11.png 879w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11-300x281.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-11-768x720.png 768w" sizes="(max-width: 879px) 100vw, 879px" /></p>
+<p><img decoding="async" width="879" height="824" class="alignnone wp-image-297 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-11.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-11.png 879w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-11-300x281.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-11-768x720.png 768w" sizes="(max-width: 879px) 100vw, 879px" /></p>
 <p>Auth with Discordでディスコードと紐づけるか、メールアドレスを書き込みましょう。<br />
 名前と性別？と国を選択して次のステップに進みましょう。</p>
-<p><img loading="lazy" width="767" height="747" class="alignnone wp-image-298 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-12.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-12.png 767w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-12-300x292.png 300w" sizes="(max-width: 767px) 100vw, 767px" /></p>
+<p><img decoding="async" width="767" height="747" class="alignnone wp-image-298 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-12.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-12.png 767w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-12-300x292.png 300w" sizes="(max-width: 767px) 100vw, 767px" /></p>
 <p>使っている音楽サービスを選択し、Rythmを以前に使っていたのであればチェックしましょう。</p>
 <p>次の空欄には何をつくっていると思いますか？と多分聞かれてます。<br />
 最後はまた好みの音楽のジャンルが聞かれます。</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220924293/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220924293/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Minecraftの開発には欠かせないIntelliJとIntelliJプラグイン</title>
-		<link>https://blog.pkom.ml/20220923289/</link>
-					<comments>https://blog.pkom.ml/20220923289/#respond</comments>
+		<link>https://blog.pitan76.net/20220923289/</link>
+					<comments>https://blog.pitan76.net/20220923289/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Fri, 23 Sep 2022 09:42:44 +0000</pubDate>
@@ -187,7 +187,7 @@ fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/devel
 		<category><![CDATA[ゲーム]]></category>
 		<category><![CDATA[ソフトウェア]]></category>
 		<category><![CDATA[情報技術]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=289</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=289</guid>
 
 					<description><![CDATA[目次 1. IntelliJ IDEA2. Minecraft Delelopment3. Architectury 1. IntelliJ IDEA Javaでの開発をするためのJava製のIDEです。 これがマイクラ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -201,12 +201,12 @@ fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/devel
 <p>Javaでの開発をするためのJava製のIDEです。<br />
 これがマイクラの開発に適している理由は、マイクラでMOD/プラグイン開発するためのIntelliJプラグインがあるためです。</p>
 <a rel="noopener" href="https://www.jetbrains.com/ja-jp/idea/download/" title="ダウンロード IntelliJ IDEA: JetBrains の人間工学に基づく高機能 Java IDE" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/preview.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">ダウンロード IntelliJ IDEA: JetBrains の人間工学に基づく高機能 Java IDE</div><div class="blogcard-snippet external-blogcard-snippet">最新バージョンをダウンロード IntelliJ IDEA ：Windows、macOS、Linux用。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://www.jetbrains.com/ja-jp/idea/download/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">www.jetbrains.com</div></div></div></div></a>
-<p><img loading="lazy" width="258" height="186" class="alignnone wp-image-290 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-6.png" /></p>
+<p><img decoding="async" width="258" height="186" class="alignnone wp-image-290 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-6.png" /></p>
 <p>特に理由がない方はCommunityで問題ないです。</p>
 <h2><span id="toc2">2. Minecraft Delelopment</span></h2>
 <a rel="noopener" href="https://plugins.jetbrains.com/plugin/8327-minecraft-development" title="Minecraft Development - IntelliJ IDEs Plugin | Marketplace" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F8327-minecraft-development?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Minecraft Development - IntelliJ IDEs Plugin | Marketplace</div><div class="blogcard-snippet external-blogcard-snippet">Brings support for Bukkit, Spigot, Paper, Sponge, Forge, Fabric, MCP, Mixin, Velocity, BungeeCord, Waterfall, and
       LiteLoader projects to Intellij IDEA.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://plugins.jetbrains.com/plugin/8327-minecraft-development" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">plugins.jetbrains.com</div></div></div></div></a>
-<p><img loading="lazy" width="795" height="653" class="alignnone wp-image-291 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7.png 795w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7-300x246.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-7-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></p>
+<p><img decoding="async" width="795" height="653" class="alignnone wp-image-291 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7.png 795w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7-300x246.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></p>
 <p>現時点ではBukkit、Spigot、Paper、Sponge、Forge、Fabric、LiteLoader、Velocity、BungeeCord、Waterfallのプラットフォームが選択できます。<br />
 MOD開発環境を自動で生成してくれるので最強のプラグインやと思います。</p>
 <p>開発環境を構築しないといけない面倒くさい工程を省くことができるので私はこれを使ってほんと楽になりました。</p>
@@ -218,22 +218,22 @@ MOD開発環境を自動で生成してくれるので最強のプラグイン�
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220923289/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220923289/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【PukiWiki】1.5.4の変更点を見てみる</title>
-		<link>https://blog.pkom.ml/20220923276/</link>
-					<comments>https://blog.pkom.ml/20220923276/#respond</comments>
+		<link>https://blog.pitan76.net/20220923276/</link>
+					<comments>https://blog.pitan76.net/20220923276/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Thu, 22 Sep 2022 16:03:56 +0000</pubDate>
 				<category><![CDATA[PukiWiki]]></category>
 		<category><![CDATA[ソフトウェア]]></category>
 		<category><![CDATA[情報技術]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=276</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=276</guid>
 
 					<description><![CDATA[目次 はじめに1.5.4についてさいごに はじめに まず、PukiWikiってなんだろうっていう人はWikipediaか公式サイトを御覧ください。簡単にいえばWikiのソフトウェアです。 1.5.4について 1.5.3も [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -247,17 +247,17 @@ MOD開発環境を自動で生成してくれるので最強のプラグイン�
 <p>まず、PukiWikiってなんだろうっていう人は<a href="https://ja.wikipedia.org/wiki/PukiWiki">Wikipedia</a>か<a href="https://pukiwiki.osdn.jp/">公式サイト</a>を御覧ください。簡単にいえばWikiのソフトウェアです。</p>
 <h2><span id="toc2">1.5.4について</span></h2>
 <p>1.5.3も2020年3月30日にリリースされてましたが、1.5.4も今年(2022)の3月30日と同じ日にリリースされていました。</p>
-<p><img loading="lazy" width="554" height="136" class="alignnone wp-image-277 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted.png 554w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-300x74.png 300w" sizes="(max-width: 554px) 100vw, 554px" /></p>
+<p><img decoding="async" width="554" height="136" class="alignnone wp-image-277 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted.png 554w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-300x74.png 300w" sizes="(max-width: 554px) 100vw, 554px" /></p>
 <p>公式サイトによるとPHP8.1に対応しているみたいです。<br />
 ちなみにまさかのPHP4.1～8.1まで対応しているってぶっ飛んでますよね。<br />
 凄すぎます。。。</p>
-<p><img loading="lazy" width="1207" height="308" class="alignnone wp-image-278 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1.png 1207w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1-300x77.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1-1024x261.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-1-768x196.png 768w" sizes="(max-width: 1207px) 100vw, 1207px" /></p>
+<p><img decoding="async" width="1207" height="308" class="alignnone wp-image-278 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-1.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-1.png 1207w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-1-300x77.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-1-1024x261.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-1-768x196.png 768w" sizes="(max-width: 1207px) 100vw, 1207px" /></p>
 <p>1.5.4では脆弱性も修正されているみたいでこれは必ず1.5.4に更新しないといけないのではと思います。</p>
 <p><a href="https://pukiwiki.osdn.jp/?PukiWiki/Download/1.5.4">https://pukiwiki.osdn.jp/?PukiWiki/Download/1.5.4</a>より<br />
-<img loading="lazy" width="987" height="895" class="alignnone wp-image-279 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2.png 987w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2-300x272.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-2-768x696.png 768w" sizes="(max-width: 987px) 100vw, 987px" /></p>
+<img decoding="async" width="987" height="895" class="alignnone wp-image-279 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-2.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-2.png 987w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-2-300x272.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-2-768x696.png 768w" sizes="(max-width: 987px) 100vw, 987px" /></p>
 <p>主にURLカスタマイズ機構という新機能が追加されたみたいです。<br />
 BOLDという新たな書式も追加されたようで久々の書式追加じゃないでしょうかね。<br />
-<img loading="lazy" width="588" height="501" class="alignnone wp-image-280 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-3.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-3.png 588w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-3-300x256.png 300w" sizes="(max-width: 588px) 100vw, 588px" /></p>
+<img decoding="async" width="588" height="501" class="alignnone wp-image-280 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-3.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-3.png 588w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-3-300x256.png 300w" sizes="(max-width: 588px) 100vw, 588px" /></p>
 <p>RecentChangesも変わってました。<br />
 img, refプラグインが改良されてサイズ指定の999xなどという書き方もできるようになったのでより便利になりましたね。<br />
 検索も1.5.3で非同期処理になりましたし、カウンターも今回非同期で処理できるようになったみたいで最近のPukiWikiは非同期が増えてきているような気がします。</p>
@@ -266,15 +266,15 @@ img, refプラグインが改良されてサイズ指定の999xなどという�
 <p>PukiWikiって大体2年単位でアップデート来ますよね、1.5.5も二年後ぐらいなのか、待ち遠しいですな～</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220923276/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220923276/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【LWJGL3】描画処理 – その2(図形の描画) #5</title>
-		<link>https://blog.pkom.ml/20220904274/</link>
-					<comments>https://blog.pkom.ml/20220904274/#respond</comments>
+		<link>https://blog.pitan76.net/20220904274/</link>
+					<comments>https://blog.pitan76.net/20220904274/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Sun, 04 Sep 2022 00:59:44 +0000</pubDate>
@@ -283,20 +283,20 @@ img, refプラグインが改良されてサイズ指定の999xなどという�
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[LWJGL]]></category>
 		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=274</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=274</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220904274/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220904274/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【Discord】強力なスパム対策ができるボット「Wick」を紹介します。</title>
-		<link>https://blog.pkom.ml/20220813212/</link>
-					<comments>https://blog.pkom.ml/20220813212/#respond</comments>
+		<link>https://blog.pitan76.net/20220813212/</link>
+					<comments>https://blog.pitan76.net/20220813212/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Sat, 13 Aug 2022 08:07:17 +0000</pubDate>
@@ -306,7 +306,7 @@ img, refプラグインが改良されてサイズ指定の999xなどという�
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[通信技術]]></category>
 		<category><![CDATA[スパム対策]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=212</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=212</guid>
 
 					<description><![CDATA[目次 はじめに導入方法Wickの設定おすすめの設定ユーザーへWickの権限を与える便利なコマンドw!purge [削除するメッセージ数] (オプションなど)おわりに参考 はじめに Discordでは荒らされているサーバー [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -331,10 +331,10 @@ DiscordにはBAN、キック、タイムアウト、低速チャットなどが�
 <ol>
 <li>まず、<a href="https://wickbot.com/">https://wickbot.com/</a>から「Add Wick」ボタンをクリックし、Discordのアカウントと紐付け、botをサーバーに導入しましょう。</li>
 <li>Wickのロールの位置を上に持っていきましょう。<br />
-<img id="thepasted-1" src="https://image02.seesaawiki.jp/f/o/fortunes-memo/fbOC_75yR8.png" /></li>
+<img decoding="async" id="thepasted-1" src="https://image02.seesaawiki.jp/f/o/fortunes-memo/fbOC_75yR8.png" /></li>
 <li>サーバー上で「w!setup」と送信し、コマンドを実行しましょう。
 <div class="alert-box common-icon-box">※このコマンドはサーバーの所有者、またはWickの権限(Discordの役職、ロールではない)所有者のみ実行できます。</div>
-<p><img id="thepasted-2" src="https://image02.seesaawiki.jp/f/o/fortunes-memo/PdgUT_CHVf.png" /><br />
+<p><img decoding="async" id="thepasted-2" src="https://image02.seesaawiki.jp/f/o/fortunes-memo/PdgUT_CHVf.png" /><br />
 上の画像のようにすべての項目にチェックマークが付いていればWickのセットアップが成功しています。<br />
 どれか1つでもバツマークが付いていると失敗しています。<br />
 その際は再度、上に戻ってやり直しましょう。</p>
@@ -348,17 +348,17 @@ DiscordにはBAN、キック、タイムアウト、低速チャットなどが�
 <th>対処法</th>
 </tr>
 <tr>
-<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img loading="lazy" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Checking Wick&#8217;s role position&#8230;</td>
+<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img decoding="async" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Checking Wick&#8217;s role position&#8230;</td>
 <td>× Wickのロールの位置を確認中&#8230;</td>
 <td>番号2を参照</td>
 </tr>
 <tr>
-<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img loading="lazy" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Checking for permissions&#8230;</td>
+<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img decoding="async" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Checking for permissions&#8230;</td>
 <td>× 権限を確認中&#8230;</td>
 <td>素直に入れ直してWickに管理者権限を与えましょう。</td>
 </tr>
 <tr>
-<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img loading="lazy" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Only Server Owners (Permit5) and up can use this command!</td>
+<td><a href="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png"><img decoding="async" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/UktzEeqSxe.png" width="16" height="16" border="0" /></a> Only Server Owners (Permit5) and up can use this command!</td>
 <td>× サーバー所有者(許可レベル5)以上のみ、このコマンドを使えます！</td>
 <td>所有者がこのコマンドを実行する、または「ユーザーへWickの権限を与える」の項目を参照</td>
 </tr>
@@ -372,12 +372,12 @@ DiscordにはBAN、キック、タイムアウト、低速チャットなどが�
 こちらのドキュメントに細かく記載されています。</div>
 <h4><span id="toc4">おすすめの設定</span></h4>
 <ol>
-<li><a href="https://wickbot.com/dashboard">https://wickbot.com/dashboard</a>から設定したいサーバーの青いマーク(Server Overview)を選択しましょう。<img loading="lazy" width="1525" height="553" class="alignnone wp-image-213 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14.png 1525w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14-300x109.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14-1024x371.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-14-768x278.png 768w" sizes="(max-width: 1525px) 100vw, 1525px" /></li>
+<li><a href="https://wickbot.com/dashboard">https://wickbot.com/dashboard</a>から設定したいサーバーの青いマーク(Server Overview)を選択しましょう。<img decoding="async" width="1525" height="553" class="alignnone wp-image-213 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14.png 1525w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14-300x109.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14-1024x371.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14-768x278.png 768w" sizes="(max-width: 1525px) 100vw, 1525px" /></li>
 <li>Auto Modの項目の「Filters」を選択<br />
-<img id="thepasted-8" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/jIu6ltJf7o.png" /></li>
+<img decoding="async" id="thepasted-8" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/jIu6ltJf7o.png" /></li>
 <li>Warn(警告)、Mute(タイムアウト)、Kick(キック)、BANのどれかを選択し、Muteを選択した場合は、時間も設定しましょう。<br />
 基本的に「Normal Message」(連投対策)と「Similar Message」(類似連投対策)は設定しておきましょう。<br />
-<img loading="lazy" width="1253" height="809" class="alignnone wp-image-215 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16.png 1253w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16-300x194.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16-1024x661.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-16-768x496.png 768w" sizes="(max-width: 1253px) 100vw, 1253px" /></li>
+<img decoding="async" width="1253" height="809" class="alignnone wp-image-215 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-16.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-16.png 1253w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-16-300x194.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-16-1024x661.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-16-768x496.png 768w" sizes="(max-width: 1253px) 100vw, 1253px" /></li>
 </ol>
 <h4><span id="toc5">ユーザーへWickの権限を与える</span></h4>
 <p>w!s &lt;ユーザー/ロール&gt; ?add &lt;権限レベル？&gt;</p>
@@ -404,15 +404,15 @@ DiscordにはBAN、キック、タイムアウト、低速チャットなどが�
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220813212/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220813212/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【Cloudflare】WikiChree.COMの設置にMuuMuuDomainとCoreServerでCloudflareを使った話</title>
-		<link>https://blog.pkom.ml/20220807196/</link>
-					<comments>https://blog.pkom.ml/20220807196/#respond</comments>
+		<link>https://blog.pitan76.net/20220807196/</link>
+					<comments>https://blog.pitan76.net/20220807196/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Sun, 07 Aug 2022 10:25:20 +0000</pubDate>
@@ -423,7 +423,7 @@ DiscordにはBAN、キック、タイムアウト、低速チャットなどが�
 		<category><![CDATA[Cloudflare]]></category>
 		<category><![CDATA[CoreServer]]></category>
 		<category><![CDATA[MuuMuuDomain]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=196</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=196</guid>
 
 					<description><![CDATA[目次 はじめに前提条件Cloudflareアカウント登録サイト追加ネームサーバーの設定ネームサーバー設定ガイドおまけDDoS対策HTTPS化キャッシングおわりに はじめに WikiChree.COM、個人サイト、当ブログ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -447,22 +447,22 @@ WikiChree.COMではMuuMuuDomainとCoreServerを使っているのでMuuMuuDomain
 <a rel="noopener" href="https://dash.cloudflare.com/sign-up" title="Please Wait... | Cloudflare" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdash.cloudflare.com%2Fsign-up?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Please Wait... | Cloudflare</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://dash.cloudflare.com/sign-up" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">dash.cloudflare.com</div></div></div></div></a>
 <p>上記のURLでCloudflareのアカウントを作成しましょう。<br />
 右上から日本語を選択できます。</p>
-<p><img loading="lazy" width="935" height="554" class="alignnone wp-image-197 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted.png 935w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-300x178.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-768x455.png 768w" sizes="(max-width: 935px) 100vw, 935px" /></p>
+<p><img decoding="async" width="935" height="554" class="alignnone wp-image-197 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted.png 935w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-300x178.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-768x455.png 768w" sizes="(max-width: 935px) 100vw, 935px" /></p>
 <h3><span id="toc5">サイト追加</span></h3>
 <p>作成ボタンをクリックしたら、左のサイドバーから「Web サイト」、真ん中の「サイトを追加」で進みましょう。</p>
-<p><img loading="lazy" width="950" height="753" class="alignnone wp-image-198 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-1.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-1.png 950w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-1-300x238.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-1-768x609.png 768w" sizes="(max-width: 950px) 100vw, 950px" /></p>
+<p><img decoding="async" width="950" height="753" class="alignnone wp-image-198 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-1.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-1.png 950w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-1-300x238.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-1-768x609.png 768w" sizes="(max-width: 950px) 100vw, 950px" /></p>
 <p>自分のルートドメインを入力して進みましょう。</p>
-<p><img loading="lazy" width="639" height="329" class="alignnone wp-image-199 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-2.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-2.png 639w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-2-300x154.png 300w" sizes="(max-width: 639px) 100vw, 639px" /></p>
+<p><img decoding="async" width="639" height="329" class="alignnone wp-image-199 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-2.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-2.png 639w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-2-300x154.png 300w" sizes="(max-width: 639px) 100vw, 639px" /></p>
 <p>無料である一番下のFreeプランにしました。</p>
-<p><img loading="lazy" width="894" height="876" class="alignnone wp-image-200 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-3.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-3.png 894w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-3-300x294.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-3-768x753.png 768w" sizes="(max-width: 894px) 100vw, 894px" /></p>
+<p><img decoding="async" width="894" height="876" class="alignnone wp-image-200 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-3.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-3.png 894w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-3-300x294.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-3-768x753.png 768w" sizes="(max-width: 894px) 100vw, 894px" /></p>
 <p>以前のDNSを自動で取得してくれるため、DNS管理の画面が出てきます、そのまま進めてください。</p>
 <h3><span id="toc6">ネームサーバーの設定</span></h3>
 <p>以下の通りにドメイン レジストラ(MuuMuuDomain、Value Domain等)でCloudflareのネームサーバーを追加しましょう。</p>
-<p><img loading="lazy" width="815" height="864" class="alignnone wp-image-201 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-4.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-4.png 815w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-4-283x300.png 283w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-4-768x814.png 768w" sizes="(max-width: 815px) 100vw, 815px" /></p>
+<p><img decoding="async" width="815" height="864" class="alignnone wp-image-201 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-4.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-4.png 815w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-4-283x300.png 283w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-4-768x814.png 768w" sizes="(max-width: 815px) 100vw, 815px" /></p>
 <p>MuuMuuDomainではネームサーバー設定変更のボタンをクリックしてネームサーバーの画面が開けます。<br />
 サービスによってはネームサーバーの設定画面、もしくはDNS設定画面でネームサーバーを指定することができます。</p>
-<p><img loading="lazy" width="489" height="667" class="alignnone wp-image-202 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-5.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-5.png 489w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-5-220x300.png 220w" sizes="(max-width: 489px) 100vw, 489px" /></p>
-<p><img loading="lazy" width="401" height="432" class="alignnone wp-image-203 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-6.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-6.png 401w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-6-278x300.png 278w" sizes="(max-width: 401px) 100vw, 401px" /></p>
+<p><img decoding="async" width="489" height="667" class="alignnone wp-image-202 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-5.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-5.png 489w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-5-220x300.png 220w" sizes="(max-width: 489px) 100vw, 489px" /></p>
+<p><img decoding="async" width="401" height="432" class="alignnone wp-image-203 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-6.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-6.png 401w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-6-278x300.png 278w" sizes="(max-width: 401px) 100vw, 401px" /></p>
 <p>上記のように<span class="bold red">必ずCloudflareからコピーした</span>ネームサーバーのドメインを貼り付けてください。<br />
 既に私は登録しているので、画像でムームードメインでの登録例を見せています。<br />
 Cloudflareの方を進めましょう。<br />
@@ -478,42 +478,42 @@ Cloudflareの方を進めましょう。<br />
 <h2><span id="toc8">おまけ</span></h2>
 <h3><span id="toc9">DDoS対策</span></h3>
 <p>DDoS攻撃を受けている際はサイドバーの「概要」から「Under Attack モード」を有効にしてみてください。</p>
-<p><img loading="lazy" width="338" height="61" class="alignnone wp-image-204 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-7.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-7.png 338w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-7-300x54.png 300w" sizes="(max-width: 338px) 100vw, 338px" /></p>
+<p><img decoding="async" width="338" height="61" class="alignnone wp-image-204 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-7.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-7.png 338w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-7-300x54.png 300w" sizes="(max-width: 338px) 100vw, 338px" /></p>
 <p>一度オンにしてオフにしてみると以下のような画面が出てきます。</p>
-<p><img loading="lazy" width="898" height="504" class="alignnone wp-image-205 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8.png 898w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-300x168.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-768x431.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-120x68.png 120w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-160x90.png 160w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-8-320x180.png 320w" sizes="(max-width: 898px) 100vw, 898px" /></p>
+<p><img decoding="async" width="898" height="504" class="alignnone wp-image-205 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-8.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-8.png 898w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-8-300x168.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-8-768x431.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-8-120x68.png 120w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-8-160x90.png 160w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-8-320x180.png 320w" sizes="(max-width: 898px) 100vw, 898px" /></p>
 <p>セキュリティ レベルは攻撃されていないのであれば普通は標準かオフでもいいでしょう。<br />
 1日1回、毎回DDoS攻撃されているのであれば、Unser Attack モード、もしくは高にしましょう。</p>
 <h3><span id="toc10">HTTPS化</span></h3>
 <p>サイドバーの「SSL/TLS」からSSLの設定を開きましょう。</p>
-<p><img loading="lazy" width="1040" height="497" class="alignnone wp-image-206 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9.png 1040w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9-300x143.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9-1024x489.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-9-768x367.png 768w" sizes="(max-width: 1040px) 100vw, 1040px" /></p>
+<p><img decoding="async" width="1040" height="497" class="alignnone wp-image-206 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-9.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-9.png 1040w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-9-300x143.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-9-1024x489.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-9-768x367.png 768w" sizes="(max-width: 1040px) 100vw, 1040px" /></p>
 <p>サーバー上でSSL化しているのであれば「フル」、最初からSSL化していないのであれば「フレキシブル」でいいでしょう。<br />
 これだけでHTTPS化は完了なのですが、ついでに以下の設定も行いましょう。</p>
 <p>サイドバーの「SSL/TLS」＞「エッジ証明書」を開きましょう。</p>
-<p><img loading="lazy" width="1040" height="239" class="alignnone wp-image-207 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10.png 1040w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10-300x69.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10-1024x235.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-10-768x176.png 768w" sizes="(max-width: 1040px) 100vw, 1040px" /></p>
-<p><img loading="lazy" width="1046" height="271" class="alignnone wp-image-208 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11.png 1046w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11-300x78.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11-1024x265.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-11-768x199.png 768w" sizes="(max-width: 1046px) 100vw, 1046px" /></p>
+<p><img decoding="async" width="1040" height="239" class="alignnone wp-image-207 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-10.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-10.png 1040w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-10-300x69.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-10-1024x235.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-10-768x176.png 768w" sizes="(max-width: 1040px) 100vw, 1040px" /></p>
+<p><img decoding="async" width="1046" height="271" class="alignnone wp-image-208 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-11.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-11.png 1046w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-11-300x78.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-11-1024x265.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-11-768x199.png 768w" sizes="(max-width: 1046px) 100vw, 1046px" /></p>
 <p>私は上記のように設定しています。<br />
 日和見暗号化とは、暗号化済み、SSL化済みしているが、見た目上はhttpのままにできるという機能です。SEO対策には影響ありませんのでオンにしてても問題はありませんが、httpsの方が私は好きなのでオフにしてますね。</p>
 <h3><span id="toc11">キャッシング</span></h3>
 <p>勝手にキャッシングされるようになってますが、3時間ぐらいにした方が良さそうです。JavaScript、CSSを更新しても、このキャッシュで更新されずに困ることがあるんですよね。<br />
-<img loading="lazy" width="1095" height="861" class="alignnone wp-image-209 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12.png 1095w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12-300x236.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12-1024x805.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-12-768x604.png 768w" sizes="(max-width: 1095px) 100vw, 1095px" /></p>
+<img decoding="async" width="1095" height="861" class="alignnone wp-image-209 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-12.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-12.png 1095w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-12-300x236.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-12-1024x805.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-12-768x604.png 768w" sizes="(max-width: 1095px) 100vw, 1095px" /></p>
 <p>3時間にしておきます。<br />
 また、更新したCSS、JavaScript、画像など確認したい際は開発モードを有効にするといいでしょう。</p>
-<p><img loading="lazy" width="335" height="68" class="alignnone wp-image-210 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-13.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-13.png 335w, https://blog.pkom.ml/wp-content/uploads/2022/08/Pasted-13-300x61.png 300w" sizes="(max-width: 335px) 100vw, 335px" /></p>
+<p><img decoding="async" width="335" height="68" class="alignnone wp-image-210 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-13.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-13.png 335w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-13-300x61.png 300w" sizes="(max-width: 335px) 100vw, 335px" /></p>
 <h2><span id="toc12">おわりに</span></h2>
 <p>イメージ的には「独自ドメイン」→「Cloudflare」→「CoreServer」といった感じでしょうかね。</p>
 <p>Cloudflareはアクセス解析、ドメイン購入といろいろできるので素晴らしいサービスだと思います。<br />
 無料でここまでできるのも凄いですよね。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220807196/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220807196/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>GitHub Pagesを利用してMavenリポジトリをつくる</title>
-		<link>https://blog.pkom.ml/20220729178/</link>
-					<comments>https://blog.pkom.ml/20220729178/#respond</comments>
+		<link>https://blog.pitan76.net/20220729178/</link>
+					<comments>https://blog.pitan76.net/20220729178/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Fri, 29 Jul 2022 03:18:02 +0000</pubDate>
@@ -527,7 +527,7 @@ Cloudflareの方を進めましょう。<br />
 		<category><![CDATA[通信技術]]></category>
 		<category><![CDATA[GitHub Pages]]></category>
 		<category><![CDATA[Maven]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=178</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=178</guid>
 
 					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -576,8 +576,8 @@ Custom domainで自分のドメインを設定しました。</p>
 <p>MavenリポジトリをGitHub Pagesに設置し、ライブラリを公開できて面白かったです。<br />
 正しい方法ではないと思うので外部の関連サイトも載せておきます。</p>
 <h3><span id="toc8">関連リンク</span></h3>
-<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
-<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pkom.ml/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
+<a rel="noopener" href="https://weblabo.oscasierra.net/maven-deploy-github/" title="GitHubにMavenリポジトリを構築してライブラリを公開する方法 |" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/35d08b22d0390132263fef83e824cac8.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GitHubにMavenリポジトリを構築してライブラリを公開する方法 |</div><div class="blogcard-snippet external-blogcard-snippet">本稿では、Maven リポジトリを GitHub 上に作成して jar ライブラリを配布する方法について解説します。</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://weblabo.oscasierra.net/maven-deploy-github/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">weblabo.oscasierra.net</div></div></div></div></a>
+<a rel="noopener" href="https://com4dc.hatenablog.com/entry/2020/03/30/224953" title="GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/7f1b87261cff8d08d94b7a2dcc02f4f3.jpg" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">GithubのRepositoryをmavenリポジトリとして使う - com4dc’s blog</div><div class="blogcard-snippet external-blogcard-snippet">なんで今さら 数年前に開発が停止してしまっているコードをフォークして利用したい 元のソースのApache License 2.0。フォークしたコードはOSSとして公開しないといけない？（うろ覚え・・・） ソースコードをそのまま組み込むのはNGそうな気がする？ 修正と再頒布そのものは禁止されていない（はず maven の...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://com4dc.hatenablog.com/entry/2020/03/30/224953" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">com4dc.hatenablog.com</div></div></div></div></a>
 <a rel="noopener" href="https://qiita.com/koduki/items/6babcc6f2b233da96e06" title="2020年のMavenリポジトリの作り方 - Qiita" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png?ixlib=rb-4.0.0&#038;w=1200&#038;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9MjAyMCVFNSVCOSVCNCVFMyU4MSVBRU1hdmVuJUUzJTgzJUFBJUUzJTgzJTlEJUUzJTgyJUI4JUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgxJUFFJUU0JUJEJTlDJUUzJTgyJThBJUU2JTk2JUI5JnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz1jOWJkN2RhOTRhYmY5ZjI5MTQ3OTE4ZmI2ODFjYThkOA&#038;mark-x=142&#038;mark-y=112&#038;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwa29kdWtpJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz01N2QxMjJjOGVkNzgwMmM0ZGM0NzhmNzUzYTVjN2M2Yw&#038;blend-x=142&#038;blend-y=491&#038;blend-mode=normal&#038;s=5065ef28c6bc083f309e217ff68622f0" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">2020年のMavenリポジトリの作り方 - Qiita</div><div class="blogcard-snippet external-blogcard-snippet">
 
 はじめに
@@ -587,15 +587,15 @@ Javaのエンジニアであれば何だかんだでMavenリポジトリを使�
 OSSなどはセントラルリポジトリから落とすとして自作のライブラリの管理をどうしていま...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://qiita.com/koduki/items/6babcc6f2b233da96e06" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">qiita.com</div></div></div></div></a>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220729178/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220729178/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【LWJGL3】描画処理 &#8211; その1(背景色) #4</title>
-		<link>https://blog.pkom.ml/20220728173/</link>
-					<comments>https://blog.pkom.ml/20220728173/#respond</comments>
+		<link>https://blog.pitan76.net/20220728173/</link>
+					<comments>https://blog.pitan76.net/20220728173/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Thu, 28 Jul 2022 14:53:06 +0000</pubDate>
@@ -604,7 +604,7 @@ OSSなどはセントラルリポジトリから落とすとして自作のラ�
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[LWJGL]]></category>
 		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=173</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=173</guid>
 
 					<description><![CDATA[目次 Color4fクラスWindowクラス Color4fクラス 色を保存するためのクラスをつくっておきます。 なくてもいいんですが、私はつくる派です。 package ml.pkom.lwjgl.tutorial;  [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -663,20 +663,20 @@ public void setBgColor(float r, float g, float b) {
 <pre>// 背景色を描画
 GL11.glClearColor(bgColor.r, bgColor.g, bgColor.b, bgColor.a);
 GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);</pre>
-<p><img loading="lazy" width="413" height="241" class="alignnone wp-image-174 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21.png 413w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-21-300x175.png 300w" sizes="(max-width: 413px) 100vw, 413px" /></p>
+<p><img decoding="async" width="413" height="241" class="alignnone wp-image-174 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-21.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-21.png 413w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-21-300x175.png 300w" sizes="(max-width: 413px) 100vw, 413px" /></p>
 <p>どこかに以下のコードを埋め込むと黄色になると思います。</p>
 <pre>window.setBgColor(1.0f, 1.0f, 0.0f);</pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220728173/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220728173/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【LWJGL3】60FPSでループ処理 #3</title>
-		<link>https://blog.pkom.ml/20220728169/</link>
-					<comments>https://blog.pkom.ml/20220728169/#respond</comments>
+		<link>https://blog.pitan76.net/20220728169/</link>
+					<comments>https://blog.pitan76.net/20220728169/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Thu, 28 Jul 2022 14:34:10 +0000</pubDate>
@@ -685,7 +685,7 @@ GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);</pre>
 		<category><![CDATA[情報技術]]></category>
 		<category><![CDATA[LWJGL]]></category>
 		<category><![CDATA[LWJGL3]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=169</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=169</guid>
 
 					<description><![CDATA[Windowクラスへ以下の変数を追記しておく。 // 基準のFPS public int fps = 60; // FPS public double fpsCap = fps; public double time,  [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>Windowクラスへ以下の変数を追記しておく。</p>
@@ -721,7 +721,7 @@ public double getTime() {
 }</pre>
 <p>Windowクラスのinit()関数の最後に以下の処理を追記</p>
 <pre>time = getTime();</pre>
-<p><img loading="lazy" width="281" height="447" class="alignnone wp-image-170 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19.png 281w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-19-189x300.png 189w" sizes="(max-width: 281px) 100vw, 281px" /></p>
+<p><img decoding="async" width="281" height="447" class="alignnone wp-image-170 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-19.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-19.png 281w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-19-189x300.png 189w" sizes="(max-width: 281px) 100vw, 281px" /></p>
 <h2>Mainクラス(動作確認)</h2>
 <pre>public static void main(String[] args) {
     Window window = new Window();
@@ -742,11 +742,11 @@ public double getTime() {
         }
     }
 }</pre>
-<p><img loading="lazy" width="257" height="346" class="alignnone wp-image-171 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20.png 257w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-20-223x300.png 223w" sizes="(max-width: 257px) 100vw, 257px" /></p>
+<p><img decoding="async" width="257" height="346" class="alignnone wp-image-171 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-20.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-20.png 257w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-20-223x300.png 223w" sizes="(max-width: 257px) 100vw, 257px" /></p>
 <p>現在のFPS(60.0)が表示されたら成功です。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220728169/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220728169/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

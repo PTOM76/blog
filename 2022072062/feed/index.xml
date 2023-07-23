@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	【FabricMC】Illegal character ((CTRL-CHAR, code 31)):&#8230;の対処法 へのコメント	</title>
-	<atom:link href="https://blog.pkom.ml/2022072062/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml/2022072062/</link>
+	<atom:link href="https://blog.pitan76.net/2022072062/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net/2022072062/</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Tue, 19 Jul 2022 15:32:05 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 </channel>
 </rss>

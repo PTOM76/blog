@@ -9,8 +9,8 @@
 
 <channel>
 	<title>GUIアプリケーション  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/tag/gui%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/tag/gui%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Mon, 18 Jul 2022 13:58:50 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>GUIアプリケーション  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>C++でWindowsのGUIアプリケーションを作成する</title>
-		<link>https://blog.pkom.ml/2022071820/</link>
-					<comments>https://blog.pkom.ml/2022071820/#respond</comments>
+		<link>https://blog.pitan76.net/2022071820/</link>
+					<comments>https://blog.pitan76.net/2022071820/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Mon, 18 Jul 2022 05:42:01 +0000</pubDate>
@@ -39,7 +39,7 @@
 		<category><![CDATA[.NET Framework]]></category>
 		<category><![CDATA[GUIアプリケーション]]></category>
 		<category><![CDATA[Windows]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=20</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=20</guid>
 
 					<description><![CDATA[WinAPIを使わずに.NET Frameworkでアプリケーションを作成します。 他人が見てもわかるように書いてるつもりですが、一応自分用にメモ書きということで、 目次 注意手順1.「CLR 空のプロジェクト (.NE [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p id="410eaa92-a133-4d22-b2ff-f7988c13015c" data-pm-slice="0 0 []">WinAPIを使わずに.NET Frameworkでアプリケーションを作成します。<br />
@@ -89,7 +89,7 @@ WinMain()ではなくmain()で関数定義するとコンソールが表示さ�
 </ul>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/2022071820/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/2022071820/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>PaperMC  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/tag/papermc/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/tag/papermc/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Sat, 23 Jul 2022 07:15:17 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>PaperMC  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>【Minecraft】FabricでBukkitプラグインを動かすサーバーMOD「Cardboard」(FabricMC × SpigotMC)</title>
-		<link>https://blog.pkom.ml/20220723134/</link>
-					<comments>https://blog.pkom.ml/20220723134/#respond</comments>
+		<link>https://blog.pitan76.net/20220723134/</link>
+					<comments>https://blog.pitan76.net/20220723134/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Sat, 23 Jul 2022 07:15:17 +0000</pubDate>
@@ -42,7 +42,7 @@
 		<category><![CDATA[MOD紹介]]></category>
 		<category><![CDATA[PaperMC]]></category>
 		<category><![CDATA[SpigotMC]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=134</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=134</guid>
 
 					<description><![CDATA[目次 はじめにDLリンク先導入方法最後に はじめに FabricでBukkit/Spigot/Paperプラグインを動かすことができるCardboardをご紹介します。 1.16～1.18.2まで対応しているようで1.1 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -64,27 +64,27 @@
 <h2><span id="toc3">導入方法</span></h2>
 <p>導入方法は至ってシンプルです。</p>
 <p><a href="https://fabricmc.net/use/installer/">Fabric Installer</a>でFabricサーバーを建て、サーバーのmodsフォルダにFabric API、Cardboard、iCommonLibを入れるだけで動きます。以下で画像付きで説明します。</p>
-<p><img loading="lazy" width="436" height="253" class="alignnone wp-image-136 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-8.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-8.png 436w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-8-300x174.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></p>
+<p><img decoding="async" width="436" height="253" class="alignnone wp-image-136 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-8.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-8.png 436w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-8-300x174.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></p>
 <p>Fabric Installerを起動して1.18.2を選択してインストール先も指定し「インストール」ボタンをクリックしましょう。<br />
-<img loading="lazy" width="419" height="237" class="alignnone wp-image-137 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9.png 419w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9-300x170.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9-120x68.png 120w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9-160x90.png 160w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-9-320x180.png 320w" sizes="(max-width: 419px) 100vw, 419px" /></p>
+<img decoding="async" width="419" height="237" class="alignnone wp-image-137 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9.png 419w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9-300x170.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9-120x68.png 120w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9-160x90.png 160w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9-320x180.png 320w" sizes="(max-width: 419px) 100vw, 419px" /></p>
 <p>「サーバー JAR をダウンロード」を必ずクリックし、「生成」ボタンをクリックしましょう。<br />
 一度生成されたbatファイルもしくはshファイルを起動し、自動的に閉じると思うので生成されたeula.txtを開き、eula=falseをeula=trueにして保存しましょう。<br />
-<img loading="lazy" width="282" height="106" class="alignnone wp-image-138 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-10.png" /></p>
+<img decoding="async" width="282" height="106" class="alignnone wp-image-138 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-10.png" /></p>
 <p>modsフォルダに以下のmodを入れておきます。</p>
-<p><img loading="lazy" width="610" height="99" class="alignnone wp-image-135 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-7.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-7.png 610w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-7-300x49.png 300w" sizes="(max-width: 610px) 100vw, 610px" /></p>
+<p><img decoding="async" width="610" height="99" class="alignnone wp-image-135 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-7.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-7.png 610w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-7-300x49.png 300w" sizes="(max-width: 610px) 100vw, 610px" /></p>
 <p>pluginsフォルダは起動すると勝手に生成されますが、ついでに予めpluginsフォルダを作ってBukkitプラグインを放り込んでおきます。<br />
 試しに<a href="https://github.com/ucchyocean/LunaChat/releases">LunaChat</a>を入れてみました。</p>
-<p><img loading="lazy" width="630" height="93" class="alignnone wp-image-139 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-11.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-11.png 630w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-11-300x44.png 300w" sizes="(max-width: 630px) 100vw, 630px" /></p>
+<p><img decoding="async" width="630" height="93" class="alignnone wp-image-139 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-11.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-11.png 630w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-11-300x44.png 300w" sizes="(max-width: 630px) 100vw, 630px" /></p>
 <p>LunaChatは上手く動作しませんでした。</p>
-<p><img loading="lazy" width="856" height="512" class="alignnone wp-image-140 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-12.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-12.png 856w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-12-300x179.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-12-768x459.png 768w" sizes="(max-width: 856px) 100vw, 856px" /></p>
+<p><img decoding="async" width="856" height="512" class="alignnone wp-image-140 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-12.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-12.png 856w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-12-300x179.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-12-768x459.png 768w" sizes="(max-width: 856px) 100vw, 856px" /></p>
 <h2><span id="toc4">最後に</span></h2>
 <p>Beta版ですので、必ず安定する訳ではないと思います。<br />
 現在1.18.2のアップデートへ取り組んでいると書かれているので1.18.2より1.18.1が安定するかもですね。<br />
-<img loading="lazy" width="633" height="542" class="alignnone wp-image-141 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-13.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-13.png 633w, https://blog.pkom.ml/wp-content/uploads/2022/07/Pasted-13-300x257.png 300w" sizes="(max-width: 633px) 100vw, 633px" /><br />
+<img decoding="async" width="633" height="542" class="alignnone wp-image-141 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-13.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-13.png 633w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-13-300x257.png 300w" sizes="(max-width: 633px) 100vw, 633px" /><br />
 正式リリース版もいつか出てほしいですね。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220723134/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220723134/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

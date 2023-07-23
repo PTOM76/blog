@@ -9,8 +9,8 @@
 
 <channel>
 	<title>未分類  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Wed, 31 Aug 2022 07:03:58 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,24 +18,24 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>未分類  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>理系線、文系線キャンパスノートをオススメしたい</title>
-		<link>https://blog.pkom.ml/20220831271/</link>
-					<comments>https://blog.pkom.ml/20220831271/#respond</comments>
+		<link>https://blog.pitan76.net/20220831271/</link>
+					<comments>https://blog.pitan76.net/20220831271/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Wed, 31 Aug 2022 07:03:58 +0000</pubDate>
 				<category><![CDATA[未分類]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=271</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=271</guid>
 
 					<description><![CDATA[目次 ドット入り罫線ノート理系ノート文系ノート ドット入り罫線ノート &#31185;&#30446;&#21029;&#12391;&#20351;&#12356;&#20998;&#12369;&#12424;&#1 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -59,7 +59,7 @@
 少し余白があるので見やすいノートがつくれます。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220831271/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220831271/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

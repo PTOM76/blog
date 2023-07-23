@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	【LWJGL3】ウィンドウの作成 #1 へのコメント	</title>
-	<atom:link href="https://blog.pkom.ml/20220728158/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml/20220728158/</link>
+	<atom:link href="https://blog.pitan76.net/20220728158/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net/20220728158/</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Fri, 29 Jul 2022 03:36:02 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 </channel>
 </rss>

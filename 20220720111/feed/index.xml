@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	無料のWikiソフトウェアを比較してみる へのコメント	</title>
-	<atom:link href="https://blog.pkom.ml/20220720111/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml/20220720111/</link>
+	<atom:link href="https://blog.pitan76.net/20220720111/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net/20220720111/</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Wed, 20 Jul 2022 12:12:16 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 </channel>
 </rss>

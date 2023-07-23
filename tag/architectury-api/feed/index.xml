@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Architectury API  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/tag/architectury-api/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/tag/architectury-api/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Sat, 24 Sep 2022 13:28:34 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>Architectury API  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>【Architectury API】Architectury APIで開発するための下準備 #0</title>
-		<link>https://blog.pkom.ml/20220924300/</link>
-					<comments>https://blog.pkom.ml/20220924300/#respond</comments>
+		<link>https://blog.pitan76.net/20220924300/</link>
+					<comments>https://blog.pitan76.net/20220924300/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Sat, 24 Sep 2022 13:02:39 +0000</pubDate>
@@ -43,7 +43,7 @@
 		<category><![CDATA[FabricMC]]></category>
 		<category><![CDATA[MinecraftForge]]></category>
 		<category><![CDATA[QuiltMC]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=300</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=300</guid>
 
 					<description><![CDATA[目次 Architectury APIとは開発環境構築Yarnのマッピングを使う (任意) Architectury APIとは Architectury API - Minecraft Modding Wikimcmo [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -64,20 +64,20 @@ IntelliJ IDEAを使えばすぐに構築できます。</p>
 <p>私は以下のような感じに入力しました。<br />
 FabricでMCPitanLibというライブラリを僕は作ってたんですけど、これを機にArchitecturyでライブラリを作り直そうと思います。<br />
 ミックスインを使うのでUse Mixinsもチェックします。(推奨)</p>
-<p><img loading="lazy" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
+<p><img decoding="async" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
 ついでにGitHubでリポジトリもつくっておきます。</p>
-<p><img loading="lazy" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
+<p><img decoding="async" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
 <p>うむ、javaファイルが生成されてますなー</p>
-<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-309 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-17-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p><img decoding="async" width="1920" height="1033" class="alignnone wp-image-309 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17.png 1920w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-300x161.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-1024x551.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-768x413.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-17-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
 <p>さて、ハイライト(ソースに色が付く)されるまで待ちますか。<br />
 ちなみになぜMCPitanLibarchかというとMCPitanLib+Architectury APIという考えで付けたんですけどセンスありませんよね。。。許してください&#8230;w</p>
 <p>いやーそれにしても長いですねえ&#8230;</p>
-<p><img loading="lazy" width="1920" height="1033" class="alignnone wp-image-310 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18.png 1920w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-300x161.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1024x551.png 1024w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-768x413.png 768w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-18-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
+<p><img decoding="async" width="1920" height="1033" class="alignnone wp-image-310 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18.png 1920w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-300x161.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-1024x551.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-768x413.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-18-1536x826.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></p>
 <p>お、来ましたね。</p>
-<p><img loading="lazy" width="249" height="219" class="alignnone wp-image-312 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-20.png" /></p>
+<p><img decoding="async" width="249" height="219" class="alignnone wp-image-312 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-20.png" /></p>
 <p>ここからクライアントとサーバーを起動できますね！</p>
 <p>ちなみにビルドは右のGradleからTasks→build→buildを実行するとForge、Fabricのjarがそれぞれ生成されます。最強ですね！</p>
-<p><img loading="lazy" width="456" height="264" class="alignnone wp-image-313 size-full" src="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png" srcset="https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21.png 456w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-300x174.png 300w, https://blog.pkom.ml/wp-content/uploads/2022/09/Pasted-21-120x68.png 120w" sizes="(max-width: 456px) 100vw, 456px" /></p>
+<p><img decoding="async" width="456" height="264" class="alignnone wp-image-313 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21.png 456w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21-300x174.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-21-120x68.png 120w" sizes="(max-width: 456px) 100vw, 456px" /></p>
 <h2><span id="toc3">Yarnのマッピングを使う (任意)</span></h2>
 <p>gradle.propertiesを早速少しいじります。私の場合は以下のようになってます。</p>
 <pre>org.gradle.jvmargs=-Xmx1G
@@ -131,7 +131,7 @@ fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/devel
 <p>&nbsp;</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220924300/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220924300/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

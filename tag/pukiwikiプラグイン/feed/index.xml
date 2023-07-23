@@ -9,8 +9,8 @@
 
 <channel>
 	<title>PukiWikiプラグイン  |  ぴたぶろぐ</title>
-	<atom:link href="https://blog.pkom.ml/tag/pukiwiki%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/feed/" rel="self" type="application/rss+xml" />
-	<link>https://blog.pkom.ml</link>
+	<atom:link href="https://blog.pitan76.net/tag/pukiwiki%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
 	<lastBuildDate>Wed, 20 Jul 2022 12:01:52 +0000</lastBuildDate>
 	<language>ja</language>
@@ -18,19 +18,19 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
-	<url>https://blog.pkom.ml/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
 	<title>PukiWikiプラグイン  |  ぴたぶろぐ</title>
-	<link>https://blog.pkom.ml</link>
+	<link>https://blog.pitan76.net</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>【PukiWiki】PukiWikiにGUI編集プラグインEasyEditを導入する</title>
-		<link>https://blog.pkom.ml/20220720104/</link>
-					<comments>https://blog.pkom.ml/20220720104/#respond</comments>
+		<link>https://blog.pitan76.net/20220720104/</link>
+					<comments>https://blog.pitan76.net/20220720104/#respond</comments>
 		
 		<dc:creator><![CDATA[Pitan]]></dc:creator>
 		<pubDate>Wed, 20 Jul 2022 12:01:41 +0000</pubDate>
@@ -41,7 +41,7 @@
 		<category><![CDATA[PukiWikiプラグイン]]></category>
 		<category><![CDATA[WYSIWIG]]></category>
 		<category><![CDATA[自作プラグイン]]></category>
-		<guid isPermaLink="false">https://blog.pkom.ml/?p=104</guid>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=104</guid>
 
 					<description><![CDATA[この記事を書いた頃より2年前ぐらい、PukiWiki Plus!のリポジトリに入っていたguieditを修正してeasyeditをつくってみました。 ただ、当時は私の技術もあまりなかったためにバグも酷く、ページのレイアウ [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>この記事を書いた頃より2年前ぐらい、PukiWiki Plus!のリポジトリに入っていたguieditを修正してeasyeditをつくってみました。<br />
@@ -100,7 +100,7 @@ function wrap($string, $tag, $param = '', $canomit = TRUE) {
 そして<strong>plugin/easyedit.inc.phpの</strong>定数<strong>PLUGIN_EASYEDIT_ENABLE_KCFINDER</strong>をFALSEにします。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://blog.pkom.ml/20220720104/feed/</wfw:commentRss>
+					<wfw:commentRss>https://blog.pitan76.net/20220720104/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
