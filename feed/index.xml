@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pitan76.net/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Sat, 20 May 2023 14:48:03 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 27 Jul 2023 12:57:08 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,52 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>英検2級は高2までに受けとけ！</title>
+		<link>https://blog.pitan76.net/20230727328/</link>
+					<comments>https://blog.pitan76.net/20230727328/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 27 Jul 2023 10:17:39 +0000</pubDate>
+				<category><![CDATA[英検]]></category>
+		<category><![CDATA[資格・検定]]></category>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=328</guid>
+
+					<description><![CDATA[こんにちは、ド直球なタイトルですが、私が言わせてもらいたいことをブログにしてみました。 あくまで私の個人的な考えなのでこれが正しいとかいうわけではないです。 英検準2級を高2に受けて英検2級を高3に受けるという方も多いで [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>こんにちは、ド直球なタイトルですが、私が言わせてもらいたいことをブログにしてみました。<br />
+あくまで私の個人的な考えなのでこれが正しいとかいうわけではないです。</p>
+<p>英検準2級を高2に受けて英検2級を高3に受けるという方も多いでしょう！<br />
+私もそうしましたが、結果はどうなったのでしょうか？<br />
+はい、落ちてしまいました&#8230;&#x1f62d;</p>
+<h3>原因を考えてみる</h3>
+<p>まあ、シンプルに高校３年生はテスト勉強、受験勉強、部活、文化祭、体育祭で時間があまりないことが多いんですよ。<br />
+私も実際そうでした、<br />
+1年間って1学期、2学期、3学期ですからね、普通に考えて少ない！<br />
+ところが、これを両立できる方もいるとは思いますから絶対とは言えませんね。</p>
+<p>ところで英検っていつ頃に始まるか知ってますか？<br />
+英検の一次試験は年に3回やってはるみたいですが、第1回は5月末～6月上旬あたりとなってるみたいっすね。<br />
+私は部活も体育祭の応援団もやっててその上、テスト期間も被ってました。<br />
+どうしても学校のテストを優先したいがために英検2級を勉強する時間がありませんでした。</p>
+<h3>反省点</h3>
+<p>もちろん、両立できた可能性も十分にあると考えられますが、そもそもこんな忙しい時期に受けるべきではないと思い、高2ってだいぶ時間があったじゃないですか？<br />
+受けるなっていうわけでもないですが、私が言いたいのは「高2末まで英検2級を経験しとけ！」ってことです。<br />
+高校2年生頃のときに第1回で英検準2級を受け、忙しい時期なのであれば第2回で英検準2級を受ける。第3回で英検2級を受ける。というのがいいと思います。<br />
+もし第3回で不合格になってしまったのであれば次の高3のときに第1回で再チャレンジできます。<br />
+高3で初めて英検2級第1回をやると再挑戦するのはできなくもないですが、なかなか受験勉強もあって厳しいのです。<br />
+1回目は合格したらラッキー、不合格だったけどまだ次がある！というように時間に<strong><span class="marker-red">余裕をもたせる</span></strong>のが大事なのです。(油断するということではありませんよ？)</p>
+<h3>まとめ</h3>
+<ol>
+<li><strong>英検準2級は高2の1学期までに受けること</strong></li>
+<li><strong>英検2級は高2の3学期までに受けること</strong></li>
+</ol>
+<p>最後に、、、高3が偉そうなこと言ってすいません！けどどうしてもこれを伝えたかったんです。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pitan76.net/20230727328/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>堺の各行政区の中心部を考えてみる</title>
 		<link>https://blog.pitan76.net/20230520321/</link>
 					<comments>https://blog.pitan76.net/20230520321/#respond</comments>
@@ -541,56 +587,6 @@ Kyash CardにはICチップが入っているので決済がクッソ楽です�
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pitan76.net/20220828267/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>1.13以下でもFabricがある！？「Legacy Fabric」、「Cursed Fabric」について紹介</title>
-		<link>https://blog.pitan76.net/20220827263/</link>
-					<comments>https://blog.pitan76.net/20220827263/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Sat, 27 Aug 2022 07:02:07 +0000</pubDate>
-				<category><![CDATA[Minecraft]]></category>
-		<category><![CDATA[ゲーム]]></category>
-		<category><![CDATA[FabricMC]]></category>
-		<category><![CDATA[MOD]]></category>
-		<category><![CDATA[ModLoader]]></category>
-		<category><![CDATA[MOD紹介]]></category>
-		<guid isPermaLink="false">https://blog.pitan76.net/?p=263</guid>
-
-					<description><![CDATA[Fabric まず、Fabricとは何か知らない方は以下のサイトを確認してみてください。 MOD解説/Fabric.minecraftjapan.miraheze.org FabricはForgeと同レベルなぐらいメジャ [&#8230;]]]></description>
-										<content:encoded><![CDATA[<h2>Fabric</h2>
-<p>まず、Fabricとは何か知らない方は以下のサイトを確認してみてください。</p>
-<a rel="noopener" href="https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric" title="MOD解説/Fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/0b9b9b3c06d71a87fe3fb659307f7ec4.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">MOD解説/Fabric</div><div class="blogcard-snippet external-blogcard-snippet">.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://minecraftjapan.miraheze.org/wiki/MOD%E8%A7%A3%E8%AA%AC/Fabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">minecraftjapan.miraheze.org</div></div></div></div></a>
-<p>FabricはForgeと同レベルなぐらいメジャーなMod Loaderですが、mc 1.14から出ていたことで知られています。<br />
-しかし、そんなFabricにもmc 1.13以前のバージョンで動作する<strong>Legacy Fabric</strong>、Minecraft 1.0以前のプレビュー版、ベータ版、アルファ版のバージョンでも動く<strong>Cursed Fabric</strong>というものがあります。<br />
-今回はその2つのMODを紹介しようと思います。</p>
-<h2>Legacy Fabric</h2>
-<p>Legacy Fabricは1.13以前で動くFabricですが、Fabric Loaderは通常のFabricのものであると思います。おそらく、Yarnを1.13以下のバージョンに移植しているんだと思います。<br />
-これはFabricとは無関係ですのでFabricの公式サイトではなく、Legacy Fabricのサイトでダウンロードできます。</p>
-<p>1.8.9以外は開発中とのことで、現在、1.8.9のみサポートしているとのことです。</p>
-<p><img decoding="async" width="436" height="253" class="alignnone wp-image-264 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-27.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-27.png 436w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-27-300x174.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></p>
-<h3>公式サイト</h3>
-<a rel="noopener" href="https://legacyfabric.net/" title="Legacy Fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/328bc41d3cdfafebf21da1a6d1ab747a.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Legacy Fabric</div><div class="blogcard-snippet external-blogcard-snippet">The home of legacy version support for Fabric.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://legacyfabric.net/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">legacyfabric.net</div></div></div></div></a>
-<h3>対応バージョン</h3>
-<p>1.3.1～1.13.2</p>
-<h3>参考</h3>
-<a rel="noopener" href="https://ftb.fandom.com/wiki/Legacy_Fabric" title="Legacy Fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://static.wikia.nocookie.net/ftb_gamepedia/images/6/64/Legacyfabriclogo.png/revision/latest?cb=20201001072815" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Legacy Fabric</div><div class="blogcard-snippet external-blogcard-snippet">This page is for Legacy Fabric only. Any information listed is not compatible or related to Fabric, Fabric API, or Cursed Fabric; They are all completely separa...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://ftb.fandom.com/wiki/Legacy_Fabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">ftb.fandom.com</div></div></div></div></a>
-<h2>Cursed Fabric</h2>
-<p>Cursed Fabricはベータ版のマイクラのバージョンであるb1.7.3のみサポートしているみたいです。</p>
-<p><img decoding="async" width="527" height="264" class="alignnone wp-image-265 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-28.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-28.png 527w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-28-300x150.png 300w" sizes="(max-width: 527px) 100vw, 527px" /></p>
-<h3>公式サイト</h3>
-<a rel="noopener" href="https://minecraft-cursed-legacy.github.io/" title="Minecraft Cursed Legacy" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fminecraft-cursed-legacy.github.io%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Minecraft Cursed Legacy</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://minecraft-cursed-legacy.github.io/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">minecraft-cursed-legacy.github.io</div></div></div></div></a>
-<h3>対応バージョン</h3>
-<p>b1.7.3</p>
-<h3>参考</h3>
-<a rel="noopener" href="https://ftb.fandom.com/wiki/Cursed_Fabric" title="Cursed Fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://static.wikia.nocookie.net/ftb_gamepedia/images/0/08/Better_Nether_With_Remaining_Tools_At_Night.png/revision/latest/scale-to-width-down/1200?cb=20210514032702" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Cursed Fabric</div><div class="blogcard-snippet external-blogcard-snippet">Note: This page is for Cursed Fabric only, any information listed is not compatible or related to Fabric, Fabric API, or Legacy Fabric. They are all completely ...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://ftb.fandom.com/wiki/Cursed_Fabric" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">ftb.fandom.com</div></div></div></div></a>
-<p>&nbsp;</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pitan76.net/20220827263/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
