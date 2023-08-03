@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>音MAD  |  ぴたぶろぐ</title>
+	<atom:link href="https://blog.pitan76.net/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E9%9F%B3%E5%A3%B0%E6%8A%80%E8%A1%93/%E9%9F%B3mad/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Thu, 03 Aug 2023 12:45:42 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<title>音MAD  |  ぴたぶろぐ</title>
+	<link>https://blog.pitan76.net</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>【音MAD】無料で音MADをつくるためのツールを紹介</title>
+		<link>https://blog.pitan76.net/20230803341/</link>
+					<comments>https://blog.pitan76.net/20230803341/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 12:38:55 +0000</pubDate>
+				<category><![CDATA[ソフトウェア]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[音MAD]]></category>
+		<category><![CDATA[音声技術]]></category>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=341</guid>
+
+					<description><![CDATA[目次 はじめに本題REAPER (音声編集ソフト/DAW)VocalShifter LE (ボーカル編集ソフト)AviUtl (動画編集ソフト)動画ダウンロードツール一覧domino (MIDI編集ソフト)Wavefor [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">本題</a><ol><li><a href="#toc3" tabindex="0">REAPER (音声編集ソフト/DAW)</a></li><li><a href="#toc4" tabindex="0">VocalShifter LE (ボーカル編集ソフト)</a></li><li><a href="#toc5" tabindex="0">AviUtl (動画編集ソフト)</a></li><li><a href="#toc6" tabindex="0">動画ダウンロードツール一覧</a></li><li><a href="#toc7" tabindex="0">domino (MIDI編集ソフト)</a></li><li><a href="#toc8" tabindex="0">Waveform 12 (音声編集ソフト/DAW)</a></li></ol></li><li><a href="#toc9" tabindex="0">おすすめのVSTプラグイン5選 (おまけ)</a></li><li><a href="#toc10" tabindex="0">おわりに</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">はじめに</span></h2>
+<p>こんにちは、このページを開いたということは音MADやDTMやらに興味ある方でしょう。</p>
+<p>私が音MADを始めた経緯は、ニコニコ動画で音MADの存在を知りました。<br />
+あの時(小学生の頃)は、パソコンなんて持っていませんし、何で見ていたと思いますか？</p>
+<p>答えはWii Uです！懐かしいですね！<br />
+ニコニコといえば、私がマイクラに興味を持った原因の1つでもあります。<br />
+さておき、私がつくったことあるのは「RED ZONE系」「ボイパ対決」というシリーズの音MADです。他にもあるのはあるんですが、これら二つをよく作っていました。最近はRED ZONE系の音MADはつくってませんが。RED ZONE系なんて言葉ありませんが、○○○ZONEなんていくらでもあるのでめんどくさいのでそう書かせてもらいました。</p>
+<p>さて、こんなどうでもいい話は置いといて私が使っているソフトを紹介します。<br />
+まぁ、お金をかけるという人もいるんでしょうけど私は無料でやるのが好みです。というか、お金かけてまですることじゃないと考えてます。(別に興味があるのであれば有料でやってもいいと思いますけど)</p>
+<p>せっかくなので最初は全部無料でやってみましょうよ！</p>
+<h2><span id="toc2">本題</span></h2>
+<h3><span id="toc3">REAPER (音声編集ソフト/DAW)</span></h3>
+<p>定番のDAWツールです。<br />
+音合わせするためには必要不可欠です。(とは言っても他にもDAWはありますがw)</p>
+<p>なんか最新版は有料らしいのですが、特に無料でも制限はあまりなく使えます。<br />
+というか、無料で使ってて起動後10秒だけ待つ以外何が制限されているのかわかりません！<br />
+なので最新版のREAPER入れましょう！</p>
+<p>ダウンロード: <a rel="noopener" href="https://www.reaper.fm/download.php" target="_blank">https://www.reaper.fm/download.php</a></p>
+<h3><span id="toc4">VocalShifter LE (ボーカル編集ソフト)</span></h3>
+<p>定番のボーカル編集/シンセ化ソフトです。<br />
+モードによっては素材をシンセ化して綺麗な音をつくることができます。<br />
+また、人力ボカロもつくれるみたいです。<br />
+REAPER(または、他のDAW)と一緒に使いましょう！</p>
+<p>これも有料版と無料版(LE)がありますが、特に理由がなければ無料の方でいいでしょう。</p>
+<p>ダウンロード: <a rel="noopener" href="http://ackiesound.ifdef.jp/download.html#vs" target="_blank">http://ackiesound.ifdef.jp/download.html#vs</a></p>
+<h3><span id="toc5">AviUtl (動画編集ソフト)</span></h3>
+<p>誰もが知っていると思われる定番の動画編集ソフト<br />
+YMM3時代はこれも一緒に入れてねーみたいなのがありましたね。<br />
+プラグインは豊富にあるのでプラグインを入れてカスタマイズできるところが、これまた楽しいのである。<br />
+もはやプラグインを入れないとダメでしょう！（笑）</p>
+<p>ダウンロード: <a rel="noopener" href="http://spring-fragrance.mints.ne.jp/aviutl/" target="_blank">http://spring-fragrance.mints.ne.jp/aviutl/</a></p>
+<h3><span id="toc6">動画ダウンロードツール一覧</span></h3>
+<ul>
+<li><a rel="noopener" href="https://www.crav-ing.com/" target="_blank">Craving Explorer</a>&#8230;Chromiumベースの動画ダウンロードソフト、使いやすい</li>
+<li><a rel="noopener" href="https://chrome.google.com/webstore/detail/foxified/cldmemdnllncchfahbcnjijheaolemfk" target="_blank">Foxified</a>&#8230;Chrome拡張機能なのでChrome/Edge/その他Chromiumベースのブラウザを常時使っている人にはオススメ</li>
+<li><a rel="noopener" href="http://offliberty.io/" target="_blank">offliberty.io</a>&#8230;とりあえず容量増えるのが嫌やねん！！！ワイはWebツールしか使わんねや！！って人はこいつを奨める</li>
+<li><a rel="noopener" href="https://obsproject.com/ja/download" target="_blank">OBS Studio</a>&#8230;もはやダウンロードツールやなくて録画ツールやんけ！って思ったでしょ？うん、そうです&#8230;ｗ</li>
+</ul>
+<h3><span id="toc7">domino (MIDI編集ソフト)</span></h3>
+<p>不要な人には不要である、耳コピをしたい人にはオススメである。<br />
+ぶっちゃけREAPERやWaveformとかのDAWでもできますが、</p>
+<p>ダウンロード: <a rel="noopener" href="https://takabosoft.com/domino" target="_blank">https://takabosoft.com/domino</a></p>
+<h3><span id="toc8">Waveform 12 (音声編集ソフト/DAW)</span></h3>
+<p>Reaperだけで十分や！って人は入れなくてもいいと思う<br />
+普通に作曲とかできそうなレベルのDAWソフト<br />
+アカウント登録が必須です。</p>
+<p>Webサイト: <a rel="noopener" href="https://www.tracktion.com/products/waveform-free" target="_blank">https://www.tracktion.com/products/waveform-free</a></p>
+<h2><span id="toc9">おすすめのVSTプラグイン5選 (おまけ)</span></h2>
+<div class="alert-box common-icon-box">※32bitで64bitのプラグインは動きませんが、<strong>64bitで32bitのプラグインは動きます</strong></div>
+<ul>
+<li><a rel="noopener" href="https://sites.google.com/site/youwashockvst/" target="_blank">You Wa Shock!</a>&#8230;俗にいうゆわしょっていう音圧を調整してくれるやつです。多分（笑）</li>
+<li><a href="https://acondigital.com/products/multiply">Acon Digital Multiply</a>&#8230;定番のコーラスです。</li>
+<li><a rel="noopener" href="https://karmafx.net/products#pluginpack" target="_blank">KarmaFX PL Pack</a>&#8230;リバーブとかEQなどなどパックで入ってます。</li>
+<li><a href="https://rekkerd.org/sweetboy-vst/">SH-1 &#8211; Sweetboy VST</a>&#8230;SH-1というパックおすすめです。</li>
+<li><a rel="noopener" href="http://illformed.org/plugins/" target="_blank">Glitch 1.3</a>&#8230;エフェクター、Glitch 2は有料なので注意</li>
+</ul>
+<h2><span id="toc10">おわりに</span></h2>
+<p>これらは私がよく使っているソフトです。<br />
+あくまで参考程度にどうぞ！<br />
+よいYTPMVMakingライフを</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pitan76.net/20230803341/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

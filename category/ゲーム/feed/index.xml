@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pitan76.net/category/%E3%82%B2%E3%83%BC%E3%83%A0/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Sat, 24 Sep 2022 13:28:34 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 11:51:57 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,98 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【CurseForge】MOD公開で一発合格するための備忘録</title>
+		<link>https://blog.pitan76.net/20230803333/</link>
+					<comments>https://blog.pitan76.net/20230803333/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 10:09:15 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[CurseForge]]></category>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=333</guid>
+
+					<description><![CDATA[こんにちは！自分用にメモをブログとして残しておきますが、他人にも参考になるようまとめたいと思います。 私はCurseForgeやModrinthへ数個のMODやプラグインをアップロードしてきましたが、審査に引っかかったこ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>こんにちは！自分用にメモをブログとして残しておきますが、他人にも参考になるようまとめたいと思います。<br />
+私はCurseForgeやModrinthへ数個のMODやプラグインをアップロードしてきましたが、審査に引っかかったことが何回もあります！（笑）</p>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">注意したい点</a><ol><li><a href="#toc2" tabindex="0">タイトルを要CHECK!</a></li><li><a href="#toc3" tabindex="0">サマリーを要CHECK!</a></li><li><a href="#toc4" tabindex="0">説明を要CHECK!</a><ol><li><a href="#toc5" tabindex="0">私が説明に書くこと</a></li></ol></li><li><a href="#toc6" tabindex="0">ファイルをCHECK!</a></li><li><a href="#toc7" tabindex="0">禁止されているコンテンツ</a></li></ol></li><li><a href="#toc8" tabindex="0">最後に</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">注意したい点</span></h2>
+<p>実は下記のページに載ってたみたいです。</p>
+<ul>
+<li><a href="https://support.curseforge.com/en/support/solutions/articles/9000197279-moderation-policies">https://support.curseforge.com/en/support/solutions/articles/9000197279-moderation-policies</a></li>
+</ul>
+<h3><span id="toc2">タイトルを要CHECK!</span></h3>
+<p><img decoding="async" width="450" height="69" class="alignnone wp-image-335 size-full" src="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-1.png" srcset="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-1.png 450w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-1-300x46.png 300w" sizes="(max-width: 450px) 100vw, 450px" /></p>
+<p>以下が審査に引っかかるタイトル名となる特徴です。</p>
+<div class="blank-box bb-tab bb-ng bb-red">
+<ol>
+<li><strong>「mod」という文字</strong>を含んではいけない</li>
+<li><strong>バージョン</strong>を含んではいけない</li>
+<li>タイトル名は<strong>英語以外</strong>はダメ</li>
+</ol>
+</div>
+<p>1に関して、私は以前「Yamato Gun Mod」という名前でプロジェクトを作成し、MODをアップロードしたことがあるのですが、タイトルで引っかかってしまいました。<br />
+なぜかでしょうか？？？<br />
+理由は「Mod」という文字がアウトでした！そのため「Yamato Gun」にしましたが、この規制は何か少し厳しいような気がしますねｗ</p>
+<p>2のバージョンはゲームバージョンとMODバージョンです。<br />
+例えばゲームバージョンは1.20.2、1.18.2、1.12.2、1.7.10などの<strong>Minecraftのバージョン</strong>ことで、MODバージョンは自分で設定したバージョンです。というかとりあえず、バージョンのような文字列 (例: 1.0.0)はやめておきましょう。</p>
+<p>3はそのままです、タイトルは<strong>英語</strong>にしないといけません。</p>
+<h3><span id="toc3">サマリーを要CHECK!</span></h3>
+<p><img decoding="async" width="420" height="59" class="alignnone wp-image-334 size-full" src="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted.png" data-wp-editing="1" srcset="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted.png 420w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-300x42.png 300w" sizes="(max-width: 420px) 100vw, 420px" /></p>
+<div class="blank-box bb-tab bb-ng bb-red">
+<ol>
+<li><strong>英語以外</strong>の説明はダメ</li>
+<li>MODの特徴や要素を簡易的に説明</li>
+</ol>
+</div>
+<p>詳細に書く必要はありません。簡潔に書いてください。「Add ruby tools」「A library mod」「The mod is add useful machines」みたいな感じでOkです。<br />
+何を追加する、どうなるのかわからないようなサマリーや詳細に書きすぎたサマリーは却下されます。</p>
+<h3><span id="toc4">説明を要CHECK!</span></h3>
+<p><img decoding="async" width="1225" height="351" class="alignnone wp-image-336 size-full" src="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2.png" srcset="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2.png 1225w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2-300x86.png 300w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2-1024x293.png 1024w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2-768x220.png 768w" sizes="(max-width: 1225px) 100vw, 1225px" /></p>
+<p>たまにMODの目的と機能を正確に説明しないといけないと怒られることがあります。</p>
+<h4><span id="toc5">私が説明に書くこと</span></h4>
+<ul>
+<li>動作環境 (マイクラのバージョン、Fabric/Forge/Quiltなど、前提MOD、クライアント/サーバーなど)</li>
+<li>機能の説明 (概要と同じようなことを書いてもよいが、少し詳しく書く方がいいだろう、追加する要素があればできれば記述しておこう)</li>
+</ul>
+<p>この2点を記述しておけば問題ないと思うが、それでも審査が通らないのであれば、他のMODのプロジェクトページも見てみよう。</p>
+<p>とりあえず、この3つを押さえておけば問題ないでしょう！</p>
+<h3><span id="toc6">ファイルをCHECK!</span></h3>
+<div class="alert-box common-icon-box">※まず、MODのJARファイルをアップロードしないとそもそも審査されないので注意です。</div>
+<ul>
+<li>破損していない、読み取れるファイルであること</li>
+<li>危険性のあるプログラムはないこと</li>
+<li>ブラックリストに登録されたファイルではないこと</li>
+<li>まったく同じファイルが他のプロジェクトに既にアップロードされていないこと (別のプロジェクトとして再投稿する場合は移行前のプロジェクトから消しておくこと)</li>
+</ul>
+<p>ファイルはプロジェクト承認後も毎回、審査されます。<br />
+早ければ3～5分、遅ければ1日以上かかることもあります。</p>
+<h3><span id="toc7">禁止されているコンテンツ</span></h3>
+<ul>
+<li>アダルトコンテンツ</li>
+<li>不適切とされる内容</li>
+</ul>
+<h2><span id="toc8">最後に</span></h2>
+<p>これだけではありませんが、基本的にこれだけ知っておけば問題ないでしょう<br />
+プロジェクトの審査には5時間～丸1日かかることが多く、稀に1週間かかることもあります。<br />
+それではよいModdingライフを！</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pitan76.net/20230803333/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Architectury API】Architectury APIで開発するための下準備 #0</title>
 		<link>https://blog.pitan76.net/20220924300/</link>
 					<comments>https://blog.pitan76.net/20220924300/#respond</comments>
@@ -47,7 +139,7 @@
 
 					<description><![CDATA[目次 Architectury APIとは開発環境構築Yarnのマッピングを使う (任意) Architectury APIとは Architectury API - Minecraft Modding Wikimcmo [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">Architectury APIとは</a></li><li><a href="#toc2" tabindex="0">開発環境構築</a></li><li><a href="#toc3" tabindex="0">Yarnのマッピングを使う (任意)</a></li></ol>
     </div>
@@ -152,7 +244,7 @@ fabric_loader_versionとfabric_api_versionは<a href="https://fabricmc.net/devel
 
 					<description><![CDATA[目次 1. IntelliJ IDEA2. Minecraft Delelopment3. Architectury 1. IntelliJ IDEA Javaでの開発をするためのJava製のIDEです。 これがマイクラ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">1. IntelliJ IDEA</a></li><li><a href="#toc2" tabindex="0">2. Minecraft Delelopment</a></li><li><a href="#toc3" tabindex="0">3. Architectury</a></li></ol>
     </div>
@@ -201,7 +293,7 @@ MOD開発環境を自動で生成してくれるので最強のプラグイン�
 
 					<description><![CDATA[目次 FabricLegacy Fabric公式サイト対応バージョン参考Cursed Fabric公式サイト対応バージョン参考 Fabric まず、Fabricとは何か知らない方は以下のサイトを確認してみてください。 M [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">Fabric</a></li><li><a href="#toc2" tabindex="0">Legacy Fabric</a><ol><li><a href="#toc3" tabindex="0">公式サイト</a></li><li><a href="#toc4" tabindex="0">対応バージョン</a></li><li><a href="#toc5" tabindex="0">参考</a></li></ol></li><li><a href="#toc6" tabindex="0">Cursed Fabric</a><ol><li><a href="#toc7" tabindex="0">公式サイト</a></li><li><a href="#toc8" tabindex="0">対応バージョン</a></li><li><a href="#toc9" tabindex="0">参考</a></li></ol></li></ol>
     </div>
@@ -257,7 +349,7 @@ MOD開発環境を自動で生成してくれるので最強のプラグイン�
 
 					<description><![CDATA[目次 はじめにWired Redstoneのダウンロード先アイテムをつくる使ってみる はじめに この記事を書いた時点では、バージョンは1.18～1.19まで対応しているみたいです。 RSWiresのようなmod、Knee [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">Wired Redstoneのダウンロード先</a></li><li><a href="#toc3" tabindex="0">アイテムをつくる</a></li><li><a href="#toc4" tabindex="0">使ってみる</a></li></ol>
     </div>
@@ -303,7 +395,7 @@ RSWiresのようなmod、Kneelawk氏のWired Redstoneを紹介します。</p>
 
 					<description><![CDATA[目次 樹液を得るゴムをつくる (1)マシンをつくる発電機抽出機ゴムをつくる (2)おまけマシンとコンテナの接続 樹液を得る ツリータップ(木の蛇口, Treetap)をつくりましょう。 作業台で木材x4と棒x1を以下のよ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-12" checked><label class="toc-title" for="toc-checkbox-12">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">樹液を得る</a></li><li><a href="#toc2" tabindex="0">ゴムをつくる (1)</a></li><li><a href="#toc3" tabindex="0">マシンをつくる</a><ol><li><a href="#toc4" tabindex="0">発電機</a></li><li><a href="#toc5" tabindex="0">抽出機</a></li></ol></li><li><a href="#toc6" tabindex="0">ゴムをつくる (2)</a></li><li><a href="#toc7" tabindex="0">おまけ</a><ol><li><a href="#toc8" tabindex="0">マシンとコンテナの接続</a></li></ol></li></ol>
     </div>
@@ -392,7 +484,7 @@ Minecraftで使う方は多いと思います。<br />
 仕組みは中継サーバー(リレーサーバー)を利用しているらしいです。<br />
 これを無料で提供してくれるのは有り難いですね。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-12" checked><label class="toc-title" for="toc-checkbox-12">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-14" checked><label class="toc-title" for="toc-checkbox-14">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">ゲームサーバー公開(ホスト)ツール | GameServerHostingTool</a></li><li><a href="#toc2" tabindex="0">playit</a></li></ol>
     </div>
@@ -430,7 +522,7 @@ Minecraftで使う方は多いと思います。<br />
 
 					<description><![CDATA[目次 はじめにDLリンク先導入方法最後に はじめに FabricでBukkit/Spigot/Paperプラグインを動かすことができるCardboardをご紹介します。 1.16～1.18.2まで対応しているようで1.1 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-14" checked><label class="toc-title" for="toc-checkbox-14">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-16" checked><label class="toc-title" for="toc-checkbox-16">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">DLリンク先</a></li><li><a href="#toc3" tabindex="0">導入方法</a></li><li><a href="#toc4" tabindex="0">最後に</a></li></ol>
     </div>
@@ -490,7 +582,7 @@ Minecraftで使う方は多いと思います。<br />
 
 					<description><![CDATA[目次 初めに画像付きの手順簡易的に手順をまとめる最後に 初めに 間違って別のMODをアップロードしてしまい、削除したかったのですが、削除ボタンがありませんでした。そこでフォーラムで調べてみたところこれを参考にしてみると削 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-16" checked><label class="toc-title" for="toc-checkbox-16">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-18" checked><label class="toc-title" for="toc-checkbox-18">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">初めに</a></li><li><a href="#toc2" tabindex="0">画像付きの手順</a></li><li><a href="#toc3" tabindex="0">簡易的に手順をまとめる</a></li><li><a href="#toc4" tabindex="0">最後に</a></li></ol>
     </div>
@@ -547,35 +639,6 @@ Minecraftで使う方は多いと思います。<br />
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://blog.pitan76.net/20220720115/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>【Minecraft】Simple BC Pipesでパイプを使う [Fabric]</title>
-		<link>https://blog.pitan76.net/2022072099/</link>
-					<comments>https://blog.pitan76.net/2022072099/#respond</comments>
-		
-		<dc:creator><![CDATA[Pitan]]></dc:creator>
-		<pubDate>Wed, 20 Jul 2022 11:44:00 +0000</pubDate>
-				<category><![CDATA[Minecraft]]></category>
-		<category><![CDATA[ゲーム]]></category>
-		<category><![CDATA[FabricMC]]></category>
-		<category><![CDATA[Simple Pipes]]></category>
-		<category><![CDATA[工業化MOD]]></category>
-		<guid isPermaLink="false">https://blog.pitan76.net/?p=99</guid>
-
-					<description><![CDATA[FabricにもBCのパイプはあるんですよ！！ということを伝えたいだけの記事なので適当です。 Simple Pipesの作者はBCの開発者であるAlexill氏ですね。 https://www.curseforge.co/ [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>FabricにもBCのパイプはあるんですよ！！ということを伝えたいだけの記事なので適当です。<br />
-Simple Pipesの作者はBCの開発者であるAlexill氏ですね。<br />
-<a href="https://www.curseforge.com/minecraft/mc-mods/simplepipes">https://www.curseforge.com/minecraft/mc-mods/simplepipes</a></p>
-<p><img decoding="async" class="alignnone wp-image-100 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/2022-07-20_20.35.49_3.png" alt="" width="854" height="480" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/2022-07-20_20.35.49_3.png 854w, https://blog.pitan76.net/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-300x169.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-768x432.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-120x68.png 120w, https://blog.pitan76.net/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-160x90.png 160w, https://blog.pitan76.net/wp-content/uploads/2022/07/2022-07-20_20.35.49_3-320x180.png 320w" sizes="(max-width: 854px) 100vw, 854px" /></p>
-<p>木パイプをクリックしてコンテナと接続することができます。<br />
-木エンジンがないのでレッドストーン信号を与えると木パイプから抽出できます。</p>
-<p><img decoding="async" class="alignnone wp-image-101 size-large" src="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1024x555.png" alt="" width="1024" height="555" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1024x555.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-300x163.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-768x416.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618-1536x832.png 1536w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2021-08-12-231618.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://blog.pitan76.net/2022072099/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

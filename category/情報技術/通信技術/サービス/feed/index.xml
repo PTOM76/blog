@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.pitan76.net/category/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93/%E9%80%9A%E4%BF%A1%E6%8A%80%E8%A1%93/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Sat, 13 Aug 2022 08:10:46 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Aug 2023 11:51:57 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,98 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>【CurseForge】MOD公開で一発合格するための備忘録</title>
+		<link>https://blog.pitan76.net/20230803333/</link>
+					<comments>https://blog.pitan76.net/20230803333/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2023 10:09:15 +0000</pubDate>
+				<category><![CDATA[Minecraft]]></category>
+		<category><![CDATA[ゲーム]]></category>
+		<category><![CDATA[サービス]]></category>
+		<category><![CDATA[情報技術]]></category>
+		<category><![CDATA[通信技術]]></category>
+		<category><![CDATA[CurseForge]]></category>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=333</guid>
+
+					<description><![CDATA[こんにちは！自分用にメモをブログとして残しておきますが、他人にも参考になるようまとめたいと思います。 私はCurseForgeやModrinthへ数個のMODやプラグインをアップロードしてきましたが、審査に引っかかったこ [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>こんにちは！自分用にメモをブログとして残しておきますが、他人にも参考になるようまとめたいと思います。<br />
+私はCurseForgeやModrinthへ数個のMODやプラグインをアップロードしてきましたが、審査に引っかかったことが何回もあります！（笑）</p>
+
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">注意したい点</a><ol><li><a href="#toc2" tabindex="0">タイトルを要CHECK!</a></li><li><a href="#toc3" tabindex="0">サマリーを要CHECK!</a></li><li><a href="#toc4" tabindex="0">説明を要CHECK!</a><ol><li><a href="#toc5" tabindex="0">私が説明に書くこと</a></li></ol></li><li><a href="#toc6" tabindex="0">ファイルをCHECK!</a></li><li><a href="#toc7" tabindex="0">禁止されているコンテンツ</a></li></ol></li><li><a href="#toc8" tabindex="0">最後に</a></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">注意したい点</span></h2>
+<p>実は下記のページに載ってたみたいです。</p>
+<ul>
+<li><a href="https://support.curseforge.com/en/support/solutions/articles/9000197279-moderation-policies">https://support.curseforge.com/en/support/solutions/articles/9000197279-moderation-policies</a></li>
+</ul>
+<h3><span id="toc2">タイトルを要CHECK!</span></h3>
+<p><img decoding="async" width="450" height="69" class="alignnone wp-image-335 size-full" src="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-1.png" srcset="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-1.png 450w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-1-300x46.png 300w" sizes="(max-width: 450px) 100vw, 450px" /></p>
+<p>以下が審査に引っかかるタイトル名となる特徴です。</p>
+<div class="blank-box bb-tab bb-ng bb-red">
+<ol>
+<li><strong>「mod」という文字</strong>を含んではいけない</li>
+<li><strong>バージョン</strong>を含んではいけない</li>
+<li>タイトル名は<strong>英語以外</strong>はダメ</li>
+</ol>
+</div>
+<p>1に関して、私は以前「Yamato Gun Mod」という名前でプロジェクトを作成し、MODをアップロードしたことがあるのですが、タイトルで引っかかってしまいました。<br />
+なぜかでしょうか？？？<br />
+理由は「Mod」という文字がアウトでした！そのため「Yamato Gun」にしましたが、この規制は何か少し厳しいような気がしますねｗ</p>
+<p>2のバージョンはゲームバージョンとMODバージョンです。<br />
+例えばゲームバージョンは1.20.2、1.18.2、1.12.2、1.7.10などの<strong>Minecraftのバージョン</strong>ことで、MODバージョンは自分で設定したバージョンです。というかとりあえず、バージョンのような文字列 (例: 1.0.0)はやめておきましょう。</p>
+<p>3はそのままです、タイトルは<strong>英語</strong>にしないといけません。</p>
+<h3><span id="toc3">サマリーを要CHECK!</span></h3>
+<p><img decoding="async" width="420" height="59" class="alignnone wp-image-334 size-full" src="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted.png" data-wp-editing="1" srcset="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted.png 420w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-300x42.png 300w" sizes="(max-width: 420px) 100vw, 420px" /></p>
+<div class="blank-box bb-tab bb-ng bb-red">
+<ol>
+<li><strong>英語以外</strong>の説明はダメ</li>
+<li>MODの特徴や要素を簡易的に説明</li>
+</ol>
+</div>
+<p>詳細に書く必要はありません。簡潔に書いてください。「Add ruby tools」「A library mod」「The mod is add useful machines」みたいな感じでOkです。<br />
+何を追加する、どうなるのかわからないようなサマリーや詳細に書きすぎたサマリーは却下されます。</p>
+<h3><span id="toc4">説明を要CHECK!</span></h3>
+<p><img decoding="async" width="1225" height="351" class="alignnone wp-image-336 size-full" src="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2.png" srcset="https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2.png 1225w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2-300x86.png 300w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2-1024x293.png 1024w, https://blog.pitan76.net/wp-content/uploads/2023/08/Pasted-2-768x220.png 768w" sizes="(max-width: 1225px) 100vw, 1225px" /></p>
+<p>たまにMODの目的と機能を正確に説明しないといけないと怒られることがあります。</p>
+<h4><span id="toc5">私が説明に書くこと</span></h4>
+<ul>
+<li>動作環境 (マイクラのバージョン、Fabric/Forge/Quiltなど、前提MOD、クライアント/サーバーなど)</li>
+<li>機能の説明 (概要と同じようなことを書いてもよいが、少し詳しく書く方がいいだろう、追加する要素があればできれば記述しておこう)</li>
+</ul>
+<p>この2点を記述しておけば問題ないと思うが、それでも審査が通らないのであれば、他のMODのプロジェクトページも見てみよう。</p>
+<p>とりあえず、この3つを押さえておけば問題ないでしょう！</p>
+<h3><span id="toc6">ファイルをCHECK!</span></h3>
+<div class="alert-box common-icon-box">※まず、MODのJARファイルをアップロードしないとそもそも審査されないので注意です。</div>
+<ul>
+<li>破損していない、読み取れるファイルであること</li>
+<li>危険性のあるプログラムはないこと</li>
+<li>ブラックリストに登録されたファイルではないこと</li>
+<li>まったく同じファイルが他のプロジェクトに既にアップロードされていないこと (別のプロジェクトとして再投稿する場合は移行前のプロジェクトから消しておくこと)</li>
+</ul>
+<p>ファイルはプロジェクト承認後も毎回、審査されます。<br />
+早ければ3～5分、遅ければ1日以上かかることもあります。</p>
+<h3><span id="toc7">禁止されているコンテンツ</span></h3>
+<ul>
+<li>アダルトコンテンツ</li>
+<li>不適切とされる内容</li>
+</ul>
+<h2><span id="toc8">最後に</span></h2>
+<p>これだけではありませんが、基本的にこれだけ知っておけば問題ないでしょう<br />
+プロジェクトの審査には5時間～丸1日かかることが多く、稀に1週間かかることもあります。<br />
+それではよいModdingライフを！</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pitan76.net/20230803333/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>【Discord】強力なスパム対策ができるボット「Wick」を紹介します。</title>
 		<link>https://blog.pitan76.net/20220813212/</link>
 					<comments>https://blog.pitan76.net/20220813212/#respond</comments>
@@ -44,7 +136,7 @@
 
 					<description><![CDATA[目次 はじめに導入方法Wickの設定おすすめの設定ユーザーへWickの権限を与える便利なコマンドw!purge [削除するメッセージ数] (オプションなど)おわりに参考 はじめに Discordでは荒らされているサーバー [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">導入方法</a></li><li><a href="#toc3" tabindex="0">Wickの設定</a><ol><li><a href="#toc4" tabindex="0">おすすめの設定</a></li><li><a href="#toc5" tabindex="0">ユーザーへWickの権限を与える</a></li></ol></li><li><a href="#toc6" tabindex="0">便利なコマンド</a><ol><li><a href="#toc7" tabindex="0">w!purge [削除するメッセージ数] (オプションなど)</a></li></ol></li></ol></li><li><a href="#toc8" tabindex="0">おわりに</a></li><li><a href="#toc9" tabindex="0">参考</a></li></ol>
     </div>
@@ -161,7 +253,7 @@ DiscordにはBAN、キック、タイムアウト、低速チャットなどが�
 
 					<description><![CDATA[目次 はじめに前提条件Cloudflareアカウント登録サイト追加ネームサーバーの設定ネームサーバー設定ガイドおまけDDoS対策HTTPS化キャッシングおわりに はじめに WikiChree.COM、個人サイト、当ブログ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-4" checked><label class="toc-title" for="toc-checkbox-4">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a></li><li><a href="#toc2" tabindex="0">前提条件</a></li><li><a href="#toc3" tabindex="0">Cloudflare</a><ol><li><a href="#toc4" tabindex="0">アカウント登録</a></li><li><a href="#toc5" tabindex="0">サイト追加</a></li><li><a href="#toc6" tabindex="0">ネームサーバーの設定</a><ol><li><a href="#toc7" tabindex="0">ネームサーバー設定ガイド</a></li></ol></li></ol></li><li><a href="#toc8" tabindex="0">おまけ</a><ol><li><a href="#toc9" tabindex="0">DDoS対策</a></li><li><a href="#toc10" tabindex="0">HTTPS化</a></li><li><a href="#toc11" tabindex="0">キャッシング</a></li></ol></li><li><a href="#toc12" tabindex="0">おわりに</a></li></ol>
     </div>
@@ -265,7 +357,7 @@ Cloudflareの方を進めましょう。<br />
 
 					<description><![CDATA[目次 はじめに設置したMavenリポジトリPHPスクリプト前提条件やり方maven.phpの仕様さいごに関連リンク はじめに FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-6" checked><label class="toc-title" for="toc-checkbox-6">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">はじめに</a><ol><li><a href="#toc2" tabindex="0">設置したMavenリポジトリ</a></li><li><a href="#toc3" tabindex="0">PHPスクリプト</a></li><li><a href="#toc4" tabindex="0">前提条件</a></li><li><a href="#toc5" tabindex="0">やり方</a></li><li><a href="#toc6" tabindex="0">maven.phpの仕様</a></li></ol></li><li><a href="#toc7" tabindex="0">さいごに</a><ol><li><a href="#toc8" tabindex="0">関連リンク</a></li></ol></li></ol>
     </div>
@@ -274,7 +366,7 @@ Cloudflareの方を進めましょう。<br />
 <h2><span id="toc1">はじめに</span></h2>
 <p>FabricMCのMOD開発でライブラリをつくったのでMavenリポジトリをGitHubのリポジトリへ設置し、GitHub Pagesで公開してみました。</p>
 <h3><span id="toc2">設置したMavenリポジトリ</span></h3>
-<a rel="noopener" href="https://maven.pkom.ml/" title="Index of /" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmaven.pkom.ml%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of /</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://maven.pkom.ml/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">maven.pkom.ml</div></div></div></div></a>
+<a rel="noopener" href="https://maven.pkom.ml/" title="https://maven.pkom.ml/" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fmaven.pkom.ml%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">https://maven.pkom.ml/</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://maven.pkom.ml/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">maven.pkom.ml</div></div></div></div></a>
 <h3 id="content_1_2"><span id="toc3">PHPスクリプト</span></h3>
 <p>PHPでMavenリポジトリをアップロードし、自動的にディレクトリリストのHTMLを生成し、GitHubへプッシュするスクリプトを書いてみました。</p>
 <a rel="noopener" href="https://github.com/Pitan76/maven/raw/main/maven.php" title="Index of {$displaydir}" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgithub.com%2FPitan76%2Fmaven%2Fraw%2Fmain%2Fmaven.php?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Index of {$displaydir}</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://github.com/Pitan76/maven/raw/main/maven.php" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">github.com</div></div></div></div></a>
@@ -349,7 +441,7 @@ Minecraftで使う方は多いと思います。<br />
 仕組みは中継サーバー(リレーサーバー)を利用しているらしいです。<br />
 これを無料で提供してくれるのは有り難いですね。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-8" checked><label class="toc-title" for="toc-checkbox-8">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">ゲームサーバー公開(ホスト)ツール | GameServerHostingTool</a></li><li><a href="#toc2" tabindex="0">playit</a></li></ol>
     </div>
@@ -385,7 +477,7 @@ Minecraftで使う方は多いと思います。<br />
 
 					<description><![CDATA[目次 初めに画像付きの手順簡易的に手順をまとめる最後に 初めに 間違って別のMODをアップロードしてしまい、削除したかったのですが、削除ボタンがありませんでした。そこでフォーラムで調べてみたところこれを参考にしてみると削 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-10" checked><label class="toc-title" for="toc-checkbox-10">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-12" checked><label class="toc-title" for="toc-checkbox-12">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">初めに</a></li><li><a href="#toc2" tabindex="0">画像付きの手順</a></li><li><a href="#toc3" tabindex="0">簡易的に手順をまとめる</a></li><li><a href="#toc4" tabindex="0">最後に</a></li></ol>
     </div>
@@ -448,7 +540,7 @@ Minecraftで使う方は多いと思います。<br />
 是非使って見てください。<br />
 <a href="https://wikichree.com/">https://wikichree.com/</a></p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-12" checked><label class="toc-title" for="toc-checkbox-12">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-14" checked><label class="toc-title" for="toc-checkbox-14">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">特徴</a><ol><li><a href="#toc2" tabindex="0">その1. PukiWiki</a></li><li><a href="#toc3" tabindex="0">その2. カスタマイズ性</a></li><li><a href="#toc4" tabindex="0">その3. WISYWIGエディタ</a></li><li><a href="#toc5" tabindex="0">その4. ユーザー管理</a></li><li><a href="#toc6" tabindex="0">その5. Discord</a></li></ol></li><li><a href="#toc7" tabindex="0">短所</a><ol><li><a href="#toc8" tabindex="0">スキンが少ない</a></li><li><a href="#toc9" tabindex="0">広告</a></li><li><a href="#toc10" tabindex="0">利用者が少ない</a></li></ol></li><li><a href="#toc11" tabindex="0">結果</a></li></ol>
     </div>
@@ -560,7 +652,7 @@ jitpack.ymlは<a class="keyword" href="http://d.hatena.ne.jp/keyword/%A5%C7%A5%A
 Cocoonテーマを利用しているので少し変わるかもしれません。<br />
 私はWordPressに関しては完全に素人なので申し訳ないです。</p>
 
-  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-16" checked><label class="toc-title" for="toc-checkbox-16">目次</label>
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-18" checked><label class="toc-title" for="toc-checkbox-18">目次</label>
     <div class="toc-content">
     <ol class="toc-list open"><li><a href="#toc1" tabindex="0">手順</a></li><li><a href="#toc2" tabindex="0">Simply Staticの導入</a></li><li><a href="#toc3" tabindex="0">GitHub の設定</a></li><li><a href="#toc4" tabindex="0">おまけ</a><ol><li><a href="#toc5" tabindex="0">検索を機能させる</a></li><li><a href="#toc6" tabindex="0">コメントを機能させる</a></li></ol></li></ol>
     </div>
