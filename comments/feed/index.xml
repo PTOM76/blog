@@ -11,11 +11,11 @@
 	<atom:link href="https://blog.pitan76.net/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.pitan76.net</link>
 	<description>自分が書きたいことを書くだけのブログ</description>
-	<lastBuildDate>Thu, 03 Aug 2023 13:02:38 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 21 Aug 2023 03:10:19 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 </channel>
 </rss>

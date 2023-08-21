@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -174,7 +174,7 @@ git push</pre>
 </li>
 </ol>
 <h2><span id="toc2">Simply Staticの導入</span></h2>
-<p><img decoding="async" class="alignnone wp-image-51 size-large" src="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png" alt="" width="1024" height="254" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-300x75.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-768x191.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1536x382.png 1536w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530.png 1723w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p><img decoding="async" fetchpriority="high" class="alignnone wp-image-51 size-large" src="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png" alt="" width="1024" height="254" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1024x254.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-300x75.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-768x191.png 768w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530-1536x382.png 1536w, https://blog.pitan76.net/wp-content/uploads/2022/07/スクリーンショット-2022-07-19-234530.png 1723w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
 <p>※インストール後、必ず<span class="bold red">有効化</span>しておきましょう。</p>
 <p>こちらのプラグインは静的化するためのプラグインです。<br />
 静的化とは静的ファイルであるHTML、JS、CSS、画像など簡単に言えばアクセスしてもソースが変化しないクライアントサイドのファイルに変換することを指します。<br />

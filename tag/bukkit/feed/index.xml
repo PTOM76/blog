@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -64,7 +64,7 @@
 <h2><span id="toc3">導入方法</span></h2>
 <p>導入方法は至ってシンプルです。</p>
 <p><a href="https://fabricmc.net/use/installer/">Fabric Installer</a>でFabricサーバーを建て、サーバーのmodsフォルダにFabric API、Cardboard、iCommonLibを入れるだけで動きます。以下で画像付きで説明します。</p>
-<p><img decoding="async" width="436" height="253" class="alignnone wp-image-136 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-8.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-8.png 436w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-8-300x174.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></p>
+<p><img decoding="async" fetchpriority="high" width="436" height="253" class="alignnone wp-image-136 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-8.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-8.png 436w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-8-300x174.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></p>
 <p>Fabric Installerを起動して1.18.2を選択してインストール先も指定し「インストール」ボタンをクリックしましょう。<br />
 <img decoding="async" width="419" height="237" class="alignnone wp-image-137 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9.png 419w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9-300x170.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9-120x68.png 120w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9-160x90.png 160w, https://blog.pitan76.net/wp-content/uploads/2022/07/Pasted-9-320x180.png 320w" sizes="(max-width: 419px) 100vw, 419px" /></p>
 <p>「サーバー JAR をダウンロード」を必ずクリックし、「生成」ボタンをクリックしましょう。<br />

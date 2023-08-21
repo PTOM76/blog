@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -106,7 +106,7 @@ DiscordにはBAN、キック、タイムアウト、低速チャットなどが�
 こちらのドキュメントに細かく記載されています。</div>
 <h4><span id="toc4">おすすめの設定</span></h4>
 <ol>
-<li><a href="https://wickbot.com/dashboard">https://wickbot.com/dashboard</a>から設定したいサーバーの青いマーク(Server Overview)を選択しましょう。<img decoding="async" width="1525" height="553" class="alignnone wp-image-213 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14.png 1525w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14-300x109.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14-1024x371.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14-768x278.png 768w" sizes="(max-width: 1525px) 100vw, 1525px" /></li>
+<li><a href="https://wickbot.com/dashboard">https://wickbot.com/dashboard</a>から設定したいサーバーの青いマーク(Server Overview)を選択しましょう。<img decoding="async" fetchpriority="high" width="1525" height="553" class="alignnone wp-image-213 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14.png 1525w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14-300x109.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14-1024x371.png 1024w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-14-768x278.png 768w" sizes="(max-width: 1525px) 100vw, 1525px" /></li>
 <li>Auto Modの項目の「Filters」を選択<br />
 <img decoding="async" id="thepasted-8" src="https://image01.seesaawiki.jp/f/o/fortunes-memo/jIu6ltJf7o.png" /></li>
 <li>Warn(警告)、Mute(タイムアウト)、Kick(キック)、BANのどれかを選択し、Muteを選択した場合は、時間も設定しましょう。<br />

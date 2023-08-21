@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -64,7 +64,7 @@ IntelliJ IDEAを使えばすぐに構築できます。</p>
 <p>私は以下のような感じに入力しました。<br />
 FabricでMCPitanLibというライブラリを僕は作ってたんですけど、これを機にArchitecturyでライブラリを作り直そうと思います。<br />
 ミックスインを使うのでUse Mixinsもチェックします。(推奨)</p>
-<p><img decoding="async" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
+<p><img decoding="async" fetchpriority="high" width="795" height="653" class="alignnone wp-image-308 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16.png 795w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-300x246.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-16-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /><br />
 ついでにGitHubでリポジトリもつくっておきます。</p>
 <p><img decoding="async" width="745" height="952" class="alignnone wp-image-306 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14.png 745w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-14-235x300.png 235w" sizes="(max-width: 745px) 100vw, 745px" /></p>
 <p>うむ、javaファイルが生成されてますなー</p>

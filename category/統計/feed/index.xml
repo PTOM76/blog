@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>統計  |  ぴたぶろぐ</title>
+	<atom:link href="https://blog.pitan76.net/category/%E7%B5%B1%E8%A8%88/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.pitan76.net</link>
+	<description>自分が書きたいことを書くだけのブログ</description>
+	<lastBuildDate>Mon, 21 Aug 2023 03:10:19 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+
+<image>
+	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
+	<title>統計  |  ぴたぶろぐ</title>
+	<link>https://blog.pitan76.net</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>日本の政令市の市街地区域率ランキング</title>
+		<link>https://blog.pitan76.net/20230821353/</link>
+					<comments>https://blog.pitan76.net/20230821353/#respond</comments>
+		
+		<dc:creator><![CDATA[Pitan]]></dc:creator>
+		<pubDate>Mon, 21 Aug 2023 03:04:25 +0000</pubDate>
+				<category><![CDATA[ランキング]]></category>
+		<category><![CDATA[統計]]></category>
+		<category><![CDATA[都市]]></category>
+		<guid isPermaLink="false">https://blog.pitan76.net/?p=353</guid>
+
+					<description><![CDATA[目次 市街地区域率の算出方法市街地区域面積の調べ方1. 大阪市 (大阪府) 94%2. 東京23区 (東京都) 93%3. 名古屋市 (愛知県) 92.7%4. 川崎市 (神奈川県) 89%5. 横浜市 (神奈川県) 7 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+  <div id="toc" class="toc tnt-number toc-center tnt-number border-element"><input type="checkbox" class="toc-checkbox" id="toc-checkbox-2" checked><label class="toc-title" for="toc-checkbox-2">目次</label>
+    <div class="toc-content">
+    <ol class="toc-list open"><li><a href="#toc1" tabindex="0">市街地区域率の算出方法</a></li><li><a href="#toc2" tabindex="0">市街地区域面積の調べ方</a><ol><li><a href="#toc3" tabindex="0">1. 大阪市 (大阪府) 94%</a></li><li><a href="#toc4" tabindex="0">2. 東京23区 (東京都) 93%</a></li><li><a href="#toc5" tabindex="0">3. 名古屋市 (愛知県) 92.7%</a></li><li><a href="#toc6" tabindex="0">4. 川崎市 (神奈川県) 89%</a></li><li><a href="#toc7" tabindex="0">5. 横浜市 (神奈川県) 77.1%</a></li><li><a href="#toc8" tabindex="0">6. 堺市 (大阪府) 71.6%</a></li><li><a href="#toc9" tabindex="0">7. さいたま市 (埼玉県) 53%</a></li><li><a href="#toc10" tabindex="0">8. 福岡市 (福岡県) 47.7%</a></li><li><a href="#toc11" tabindex="0">9. 千葉市 (千葉県) 47.4%</a></li><li><a href="#toc12" tabindex="0">10. 北九州市 (福岡県) 41.8%</a></li><li><a href="#toc13" tabindex="0">11. 神戸市 (兵庫県) 36.6%</a></li><li><a href="#toc14" tabindex="0">12. 熊本市 (熊本県) 27.7%</a></li><li><a href="#toc15" tabindex="0">13. 仙台市 (宮城県) 22.9%</a></li><li><a href="#toc16" tabindex="0">14. 札幌市 (北海道) 22.3%</a></li><li><a href="#toc17" tabindex="0">15. 相模原市 (神奈川県) 20.8%</a></li><li><a href="#toc18" tabindex="0">16. 京都市 (京都府) 18.1%</a></li><li><a href="#toc19" tabindex="0">17. 新潟市 (新潟県) 17.8%</a></li><li><a href="#toc20" tabindex="0">17. 広島市 (広島県) 17.8%</a></li><li><a href="#toc21" tabindex="0">19. 岡山市 (岡山県) 13.2%</a></li><li><a href="#toc22" tabindex="0">20. 静岡市 (静岡県) 9.1%</a></li><li><a href="#toc23" tabindex="0">21. 浜松市 (静岡県) 6.3%</a></li></ol></li><li><a href="#toc24" tabindex="0">おまけ</a><ol><li><a href="#toc25" tabindex="0">新宿区 (東京都) 100%</a></li><li><a href="#toc26" tabindex="0">千代田区 (東京都) 99.8%</a></li></ol></li></ol>
+    </div>
+  </div>
+
+<h2><span id="toc1">市街地区域率の算出方法</span></h2>
+<p>(<strong>市街地区域率</strong>) = (<strong>市街地区域面積</strong>) / (<strong>面積</strong>) × 100</p>
+<h2><span id="toc2">市街地区域面積の調べ方</span></h2>
+<a rel="noopener" href="https://graphtochart.com/japan/world-area-under-urbanization-promotion.php" title="市街化区域面積の日本全国ランキング(市区町村別) | GraphToChart" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://graphtochart.com/img/alltop/world-area-under-urbanization-promotion.webp" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">市街化区域面積の日本全国ランキング(市区町村別) | GraphToChart</div><div class="blogcard-snippet external-blogcard-snippet">市街化区域面積の日本全国市区町村別ランキングの一覧表です。1位は横浜市でデータ値は33,743(ha)、2位は名古屋市で30,258(ha)、3位は札幌市で25,017(ha)です。市街化区域面積の日本全国平均値は2,235.74(ha)で、中央値は1154.5(ha)です。過去の歴代TOP10のバーチャートレース推移...</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://graphtochart.com/japan/world-area-under-urbanization-promotion.php" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">graphtochart.com</div></div></div></div></a>
+<a rel="noopener" href="https://dashboard.e-stat.go.jp/" title="&#32113;&#35336;&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdashboard.e-stat.go.jp%2F?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">&#32113;&#35336;&#12480;&#12483;&#12471;&#12517;&#12508;&#12540;&#12489;</div><div class="blogcard-snippet external-blogcard-snippet"></div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://dashboard.e-stat.go.jp/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">dashboard.e-stat.go.jp</div></div></div></div></a>
+<p>総務省がソース元のようですが、私には見つけられなかったのでこの情報に誤りを含む可能性があるということを承知の上でお願いします。<br />
+また、このデータ利用はフリーとします。</p>
+<p>&nbsp;</p>
+<h3><span id="toc3">1. 大阪市 (大阪府) 94%</span></h3>
+<p><img decoding="async" fetchpriority="high" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/7/71/Nakanoshima_Skyscrapers_in_201504_001.jpg" width="3840" height="2400" /></p>
+<h3><span id="toc4">2. 東京23区 (東京都) 93%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Tokyo_Hibiya-bori_-_Imperial_Palace_3.jpg" width="2500" height="1627" /></p>
+<h3><span id="toc5">3. 名古屋市 (愛知県) 92.7%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Nagoya_Station_-_View_from_the_Main_Building_in_Nagoya_Campus_of_Aichi_University_2022-6-29.jpg" width="2048" height="1536" /></p>
+<h3><span id="toc6">4. 川崎市 (神奈川県) 89%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Tonen_Chemical_Kombinat%2C_Kawasaki.jpg" width="3008" height="2000" /></p>
+<h3><span id="toc7">5. 横浜市 (神奈川県) 77.1%</span></h3>
+<p><img decoding="async" class="alignnone " src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/The_night_view_of_Minato_Mirai_21.jpg/278px-The_night_view_of_Minato_Mirai_21.jpg" width="991" height="674" /></p>
+<h3><span id="toc8">6. 堺市 (大阪府) 71.6%</span></h3>
+<p><img decoding="async" class="alignnone " src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sakai_City_Hall.png/250px-Sakai_City_Hall.png" width="985" height="741" /></p>
+<h3><span id="toc9">7. さいたま市 (埼玉県) 53%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Japanese_Saitama_Shintoshin_west_building.jpg/1200px-Japanese_Saitama_Shintoshin_west_building.jpg" width="1200" height="800" /></p>
+<h3><span id="toc10">8. 福岡市 (福岡県) 47.7%</span></h3>
+<p><img decoding="async" class="alignnone " src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/View_from_Fukuoka_Tower_at_Blue_Hour.jpg/300px-View_from_Fukuoka_Tower_at_Blue_Hour.jpg" width="885" height="590" /></p>
+<h3><span id="toc11">9. 千葉市 (千葉県) 47.4%</span></h3>
+<p><img decoding="async" class="alignnone " src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Makuharicity2.jpg/400px-Makuharicity2.jpg" width="781" height="363" /></p>
+<h3><span id="toc12">10. 北九州市 (福岡県) 41.8%</span></h3>
+<p><img decoding="async" class="alignnone " src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Riverwalk_Kitakyushu_02.jpg/300px-Riverwalk_Kitakyushu_02.jpg" width="980" height="735" /></p>
+<h3><span id="toc13">11. 神戸市 (兵庫県) 36.6%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Kobe_Mosaic06s4s3200.jpg/1200px-Kobe_Mosaic06s4s3200.jpg" width="1200" height="800" /></p>
+<h3><span id="toc14">12. 熊本市 (熊本県) 27.7%</span></h3>
+<p><img decoding="async" class="alignnone " src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Kumamoto_Station_west_gate2021.jpg/220px-Kumamoto_Station_west_gate2021.jpg" width="891" height="668" /></p>
+<h3><span id="toc15">13. 仙台市 (宮城県) 22.9%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/SendaiCity_Skylines_from_Mukaiyama2018.jpg" width="1024" height="768" /></p>
+<h3><span id="toc16">14. 札幌市 (北海道) 22.3%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/5/54/JR_Tower_Square.jpg" width="5077" height="3279" /></p>
+<h3><span id="toc17">15. 相模原市 (神奈川県) 20.8%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/South_Entrance_of_JR_Sagamihara_Station_in_2008.jpg" width="2816" height="2112" /></p>
+<h3><span id="toc18">16. 京都市 (京都府) 18.1%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Kyoto_To-ji_Mauer_%26_Pagode_1.jpg" width="4494" height="3006" /></p>
+<h3><span id="toc19">17. 新潟市 (新潟県) 17.8%</span></h3>
+<p><img decoding="async" class="alignnone " src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Niigata_city_night_view.jpg/280px-Niigata_city_night_view.jpg" width="767" height="575" /></p>
+<h3><span id="toc20">17. 広島市 (広島県) 17.8%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Atomic_Bomb_Dome_and_Motoyaso_River%2C_Hiroshima%2C_Northwest_view_20190417_1.jpg" width="7964" height="5119" /></p>
+<h3><span id="toc21">19. 岡山市 (岡山県) 13.2%</span></h3>
+<p><img decoding="async" class="alignnone " src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/The_Okayama_city_office_is_faced_from_the_north.JPG/250px-The_Okayama_city_office_is_faced_from_the_north.JPG" width="750" height="642" /></p>
+<h3><span id="toc22">20. 静岡市 (静岡県) 9.1%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/5/50/Higashi-Shizuoka_Panorama_02.jpg" width="3648" height="2736" /></p>
+<h3><span id="toc23">21. 浜松市 (静岡県) 6.3%</span></h3>
+<p><img decoding="async" class="alignnone " src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Night_view_of_Hamamatsu_city.jpg/240px-Night_view_of_Hamamatsu_city.jpg" width="784" height="588" /></p>
+<h2><span id="toc24">おまけ</span></h2>
+<h3><span id="toc25">新宿区 (東京都) 100%</span></h3>
+<p><img decoding="async" class="alignnone" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/268px-Skyscrapers_of_Shinjuku_2009_January.jpg" alt="" width="737" height="393" /></p>
+<h3><span id="toc26">千代田区 (東京都) 99.8%</span></h3>
+<p><img decoding="async" class="alignnone size-medium" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Tokyo_Marunouchi01s3872.jpg" width="3872" height="2592" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.pitan76.net/20230821353/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

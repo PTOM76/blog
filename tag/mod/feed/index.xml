@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -60,7 +60,7 @@
 <p>Legacy Fabricは1.13以前で動くFabricですが、Fabric Loaderは通常のFabricのものであると思います。おそらく、Yarnを1.13以下のバージョンに移植しているんだと思います。<br />
 これはFabricとは無関係ですのでFabricの公式サイトではなく、Legacy Fabricのサイトでダウンロードできます。</p>
 <p>1.8.9以外は開発中とのことで、現在、1.8.9のみサポートしているとのことです。</p>
-<p><img decoding="async" width="436" height="253" class="alignnone wp-image-264 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-27.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-27.png 436w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-27-300x174.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></p>
+<p><img decoding="async" fetchpriority="high" width="436" height="253" class="alignnone wp-image-264 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-27.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-27.png 436w, https://blog.pitan76.net/wp-content/uploads/2022/08/Pasted-27-300x174.png 300w" sizes="(max-width: 436px) 100vw, 436px" /></p>
 <h3><span id="toc3">公式サイト</span></h3>
 <a rel="noopener" href="https://legacyfabric.net/" title="Legacy Fabric" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://blog.pitan76.net/wp-content/uploads/cocoon-resources/blog-card-cache/328bc41d3cdfafebf21da1a6d1ab747a.png" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Legacy Fabric</div><div class="blogcard-snippet external-blogcard-snippet">The home of legacy version support for Fabric.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://legacyfabric.net/" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">legacyfabric.net</div></div></div></div></a>
 <h3><span id="toc4">対応バージョン</span></h3>

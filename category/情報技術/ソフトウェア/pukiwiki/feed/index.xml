@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -51,7 +51,7 @@
 <p>まず、PukiWikiってなんだろうっていう人は<a href="https://ja.wikipedia.org/wiki/PukiWiki">Wikipedia</a>か<a href="https://pukiwiki.osdn.jp/">公式サイト</a>を御覧ください。簡単にいえばWikiのソフトウェアです。</p>
 <h2><span id="toc2">1.5.4について</span></h2>
 <p>1.5.3も2020年3月30日にリリースされてましたが、1.5.4も今年(2022)の3月30日と同じ日にリリースされていました。</p>
-<p><img decoding="async" width="554" height="136" class="alignnone wp-image-277 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted.png 554w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-300x74.png 300w" sizes="(max-width: 554px) 100vw, 554px" /></p>
+<p><img decoding="async" fetchpriority="high" width="554" height="136" class="alignnone wp-image-277 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted.png 554w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-300x74.png 300w" sizes="(max-width: 554px) 100vw, 554px" /></p>
 <p>公式サイトによるとPHP8.1に対応しているみたいです。<br />
 ちなみにまさかのPHP4.1～8.1まで対応しているってぶっ飛んでますよね。<br />
 凄すぎます。。。</p>

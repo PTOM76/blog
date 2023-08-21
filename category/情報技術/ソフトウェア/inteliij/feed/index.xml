@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>https://blog.pitan76.net/wp-content/uploads/2022/07/cropped-109135739-1-32x32.png</url>
@@ -58,7 +58,7 @@
 <h2><span id="toc2">2. Minecraft Delelopment</span></h2>
 <a rel="noopener" href="https://plugins.jetbrains.com/plugin/8327-minecraft-development" title="Minecraft Development - IntelliJ IDEs Plugin | Marketplace" class="blogcard-wrap external-blogcard-wrap a-wrap cf" target="_blank"><div class="blogcard external-blogcard eb-left cf"><div class="blogcard-label external-blogcard-label"><span class="fa"></span></div><figure class="blogcard-thumbnail external-blogcard-thumbnail"><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fplugins.jetbrains.com%2Fplugin%2F8327-minecraft-development?w=160&#038;h=90" alt="" class="blogcard-thumb-image external-blogcard-thumb-image" width="160" height="90" /></figure><div class="blogcard-content external-blogcard-content"><div class="blogcard-title external-blogcard-title">Minecraft Development - IntelliJ IDEs Plugin | Marketplace</div><div class="blogcard-snippet external-blogcard-snippet">Brings support for Bukkit, Spigot, Paper, Sponge, Forge, Fabric, MCP, Mixin, Velocity, BungeeCord, Waterfall, and
       LiteLoader projects to Intellij IDEA.</div></div><div class="blogcard-footer external-blogcard-footer cf"><div class="blogcard-site external-blogcard-site"><div class="blogcard-favicon external-blogcard-favicon"><img src="https://www.google.com/s2/favicons?domain=https://plugins.jetbrains.com/plugin/8327-minecraft-development" alt="" class="blogcard-favicon-image external-blogcard-favicon-image" width="16" height="16" /></div><div class="blogcard-domain external-blogcard-domain">plugins.jetbrains.com</div></div></div></div></a>
-<p><img decoding="async" width="795" height="653" class="alignnone wp-image-291 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7.png 795w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7-300x246.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></p>
+<p><img decoding="async" fetchpriority="high" width="795" height="653" class="alignnone wp-image-291 size-full" src="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7.png" srcset="https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7.png 795w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7-300x246.png 300w, https://blog.pitan76.net/wp-content/uploads/2022/09/Pasted-7-768x631.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></p>
 <p>現時点ではBukkit、Spigot、Paper、Sponge、Forge、Fabric、LiteLoader、Velocity、BungeeCord、Waterfallのプラットフォームが選択できます。<br />
 MOD開発環境を自動で生成してくれるので最強のプラグインやと思います。</p>
 <p>開発環境を構築しないといけない面倒くさい工程を省くことができるので私はこれを使ってほんと楽になりました。</p>
